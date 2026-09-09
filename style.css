@@ -402,10 +402,16 @@ h1, h2, h3, h4 {
   margin-bottom: 28px;
 }
 
+.pixel-main-column {
+  width: 100%;
+  min-width: 0;
+}
+
 @media (max-width: 960px) {
   .pixel-layout-grid {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
     gap: 16px;
   }
 }
