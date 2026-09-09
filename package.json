@@ -1,0 +1,26 @@
+{
+  "name": "drive-deals",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DRIVE DEALS — Arabic RTL static site, no backend.",
+  "scripts": {
+    "start": "serve . -l 3000",
+    "test": "node tools/test-flow.js",
+    "test:full": "node tools/test-full-flow.js",
+    "test:large": "node tools/test-large-dataset.js",
+    "test:mobile": "node tools/test-mobile.js",
+    "test:excel": "node tools/test-excel-to-json.js",
+    "test:banner": "node tools/test-banner.js",
+    "test:deploy": "node tools/test-deploy.js",
+    "make-data": "node tools/make-test-data.js 500",
+    "make-sample-xlsx": "node tools/make-sample-xlsx.js",
+    "excel-to-json": "node tools/excel-to-json.js",
+    "banner-excel-to-json": "node tools/banner-excel-to-json.js"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.1",
+    "puppeteer": "^25.9.0",
+    "serve": "^14.2.4",
+    "xlsx": "^0.18.5"
+  }
+}

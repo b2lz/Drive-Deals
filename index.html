@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Phase 1: project branding is DRIVE DEALS everywhere -->
+  <title>DRIVE DEALS</title>
+  <meta
+    name="description"
+    content="DRIVE DEALS — اختر المحتوى الذي تريده، راجع المساحة المطلوبة، وأرسل طلبك مباشرة إلى DRIVE DEALS."
+  />
+
+  <!-- Phase 2: official logo as the browser tab icon -->
+  <link rel="icon" type="image/svg+xml" href="logo.svg" />
+
+  <!-- Web fonts: Cairo for Arabic UI text, JetBrains Mono for data readouts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=JetBrains+Mono:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Application styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Application header: page title + short description -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Phase 2: brand lockup — official logo + DRIVE DEALS name -->
+      <div class="header-brand">
+        <img
+          class="brand-logo"
+          src="logo.svg"
+          alt=""
+          width="202"
+          height="141"
+        />
+        <h1 class="brand">DRIVE DEALS</h1>
+      </div>
+      <!-- Wording is about media + storage -->
+      <p class="tagline">تصفّح مكتبة المحتوى، اختر ما يناسبك، وأرسل طلبك.</p>
+    </div>
+  </header>
+
+  <!-- Main application container -->
+  <main class="container app" id="app">
+    <!-- Status area: shows an Arabic error if data.json cannot be loaded (Phase 3) -->
+    <p id="status-message" class="status"></p>
+
+    <!-- ============ Drive size selection (step 1, before the gallery) ============ -->
+    <section id="drive-view" class="view-panel" aria-label="حجم القرص" hidden>
+      <h2>ما حجم قرصك؟</h2>
+      <p class="drive-text">اختر حجم القرص الذي ستثبّت عليه المحتوى حتى نستطيع متابعة المساحة أثناء اختيارك.</p>
+
+      <!-- The size options are rendered by script.js (DRIVE_SIZES_GB) -->
+      <label class="visually-hidden" for="drive-select">حجم القرص</label>
+      <select id="drive-select" class="drive-select"></select>
+
+      <!-- Shown only when "حجم آخر" (custom) is picked: the user types their own size in GB -->
+      <div id="custom-size-row" class="custom-size-row" hidden>
+        <label for="custom-size-input">الحجم بالـ GB</label>
+        <input
+          id="custom-size-input"
+          class="drive-select"
+          type="number"
+          min="1"
+          step="1"
+          inputmode="numeric"
+          placeholder="مثال: 1500"
+        />
+        <span id="custom-size-preview" class="custom-size-preview"></span>
+      </div>
+
+      <div class="form-actions center">
+        <button type="button" id="start-selection-btn" class="btn btn-primary" disabled>ابدأ الاختيار</button>
+      </div>
+    </section>
+
+    <!-- ============ Gallery view (Phases 4–9) ============ -->
+    <section id="gallery-view" aria-label="اختيار المحتوى">
+      <!-- Latest-items banner: slides rotate every 3s, fed by banner/data.json -->
+      <div class="banner" id="banner" hidden>
+        <div class="banner-track" id="banner-track"></div>
+        <button type="button" class="banner-arrow banner-prev" id="banner-prev" aria-label="السابق">‹</button>
+        <button type="button" class="banner-arrow banner-next" id="banner-next" aria-label="التالي">›</button>
+        <div class="banner-dots" id="banner-dots" aria-label="شرائح الأحدث"></div>
+      </div>
+
+      <!-- Rebrand plan Phase 5: main page content — the service in one look -->
+      <div class="hero">
+        <h2 class="hero-title">محتواك. قرصك. جاهز للانطلاق.</h2>
+        <p class="hero-text">اختر المحتوى الذي تريده، راجع المساحة المطلوبة من التخزين، وأرسل طلبك مباشرة إلى DRIVE DEALS.</p>
+        <a class="btn btn-primary hero-cta" href="#media-library">تصفّح المكتبة</a>
+      </div>
+
+      <!-- "Choose Your Media" section -->
+      <div id="media-library">
+        <h3 class="library-title">اختر المحتوى</h3>
+        <p class="library-text">تصفّح مكتبة المحتوى المتاحة واختر العناوين التي تريدها، وسيتم حساب المساحة المطلوبة تلقائيًا.</p>
+
+        <!-- Category dropdown: rendered by script.js from data.json categories -->
+        <label class="visually-hidden" for="category-select">تصنيف المحتوى</label>
+        <select id="category-select" class="category-select"></select>
+
+        <!-- Size filter: GB range applied on top of the search -->
+        <div class="size-filter" id="size-filter">
+          <p class="size-filter-title">تصفية حسب حجم الملف (GB):</p>
+          <div class="size-filter-controls">
+            <label class="visually-hidden" for="filter-min-input">الحد الأدنى (GB)</label>
+            <input type="number" id="filter-min-input" min="1" step="1" inputmode="numeric" placeholder="من (GB)" />
+            <label class="visually-hidden" for="filter-max-input">الحد الأقصى (GB)</label>
+            <input type="number" id="filter-max-input" min="1" step="1" inputmode="numeric" placeholder="إلى (GB)" />
+            <button type="button" id="apply-filter-btn" class="btn btn-secondary btn-small">تطبيق</button>
+            <button type="button" id="clear-filter-btn" class="btn btn-ghost btn-small">مسح</button>
+          </div>
+          <p id="filter-error" class="field-error" aria-live="polite"></p>
+          <div id="active-filter" class="active-filter" hidden>
+            <span id="active-filter-info" class="active-filter-info"></span>
+            <button type="button" id="clear-filter-active-btn" class="btn btn-ghost btn-small" aria-label="إزالة فلتر الحجم">✕</button>
+          </div>
+        </div>
+
+      <!-- Search bar: filter cards by title while typing (Phase 7) -->
+      <div class="search-bar">
+        <label for="search-input" class="visually-hidden">ابحث في مكتبة المحتوى</label>
+        <input
+          type="text"
+          id="search-input"
+          placeholder="ابحث عن عنوان (مثال: 012.jpg)"
+          autocomplete="off"
+        />
+        <button type="button" id="clear-search-btn" class="btn btn-ghost" aria-label="مسح البحث" hidden>✕</button>
+      </div>
+
+      <!-- Shown when the search / filter matches nothing (Phase 7) -->
+      <p id="no-results" class="no-results" hidden>لا توجد نتائج مطابقة لبحثك.</p>
+
+      <!-- Gallery: image cards are rendered here by script.js (Phases 4 + 8) -->
+      <div id="gallery" class="gallery"></div>
+
+      <!-- Load More button for large libraries (Phase 8) -->
+      <button type="button" id="load-more-btn" class="btn btn-secondary load-more" hidden>تحميل المزيد</button>
+      </div>
+    </section>
+
+    <!-- ============ Customer information form (Phase 10) ============ -->
+    <section id="form-view" class="view-panel" hidden>
+      <h2>معلومات العميل</h2>
+      <p class="required-note">الحقول المعلّمة بـ (*) مطلوبة.</p>
+
+      <form id="customer-form" novalidate>
+        <!-- Rebrand plan Phase 8: DRIVE DEALS customer info form -->
+        <div class="field">
+          <label for="name-input">الاسم <span class="req">*</span></label>
+          <input type="text" id="name-input" autocomplete="name" placeholder="اكتب اسمك الكامل" />
+          <p class="field-error" id="name-input-error"></p>
+        </div>
+
+        <div class="field">
+          <label for="phone-input">رقم الهاتف <span class="req">*</span></label>
+          <input type="tel" id="phone-input" inputmode="tel" autocomplete="tel" placeholder="مثال: 01012345678" />
+          <p class="field-error" id="phone-input-error"></p>
+        </div>
+
+        <div class="field">
+          <label for="address-input">العنوان <span class="req">*</span></label>
+          <input type="text" id="address-input" autocomplete="street-address" placeholder="المدينة، الحي، الشارع..." />
+          <p class="field-error" id="address-input-error"></p>
+        </div>
+
+        <div class="field">
+          <label for="notes-input">ملاحظات إضافية</label>
+          <textarea id="notes-input" rows="3" placeholder="أي طلبات خاصة أو ملاحظات حول طلبك..."></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button type="button" id="back-to-gallery-btn" class="btn btn-secondary">رجوع</button>
+          <button type="submit" class="btn btn-primary">متابعة إلى المراجعة</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- ============ Order review (Phase 11) ============ -->
+    <!-- Rebrand plan Phase 9: "Review Your Order" confirmation screen -->
+    <section id="review-view" class="view-panel" hidden>
+      <h2>راجع طلبك</h2>
+
+      <!-- Customer info rows are filled by renderReview() -->
+      <div id="review-customer"></div>
+
+      <!-- Review: grouped selected content + estimated storage, not a price -->
+      <h3>المحتوى المختار (<span id="review-count">0</span>)</h3>
+      <ul id="review-images" class="review-images"></ul>
+
+      <!-- Rebrand plan Phase 7/9: "Estimated Storage Required" -->
+      <p class="review-total">الحجم التقديري المطلوب: <strong id="review-total">0 GB</strong></p>
+
+      <!-- Sending state / error messages (Phase 15) -->
+      <p id="send-status" class="send-status" role="status" aria-live="polite"></p>
+
+      <div class="form-actions">
+        <button type="button" id="back-to-form-btn" class="btn btn-secondary">تعديل</button>
+        <!-- Sends the TXT file to Telegram (Phases 14–15). Rebrand plan Phase 9: final confirm + send. -->
+        <button type="button" id="send-order-btn" class="btn btn-primary">تأكيد وإرسال الطلب</button>
+      </div>
+    </section>
+
+    <!-- ============ Success screen (Phase 16) ============ -->
+    <section id="success-view" class="view-panel success-panel" hidden>
+      <div class="success-icon" aria-hidden="true">✓</div>
+      <h2>تم إرسال الطلب بنجاح</h2>
+      <!-- Rebrand plan Phase 9: "Order Sent Successfully" message -->
+      <p class="success-text">تم إرسال طلب DRIVE DEALS الخاص بك بنجاح. سنتواصل معك لتأكيد التفاصيل.</p>
+      <!-- Phase 4 (rebrand plan): same storage wording as the review screen -->
+      <p class="review-total success-total">الحجم التقديري المطلوب: <strong id="success-total">0 GB</strong></p>
+
+      <div class="form-actions center">
+        <button type="button" id="new-order-btn" class="btn btn-primary">طلب جديد</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Summary bar: storage meter + selected count, visible on the gallery -->
+  <footer class="summary-bar" id="summary-bar">
+    <div class="container summary-inner">
+      <!-- Warning shown when the user tries to continue with zero selections (Phase 9) -->
+      <p id="continue-warning" class="warning" hidden>اختر عنصراً واحداً على الأقل قبل المتابعة.</p>
+
+      <!-- Shown when there is no room left for more content on the chosen drive -->
+      <p id="drive-full-warning" class="warning" hidden>قرصك ممتلئ بالكامل — لا توجد مساحة كافية لإضافة المزيد من المحتوى.</p>
+
+      <!-- Storage meter: the footer shows the drive as a filling bar, not a number -->
+      <div class="drive-meter">
+        <span class="drive-meter-cap">قرص <strong id="drive-capacity-label">—</strong></span>
+        <div
+          class="drive-bar"
+          id="drive-bar"
+          role="progressbar"
+          aria-label="استهلاك مساحة القرص"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+        >
+          <div class="drive-bar-fill" id="drive-bar-fill"></div>
+        </div>
+        <span class="drive-meter-remaining" id="drive-remaining"></span>
+      </div>
+
+      <p class="summary-stats">
+        المحتوى المختار: <strong id="selected-count">0</strong>
+      </p>
+
+      <div class="summary-actions">
+        <button type="button" id="clear-all-btn" class="btn btn-secondary">إلغاء تحديد الكل</button>
+        <button type="button" id="continue-btn" class="btn btn-primary">متابعة</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application script -->
+  <script src="script.js"></script>
+</body>
+</html>
