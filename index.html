@@ -80,63 +80,12 @@
 
     <!-- ============ Gallery view (Phases 4–9) ============ -->
     <section id="gallery-view" aria-label="اختيار المحتوى">
-      <!-- Pixel Top Layout: Desktop Sidebar Drive Panel + Banner / Shortcut Tiles / Trust Strip Column -->
-      <div class="pixel-layout-grid">
-        <!-- Desktop Sidebar Drive Panel (Phase 1) -->
-        <aside class="desktop-drive-sidebar" aria-label="حالة القرص والتخزين">
-          <div class="drive-sidebar-card">
-            <div class="sidebar-header-badge">
-              <span class="pixel-badge-text">DRIVE STATUS</span>
-              <span class="pixel-led-dot"></span>
-            </div>
-            <h3 class="drive-sidebar-title">لوحة القرص</h3>
-
-            <div class="pixel-floppy-box" aria-hidden="true">
-              <div class="floppy-header">
-                <span class="floppy-slot"></span>
-                <span class="floppy-screw"></span>
-              </div>
-              <div class="floppy-label">
-                <span class="floppy-brand">DRIVE DEALS</span>
-                <span class="floppy-mode">SYSTEM READY</span>
-              </div>
-            </div>
-
-            <div class="sidebar-stat-group">
-              <span class="sidebar-stat-label">سعة القرص المحددة:</span>
-              <strong class="sidebar-stat-val" id="sidebar-drive-capacity">320 GB</strong>
-            </div>
-
-            <div class="sidebar-meter-box">
-              <div class="sidebar-meter-bar" role="progressbar" aria-label="استهلاك مساحة القرص">
-                <div class="sidebar-meter-fill" id="sidebar-drive-fill"></div>
-              </div>
-              <div class="sidebar-meter-stats">
-                <span id="sidebar-drive-used">0 GB مستخدم</span>
-                <span id="sidebar-drive-remaining">320 GB متبقٍ</span>
-              </div>
-            </div>
-
-            <div class="sidebar-selection-row">
-              <span class="sidebar-sel-label">المحتوى المختار:</span>
-              <strong class="sidebar-sel-val" id="sidebar-selected-count">0</strong>
-            </div>
-
-            <a href="#media-library" class="btn btn-secondary btn-small sidebar-action-btn">تصفح الأقسام</a>
-          </div>
-        </aside>
-
-        <!-- Main Column: Rotating Banner + 4 Shortcut Tiles + Trust Strip + Mission Hero -->
-        <div class="pixel-main-column">
-          <!-- Latest-items banner: slides rotate every 3s, fed by banner/data.json -->
-          <div class="banner" id="banner" hidden>
-            <div class="banner-track" id="banner-track"></div>
-            <button type="button" class="banner-arrow banner-prev" id="banner-prev" aria-label="السابق">‹</button>
-            <button type="button" class="banner-arrow banner-next" id="banner-next" aria-label="التالي">›</button>
-            <div class="banner-dots" id="banner-dots" aria-label="شرائح الأحدث"></div>
-          </div>
-
-        </div>
+      <!-- Latest-items banner: slides rotate every 3s, fed by banner/data.json -->
+      <div class="banner" id="banner" hidden>
+        <div class="banner-track" id="banner-track"></div>
+        <button type="button" class="banner-arrow banner-prev" id="banner-prev" aria-label="السابق">‹</button>
+        <button type="button" class="banner-arrow banner-next" id="banner-next" aria-label="التالي">›</button>
+        <div class="banner-dots" id="banner-dots" aria-label="شرائح الأحدث"></div>
       </div>
 
       <!-- "Choose Your Media" section -->
