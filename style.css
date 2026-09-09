@@ -1730,6 +1730,31 @@ input[aria-invalid="true"] {
   box-shadow: 0 0 0 3px rgba(53, 220, 255, 0.18);
 }
 
+.size-filter-controls #clear-filter-btn {
+  border: 1px solid var(--px-line);
+  background: var(--px-panel);
+  color: var(--px-ink);
+}
+
+.size-filter-controls #clear-filter-btn:hover {
+  border-color: var(--px-cyan);
+  color: var(--px-cyan);
+}
+
+@media (max-width: 600px) {
+  .size-filter-controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .size-filter-controls input,
+  .size-filter-controls .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 /* Small actions inside the filter panel — keep the 48px touch target. */
 .btn-small {
   min-height: 48px;
