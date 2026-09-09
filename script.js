@@ -449,6 +449,9 @@ function renderCards() {
 }
 
 let renderedCount = 0;
+let isLoadingBatch = false;
+let scrollObserver = null;
+
 function renderNextBatch() {
   const gallery = document.getElementById("gallery");
   const loadMoreBtn = document.getElementById("load-more-btn");
@@ -456,6 +459,10 @@ function renderNextBatch() {
 
   const items = visibleItems();
   const nextCount = Math.min(BATCH_SIZE, items.length - renderedCount);
+  if (nextCount <= 0) {
+    if (loadMoreBtn) loadMoreBtn.hidden = true;
+    return;
+  }
 
   const fragment = document.createDocumentFragment();
   for (let i = renderedCount; i < renderedCount + nextCount; i++) {
@@ -464,9 +471,65 @@ function renderNextBatch() {
   gallery.appendChild(fragment);
   renderedCount += nextCount;
 
-  loadMoreBtn.hidden = renderedCount >= items.length;
+  if (loadMoreBtn) {
+    loadMoreBtn.hidden = renderedCount >= items.length;
+    loadMoreBtn.textContent = "تحميل المزيد...";
+  }
   if (items.length === 0) noResults.hidden = true;
   updateSummary();
+}
+
+function triggerNextBatch() {
+  if (isLoadingBatch) return;
+  const items = visibleItems();
+  if (renderedCount >= items.length) return;
+  isLoadingBatch = true;
+  const loadMoreBtn = document.getElementById("load-more-btn");
+  if (loadMoreBtn) loadMoreBtn.textContent = "جارٍ التحميل...";
+  renderNextBatch();
+  setTimeout(() => {
+    isLoadingBatch = false;
+  }, 120);
+}
+
+function initInfiniteScroll() {
+  const loadMoreBtn = document.getElementById("load-more-btn");
+  if (!loadMoreBtn) return;
+
+  if (typeof IntersectionObserver !== "undefined") {
+    if (scrollObserver) scrollObserver.disconnect();
+    scrollObserver = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            triggerNextBatch();
+          }
+        }
+      },
+      {
+        root: null,
+        rootMargin: "600px 0px",
+        threshold: 0,
+      }
+    );
+    scrollObserver.observe(loadMoreBtn);
+  }
+
+  // Scroll event fallback for fast flicks and environments without IntersectionObserver
+  window.addEventListener(
+    "scroll",
+    () => {
+      const galleryView = document.getElementById("gallery-view");
+      if (!galleryView || galleryView.hidden) return;
+      if (!loadMoreBtn || loadMoreBtn.hidden) return;
+
+      const rect = loadMoreBtn.getBoundingClientRect();
+      if (rect.top <= window.innerHeight + 600) {
+        triggerNextBatch();
+      }
+    },
+    { passive: true }
+  );
 }
 
 function applyFilters() {
@@ -1295,6 +1358,7 @@ function init() {
   bindFlow();
   bindShortcutTiles();
   bindBottomNav();
+  initInfiniteScroll();
   showView("drive");
   loadBanner();
   loadData().then(() => {
