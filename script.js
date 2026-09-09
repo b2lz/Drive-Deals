@@ -621,6 +621,23 @@ function updateSummary() {
     driveBar.setAttribute("aria-valuenow", String(Math.round(pct)));
     driveRemaining.textContent = `متبقٍ: ${formatSize(Math.max(0, state.driveCapacityGB - total))}`;
     driveFullWarning.hidden = total < state.driveCapacityGB;
+
+    // Desktop sidebar sync (Phase 1)
+    const sidebarCap = document.getElementById("sidebar-drive-capacity");
+    if (sidebarCap) {
+      sidebarCap.textContent = formatSize(state.driveCapacityGB);
+    }
+    const sidebarFill = document.getElementById("sidebar-drive-fill");
+    const sidebarUsed = document.getElementById("sidebar-drive-used");
+    const sidebarRem = document.getElementById("sidebar-drive-remaining");
+    const sidebarCount = document.getElementById("sidebar-selected-count");
+    if (sidebarFill) {
+      sidebarFill.style.width = `${Math.round(pct * 100) / 100}%`;
+      sidebarFill.classList.toggle("full", pct >= 100);
+    }
+    if (sidebarUsed) sidebarUsed.textContent = `${formatSize(total)} مستخدم`;
+    if (sidebarRem) sidebarRem.textContent = `${formatSize(Math.max(0, state.driveCapacityGB - total))} متبقٍ`;
+    if (sidebarCount) sidebarCount.textContent = String(state.selectedItems.size);
   }
 }
 
@@ -1237,6 +1254,36 @@ function startNewOrder() {
 }
 
 // ============================================================
+// Shortcut tiles + bottom navigation (Phase 1)
+// ============================================================
+
+function bindShortcutTiles() {
+  const tiles = document.querySelectorAll(".shortcut-tile");
+  tiles.forEach((tile) => {
+    tile.addEventListener("click", () => {
+      const catId = tile.getAttribute("data-category");
+      if (catId) {
+        selectCategory(catId);
+        const libEl = document.getElementById("media-library");
+        if (libEl) {
+          libEl.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    });
+  });
+}
+
+function bindBottomNav() {
+  const navItems = document.querySelectorAll(".bottom-nav-item");
+  navItems.forEach((item) => {
+    item.addEventListener("click", () => {
+      navItems.forEach((i) => i.classList.remove("active"));
+      item.classList.add("active");
+    });
+  });
+}
+
+// ============================================================
 // Init
 // ============================================================
 
@@ -1246,6 +1293,8 @@ function init() {
   bindSizeFilter();
   bindForm();
   bindFlow();
+  bindShortcutTiles();
+  bindBottomNav();
   showView("drive");
   loadBanner();
   loadData().then(() => {
