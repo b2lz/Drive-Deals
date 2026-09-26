@@ -1,24 +1,24 @@
 {
   "items": [
     {
-      "title": "New Release 1",
-      "image": "game-001.jpg",
-      "sizeGB": 10.6
+      "title": "Dune - Awakening",
+      "image": "Dune - Awakening.jpg",
+      "sizeGB": 24.2
     },
     {
-      "title": "New Release 2",
-      "image": "film-001.jpg",
-      "sizeGB": 54.9
+      "title": "CONTROL Resonant",
+      "image": "CONTROL Resonant.jpg",
+      "sizeGB": 64.25
     },
     {
-      "title": "New Release 3",
-      "image": "anime-001.jpg",
-      "sizeGB": 22.4
+      "title": "EA Sports FC 27",
+      "image": "EA Sports FC 27.jpg",
+      "sizeGB": 61.1
     },
     {
-      "title": "New Release 4",
-      "image": "series-001.jpg",
-      "sizeGB": 8.3
+      "title": "SILENT HILL - Townfall",
+      "image": "SILENT HILL - Townfall.jpg",
+      "sizeGB": 42.9
     }
   ]
 }
