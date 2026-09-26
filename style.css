@@ -78,12 +78,21 @@
 }
 
 /* ---------- Base ---------- */
-* {
+*, *::before, *::after {
   box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
+  overflow-x: hidden;
   color: var(--px-ink);
   font-family: var(--font-body);
   font-size: 16px;
@@ -143,6 +152,47 @@ body {
 
 .header-inner {
   padding-block: 30px 24px;
+}
+
+/* ---------- App Toast Notification ---------- */
+.app-toast {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-30px);
+  z-index: 9999;
+  max-width: 90%;
+  width: auto;
+  min-width: 280px;
+  padding: 12px 18px;
+  direction: rtl;
+  background: #0e1e38;
+  border: 2px solid var(--px-cyan);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.8), 3px 3px 0 #000;
+  color: #fff;
+  font-family: var(--font-pixel-heading);
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.app-toast.active {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+  pointer-events: auto;
+}
+
+.app-toast.warning {
+  border-color: #f59e0b;
+  color: #fef3c7;
+}
+
+.app-toast.error {
+  border-color: var(--px-error);
+  color: #fee2e2;
 }
 
 h1, h2, h3, h4 {
@@ -212,6 +262,44 @@ h1, h2, h3, h4 {
   max-width: 132px;
   flex-shrink: 0;
   filter: drop-shadow(0 2px 10px rgba(53, 220, 255, 0.18));
+}
+
+.sound-toggle-btn {
+  margin-inline-start: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background: var(--px-panel);
+  border: 2px solid var(--px-line);
+  clip-path: var(--px-notch-sm);
+  color: var(--px-cyan);
+  font-size: 1.15rem;
+  cursor: pointer;
+  box-shadow: var(--px-shadow);
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: transform 0.08s ease, border-color 0.08s ease, box-shadow 0.08s ease;
+}
+
+.sound-toggle-btn:hover {
+  border-color: var(--px-cyan);
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 #000;
+}
+
+.sound-toggle-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 #000;
+}
+
+.sound-toggle-btn.muted {
+  color: var(--px-muted);
+  border-color: rgba(43, 92, 184, 0.4);
+  opacity: 0.65;
 }
 
 .app {
@@ -304,6 +392,9 @@ h1, h2, h3, h4 {
   border: 1px solid var(--px-cyan);
   box-shadow: 2px 2px 0 #000;
   padding: 4px 10px;
+  direction: ltr;
+  display: inline-block;
+  unicode-bidi: isolate;
 }
 
 .banner-dots {
@@ -379,8 +470,35 @@ h1, h2, h3, h4 {
     margin-bottom: 18px;
   }
 
+  .banner-caption {
+    padding: 24px 12px 10px;
+    gap: 8px;
+  }
+
   .banner-title {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .banner-size {
+    font-size: 0.7rem;
+    padding: 3px 8px;
+  }
+
+  .banner-dots {
+    top: 10px;
+    bottom: auto;
+    background: rgba(6, 13, 25, 0.8);
+    padding: 3px 6px;
+    border: 1px solid rgba(43, 92, 184, 0.6);
+    box-shadow: 1px 1px 0 #000;
+  }
+
+  .banner-dot {
+    width: 8px;
+    height: 8px;
   }
 
   /* Mobile uses touch swipe instead of arrows. */
@@ -777,62 +895,6 @@ h1, h2, h3, h4 {
   text-overflow: ellipsis;
 }
 
-/* ---------- Mobile Bottom Navigation Dock ---------- */
-.mobile-bottom-nav {
-  display: none;
-}
-
-@media (max-width: 899px) {
-  .mobile-bottom-nav {
-    position: fixed;
-    bottom: 0;
-    inset-inline: 0;
-    height: 56px;
-    z-index: 99;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background: #060d19;
-    border-top: 2px solid var(--px-line);
-    box-shadow: 0 -3px 0 #000;
-  }
-
-  .bottom-nav-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2px;
-    flex: 1;
-    height: 100%;
-    color: var(--px-muted);
-    text-decoration: none;
-    font-family: var(--font-pixel-heading);
-    font-size: 0.85rem;
-    transition: color 0.1s ease;
-  }
-
-  .bottom-nav-item:hover,
-  .bottom-nav-item.active {
-    color: var(--px-cyan);
-    text-shadow: 0 0 6px rgba(53, 220, 255, 0.4);
-  }
-
-  .bottom-nav-item .nav-icon {
-    font-size: 1.1rem;
-    line-height: 1;
-  }
-
-  /* Keep summary bar directly above bottom nav on mobile */
-  .summary-bar {
-    bottom: 56px !important;
-  }
-
-  .app {
-    padding-bottom: 240px !important;
-  }
-}
-
 /* ---------- Hero: main page content (rebrand plan Phase 5) ---------- */
 .hero {
   margin-bottom: 28px;
@@ -891,45 +953,63 @@ a.btn {
   gap: 16px;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 600px) {
+  .container {
+    padding-inline: 14px;
+  }
+
+  .header-inner {
+    padding-block: 16px 12px;
+  }
+
   .header-brand {
     gap: 12px;
+    align-items: center;
   }
 
   .brand {
-    padding: 8px 14px;
+    padding: 6px 12px;
+    font-size: clamp(0.85rem, 4vw, 1.25rem);
     white-space: nowrap;
   }
 
-  /* Phase 2: smaller logo on phones so the name stays readable. */
+  .brand::before,
+  .brand::after {
+    width: 12px;
+    height: 12px;
+    border-width: 2px;
+  }
+
+  .brand::before {
+    top: -4px;
+    right: -4px;
+  }
+
+  .brand::after {
+    bottom: -4px;
+    left: -4px;
+  }
+
   .brand-logo {
-    height: 44px;
-    max-width: 104px;
-  }
-
-  .gallery {
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 12px;
-  }
-
-  /* Phase 18 — small phones:
-     the summary bar wraps to three rows there (storage meter + stats +
-     buttons), so give it more room and let both buttons share a
-     full-width row (easy to tap). */
-  .app {
-    padding-top: 16px;
-    padding-bottom: 175px;
-  }
-
-  /* Rebrand plan Phase 5 — compact hero on phones so the first card row
-     stays clear of the fixed summary bar (cards must remain tappable). */
-  .header-inner {
-    padding-block: 14px 10px;
+    height: 38px;
+    max-width: 90px;
+    flex-shrink: 0;
   }
 
   .tagline {
-    margin-top: 12px;
-    font-size: 0.9rem;
+    margin-top: 8px;
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .app {
+    padding-top: 16px;
+    padding-bottom: 110px;
   }
 
   .hero {
@@ -957,17 +1037,115 @@ a.btn {
     font-size: 0.9rem;
   }
 
+  /* Compact 2-row mobile summary bar */
+  .summary-bar {
+    bottom: 0;
+    z-index: 90;
+    box-shadow: 0 -3px 0 #000;
+  }
+
+  .summary-inner {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      "warning warning"
+      "meter   meter"
+      "stats   actions";
+    align-items: center;
+    gap: 6px 10px;
+    padding-block: 8px 10px;
+  }
+
+  .warning {
+    grid-area: warning;
+    font-size: 0.85rem;
+  }
+
+  .drive-meter {
+    grid-area: meter;
+    gap: 8px;
+  }
+
+  .drive-meter-cap {
+    font-size: 0.8rem;
+  }
+
+  .drive-bar {
+    height: 12px;
+  }
+
+  .drive-meter-remaining {
+    font-size: 0.8rem;
+    direction: ltr;
+    display: inline-block;
+  }
+
+  .summary-stats {
+    grid-area: stats;
+    font-size: 0.82rem;
+    white-space: nowrap;
+  }
+
   .summary-actions {
-    width: 100%;
+    grid-area: actions;
+    display: flex;
+    gap: 6px;
+    justify-content: flex-end;
+    width: auto;
   }
 
   .summary-actions .btn {
-    flex: 1;
+    min-height: 48px;
+    padding: 6px 12px;
+    font-size: 0.85rem;
   }
 
-  /* Forms must not overflow narrow screens. */
+  #clear-all-btn {
+    flex: 0 1 auto;
+    padding: 6px 8px;
+    font-size: 0.78rem;
+  }
+
+  #continue-btn {
+    flex: 1 1 auto;
+  }
+
+  /* Forms & review panels fit narrow screens */
   .view-panel {
-    padding: 16px;
+    padding: 16px 12px;
+    clip-path: var(--px-notch-sm);
+    width: 100%;
+  }
+
+  .view-panel h2 {
+    font-size: 1.35rem;
+    margin-bottom: 10px;
+  }
+
+  .field input,
+  .field textarea {
+    font-size: 16px; /* Prevents iOS auto-zoom */
+  }
+
+  .form-actions {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .form-actions .btn {
+    flex: 1;
+    min-height: 48px;
+    padding: 10px 14px;
+  }
+
+  .review-images {
+    max-height: 260px;
+  }
+
+  .review-images li {
+    padding: 8px 10px;
+    font-size: 0.88rem;
   }
 }
 
@@ -987,6 +1165,10 @@ a.btn {
   min-width: 0;
   overflow: hidden;
   box-shadow: var(--px-shadow);
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
   transition: transform 0.08s ease, box-shadow 0.08s ease, border-color 0.08s ease;
 }
 
@@ -1030,6 +1212,9 @@ a.btn {
   overflow-wrap: anywhere; /* long file names wrap instead of breaking */
   word-break: break-all;
   min-width: 0;
+  text-align: right;
+  direction: ltr;
+  unicode-bidi: plaintext;
 }
 
 /* Size row: muted label + prominent value (rebrand plan Phase 6). */
@@ -1051,6 +1236,9 @@ a.btn {
   font-size: 0.8rem;
   font-weight: 700;
   color: var(--px-cyan);
+  direction: ltr;
+  display: inline-block;
+  unicode-bidi: isolate;
 }
 
 /* Visible selection status on a card (checked / aria-pressed). */
@@ -1156,6 +1344,10 @@ a.btn {
   font-weight: 700;
   cursor: pointer;
   box-shadow: var(--px-shadow);
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
   transition: transform 0.08s ease, box-shadow 0.08s ease, border-color 0.08s ease;
 }
 
@@ -1299,6 +1491,9 @@ a.btn {
 #selected-count {
   font-family: var(--font-pixel-latin);
   color: var(--px-cyan);
+  direction: ltr;
+  display: inline-block;
+  unicode-bidi: isolate;
 }
 
 .summary-actions {
@@ -1366,6 +1561,9 @@ a.btn {
   font-size: 0.85rem;
   font-weight: 700;
   white-space: nowrap;
+  direction: ltr;
+  display: inline-block;
+  unicode-bidi: isolate;
 }
 
 /* ---------- Drive size selection (step 1, before the gallery) ---------- */
@@ -1576,12 +1774,18 @@ input[aria-invalid="true"] {
   overflow-wrap: anywhere;
   font-family: var(--font-mono);
   font-size: 0.88rem;
+  direction: ltr;
+  unicode-bidi: plaintext;
+  text-align: right;
 }
 
 .row-value-text {
   overflow-wrap: anywhere;
   font-family: var(--font-mono);
   color: var(--accent);
+  direction: ltr;
+  display: inline-block;
+  unicode-bidi: isolate;
 }
 
 .review-images li:last-child {
@@ -1599,6 +1803,9 @@ input[aria-invalid="true"] {
 #success-total {
   font-family: var(--font-mono);
   color: var(--accent);
+  direction: ltr;
+  display: inline-block;
+  unicode-bidi: isolate;
 }
 
 /* ---------- Sending status (Phase 15) ---------- */

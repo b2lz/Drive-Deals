@@ -30,8 +30,8 @@
 // (Netlify / GitHub Pages).
 // ============================================================
 
-const TELEGRAM_BOT_TOKEN = "8605435654:AAHNcKaCAhpzql8M2aF2AnTgidbi4Q5zXaI";
-const TELEGRAM_CHAT_ID = "805256524";
+const TELEGRAM_BOT_TOKEN = "8876959540:AAGjT9zdwYctpueEI24uBQYx-P2fEALqXgA";
+const TELEGRAM_CHAT_ID = "992199091";
 
 // The app starts on the drive size question; the gallery only
 // opens after a size is chosen, so the drive capacity is always
@@ -141,10 +141,11 @@ function validateLibrary(loaded) {
     }
     const catId = category.id || category.name;
     for (const rec of category.items || []) {
+      if (!rec) continue;
       const image = typeof rec.image === "string" ? rec.image.trim() : "";
       const sizeGB = rec.sizeGB;
       const okSize = typeof sizeGB === "number" && Number.isFinite(sizeGB) && sizeGB > 0;
-      if (image === "" || !image.endsWith(".jpg")) {
+      if (image === "" || !image.toLowerCase().endsWith(".jpg")) {
         console.warn(`Skipping invalid record (missing image or wrong extension): ${JSON.stringify(rec)}`);
         continue;
       }
@@ -389,6 +390,7 @@ function showView(name) {
     el.hidden = key !== name;
   }
   document.getElementById("summary-bar").hidden = name !== "gallery";
+  window.scrollTo({ top: 0, behavior: "instant" });
 }
 
 function renderCategoryBar() {
@@ -516,17 +518,23 @@ function initInfiniteScroll() {
   }
 
   // Scroll event fallback for fast flicks and environments without IntersectionObserver
+  let scrollTicking = false;
   window.addEventListener(
     "scroll",
     () => {
-      const galleryView = document.getElementById("gallery-view");
-      if (!galleryView || galleryView.hidden) return;
-      if (!loadMoreBtn || loadMoreBtn.hidden) return;
+      if (scrollTicking) return;
+      scrollTicking = true;
+      requestAnimationFrame(() => {
+        scrollTicking = false;
+        const galleryView = document.getElementById("gallery-view");
+        if (!galleryView || galleryView.hidden) return;
+        if (!loadMoreBtn || loadMoreBtn.hidden) return;
 
-      const rect = loadMoreBtn.getBoundingClientRect();
-      if (rect.top <= window.innerHeight + 600) {
-        triggerNextBatch();
-      }
+        const rect = loadMoreBtn.getBoundingClientRect();
+        if (rect.top <= window.innerHeight + 600) {
+          triggerNextBatch();
+        }
+      });
     },
     { passive: true }
   );
@@ -571,6 +579,7 @@ function createCard(item) {
 
   const name = document.createElement("p");
   name.className = "card-name";
+  name.setAttribute("dir", "auto");
   name.textContent = item.title;
 
   const check = document.createElement("span");
@@ -620,6 +629,185 @@ function setCardSelected(card, item, selected) {
   card.setAttribute("aria-pressed", selected ? "true" : "false");
 }
 
+function showToast(message, type = "warning") {
+  let toast = document.getElementById("app-toast");
+  if (!toast) {
+    toast = document.createElement("div");
+    toast.id = "app-toast";
+    toast.className = "app-toast";
+    toast.setAttribute("role", "alert");
+    toast.setAttribute("aria-live", "assertive");
+    document.body.appendChild(toast);
+  }
+  toast.textContent = message;
+  toast.className = `app-toast active ${type}`;
+  clearTimeout(toast._timeout);
+  toast._timeout = setTimeout(() => {
+    toast.classList.remove("active");
+  }, 4000);
+}
+
+// ============================================================
+// Sound Effects Engine (Web Audio API)
+// Procedural audio synthesis — 0 network payload, 0ms latency.
+// ============================================================
+
+const soundFX = {
+  ctx: null,
+  enabled: true,
+
+  init() {
+    try {
+      const saved = localStorage.getItem("dd_sound_enabled");
+      if (saved !== null) {
+        this.enabled = saved === "true";
+      }
+    } catch {
+      // localStorage may be unavailable/restricted in some sandbox environments
+    }
+    this.updateToggleBtn();
+
+    const toggleBtn = document.getElementById("sound-toggle-btn");
+    if (toggleBtn) {
+      toggleBtn.addEventListener("click", () => this.toggle());
+    }
+  },
+
+  getAudioContext() {
+    if (typeof window === "undefined") return null;
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    if (!AudioCtx) return null;
+
+    if (!this.ctx) {
+      try {
+        this.ctx = new AudioCtx();
+      } catch {
+        return null;
+      }
+    }
+    if (this.ctx && this.ctx.state === "suspended") {
+      this.ctx.resume().catch(() => {});
+    }
+    return this.ctx;
+  },
+
+  toggle() {
+    this.enabled = !this.enabled;
+    try {
+      localStorage.setItem("dd_sound_enabled", String(this.enabled));
+    } catch {}
+    this.updateToggleBtn();
+    if (this.enabled) {
+      this.playCardSelect(true);
+    }
+  },
+
+  updateToggleBtn() {
+    const btn = document.getElementById("sound-toggle-btn");
+    if (!btn) return;
+    btn.classList.toggle("muted", !this.enabled);
+    btn.setAttribute("aria-label", this.enabled ? "كتم الصوت" : "تشغيل الصوت");
+    btn.title = this.enabled ? "كتم الصوت" : "تشغيل الصوت";
+    const icon = btn.querySelector(".sound-icon");
+    if (icon) {
+      icon.textContent = this.enabled ? "🔊" : "🔇";
+    }
+  },
+
+  /**
+   * Sound 1: Item select/unselect.
+   * Smooth, crisp micro-blip.
+   */
+  playCardSelect(selected = true) {
+    if (!this.enabled) return;
+    const ctx = this.getAudioContext();
+    if (!ctx) return;
+
+    try {
+      const now = ctx.currentTime;
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+
+      osc.type = "sine";
+      if (selected) {
+        osc.frequency.setValueAtTime(560, now);
+        osc.frequency.exponentialRampToValueAtTime(840, now + 0.07);
+        gain.gain.setValueAtTime(0.12, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.08);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now);
+        osc.stop(now + 0.08);
+      } else {
+        osc.frequency.setValueAtTime(720, now);
+        osc.frequency.exponentialRampToValueAtTime(460, now + 0.06);
+        gain.gain.setValueAtTime(0.08, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.07);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now);
+        osc.stop(now + 0.07);
+      }
+    } catch (e) {}
+  },
+
+  /**
+   * Sound 2: Navigation & Confirmation.
+   * Cheerful two-tone chord when confirming/moving between screens.
+   */
+  playNavConfirm() {
+    if (!this.enabled) return;
+    const ctx = this.getAudioContext();
+    if (!ctx) return;
+
+    try {
+      const now = ctx.currentTime;
+      [
+        { freq: 440, start: 0, dur: 0.08 },
+        { freq: 880, start: 0.06, dur: 0.12 },
+      ].forEach(({ freq, start, dur }) => {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = "triangle";
+        osc.frequency.setValueAtTime(freq, now + start);
+        gain.gain.setValueAtTime(0.12, now + start);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + start + dur);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now + start);
+        osc.stop(now + start + dur);
+      });
+    } catch (e) {}
+  },
+
+  /**
+   * Sound 3: Drive Full / Warning.
+   * Distinct low double-buzz when storage is exceeded.
+   */
+  playFullWarning() {
+    if (!this.enabled) return;
+    const ctx = this.getAudioContext();
+    if (!ctx) return;
+
+    try {
+      const now = ctx.currentTime;
+      [0, 0.11].forEach((startOffset) => {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = "sawtooth";
+        osc.frequency.setValueAtTime(180, now + startOffset);
+        osc.frequency.linearRampToValueAtTime(125, now + startOffset + 0.09);
+        gain.gain.setValueAtTime(0.16, now + startOffset);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + startOffset + 0.09);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now + startOffset);
+        osc.stop(now + startOffset + 0.09);
+      });
+    } catch (e) {}
+  },
+};
+
 /**
  * Toggle an item in the global selection (insertion order =
  * selection order). Returns true when the item is now selected.
@@ -627,13 +815,20 @@ function setCardSelected(card, item, selected) {
 function toggleSelection(item) {
   if (state.selectedItems.has(item.id)) {
     state.selectedItems.delete(item.id);
+    soundFX.playCardSelect(false);
   } else {
     const isFull = state.driveCapacityGB > 0 && calculateTotal() + item.sizeGB > state.driveCapacityGB;
     if (isFull) {
       shakeCard(document.querySelector(`.card[data-id="${CSS.escape(item.id)}"]`));
+      const remaining = Math.max(0, state.driveCapacityGB - calculateTotal());
+      const driveFullWarning = document.getElementById("drive-full-warning");
+      if (driveFullWarning) driveFullWarning.hidden = false;
+      showToast(`قرصك ممتلئ! المساحة المتبقية (${formatSize(remaining)}) لا تكفي لإضافة "${item.title}" (${formatSize(item.sizeGB)}).`, "warning");
+      soundFX.playFullWarning();
       return false;
     }
     state.selectedItems.set(item.id, item);
+    soundFX.playCardSelect(true);
   }
   updateSummary();
   return state.selectedItems.has(item.id);
@@ -736,7 +931,7 @@ function validateBannerItems(raw) {
     const sizeGB = rec.sizeGB;
     const okSize =
       typeof sizeGB === "number" && Number.isFinite(sizeGB) && sizeGB > 0;
-    if (image === "" || !image.endsWith(".jpg")) continue;
+    if (image === "" || !/\.(jpe?g|png|webp)$/i.test(image)) continue;
     if (!okSize) continue;
     const key = image.toLowerCase();
     if (seen.has(key)) continue;
@@ -965,6 +1160,7 @@ function renderDriveOptions() {
 
 function enterGallery() {
   if (!state.driveCapacityGB) return;
+  soundFX.playNavConfirm();
   document.getElementById("drive-capacity-label").textContent = formatSize(state.driveCapacityGB);
   updateSummary();
   showView("gallery");
@@ -1091,6 +1287,7 @@ function renderReview() {
     for (const item of catItems) {
       const li = document.createElement("li");
       const name = document.createElement("span");
+      name.setAttribute("dir", "auto");
       name.textContent = item.title;
       const size = document.createElement("span");
       size.className = "row-value-text";
@@ -1223,6 +1420,7 @@ function bindForm() {
       setFieldError(addressInput, "");
     }
     if (!valid) return;
+    soundFX.playNavConfirm();
     renderReview();
     showView("review");
   });
@@ -1240,10 +1438,12 @@ function bindFlow() {
       document.getElementById("continue-warning").hidden = false;
       return;
     }
+    soundFX.playNavConfirm();
     showView("form");
   });
 
   document.getElementById("clear-all-btn").addEventListener("click", () => {
+    soundFX.playCardSelect(false);
     state.selectedItems.clear();
     document.querySelectorAll(".card.selected").forEach((card) => setCardSelected(card, null, false));
     updateSummary();
@@ -1253,8 +1453,14 @@ function bindFlow() {
     renderNextBatch();
   });
 
-  document.getElementById("back-to-gallery-btn").addEventListener("click", () => showView("gallery"));
-  document.getElementById("back-to-form-btn").addEventListener("click", () => showView("form"));
+  document.getElementById("back-to-gallery-btn").addEventListener("click", () => {
+    soundFX.playNavConfirm();
+    showView("gallery");
+  });
+  document.getElementById("back-to-form-btn").addEventListener("click", () => {
+    soundFX.playNavConfirm();
+    showView("form");
+  });
 
   const sendBtn = document.getElementById("send-order-btn");
   const sendStatus = document.getElementById("send-status");
@@ -1267,6 +1473,7 @@ function bindFlow() {
       await sendOrderToTelegram();
       sendStatus.textContent = "";
       sendStatus.classList.remove("send-status-error");
+      soundFX.playNavConfirm();
       showView("success");
     } catch (err) {
       console.error(err);
@@ -1282,6 +1489,7 @@ function bindFlow() {
 }
 
 function startNewOrder() {
+  soundFX.playNavConfirm();
   state.selectedItems.clear();
   state.searchTerm = "";
   state.sizeFilter = { min: null, max: null };
@@ -1351,6 +1559,7 @@ function bindBottomNav() {
 // ============================================================
 
 function init() {
+  soundFX.init();
   renderDriveOptions();
   bindSearch();
   bindSizeFilter();
@@ -1381,6 +1590,7 @@ if (typeof window !== "undefined") {
     get categories() { return state.categories; },
     get selectedItems() { return state.selectedItems; },
     get state() { return state; },
+    soundFX,
     calculateTotal,
     formatSize,
     generateOrderText,
