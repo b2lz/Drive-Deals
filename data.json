@@ -14165,6 +14165,12 @@
           "sizeGB": 9.92
         },
         {
+          "id": "games/BEAM NG .jpg",
+          "title": "BEAM NG",
+          "image": "BEAM NG .jpg",
+          "sizeGB": 21.8
+        },
+        {
           "id": "games/Beast of Reincarnation.jpg",
           "title": "Beast of Reincarnation",
           "image": "Beast of Reincarnation.jpg",
@@ -15449,6 +15455,12 @@
           "sizeGB": 6.19
         },
         {
+          "id": "games/End of Abyss .jpg",
+          "title": "End of Abyss",
+          "image": "End of Abyss .jpg",
+          "sizeGB": 3.8
+        },
+        {
           "id": "games/Enshrouded.jpg",
           "title": "Enshrouded",
           "image": "Enshrouded.jpg",
@@ -15915,6 +15927,12 @@
           "title": "Gears of War",
           "image": "Gears of War .jpg",
           "sizeGB": 5.69
+        },
+        {
+          "id": "games/Gears of War - E-Day .jpg",
+          "title": "Gears of War - E-Day",
+          "image": "Gears of War - E-Day .jpg",
+          "sizeGB": 84.5
         },
         {
           "id": "games/Gears of War 4.jpg",
@@ -19575,6 +19593,12 @@
           "title": "the witcher 2",
           "image": "the witcher 2.jpg",
           "sizeGB": 8.57
+        },
+        {
+          "id": "games/The Witcher 3 - Remastered .jpg",
+          "title": "The Witcher 3 - Remastered",
+          "image": "The Witcher 3 - Remastered .jpg",
+          "sizeGB": 42
         },
         {
           "id": "games/The Witcher 3 - Wild Hunt.jpg",

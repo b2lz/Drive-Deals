@@ -1,24 +1,24 @@
 {
   "items": [
     {
-      "title": "Dune - Awakening",
-      "image": "Dune - Awakening.jpg",
-      "sizeGB": 24.2
+      "title": "Gears of War - E-Day",
+      "image": "Gears of War - E-Day .jpg",
+      "sizeGB": 84.5
     },
     {
-      "title": "CONTROL Resonant",
-      "image": "CONTROL Resonant.jpg",
-      "sizeGB": 64.25
+      "title": "End of Abyss",
+      "image": "End of Abyss.jpg",
+      "sizeGB": 3.8
     },
     {
-      "title": "EA Sports FC 27",
-      "image": "EA Sports FC 27.jpg",
-      "sizeGB": 61.1
+      "title": "BEAM NG",
+      "image": "BEAM NG.jpg",
+      "sizeGB": 21.8
     },
     {
-      "title": "SILENT HILL - Townfall",
-      "image": "SILENT HILL - Townfall.jpg",
-      "sizeGB": 42.9
+      "title": "The Witcher 3 - Remastered",
+      "image": "The Witcher 3 - Remastered .jpg",
+      "sizeGB": 42
     }
   ]
 }
