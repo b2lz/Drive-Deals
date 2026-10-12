@@ -1,0 +1,512 @@
+/* ============================================================
+   DRIVE DEALS V1.1 — item details page
+   Liquid Glass blocks. Reuses the tokens from style.css
+   (--glass-*, --brand-cyan, ...) so the details page matches
+   the main app exactly.
+   ============================================================ */
+
+.item-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/* ---------- Top bar ---------- */
+
+.item-topbar-inner {
+  gap: 1rem;
+}
+
+.item-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.92rem;
+  padding: 10px 20px;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid var(--glass-border);
+  border-top: 1px solid var(--glass-specular);
+  backdrop-filter: var(--blur-sm);
+  -webkit-backdrop-filter: var(--blur-sm);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.45);
+  transition: background 0.22s, transform 0.22s, box-shadow 0.22s;
+}
+
+.item-back:hover {
+  background: rgba(53, 220, 255, 0.16);
+  transform: translateX(-3px);
+  box-shadow: 0 6px 20px rgba(53, 220, 255, 0.25);
+}
+
+/* CSS-drawn chevron (same reason as the carousel arrows) */
+.item-back-icon {
+  width: 8px;
+  height: 8px;
+  flex: 0 0 auto;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  border-radius: 1px;
+  transform: rotate(135deg); /* points left = back, in RTL */
+}
+
+.item-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.item-brand .brand-logo {
+  height: 38px;
+  filter: drop-shadow(0 0 12px rgba(53, 220, 255, 0.4));
+}
+
+.item-brand-name {
+  font-size: 1.1rem;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.item-brand-name span {
+  color: var(--brand-cyan);
+  text-shadow: 0 0 16px rgba(53, 220, 255, 0.5);
+}
+
+/* ---------- Layout ---------- */
+
+.item-main {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  width: 100%;
+  max-width: 1100px;
+  padding-block: 2rem 3rem;
+}
+
+.item-status {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  color: var(--text-2);
+  font-size: 1rem;
+}
+
+.item-status-error {
+  color: #ffb4b4;
+  border-color: rgba(255, 120, 120, 0.45);
+}
+
+/* ---------- Hero ---------- */
+
+.item-hero {
+  display: grid;
+  grid-template-columns: minmax(200px, 320px) 1fr;
+  gap: clamp(1.4rem, 4vw, 2.6rem);
+  align-items: start;
+  padding-bottom: clamp(1.4rem, 3vw, 2rem);
+  border-bottom: 1px solid var(--glass-border-soft);
+}
+
+.item-hero-art {
+  background: #091224;
+  border: 1px solid var(--glass-border);
+  border-top: 1px solid var(--glass-specular);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  aspect-ratio: 3 / 4;
+  box-shadow: 0 20px 46px rgba(0, 0, 0, 0.5);
+}
+
+.item-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.item-category {
+  display: inline-block;
+  color: var(--brand-cyan);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 4px 14px;
+  border-radius: var(--radius-pill);
+  background: rgba(53, 220, 255, 0.13);
+  border: 1px solid rgba(53, 220, 255, 0.45);
+  margin: 0 0 0.8rem;
+}
+
+.item-title {
+  font-size: clamp(1.7rem, 4.5vw, 2.6rem);
+  font-weight: 900;
+  line-height: 1.25;
+  margin: 0 0 0.5rem;
+  color: #fff;
+}
+
+.item-subtitle {
+  color: var(--text-3);
+  font-size: 0.92rem;
+  margin: 0 0 1rem;
+}
+
+/* ---------- Chips ---------- */
+
+.item-chips {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 1.4rem;
+}
+
+.item-chip {
+  border: 1px solid var(--glass-border-soft);
+  border-radius: var(--radius-pill);
+  padding: 5px 14px;
+  font-size: 0.82rem;
+  color: var(--text-2);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: var(--blur-sm);
+  -webkit-backdrop-filter: var(--blur-sm);
+}
+
+.item-chip-year {
+  font-family: var(--font-num);
+  color: var(--brand-cyan);
+  border-color: rgba(53, 220, 255, 0.5);
+  background: rgba(53, 220, 255, 0.12);
+}
+
+/* ---------- Fact lists ---------- */
+
+.item-quickfacts,
+.item-facts,
+.item-req-list {
+  margin: 0 0 1.4rem;
+  display: grid;
+  gap: 2px 0;
+}
+
+/* A <dl> must stay ONE column: item.js appends dt,dd,dt,dd in
+   sequence, so a multi-column grid would shuffle a label away from
+   its value. Style the pair with spacing instead of columns. */
+.item-quickfacts {
+  margin-bottom: 1.6rem;
+  padding: 14px 18px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--glass-border-soft);
+  backdrop-filter: var(--blur-sm);
+  -webkit-backdrop-filter: var(--blur-sm);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.25);
+}
+
+.item-quickfacts dt {
+  margin-top: 12px;
+}
+
+.item-quickfacts dt:first-child {
+  margin-top: 0;
+}
+
+.item-quickfacts dd {
+  margin-bottom: 0;
+}
+
+/* item.js marks values dir="auto" so mixed Arabic/Latin renders in
+   the right order. That also flips their alignment: a Latin value
+   ("IO Interactive") would hug the left while its Arabic label sits
+   on the right. Pin every value to the page's start edge so the
+   label and its value always line up. */
+.item-quickfacts dd,
+.item-facts dd,
+.item-req-list dd {
+  text-align: right;
+}
+
+.item-quickfacts dt,
+.item-facts dt,
+.item-req-list dt {
+  color: var(--text-3);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.item-quickfacts dd,
+.item-facts dd,
+.item-req-list dd {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+/* ---------- Size box ---------- */
+
+.item-size-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid rgba(53, 220, 255, 0.5);
+  background: rgba(53, 220, 255, 0.12);
+  border-radius: var(--radius-md);
+  padding: 12px 20px;
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.45), 0 0 26px rgba(53, 220, 255, 0.18);
+}
+
+.item-size-label {
+  color: var(--text-2);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.item-size-value {
+  font-family: var(--font-num);
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--brand-cyan);
+  text-shadow: 0 0 16px rgba(53, 220, 255, 0.45);
+  /* keep "38.81 GB" from being reordered to "GB 38.81" */
+  unicode-bidi: plaintext;
+}
+
+/* ---------- Tabs ---------- */
+
+.item-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 1.8rem 0 0;
+  border-bottom: 1px solid var(--glass-border-soft);
+}
+
+.item-tab {
+  appearance: none;
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  color: var(--text-3);
+  background: transparent;
+  border: 1px solid transparent;
+  border-bottom: none;
+  font-family: var(--font);
+  font-size: 0.95rem;
+  font-weight: 700;
+  transition: color 0.22s, background 0.22s, box-shadow 0.22s;
+}
+
+.item-tab:hover {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.item-tab.is-active {
+  color: var(--brand-cyan);
+  background: rgba(53, 220, 255, 0.1);
+  border-color: var(--glass-border);
+  border-bottom: 1px solid var(--brand-cyan);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+/* ---------- Panels ---------- */
+
+.item-panel {
+  padding: 1.6rem 0;
+  animation: viewIn 0.45s var(--ease-liquid) both;
+}
+
+.item-block {
+  margin-bottom: 2rem;
+}
+
+.item-block-title {
+  font-size: clamp(1.15rem, 3vw, 1.4rem);
+  font-weight: 800;
+  color: var(--brand-cyan);
+  margin: 0 0 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--glass-border-soft);
+}
+
+.item-summary {
+  font-size: 1.02rem;
+  line-height: 2;
+  margin: 0;
+  color: var(--text-2);
+  /* Summaries arrive in whichever language the source used. An LTR
+     paragraph inside the RTL panel overflows on its start edge, so the
+     block gets its own direction (dir="auto" in item.html) and the
+     alignment follows it. */
+  padding-inline: 0.5rem;
+  overflow-wrap: anywhere;
+  text-align: start;
+}
+
+.item-note {
+  color: var(--text-3);
+  font-size: 0.9rem;
+  margin: 0 0 1.2rem;
+  line-height: 1.75;
+}
+
+/* ---------- Requirements ---------- */
+
+.item-req-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.item-req-card {
+  padding: 1.2rem 1.4rem;
+  border-radius: var(--radius-lg);
+  background: var(--glass-card);
+  border: 1px solid var(--glass-border);
+  border-top: 1px solid var(--glass-specular);
+  backdrop-filter: var(--blur-sm);
+  -webkit-backdrop-filter: var(--blur-sm);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35);
+}
+
+.item-req-title {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--brand-cyan);
+  margin: 0 0 0.9rem;
+}
+
+.item-req-note .item-req-title {
+  color: var(--text-2);
+}
+
+.item-req-note p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.85;
+  color: var(--text-2);
+}
+
+/* ---------- Sources ---------- */
+
+.item-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.item-links a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 20px;
+  border-radius: var(--radius-md);
+  background: var(--glass-card);
+  border: 1px solid var(--glass-border);
+  border-top: 1px solid var(--glass-specular);
+  color: var(--brand-cyan);
+  text-decoration: none;
+  font-weight: 700;
+  backdrop-filter: var(--blur-sm);
+  -webkit-backdrop-filter: var(--blur-sm);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35);
+  transition: background 0.22s, transform 0.22s, box-shadow 0.22s;
+}
+
+.item-links a:hover {
+  background: rgba(53, 220, 255, 0.14);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(53, 220, 255, 0.25);
+}
+
+.item-links a::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  margin-inline-start: auto;
+  flex: 0 0 auto;
+  border-top: 2px solid currentColor;
+  border-inline-end: 2px solid currentColor;
+  transform: rotate(-45deg);
+}
+
+/* ---------- Debug (only visible with ?debug=1) ---------- */
+
+.item-debug {
+  background: rgba(255, 90, 82, 0.1);
+  border: 1px dashed #ff5a52;
+  border-radius: var(--radius-md);
+  color: #ff8b85;
+  font-size: 0.8rem;
+  padding: 12px 16px;
+  margin: 0 0 1.4rem;
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-num);
+}
+
+/* ---------- Footer ---------- */
+
+.item-footer {
+  position: relative;
+  z-index: 1;
+  border-top: 1px solid var(--glass-border-soft);
+  background: rgba(5, 9, 20, 0.5);
+  backdrop-filter: var(--blur-lg);
+  -webkit-backdrop-filter: var(--blur-lg);
+  padding: 1.4rem 1rem;
+  text-align: center;
+  color: var(--text-3);
+  font-size: 0.88rem;
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 720px) {
+  .item-hero {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .item-hero-art {
+    max-width: 230px;
+  }
+
+  .item-quickfacts {
+    text-align: start;
+    width: 100%;
+  }
+
+  .item-tabs {
+    gap: 6px;
+  }
+
+  .item-tab {
+    flex: 1;
+    padding: 12px 10px;
+    font-size: 0.86rem;
+  }
+
+  .item-size-box {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .item-brand-name {
+    font-size: 0.95rem;
+  }
+
+  .item-back {
+    padding: 9px 16px;
+    font-size: 0.85rem;
+  }
+}

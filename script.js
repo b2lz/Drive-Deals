@@ -1,37 +1,39 @@
 // ============================================================
-// DRIVE DEALS — media library (single-page static app)
+// DRIVE DEALS V1.1 — media library (single-page static app)
+// "Liquid Glass" UI edition.
 //
-// One generic media-library system: categories are DATA, not
-// code. data.json holds a list of categories; each category
-// holds a list of media items. Selecting, filtering, reviewing
-// and exporting work identically no matter how many categories
-// or items exist — adding a category never requires a code
-// change.
+// This file keeps 100% of the V1.0 business logic and data flow:
+//   * library normalization + validation (data.json)
+//   * typo-tolerant search (English + Arabic)
+//   * category tabs, file-size range filter
+//   * drive-capacity engine (selection is blocked past the chosen size)
+//   * infinite scroll / Load More batching
+//   * review screen, order .txt generation, Telegram Bot API upload
+//   * procedural Web Audio sound effects
 //
-// data.json format (current):
-//   {
-//     "categories": [
-//       {
-//         "id": "arabic_movies",
-//         "name": "أفلام عربي",
-//         "items": [ { "id": "arabic_movies/001.jpg", "title": "001.jpg", "image": "001.jpg", "sizeGB": 5 }, ... ]
-//       },
-//       ...
-//     ]
-//   }
-//
-// Legacy format (still supported): a flat array of
-//   { "image": "001.jpg", "value": 5 }
-// records. It is normalized into a single implicit category,
-// so existing exports keep working until the library is
-// re-exported with the new format (see tools/excel-to-json.js).
+// What changed in V1.1 is presentation only:
+//   * category <select>  -> glass category tabs
+//   * drive size <select> -> glass capacity pills + crystal tube reservoir
+//   * banner slides     -> glass carousel with "add to drive" quick action
+//   * footer summary bar -> floating spatial dock
+//   * cards             -> glass poster cards
 //
 // No frameworks, no build step. Works on any static host
-// (Netlify / GitHub Pages).
+// (GitHub Pages / Netlify / Cloudflare Pages).
 // ============================================================
 
+// ------------------------------------------------------------
+// Telegram delivery
+// ------------------------------------------------------------
+// TELEGRAM_PROXY_URL (optional security upgrade):
+// Leave it empty and the browser calls the Telegram Bot API directly
+// (V1.0 behaviour — the bot token is then visible in page source).
+// Set it to a same-origin serverless endpoint to keep the token on
+// the server instead. See telegram-proxy-worker.js in the project
+// root for a ready-to-deploy Cloudflare Worker.
 const TELEGRAM_BOT_TOKEN = "8876959540:AAGjT9zdwYctpueEI24uBQYx-P2fEALqXgA";
 const TELEGRAM_CHAT_ID = "992199091";
+const TELEGRAM_PROXY_URL = ""; // e.g. "/api/telegram-order"
 
 // The app starts on the drive size question; the gallery only
 // opens after a size is chosen, so the drive capacity is always
@@ -252,11 +254,6 @@ function getSelectedItemsByCategory() {
 }
 
 // ============================================================
-// Filtering — search + size filter combine (AND). They change
-// which cards are visible, never what is selected.
-// ============================================================
-
-// ============================================================
 // Typo-tolerant search (English + Arabic).
 // Strategy: exact substring first (cheap); only when nothing matches
 // do we run fuzzy matching, where every query word must be within a
@@ -387,22 +384,166 @@ const views = {
 
 function showView(name) {
   for (const [key, el] of Object.entries(views)) {
-    el.hidden = key !== name;
+    if (el) el.hidden = key !== name;
   }
-  document.getElementById("summary-bar").hidden = name !== "gallery";
+  const dock = document.getElementById("summary-bar");
+  if (dock) dock.hidden = name !== "gallery";
   window.scrollTo({ top: 0, behavior: "instant" });
+  syncDockSpacing();
+  // The tab strip is measured with getBoundingClientRect, so it
+  // reports 0 while the gallery is still hidden. Re-check the
+  // arrows once it is actually visible.
+  if (name === "gallery") updateCategoryScrollButtons();
 }
 
-function renderCategoryBar() {
-  const selectEl = document.getElementById("category-select");
-  selectEl.innerHTML = "";
-  for (const category of state.categories) {
-    const opt = document.createElement("option");
-    opt.value = category.id;
-    opt.textContent = category.name;
-    selectEl.appendChild(opt);
+/**
+ * The dock is fixed to the bottom, so the gallery needs enough
+ * bottom padding to keep its last row of cards reachable. Measuring
+ * the real dock height (which changes with the warning notices and
+ * with the responsive breakpoints) is more reliable than a hard
+ * coded value per media query.
+ */
+function syncDockSpacing() {
+  const dock = document.getElementById("summary-bar");
+  const gallery = document.getElementById("gallery-view");
+  if (!dock || !gallery) return;
+  if (dock.hidden) {
+    gallery.style.paddingBottom = "";
+    return;
   }
-  selectEl.value = state.activeCategoryId;
+  const height = dock.getBoundingClientRect().height;
+  gallery.style.paddingBottom = `${Math.ceil(height + 44)}px`;
+}
+
+/** Tiny helper so gauges can be updated without null checks everywhere. */
+function setText(id, value) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = value;
+}
+
+/**
+ * Scroll the tab strip horizontally (never the page) until `pill`
+ * is fully visible. Uses rect deltas so it behaves the same in RTL
+ * and LTR.
+ */
+function scrollPillIntoView(pill) {
+  const row = document.getElementById("category-pills");
+  if (!row || !pill) return;
+  const pillRect = pill.getBoundingClientRect();
+  const rowRect = row.getBoundingClientRect();
+  if (pillRect.left < rowRect.left) row.scrollLeft -= rowRect.left - pillRect.left;
+  else if (pillRect.right > rowRect.right) row.scrollLeft += pillRect.right - rowRect.right;
+}
+
+/**
+ * Category tabs. Categories are DATA (data.json), so the tab strip
+ * is rebuilt whenever the library loads — adding a category in the
+ * spreadsheet never requires a code change.
+ */
+function renderCategoryBar() {
+  const row = document.getElementById("category-pills");
+  if (!row) return;
+  row.textContent = "";
+  for (const category of state.categories) {
+    const isActive = category.id === state.activeCategoryId;
+    const pill = document.createElement("button");
+    pill.type = "button";
+    pill.className = "cat-pill" + (isActive ? " active" : "");
+    pill.dataset.category = category.id;
+    pill.setAttribute("role", "tab");
+    pill.setAttribute("aria-selected", isActive ? "true" : "false");
+    pill.title = `${category.name} — ${category.items.length} عنصر`;
+
+    const label = document.createElement("span");
+    label.textContent = category.name;
+    const count = document.createElement("span");
+    count.className = "cat-count";
+    count.textContent = String(category.items.length);
+
+    pill.append(label, count);
+    row.appendChild(pill);
+  }
+  // Keep the active tab visible when the library switches category
+  // (e.g. after a quick add from the banner carousel).
+  scrollPillIntoView(row.querySelector(".cat-pill.active"));
+  updateCategoryScrollButtons();
+}
+
+/** One delegated listener for the whole (re-rendered) tab strip. */
+function bindCategoryPills() {
+  const row = document.getElementById("category-pills");
+  if (!row) return;
+  row.addEventListener("click", (event) => {
+    const pill = event.target.closest(".cat-pill");
+    if (!pill || !row.contains(pill)) return;
+    selectCategory(pill.dataset.category);
+    pill.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "nearest" });
+  });
+}
+
+/**
+ * The tab strip only fits ~7 of the 12 categories, so it scrolls.
+ * Show an arrow only on the side that still has hidden tabs — that
+ * is what tells the customer there is more to see.
+ */
+function updateCategoryScrollButtons() {
+  const row = document.getElementById("category-pills");
+  const prevBtn = document.getElementById("category-prev");
+  const nextBtn = document.getElementById("category-next");
+  if (!row || !prevBtn || !nextBtn) return;
+
+  const max = row.scrollWidth - row.clientWidth;
+  if (max <= 2) {
+    prevBtn.hidden = true;
+    nextBtn.hidden = true;
+    return;
+  }
+  const pos = -row.scrollLeft; // RTL: scrolled right = 0, left = max
+  const EPS = 2;
+  prevBtn.hidden = pos <= EPS;
+  nextBtn.hidden = pos >= max - EPS;
+}
+
+/**
+ * Scroll the tab strip by roughly one tab.
+ * In RTL, scrollLeft is 0 at the right-hand start and goes NEGATIVE
+ * as you move towards the end, so "next" must subtract and "prev"
+ * must add — the opposite of LTR.
+ */
+function scrollCategories(direction) {
+  const row = document.getElementById("category-pills");
+  if (!row) return;
+  const first = row.querySelector(".cat-pill");
+  const step = first ? first.getBoundingClientRect().width + 7 : 180;
+  row.scrollBy({ left: -direction * step, behavior: "smooth" });
+}
+
+function bindCategoryScroll() {
+  const row = document.getElementById("category-pills");
+  if (!row) return;
+
+  const prevBtn = document.getElementById("category-prev");
+  const nextBtn = document.getElementById("category-next");
+  if (prevBtn) {
+    prevBtn.addEventListener("click", () => scrollCategories(-1));
+  }
+  if (nextBtn) {
+    nextBtn.addEventListener("click", () => scrollCategories(1));
+  }
+
+  row.addEventListener("scroll", updateCategoryScrollButtons, { passive: true });
+  window.addEventListener("resize", updateCategoryScrollButtons, { passive: true });
+
+  // Catches web-font loading and breakpoint changes that resize the
+  // strip while it is on screen.
+  if (typeof ResizeObserver !== "undefined") {
+    new ResizeObserver(() => updateCategoryScrollButtons()).observe(row);
+  }
+
+  // Web fonts land after first paint and change the tab widths.
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(updateCategoryScrollButtons).catch(() => {});
+  }
 }
 
 function selectCategory(categoryId) {
@@ -546,9 +687,9 @@ function applyFilters() {
 }
 
 /**
- * Create one card for a media item. The selected state is restored
- * from the global selection map, so a card keeps its state across
- * search / filter / Load More re-renders.
+ * Create one glass poster card for a media item. The selected state
+ * is restored from the global selection map, so a card keeps its
+ * state across search / filter / Load More re-renders.
  */
 function createCard(item) {
   const card = document.createElement("div");
@@ -558,35 +699,56 @@ function createCard(item) {
   card.tabIndex = 0;
   card.setAttribute("role", "button");
   card.setAttribute("aria-pressed", "false");
+  card.title = `${item.title} — ${formatSize(item.sizeGB)}`;
+
+  // ---- media area ----
+  const media = document.createElement("div");
+  media.className = "card-media";
 
   const image = document.createElement("img");
   // Item ids are shaped like "<categoryId>/<image>", which is exactly
   // the file path under assets/ — one folder per category.
+  image.className = "card-img";
   image.src = `assets/${item.id}`;
   image.alt = item.title;
   image.loading = "lazy";
+  image.decoding = "async";
   image.addEventListener("error", () => markImageUnavailable(card, item));
+
+  const scrim = document.createElement("span");
+  scrim.className = "card-scrim";
+
+  const catBadge = document.createElement("span");
+  catBadge.className = "card-cat-badge";
+  catBadge.textContent = item.category ? item.category.name : "";
 
   const sizeLine = document.createElement("div");
   sizeLine.className = "card-size";
   const sizeLabel = document.createElement("span");
   sizeLabel.className = "size-label";
-  sizeLabel.textContent = "الحجم:";
+  sizeLabel.textContent = "الحجم";
   const sizeValue = document.createElement("span");
   sizeValue.className = "card-value";
   sizeValue.textContent = formatSize(item.sizeGB);
   sizeLine.append(sizeLabel, sizeValue);
 
+  const check = document.createElement("span");
+  check.className = "check-badge";
+  check.textContent = "✓";
+  check.setAttribute("aria-hidden", "true");
+
+  media.append(image, scrim, catBadge, sizeLine, check);
+
+  // ---- title + details link ----
   const name = document.createElement("p");
   name.className = "card-name";
   name.setAttribute("dir", "auto");
   name.textContent = item.title;
 
-  const check = document.createElement("span");
-  check.className = "check-badge";
-  check.textContent = "✓";
+  const details = createDetailsButton(item);
 
-  card.append(image, sizeLine, name, check);
+  card.append(media, name, details);
+
   const activate = () => {
     const nowSelected = toggleSelection(item);
     setCardSelected(card, item, nowSelected);
@@ -607,6 +769,33 @@ function createCard(item) {
 }
 
 /**
+ * The small "details" link on a card. It is a real <a> to
+ * item.html, so it keeps middle-click / open-in-new-tab, and its
+ * click handler stops the event from reaching the card (otherwise
+ * it would toggle the selection while opening the page).
+ */
+function createDetailsButton(item) {
+  const link = document.createElement("a");
+  link.className = "card-details";
+  // Hash form (not "?id=") so the link survives static hosts and dev
+  // servers that rewrite "/item.html" to "/item" and drop the query.
+  link.href = `item.html#id=${encodeURIComponent(item.id)}`;
+  link.textContent = "التفاصيل";
+  link.setAttribute("aria-label", `تفاصيل ${item.title}`);
+  link.addEventListener("click", (event) => {
+    // Left click only — leave modified clicks to the browser.
+    if (event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey) {
+      event.stopPropagation();
+    }
+  });
+  // Keyboard users tabbing to the link should not toggle the card.
+  link.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") event.stopPropagation();
+  });
+  return link;
+}
+
+/**
  * A missing image file marks the card "unavailable" (placeholder +
  * badge) but the item stays selectable — its size is still useful.
  */
@@ -620,7 +809,8 @@ function markImageUnavailable(card, item) {
   const badge = document.createElement("span");
   badge.className = "unavailable-badge";
   badge.textContent = "غير متاحة";
-  card.prepend(badge);
+  const host = card.querySelector(".card-media") || card;
+  host.prepend(badge);
   console.warn(`Missing image: ${item.image}`);
 }
 
@@ -858,60 +1048,86 @@ function formatSize(sizeGB) {
   return `${Number.isInteger(rounded) ? rounded : rounded.toFixed(1)} GB`;
 }
 
+/**
+ * Single source of truth for every gauge on screen: header capsule,
+ * crystal tube reservoir, and the floating spatial dock.
+ */
 function updateSummary() {
   const total = calculateTotal();
-  const selectedCountEl = document.getElementById("selected-count");
-  selectedCountEl.textContent = String(state.selectedItems.size);
+  const count = state.selectedItems.size;
 
-  if (state.selectedItems.size > 0) {
-    document.getElementById("continue-warning").hidden = true;
+  setText("selected-count", String(count));
+  const badge = document.getElementById("dock-badge");
+  if (badge) badge.textContent = String(count);
+
+  if (count > 0) {
+    const warn = document.getElementById("continue-warning");
+    if (warn) warn.hidden = true;
   }
 
-  // Drive meter (only meaningful once a drive size is chosen).
-  const driveBarFill = document.getElementById("drive-bar-fill");
-  const driveBar = document.getElementById("drive-bar");
-  const driveRemaining = document.getElementById("drive-remaining");
-  const driveFullWarning = document.getElementById("drive-full-warning");
-  if (state.driveCapacityGB > 0) {
-    const pct = Math.min(100, (total / state.driveCapacityGB) * 100);
-    driveBarFill.style.width = `${Math.round(pct * 100) / 100}%`;
-    driveBarFill.classList.toggle("full", pct >= 100);
-    driveBar.setAttribute("aria-valuenow", String(Math.round(pct)));
-    driveRemaining.textContent = `متبقٍ: ${formatSize(Math.max(0, state.driveCapacityGB - total))}`;
-    driveFullWarning.hidden = total < state.driveCapacityGB;
+  const capacity = state.driveCapacityGB;
+  if (capacity <= 0) return;
 
-    // Desktop sidebar sync (Phase 1)
-    const sidebarCap = document.getElementById("sidebar-drive-capacity");
-    if (sidebarCap) {
-      sidebarCap.textContent = formatSize(state.driveCapacityGB);
-    }
-    const sidebarFill = document.getElementById("sidebar-drive-fill");
-    const sidebarUsed = document.getElementById("sidebar-drive-used");
-    const sidebarRem = document.getElementById("sidebar-drive-remaining");
-    const sidebarCount = document.getElementById("sidebar-selected-count");
-    if (sidebarFill) {
-      sidebarFill.style.width = `${Math.round(pct * 100) / 100}%`;
-      sidebarFill.classList.toggle("full", pct >= 100);
-    }
-    if (sidebarUsed) sidebarUsed.textContent = `${formatSize(total)} مستخدم`;
-    if (sidebarRem) sidebarRem.textContent = `${formatSize(Math.max(0, state.driveCapacityGB - total))} متبقٍ`;
-    if (sidebarCount) sidebarCount.textContent = String(state.selectedItems.size);
+  const remaining = Math.max(0, capacity - total);
+  const pct = Math.min(100, (total / capacity) * 100);
+  const pctRounded = Math.round(pct * 100) / 100;
+  const isFull = pct >= 100;
+
+  // ---- header capsule ----
+  setText("drive-capacity-label", formatSize(capacity));
+
+  // ---- crystal tube reservoir ----
+  const tubeLiquid = document.getElementById("tube-liquid");
+  if (tubeLiquid) {
+    tubeLiquid.style.height = `${pct}%`;
+    tubeLiquid.classList.toggle("full", isFull);
   }
+  const tube = document.querySelector(".crystal-tube");
+  if (tube) tube.setAttribute("aria-label", `مستوى امتلاء القرص ${Math.round(pct)} بالمئة`);
+  setText("tube-percent", `${Math.round(pct)}%`);
+  setText("tube-used", formatSize(total));
+  setText("tube-remaining", formatSize(remaining));
+  setText("tube-count", String(count));
+
+  // ---- floating dock ----
+  const fill = document.getElementById("dock-fill");
+  if (fill) {
+    fill.style.width = `${pctRounded}%`;
+    fill.classList.toggle("full", isFull);
+  }
+  const bar = document.getElementById("dock-bar");
+  if (bar) bar.setAttribute("aria-valuenow", String(Math.round(pct)));
+  const tubeFill = document.getElementById("dock-tube-fill");
+  if (tubeFill) tubeFill.style.height = `${pct}%`;
+  setText("dock-used", formatSize(total));
+  setText("dock-capacity", formatSize(capacity));
+  setText("dock-remaining", formatSize(remaining));
+  setText("dock-percent", `${Math.round(pct)}%`);
+
+  const fullWarning = document.getElementById("drive-full-warning");
+  if (fullWarning) fullWarning.hidden = total < capacity;
+
+  syncDockSpacing();
+  updateBannerAddState();
 }
 
 // ============================================================
-// Latest-items banner — rotating showcase at the top of the site.
+// Latest-items banner — glass carousel at the top of the site.
 // Fed by banner/data.json (edit banner/source.xlsx, then run
 // `npm run banner-excel-to-json`, images live in banner/assets/).
-// Slides crossfade every 3 seconds.
+// Slides crossfade every 4.5 seconds and each one can add its
+// item straight to the chosen drive.
 // ============================================================
 
-const BANNER_ROTATE_MS = 3000;
+const BANNER_ROTATE_MS = 4500;
 
 const bannerState = {
   items: [],
   index: 0,
   timer: null,
+  // normalized library title -> media item, so a banner card can be
+  // toggled into the real selection (and thus into the order).
+  index_byTitle: null,
 };
 
 /**
@@ -961,6 +1177,30 @@ async function loadBanner() {
   renderBanner();
 }
 
+/** Build (once) the normalized-title -> media item lookup. */
+function buildBannerTitleIndex() {
+  const map = new Map();
+  for (const item of state.mediaItems) {
+    const key = normalizeSearchText(item.title);
+    if (key !== "" && !map.has(key)) map.set(key, item);
+  }
+  bannerState.index_byTitle = map;
+}
+
+/** Resolve a banner card to the real library item it advertises. */
+function findLibraryItemByTitle(title) {
+  if (bannerState.index_byTitle === null) buildBannerTitleIndex();
+  const key = normalizeSearchText(title);
+  const exact = bannerState.index_byTitle.get(key);
+  if (exact) return exact;
+  // Fallback: a banner title that is a prefix of a library title
+  // (the spreadsheet often trims trailing spaces).
+  for (const [libKey, item] of bannerState.index_byTitle) {
+    if (libKey.startsWith(key) || key.startsWith(libKey)) return item;
+  }
+  return null;
+}
+
 function renderBanner() {
   const track = document.getElementById("banner-track");
   const dotsBox = document.getElementById("banner-dots");
@@ -980,19 +1220,55 @@ function renderBanner() {
     const img = document.createElement("img");
     img.src = `banner/assets/${item.image}`;
     img.alt = item.title;
+    img.loading = i === 0 ? "eager" : "lazy";
     img.addEventListener("error", () => img.remove());
 
-    const caption = document.createElement("div");
-    caption.className = "banner-caption";
-    const title = document.createElement("h3");
+    const scrim = document.createElement("span");
+    scrim.className = "banner-scrim";
+
+    const body = document.createElement("div");
+    body.className = "banner-body";
+
+    const tag = document.createElement("span");
+    tag.className = "banner-tag";
+    tag.textContent = "🔥 أحدث الإضافات";
+
+    const title = document.createElement("h2");
     title.className = "banner-title";
     title.textContent = item.title;
-    const size = document.createElement("span");
-    size.className = "banner-size";
-    size.textContent = formatSize(item.sizeGB);
-    caption.append(title, size);
 
-    slide.append(img, caption);
+    const meta = document.createElement("div");
+    meta.className = "banner-meta";
+    const cat = document.createElement("span");
+    cat.textContent = "أحدث الإضافات";
+    const dot1 = document.createElement("span");
+    dot1.textContent = "•";
+    const size = document.createElement("strong");
+    size.className = "b-size";
+    size.textContent = formatSize(item.sizeGB);
+    const dot2 = document.createElement("span");
+    dot2.textContent = "•";
+    const ready = document.createElement("span");
+    ready.textContent = "جاهز للنسخ على قرصك";
+    meta.append(cat, dot1, size, dot2, ready);
+
+    const desc = document.createElement("p");
+    desc.className = "banner-desc";
+    desc.textContent =
+      "من أحدث الإضافات إلى المكتبة — اضغط لإضافته مباشرة إلى قرصك، وسيتم احتسابه في المساحة المستخدمة فورًا.";
+
+    const addBtn = document.createElement("button");
+    addBtn.type = "button";
+    addBtn.className = "banner-add";
+    addBtn.dataset.title = item.title;
+    addBtn.textContent = "+ أضف مباشرة للقرص";
+    addBtn.addEventListener("click", (event) => {
+      event.stopPropagation();
+      addBannerItem(item);
+    });
+
+    body.append(tag, title, meta, desc, addBtn);
+    slide.append(img, scrim, body);
     track.append(slide);
 
     const dot = document.createElement("button");
@@ -1055,7 +1331,79 @@ function renderBanner() {
     { passive: true }
   );
 
+  updateBannerAddState();
   startBannerRotation();
+}
+
+/**
+ * Quick add from the carousel: toggles the real library item so the
+ * drive meter, the dock, the review screen and the Telegram order
+ * all stay consistent, then scrolls its card into view.
+ */
+function addBannerItem(bannerItem) {
+  const item = findLibraryItemByTitle(bannerItem.title);
+  if (!item) {
+    showToast(`العنصر "${bannerItem.title}" غير موجود في المكتبة حالياً.`, "warning");
+    return;
+  }
+  if (state.driveCapacityGB <= 0) {
+    showToast("اختر حجم القرص أولاً من الشاشة الأولى.", "warning");
+    return;
+  }
+  const nowSelected = toggleSelection(item);
+  if (nowSelected) {
+    revealCard(item.id);
+    showToast(`تمت إضافة "${item.title}" إلى قرصك.`, "success");
+  }
+}
+
+/** Keep every carousel button in sync with the real selection. */
+function updateBannerAddState() {
+  const buttons = document.querySelectorAll(".banner-add");
+  for (const btn of buttons) {
+    const title = btn.dataset.title || "";
+    const item = findLibraryItemByTitle(title);
+    const selected = !!item && state.selectedItems.has(item.id);
+    btn.classList.toggle("is-added", selected);
+    btn.textContent = selected ? "✓ مضاف إلى القرص" : "+ أضف مباشرة للقرص";
+    btn.setAttribute(
+      "aria-label",
+      selected ? `إزالة ${title} من القرص` : `إضافة ${title} إلى القرص`
+    );
+  }
+}
+
+/**
+ * Make a card reachable: switch to its category, drop filters that
+ * hide it, render the batches it lives in, then scroll + flash it.
+ */
+function revealCard(id) {
+  const item = itemById(id);
+  if (!item) return;
+
+  if (item.category && state.activeCategoryId !== item.category.id) {
+    state.activeCategoryId = item.category.id;
+    state.searchTerm = "";
+    document.getElementById("search-input").value = "";
+    renderCategoryBar();
+    applyFilters();
+  }
+
+  if (visibleItems().indexOf(item) < 0 && (state.sizeFilter.min !== null || state.sizeFilter.max !== null)) {
+    clearSizeFilter();
+  }
+
+  // Render extra batches until the card exists in the DOM.
+  let guard = 0;
+  while (visibleItems().indexOf(item) >= renderedCount && guard++ < 200) {
+    renderNextBatch();
+  }
+
+  const card = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
+  if (!card) return;
+  card.scrollIntoView({ behavior: "smooth", block: "center" });
+  card.classList.add("flash");
+  setTimeout(() => card.classList.remove("flash"), 1400);
 }
 
 function showBannerSlide(i) {
@@ -1094,10 +1442,10 @@ function stopBannerRotation() {
 }
 
 // ============================================================
-// Drive size question — first screen.
+// Drive size question — first screen (glass capacity pills).
 // ============================================================
 
-// Value of the "custom size" option in the drive dropdown.
+// Value of the "custom size" option in the drive pill row.
 const CUSTOM_DRIVE_SIZE_VALUE = "custom";
 
 // Parse a user-typed drive size in GB (integer, >= 1). Returns 0 when invalid.
@@ -1107,63 +1455,70 @@ function parseDriveSizeGB(raw) {
 }
 
 function renderDriveOptions() {
-  const selectEl = document.getElementById("drive-select");
+  const row = document.getElementById("drive-pills");
   const startBtn = document.getElementById("start-selection-btn");
   const customRow = document.getElementById("custom-size-row");
   const customInput = document.getElementById("custom-size-input");
   const customPreview = document.getElementById("custom-size-preview");
-  selectEl.innerHTML = "";
+  if (!row || !startBtn) return;
+  row.textContent = "";
 
-  const placeholder = document.createElement("option");
-  placeholder.value = "";
-  placeholder.textContent = "اختر حجم القرص";
-  placeholder.disabled = true;
-  selectEl.appendChild(placeholder);
+  const pills = [];
+  const makePill = (value, label) => {
+    const pill = document.createElement("button");
+    pill.type = "button";
+    pill.className = "pill";
+    pill.dataset.size = String(value);
+    pill.setAttribute("role", "radio");
+    pill.setAttribute("aria-checked", "false");
+    pill.textContent = label;
+    pill.addEventListener("click", () => selectDrivePill(value));
+    pills.push(pill);
+    row.appendChild(pill);
+    return pill;
+  };
 
   for (const option of DRIVE_SIZES_GB) {
-    const opt = document.createElement("option");
-    opt.value = String(option.value);
-    opt.textContent = option.label;
-    selectEl.appendChild(opt);
+    makePill(option.value, option.label);
   }
+  makePill(CUSTOM_DRIVE_SIZE_VALUE, "حجم آخر…");
 
-  const customOpt = document.createElement("option");
-  customOpt.value = CUSTOM_DRIVE_SIZE_VALUE;
-  customOpt.textContent = "حجم آخر… (مخصص)";
-  selectEl.appendChild(customOpt);
-
-  function syncCapacity() {
-    if (selectEl.value === CUSTOM_DRIVE_SIZE_VALUE) {
+  /** Highlight one pill and recompute state.driveCapacityGB. */
+  function selectDrivePill(value) {
+    for (const pill of pills) {
+      const on = pill.dataset.size === String(value);
+      pill.classList.toggle("active", on);
+      pill.setAttribute("aria-checked", on ? "true" : "false");
+    }
+    if (value === CUSTOM_DRIVE_SIZE_VALUE) {
       customRow.hidden = false;
-      const value = parseDriveSizeGB(customInput.value);
-      state.driveCapacityGB = value;
-      customPreview.textContent = value > 0 ? "يعادل " + formatSize(value) : "";
+      state.driveCapacityGB = parseDriveSizeGB(customInput.value);
+      customPreview.textContent = state.driveCapacityGB > 0 ? "يعادل " + formatSize(state.driveCapacityGB) : "";
     } else {
       customRow.hidden = true;
       customPreview.textContent = "";
-      state.driveCapacityGB = parseDriveSizeGB(selectEl.value);
+      state.driveCapacityGB = parseDriveSizeGB(value);
     }
     startBtn.disabled = state.driveCapacityGB <= 0;
     updateSummary();
   }
 
-  selectEl.addEventListener("change", syncCapacity);
-  customInput.addEventListener("input", syncCapacity);
+  customInput.addEventListener("input", () => selectDrivePill(CUSTOM_DRIVE_SIZE_VALUE));
 
-  // Default: the first fixed size (320 GB) is preselected so the customer can
-  // start immediately. No "change" event fires on page load, so sync once.
-  if (!selectEl.value) {
-    selectEl.value = String(DRIVE_SIZES_GB[0].value);
-  }
-  syncCapacity();
+  // Default: the first fixed size (320 GB) is preselected so the
+  // customer can start immediately.
+  selectDrivePill(DRIVE_SIZES_GB[0].value);
 }
 
 function enterGallery() {
   if (!state.driveCapacityGB) return;
   soundFX.playNavConfirm();
-  document.getElementById("drive-capacity-label").textContent = formatSize(state.driveCapacityGB);
   updateSummary();
   showView("gallery");
+  const banner = document.getElementById("banner");
+  if (banner && !banner.hidden) {
+    banner.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 }
 
 // ============================================================
@@ -1193,27 +1548,33 @@ function bindSizeFilter() {
     return Number.isFinite(n) && n > 0 ? n : null;
   };
 
-  document.getElementById("apply-filter-btn").addEventListener("click", () => {
+  /** Read the two inputs, validate them, then apply the range. */
+  function applySizeFilter() {
     const min = parseBound(minInput.value);
     const max = parseBound(maxInput.value);
     minInput.setAttribute("aria-invalid", minInput.value !== "" && min === null ? "true" : "false");
     maxInput.setAttribute("aria-invalid", maxInput.value !== "" && max === null ? "true" : "false");
+    const errorEl = document.getElementById("filter-error");
     if (minInput.value !== "" && min === null) {
-      document.getElementById("filter-error").textContent = "أدخل رقمًا صالحًا.";
+      errorEl.textContent = "أدخل رقمًا صالحًا.";
     } else if (maxInput.value !== "" && max === null) {
-      document.getElementById("filter-error").textContent = "أدخل رقمًا صالحًا.";
+      errorEl.textContent = "أدخل رقمًا صالحًا.";
     } else if (min !== null && max !== null && min > max) {
-      document.getElementById("filter-error").textContent = "الحد الأدنى أكبر من الحد الأقصى.";
+      errorEl.textContent = "الحد الأدنى أكبر من الحد الأقصى.";
     } else {
       state.sizeFilter = { min, max };
       updateActiveFilterChip();
       applyFilters();
     }
-  });
+  }
 
+  document.getElementById("apply-filter-btn").addEventListener("click", applySizeFilter);
   document.getElementById("clear-filter-btn").addEventListener("click", clearSizeFilter);
-
   document.getElementById("clear-filter-active-btn").addEventListener("click", clearSizeFilter);
+
+  // Enter inside either bound applies the filter (no extra click needed).
+  minInput.addEventListener("keydown", (e) => { if (e.key === "Enter") applySizeFilter(); });
+  maxInput.addEventListener("keydown", (e) => { if (e.key === "Enter") applySizeFilter(); });
 }
 
 function clearSizeFilter() {
@@ -1283,7 +1644,7 @@ function renderReview() {
     headerLabel.className = "review-category-header";
     headerLabel.textContent = `${category.name} (${catItems.length})`;
     header.append(headerLabel);
-    list.appendChild(header);
+    list.append(header);
     for (const item of catItems) {
       const li = document.createElement("li");
       const name = document.createElement("span");
@@ -1293,7 +1654,7 @@ function renderReview() {
       size.className = "row-value-text";
       size.textContent = formatSize(item.sizeGB);
       li.append(name, size);
-      list.appendChild(li);
+      list.append(li);
     }
   }
 }
@@ -1353,6 +1714,12 @@ function createOrderFile() {
 // Telegram — upload the TXT to the DRIVE DEALS chat and send it as
 // a document. The chat id is hard-coded: the order goes straight
 // to the owner.
+//
+// Two transports:
+//   1. TELEGRAM_PROXY_URL set  -> POST to your own serverless
+//      function, which holds the bot token server-side (recommended).
+//   2. TELEGRAM_PROXY_URL ""   -> POST straight to api.telegram.org,
+//      so the bot token is readable in the page source (V1.0).
 // ============================================================
 
 async function sendOrderToTelegram() {
@@ -1364,7 +1731,7 @@ async function sendOrderToTelegram() {
   form.append("document", file);
   form.append("caption", telegramCaption());
 
-  const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument`;
+  const url = TELEGRAM_PROXY_URL || `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument`;
   const res = await fetch(url, { method: "POST", body: form });
   const data = await res.json();
   if (!res.ok || !data.ok) {
@@ -1479,6 +1846,7 @@ function bindFlow() {
       console.error(err);
       sendStatus.textContent = "حدث خطأ أثناء الإرسال، حاول مرة أخرى.";
       sendStatus.classList.add("send-status-error");
+      showToast("تعذّر إرسال الطلب. تحقق من الاتصال وحاول مرة أخرى.", "error");
     } finally {
       sendBtn.disabled = false;
       sendBtn.textContent = "تأكيد وإرسال الطلب";
@@ -1525,38 +1893,23 @@ function startNewOrder() {
 }
 
 // ============================================================
-// Shortcut tiles + bottom navigation (Phase 1)
-// ============================================================
-
-function bindShortcutTiles() {
-  const tiles = document.querySelectorAll(".shortcut-tile");
-  tiles.forEach((tile) => {
-    tile.addEventListener("click", () => {
-      const catId = tile.getAttribute("data-category");
-      if (catId) {
-        selectCategory(catId);
-        const libEl = document.getElementById("media-library");
-        if (libEl) {
-          libEl.scrollIntoView({ behavior: "smooth" });
-        }
-      }
-    });
-  });
-}
-
-function bindBottomNav() {
-  const navItems = document.querySelectorAll(".bottom-nav-item");
-  navItems.forEach((item) => {
-    item.addEventListener("click", () => {
-      navItems.forEach((i) => i.classList.remove("active"));
-      item.classList.add("active");
-    });
-  });
-}
-
-// ============================================================
 // Init
 // ============================================================
+
+/**
+ * Keep the gallery's bottom padding in sync with the dock's real
+ * height: the warning notices change it, and so does every
+ * responsive breakpoint.
+ */
+function bindDockSpacing() {
+  const dock = document.getElementById("summary-bar");
+  if (!dock) return;
+  if (typeof ResizeObserver !== "undefined") {
+    new ResizeObserver(() => syncDockSpacing()).observe(dock);
+  }
+  window.addEventListener("resize", syncDockSpacing, { passive: true });
+  window.addEventListener("orientationchange", syncDockSpacing, { passive: true });
+}
 
 function init() {
   soundFX.init();
@@ -1565,20 +1918,20 @@ function init() {
   bindSizeFilter();
   bindForm();
   bindFlow();
-  bindShortcutTiles();
-  bindBottomNav();
+  bindCategoryPills();
+  bindCategoryScroll();
   initInfiniteScroll();
+  bindDockSpacing();
   showView("drive");
   loadBanner();
   loadData().then(() => {
     state.activeCategoryId = state.categories[0] ? state.categories[0].id : null;
+    buildBannerTitleIndex();
     renderCategoryBar();
-    document.getElementById("category-select").addEventListener("change", () => {
-      selectCategory(document.getElementById("category-select").value);
-    });
     applyFilters();
     updateActiveFilterChip();
     updateSummary();
+    updateBannerAddState();
   });
 }
 
@@ -1597,5 +1950,7 @@ if (typeof window !== "undefined") {
     createOrderFile,
     normalizeLibrary,
     validateLibrary,
+    findLibraryItemByTitle,
+    visibleItems,
   };
 }

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تفاصيل العنصر — DRIVE DEALS</title>
+  <meta
+    name="description"
+    content="تفاصيل العنصر: وصف كامل، الشركة النشطة، ومواصفات التشغيل — DRIVE DEALS."
+  />
+  <meta name="theme-color" content="#040711" />
+  <meta name="color-scheme" content="dark" />
+
+  <link rel="icon" type="image/svg+xml" href="logo.svg" />
+  <link rel="apple-touch-icon" href="logo.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Tajawal:wght@400;500;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Shared Liquid Glass tokens + this page's own blocks -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="item.css" />
+</head>
+<body class="item-page">
+
+  <!-- Same ambient liquid mesh as the main app -->
+  <div class="ambient-mesh" aria-hidden="true">
+    <div class="mesh-orb mesh-orb--cyan"></div>
+    <div class="mesh-orb mesh-orb--blue"></div>
+    <div class="mesh-orb mesh-orb--mid"></div>
+  </div>
+
+  <!-- Glass top bar: back to the library + official logo -->
+  <header class="item-topbar glass-nav">
+    <div class="container nav-inner item-topbar-inner">
+      <a class="item-back" href="index.html" id="back-link">
+        <span class="item-back-icon" aria-hidden="true"></span>
+        <span>رجوع للمكتبة</span>
+      </a>
+      <a class="item-brand" href="index.html">
+        <img class="brand-logo" src="logo.svg" alt="" width="202" height="141" />
+        <span class="item-brand-name">DRIVE <span>DEALS</span></span>
+      </a>
+    </div>
+  </header>
+
+  <main class="container item-main" id="item-main">
+
+    <!-- Loading / error states are rendered into this single region -->
+    <div class="item-status glass-card" id="item-status" role="status">جارٍ تحميل التفاصيل…</div>
+
+    <!-- Everything below is built by item.js once the item is resolved -->
+    <article class="item-detail glass-panel" id="item-detail" hidden>
+
+      <!-- Hero: cover art on the side, title + key facts on the other -->
+      <section class="item-hero">
+        <div class="item-hero-art">
+          <img id="item-cover" class="item-cover" alt="" loading="eager" />
+        </div>
+
+        <div class="item-hero-info">
+          <p class="item-category" id="item-category"></p>
+          <h1 class="item-title" id="item-title" dir="auto"></h1>
+          <p class="item-subtitle" id="item-subtitle" dir="auto" hidden></p>
+
+          <ul class="item-chips" id="item-chips"></ul>
+
+          <dl class="item-quickfacts" id="item-quickfacts"></dl>
+
+          <div class="item-size-box">
+            <span class="item-size-label">الحجم المطلوب للتحميل</span>
+            <span class="item-size-value" id="item-size"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tabs: نظرة عامة / المواصفات / المصادر -->
+      <nav class="item-tabs" id="item-tabs" role="tablist" aria-label="أقسام التفاصيل"></nav>
+
+      <!-- Tab panels -->
+      <section class="item-panel" id="panel-overview" role="tabpanel" hidden>
+        <div class="item-block">
+          <h2 class="item-block-title">الملخص</h2>
+          <!-- dir="auto": the page is RTL, but summaries come from
+               sources that are often English, and an English paragraph
+               inside an RTL block gets clipped on the left edge. -->
+          <p class="item-summary" id="item-summary" dir="auto"></p>
+        </div>
+
+        <div class="item-block">
+          <h2 class="item-block-title">معلومات أساسية</h2>
+          <dl class="item-facts" id="item-facts"></dl>
+        </div>
+
+        <div class="item-block" id="extra-block" hidden>
+          <h2 class="item-block-title">معلومات إضافية</h2>
+          <dl class="item-facts" id="item-extra"></dl>
+        </div>
+      </section>
+
+      <section class="item-panel" id="panel-requirements" role="tabpanel" hidden>
+        <p class="item-note">
+          المتطلبات تخص نسخة الكمبيوتر (PC) وتختلف عن متطلبات أجهزة الكونسول.
+        </p>
+        <div class="item-req-grid" id="item-req-grid"></div>
+      </section>
+
+      <section class="item-panel" id="panel-sources" role="tabpanel" hidden>
+        <p class="item-note">
+          البيانات مأخوذة من مصادر رسمية ومواقع متخصصة. الروابط تفتح في نافذة جديدة.
+        </p>
+        <ul class="item-links" id="item-links"></ul>
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="item-footer">
+    <div class="container">
+      <p>DRIVE DEALS — مكتبة المحتوى</p>
+    </div>
+  </footer>
+
+  <script src="item.js"></script>
+</body>
+</html>

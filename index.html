@@ -2,260 +2,352 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Phase 1: project branding is DRIVE DEALS everywhere -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>DRIVE DEALS</title>
   <meta
     name="description"
     content="DRIVE DEALS — اختر المحتوى الذي تريده، راجع المساحة المطلوبة، وأرسل طلبك مباشرة إلى DRIVE DEALS."
   />
+  <meta name="theme-color" content="#040711" />
+  <meta name="color-scheme" content="dark" />
 
-  <!-- Phase 2: official logo as the browser tab icon -->
+  <!-- Official logo as the browser tab icon -->
   <link rel="icon" type="image/svg+xml" href="logo.svg" />
+  <link rel="apple-touch-icon" href="logo.svg" />
 
-  <!-- Web fonts: Cairo for Arabic UI text, Handjet for Arabic pixel display headings, Press Start 2P for Latin/numbers, JetBrains Mono for data readouts -->
+  <!-- V1.1 typography: Tajawal for Arabic UI, Plus Jakarta Sans for numerals -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Handjet:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;600;700;800&family=Press+Start+2P&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Tajawal:wght@400;500;700;800;900&display=swap"
     rel="stylesheet"
   />
 
-  <!-- Application styles -->
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <!-- Application header: page title + short description -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <!-- Phase 2: brand lockup — official logo + DRIVE DEALS name -->
-      <div class="header-brand">
-        <img
-          class="brand-logo"
-          src="logo.svg"
-          alt=""
-          width="202"
-          height="141"
-        />
-        <h1 class="brand">DRIVE DEALS</h1>
-        <button type="button" id="sound-toggle-btn" class="sound-toggle-btn" aria-label="كتم أو تشغيل الصوت" title="كتم/تشغيل الصوت">
+  <!-- ============================================================
+       Ambient liquid background — animated cyan/blue gradient mesh.
+       The glass surfaces above it refract these blobs while scrolling.
+       ============================================================ -->
+  <div class="ambient-mesh" aria-hidden="true">
+    <div class="mesh-orb mesh-orb--cyan"></div>
+    <div class="mesh-orb mesh-orb--blue"></div>
+    <div class="mesh-orb mesh-orb--mid"></div>
+  </div>
+
+  <!-- ============================ HEADER ============================ -->
+  <header class="glass-nav">
+    <div class="container nav-inner">
+      <a class="brand-lockup" href="#app">
+        <img class="brand-logo" src="logo.svg" alt="DRIVE DEALS" width="202" height="141" />
+        <span class="brand-text">
+          <span class="brand-title">DRIVE <span>DEALS</span></span>
+          <span class="brand-subtitle">اختر المحتوى • راجع المساحة • أرسل طلبك</span>
+        </span>
+      </a>
+
+      <div class="nav-actions">
+        <!-- Live drive capacity capsule (mirrors the dock gauge) -->
+        <div class="drive-capsule" id="drive-capsule">
+          <span class="dc-label">سعة القرص</span>
+          <strong class="dc-value" id="drive-capacity-label">—</strong>
+        </div>
+
+        <button
+          type="button"
+          id="sound-toggle-btn"
+          class="icon-glass-btn"
+          aria-label="كتم الصوت"
+          title="كتم/تشغيل الصوت"
+        >
           <span class="sound-icon" aria-hidden="true">🔊</span>
         </button>
       </div>
-      <!-- Wording is about media + storage -->
-      <p class="tagline">تصفّح مكتبة المحتوى، اختر ما يناسبك، وأرسل طلبك.</p>
     </div>
   </header>
 
-  <!-- Main application container -->
   <main class="container app" id="app">
-    <!-- Status area: shows an Arabic error if data.json cannot be loaded (Phase 3) -->
-    <p id="status-message" class="status"></p>
+    <!-- Non-blocking load error (data.json) -->
+    <p id="status-message" class="status" role="status" aria-live="polite"></p>
 
-    <!-- ============ Drive size selection (step 1, before the gallery) ============ -->
-    <section id="drive-view" class="view-panel" aria-label="حجم القرص" hidden>
-      <h2>ما حجم قرصك؟</h2>
-      <p class="drive-text">اختر حجم القرص الذي ستثبّت عليه المحتوى حتى نستطيع متابعة المساحة أثناء اختيارك.</p>
+    <!-- ============ STEP 1 — drive capacity + crystal reservoir ============ -->
+    <section id="drive-view" class="view" aria-label="حجم القرص" hidden>
+      <div class="drive-hero glass-panel">
+        <div class="drive-hero-text">
+          <span class="eyebrow"><span class="eyebrow-dot"></span>الخطوة الأولى</span>
+          <h1 class="hero-title">ما حجم قرصك؟</h1>
+          <p class="hero-text">
+            اختر حجم القرص الذي ستثبّت عليه المحتوى، وسنقيس المساحة المطلوبة تلقائيًا أثناء اختيارك
+            حتى لا يتجاوز طلبك سعة القرص.
+          </p>
 
-      <!-- The size options are rendered by script.js (DRIVE_SIZES_GB) -->
-      <label class="visually-hidden" for="drive-select">حجم القرص</label>
-      <select id="drive-select" class="drive-select"></select>
+          <!-- Capacity pills are rendered by script.js from DRIVE_SIZES_GB -->
+          <div class="pill-row" id="drive-pills" role="radiogroup" aria-label="سعة القرص"></div>
 
-      <!-- Shown only when "حجم آخر" (custom) is picked: the user types their own size in GB -->
-      <div id="custom-size-row" class="custom-size-row" hidden>
-        <label for="custom-size-input">الحجم بالـ GB</label>
-        <input
-          id="custom-size-input"
-          class="drive-select"
-          type="number"
-          min="1"
-          step="1"
-          inputmode="numeric"
-          placeholder="مثال: 1500"
-        />
-        <span id="custom-size-preview" class="custom-size-preview"></span>
-      </div>
+          <!-- Shown only when the "حجم آخر" pill is picked -->
+          <div class="custom-size-row glass-card" id="custom-size-row" hidden>
+            <label for="custom-size-input">الحجم بالـ GB</label>
+            <input
+              id="custom-size-input"
+              type="number"
+              min="1"
+              step="1"
+              inputmode="numeric"
+              placeholder="مثال: 1500"
+            />
+            <span id="custom-size-preview" class="custom-preview"></span>
+          </div>
 
-      <div class="form-actions center">
-        <button type="button" id="start-selection-btn" class="btn btn-primary" disabled>ابدأ الاختيار</button>
+          <button type="button" id="start-selection-btn" class="btn-cta btn-cta--wide" disabled>
+            <span>ابدأ الاختيار</span>
+          </button>
+        </div>
+
+        <!-- Crystal tube reservoir — the liquid rises as items are selected -->
+        <aside class="reservoir glass-card" aria-label="مؤشر استهلاك القرص">
+          <div class="reservoir-head">
+            <span class="reservoir-title"><span aria-hidden="true">💧</span> خزان سعة القرص</span>
+            <span class="reservoir-pct" id="tube-percent">0%</span>
+          </div>
+
+          <div class="crystal-tube" role="img" aria-label="مستوى امتلاء القرص">
+            <div class="crystal-tube-fill" id="tube-liquid">
+              <span class="crystal-shine"></span>
+              <span class="crystal-bubbles"></span>
+            </div>
+            <div class="crystal-tube-ticks" aria-hidden="true"></div>
+          </div>
+
+          <div class="reservoir-stats">
+            <div class="stat-cell">
+              <span class="stat-label">المستخدم</span>
+              <span class="stat-value" id="tube-used">0 GB</span>
+            </div>
+            <div class="stat-cell">
+              <span class="stat-label">المتبقي</span>
+              <span class="stat-value stat-value--cyan" id="tube-remaining">—</span>
+            </div>
+            <div class="stat-cell">
+              <span class="stat-label">المختار</span>
+              <span class="stat-value" id="tube-count">0</span>
+            </div>
+          </div>
+        </aside>
       </div>
     </section>
 
-    <!-- ============ Gallery view (Phases 4–9) ============ -->
-    <section id="gallery-view" aria-label="اختيار المحتوى">
-      <!-- Latest-items banner: slides rotate every 3s, fed by banner/data.json -->
-      <div class="banner" id="banner" hidden>
+    <!-- ============ STEP 2 — gallery ============ -->
+    <section id="gallery-view" class="view" aria-label="اختيار المحتوى">
+      <!-- Latest-items banner carousel (fed by banner/data.json) -->
+      <div class="glass-banner" id="banner" hidden aria-roledescription="carousel" aria-label="أحدث الإضافات">
         <div class="banner-track" id="banner-track"></div>
-        <button type="button" class="banner-arrow banner-prev" id="banner-prev" aria-label="السابق">‹</button>
-        <button type="button" class="banner-arrow banner-next" id="banner-next" aria-label="التالي">›</button>
+        <!-- Chevron glyphs are drawn in CSS (.banner-nav::before) so the bidi
+             mirroring that flipped "‹" / "›" cannot affect them.
+             RTL: "previous" on the right pointing right, "next" on the
+             left pointing left. -->
+        <button type="button" class="banner-nav banner-prev" id="banner-prev" aria-label="السابق"></button>
+        <button type="button" class="banner-nav banner-next" id="banner-next" aria-label="التالي"></button>
         <div class="banner-dots" id="banner-dots" aria-label="شرائح الأحدث"></div>
       </div>
 
-      <!-- "Choose Your Media" section -->
-      <div id="media-library">
-        <h3 class="library-title">اختر المحتوى</h3>
-        <p class="library-text">تصفّح مكتبة المحتوى المتاحة واختر العناوين التي تريدها، وسيتم حساب المساحة المطلوبة تلقائيًا.</p>
+      <!-- Search + category tabs -->
+      <div class="glass-toolbar">
+        <div class="category-scroll">
+          <!-- Scroll arrows, shown only when tabs overflow the strip.
+               The chevron is drawn in CSS; RTL puts "previous" on the
+               right and "next" on the left. -->
+          <button
+            type="button"
+            class="cat-scroll-btn cat-scroll-prev"
+            id="category-prev"
+            aria-label="القسم السابق"
+            hidden
+          ></button>
 
-        <!-- Category dropdown: rendered by script.js from data.json categories -->
-        <label class="visually-hidden" for="category-select">تصنيف المحتوى</label>
-        <select id="category-select" class="category-select"></select>
+          <div class="category-pills" id="category-pills" role="tablist" aria-label="أقسام المكتبة"></div>
 
-        <!-- Size filter: GB range applied on top of the search -->
-        <div class="size-filter" id="size-filter">
-          <p class="size-filter-title">تصفية حسب حجم الملف (GB):</p>
-          <div class="size-filter-controls">
-            <label class="visually-hidden" for="filter-min-input">الحد الأدنى (GB)</label>
-            <input type="number" id="filter-min-input" min="1" step="1" inputmode="numeric" placeholder="من (GB)" />
-            <label class="visually-hidden" for="filter-max-input">الحد الأقصى (GB)</label>
-            <input type="number" id="filter-max-input" min="1" step="1" inputmode="numeric" placeholder="إلى (GB)" />
-            <button type="button" id="apply-filter-btn" class="btn btn-secondary btn-small">تطبيق</button>
-            <button type="button" id="clear-filter-btn" class="btn btn-ghost btn-small">مسح</button>
-          </div>
-          <p id="filter-error" class="field-error" aria-live="polite"></p>
-          <div id="active-filter" class="active-filter" hidden>
-            <span id="active-filter-info" class="active-filter-info"></span>
-            <button type="button" id="clear-filter-active-btn" class="btn btn-ghost btn-small" aria-label="إزالة فلتر الحجم">✕</button>
-          </div>
+          <button
+            type="button"
+            class="cat-scroll-btn cat-scroll-next"
+            id="category-next"
+            aria-label="القسم التالي"
+            hidden
+          ></button>
         </div>
 
-      <!-- Search bar: filter cards by title while typing (Phase 7) -->
-      <div class="search-bar">
-        <label for="search-input" class="visually-hidden">ابحث في مكتبة المحتوى</label>
-        <input
-          type="text"
-          id="search-input"
-          placeholder="ابحث عن عنوان (مثال: 012.jpg)"
-          autocomplete="off"
-        />
-        <button type="button" id="clear-search-btn" class="btn btn-ghost" aria-label="مسح البحث" hidden>✕</button>
+        <div class="search-wrap">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input
+            type="text"
+            id="search-input"
+            placeholder="ابحث عن عنوان…"
+            autocomplete="off"
+            aria-label="ابحث في مكتبة المحتوى"
+          />
+          <button type="button" id="clear-search-btn" class="search-clear" aria-label="مسح البحث" hidden>✕</button>
+        </div>
       </div>
 
-      <!-- Shown when the search / filter matches nothing (Phase 7) -->
+      <!-- File size range filter -->
+      <div class="glass-filter-strip" id="size-filter">
+        <span class="filter-label">تصفية حسب حجم الملف (GB)</span>
+        <div class="filter-controls">
+          <input type="number" id="filter-min-input" min="1" step="1" inputmode="numeric" placeholder="من" aria-label="الحد الأدنى بالـ GB" />
+          <span class="filter-sep" aria-hidden="true">—</span>
+          <input type="number" id="filter-max-input" min="1" step="1" inputmode="numeric" placeholder="إلى" aria-label="الحد الأقصى بالـ GB" />
+          <button type="button" id="apply-filter-btn" class="btn-chip">تطبيق</button>
+          <button type="button" id="clear-filter-btn" class="btn-chip btn-chip--ghost">مسح</button>
+        </div>
+        <p id="filter-error" class="field-error" aria-live="polite"></p>
+        <div id="active-filter" class="active-filter" hidden>
+          <span id="active-filter-info" class="active-filter-info"></span>
+          <button type="button" id="clear-filter-active-btn" class="filter-chip-close" aria-label="إزالة فلتر الحجم">✕</button>
+        </div>
+      </div>
+
       <p id="no-results" class="no-results" hidden>لا توجد نتائج مطابقة لبحثك.</p>
 
-      <!-- Gallery: image cards are rendered here by script.js (Phases 4 + 8) -->
-      <div id="gallery" class="gallery"></div>
+      <div id="gallery" class="cards-grid"></div>
 
-      <!-- Load More button / Infinite scroll indicator (Phase 8) -->
-      <button type="button" id="load-more-btn" class="btn btn-secondary load-more" hidden>تحميل المزيد...</button>
+      <button type="button" id="load-more-btn" class="btn-load-more" hidden>تحميل المزيد…</button>
+    </section>
+
+    <!-- ============ STEP 3 — customer information ============ -->
+    <section id="form-view" class="view" aria-label="معلومات العميل" hidden>
+      <div class="sheet glass-panel">
+        <div class="sheet-head">
+          <img class="sheet-logo" src="logo.svg" alt="" width="202" height="141" />
+          <div>
+            <h2 class="sheet-title">معلومات العميل</h2>
+            <p class="sheet-sub">الحقول المعلّمة بـ (*) مطلوبة.</p>
+          </div>
+        </div>
+
+        <form id="customer-form" novalidate>
+          <div class="field">
+            <label for="name-input">الاسم <span class="req">*</span></label>
+            <input type="text" id="name-input" autocomplete="name" placeholder="اكتب اسمك بالكامل" />
+            <p class="field-error" id="name-input-error"></p>
+          </div>
+
+          <div class="field">
+            <label for="phone-input">رقم الهاتف <span class="req">*</span></label>
+            <input type="tel" id="phone-input" inputmode="tel" autocomplete="tel" placeholder="مثال: 01012345678" />
+            <p class="field-error" id="phone-input-error"></p>
+          </div>
+
+          <div class="field">
+            <label for="address-input">العنوان <span class="req">*</span></label>
+            <input type="text" id="address-input" autocomplete="street-address" placeholder="المدينة، الحي، الشارع…" />
+            <p class="field-error" id="address-input-error"></p>
+          </div>
+
+          <div class="field">
+            <label for="notes-input">ملاحظات إضافية</label>
+            <textarea id="notes-input" rows="3" placeholder="أي طلبات خاصة أو ملاحظات حول طلبك…"></textarea>
+          </div>
+
+          <div class="sheet-actions">
+            <button type="button" id="back-to-gallery-btn" class="btn-chip">رجوع</button>
+            <button type="submit" class="btn-cta">متابعة إلى المراجعة</button>
+          </div>
+        </form>
       </div>
     </section>
 
-    <!-- ============ Customer information form (Phase 10) ============ -->
-    <section id="form-view" class="view-panel" hidden>
-      <h2>معلومات العميل</h2>
-      <p class="required-note">الحقول المعلّمة بـ (*) مطلوبة.</p>
-
-      <form id="customer-form" novalidate>
-        <!-- Rebrand plan Phase 8: DRIVE DEALS customer info form -->
-        <div class="field">
-          <label for="name-input">الاسم <span class="req">*</span></label>
-          <input type="text" id="name-input" autocomplete="name" placeholder="اكتب اسمك الكامل" />
-          <p class="field-error" id="name-input-error"></p>
+    <!-- ============ STEP 4 — order review ============ -->
+    <section id="review-view" class="view" aria-label="مراجعة الطلب" hidden>
+      <div class="sheet glass-panel">
+        <div class="sheet-head">
+          <span class="sheet-badge" aria-hidden="true">🧾</span>
+          <div>
+            <h2 class="sheet-title">راجع طلبك</h2>
+            <p class="sheet-sub">تأكد من البيانات قبل الإرسال.</p>
+          </div>
         </div>
 
-        <div class="field">
-          <label for="phone-input">رقم الهاتف <span class="req">*</span></label>
-          <input type="tel" id="phone-input" inputmode="tel" autocomplete="tel" placeholder="مثال: 01012345678" />
-          <p class="field-error" id="phone-input-error"></p>
+        <div id="review-customer" class="review-rows"></div>
+
+        <h3 class="review-heading">المحتوى المختار (<span id="review-count">0</span>)</h3>
+        <ul id="review-images" class="review-images"></ul>
+
+        <p class="review-total">الحجم التقديري المطلوب: <strong id="review-total">0 GB</strong></p>
+
+        <p id="send-status" class="send-status" role="status" aria-live="polite"></p>
+
+        <div class="sheet-actions">
+          <button type="button" id="back-to-form-btn" class="btn-chip">تعديل</button>
+          <button type="button" id="send-order-btn" class="btn-cta">تأكيد وإرسال الطلب</button>
         </div>
-
-        <div class="field">
-          <label for="address-input">العنوان <span class="req">*</span></label>
-          <input type="text" id="address-input" autocomplete="street-address" placeholder="المدينة، الحي، الشارع..." />
-          <p class="field-error" id="address-input-error"></p>
-        </div>
-
-        <div class="field">
-          <label for="notes-input">ملاحظات إضافية</label>
-          <textarea id="notes-input" rows="3" placeholder="أي طلبات خاصة أو ملاحظات حول طلبك..."></textarea>
-        </div>
-
-        <div class="form-actions">
-          <button type="button" id="back-to-gallery-btn" class="btn btn-secondary">رجوع</button>
-          <button type="submit" class="btn btn-primary">متابعة إلى المراجعة</button>
-        </div>
-      </form>
-    </section>
-
-    <!-- ============ Order review (Phase 11) ============ -->
-    <!-- Rebrand plan Phase 9: "Review Your Order" confirmation screen -->
-    <section id="review-view" class="view-panel" hidden>
-      <h2>راجع طلبك</h2>
-
-      <!-- Customer info rows are filled by renderReview() -->
-      <div id="review-customer"></div>
-
-      <!-- Review: grouped selected content + estimated storage, not a price -->
-      <h3>المحتوى المختار (<span id="review-count">0</span>)</h3>
-      <ul id="review-images" class="review-images"></ul>
-
-      <!-- Rebrand plan Phase 7/9: "Estimated Storage Required" -->
-      <p class="review-total">الحجم التقديري المطلوب: <strong id="review-total">0 GB</strong></p>
-
-      <!-- Sending state / error messages (Phase 15) -->
-      <p id="send-status" class="send-status" role="status" aria-live="polite"></p>
-
-      <div class="form-actions">
-        <button type="button" id="back-to-form-btn" class="btn btn-secondary">تعديل</button>
-        <!-- Sends the TXT file to Telegram (Phases 14–15). Rebrand plan Phase 9: final confirm + send. -->
-        <button type="button" id="send-order-btn" class="btn btn-primary">تأكيد وإرسال الطلب</button>
       </div>
     </section>
 
-    <!-- ============ Success screen (Phase 16) ============ -->
-    <section id="success-view" class="view-panel success-panel" hidden>
-      <div class="success-icon" aria-hidden="true">✓</div>
-      <h2>تم إرسال الطلب بنجاح</h2>
-      <!-- Rebrand plan Phase 9: "Order Sent Successfully" message -->
-      <p class="success-text">تم إرسال طلب DRIVE DEALS الخاص بك بنجاح. سنتواصل معك لتأكيد التفاصيل.</p>
-      <!-- Phase 4 (rebrand plan): same storage wording as the review screen -->
-      <p class="review-total success-total">الحجم التقديري المطلوب: <strong id="success-total">0 GB</strong></p>
-
-      <div class="form-actions center">
-        <button type="button" id="new-order-btn" class="btn btn-primary">طلب جديد</button>
+    <!-- ============ STEP 5 — success ============ -->
+    <section id="success-view" class="view" aria-label="تم إرسال الطلب" hidden>
+      <div class="sheet sheet--center glass-panel">
+        <div class="success-icon" aria-hidden="true">✓</div>
+        <h2 class="sheet-title">تم إرسال الطلب بنجاح</h2>
+        <p class="sheet-sub">
+          تم إرسال طلب DRIVE DEALS الخاص بك بنجاح. سنتواصل معك لتأكيد التفاصيل.
+        </p>
+        <p class="review-total success-total">الحجم التقديري المطلوب: <strong id="success-total">0 GB</strong></p>
+        <button type="button" id="new-order-btn" class="btn-cta btn-cta--wide">طلب جديد</button>
       </div>
     </section>
   </main>
 
-  <!-- Summary bar: storage meter + selected count, visible on the gallery -->
-  <footer class="summary-bar" id="summary-bar">
-    <div class="container summary-inner">
-      <!-- Warning shown when the user tries to continue with zero selections (Phase 9) -->
-      <p id="continue-warning" class="warning" hidden>اختر عنصراً واحداً على الأقل قبل المتابعة.</p>
+  <!-- ============ Floating spatial dock (summary bar) ============ -->
+  <footer class="spatial-dock" id="summary-bar" hidden>
+    <div class="dock-notices">
+      <p id="continue-warning" class="notice notice--warn" hidden>اختر عنصراً واحداً على الأقل قبل المتابعة.</p>
+      <p id="drive-full-warning" class="notice notice--full" hidden>
+        قرصك ممتلئ بالكامل — لا توجد مساحة كافية لإضافة المزيد من المحتوى.
+      </p>
+    </div>
 
-      <!-- Shown when there is no room left for more content on the chosen drive -->
-      <p id="drive-full-warning" class="warning" hidden>قرصك ممتلئ بالكامل — لا توجد مساحة كافية لإضافة المزيد من المحتوى.</p>
-
-      <!-- Storage meter: the footer shows the drive as a filling bar, not a number -->
-      <div class="drive-meter">
-        <span class="drive-meter-cap">قرص <strong id="drive-capacity-label">—</strong></span>
-        <div
-          class="drive-bar"
-          id="drive-bar"
-          role="progressbar"
-          aria-label="استهلاك مساحة القرص"
-          aria-valuemin="0"
-          aria-valuemax="100"
-          aria-valuenow="0"
-        >
-          <div class="drive-bar-fill" id="drive-bar-fill"></div>
+    <div class="dock-inner glass-dock">
+      <div class="dock-gauge">
+        <div class="dock-readout">
+          <span class="dock-kv"><span class="dock-k">مستخدم</span><strong id="dock-used">0 GB</strong></span>
+          <span class="dock-kv"><span class="dock-k">من</span><strong id="dock-capacity">—</strong></span>
+          <span class="dock-kv"><span class="dock-k">متبقٍ</span><strong class="is-cyan" id="dock-remaining">—</strong></span>
+          <span class="dock-kv dock-pct"><span class="dock-k">النسبة</span><strong class="is-cyan" id="dock-percent">0%</strong></span>
         </div>
-        <span class="drive-meter-remaining" id="drive-remaining"></span>
+
+        <div class="dock-track-row">
+          <div
+            class="dock-track"
+            id="dock-bar"
+            role="progressbar"
+            aria-label="استهلاك مساحة القرص"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="0"
+          >
+            <div class="dock-fill" id="dock-fill"></div>
+          </div>
+          <div class="dock-tube" aria-hidden="true">
+            <div class="dock-tube-fill" id="dock-tube-fill"></div>
+          </div>
+        </div>
       </div>
 
-      <p class="summary-stats">
-        المحتوى المختار: <strong id="selected-count">0</strong>
-      </p>
-
-      <div class="summary-actions">
-        <button type="button" id="clear-all-btn" class="btn btn-secondary">إلغاء تحديد الكل</button>
-        <button type="button" id="continue-btn" class="btn btn-primary">متابعة</button>
+      <div class="dock-actions">
+        <span class="dock-count">
+          <span class="dock-k">المحتوى المختار</span>
+          <strong id="selected-count">0</strong>
+        </span>
+        <button type="button" id="clear-all-btn" class="btn-chip">إلغاء تحديد الكل</button>
+        <button type="button" id="continue-btn" class="btn-cta">
+          <span>متابعة</span>
+          <span class="cta-badge" id="dock-badge">0</span>
+        </button>
       </div>
     </div>
   </footer>
 
-  <!-- Application script -->
   <script src="script.js"></script>
 </body>
 </html>
