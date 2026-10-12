@@ -1,0 +1,2650 @@
+{
+  "_meta": {
+    "version": 1,
+    "collection": "indian-films",
+    "method": "wikipedia+wikidata",
+    "note": "Auto-filled from wikipedia. Summaries are spoiler-free by construction (encyclopaedic leads / catalogue synopses). Fields the source does not publish are null.",
+    "updatedAt": "2026-10-11",
+    "counts": {
+      "total": 84,
+      "researched": 73
+    }
+  },
+  "items": {
+    "indian-films/Ae.Dil.Hai.Mushkil.jpg": {
+      "title": "Ae.Dil.Hai.Mushkil",
+      "canonicalTitle": "Ae Dil Hai Mushkil",
+      "type": "film",
+      "director": "Kapoor",
+      "directors": [
+        "Kapoor",
+        "Rai’s performances"
+      ],
+      "releaseDate": "2016",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Ranbir Kapoor"
+      ],
+      "genres": [
+        "موسيقي",
+        "دراما"
+      ],
+      "summaryAr": "Ae Dil Hai Mushkil (ترجمة. يا قلب، إنه صعب) هو فيلم درامي رومانسي موسيقي هندي باللغة الهندية لعام 2016 من إخراج وإنتاج وكتابة كاران جوهر تحت شعاره Dharma Productions. الفيلم من بطولة رانبير كابور وأنوشكا شارما وأيشواريا راي باتشان في الأدوار الرئيسية.",
+      "summaryEn": "Ae Dil Hai Mushkil (transl. O Heart, It Is Difficult) is a 2016 Indian Hindi-language musical romantic drama film directed, produced and written by Karan Johar under his banner Dharma Productions. The film stars Ranbir Kapoor, Anushka Sharma and Aishwarya Rai Bachchan in the lead roles.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ae%20Dil%20Hai%20Mushkil"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Ae Dil Hai Mushkil"
+    },
+    "indian-films/Agent Sai Srinivasa Athreya.jpg": {
+      "title": "Agent Sai Srinivasa Athreya",
+      "canonicalTitle": "Agent Sai Srinivasa Athreya",
+      "type": "film",
+      "director": "Swaroop R",
+      "directors": [
+        "Swaroop R"
+      ],
+      "releaseDate": "2019",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Polishetty"
+      ],
+      "genres": [
+        "كوميديا",
+        "غموض",
+        "إثارة"
+      ],
+      "summaryAr": "Agent Sai Srinivasa Athreya (منمق كـ Agent Sai) هو فيلم إثارة وغموض كوميدي أسود هندي بلغة التيلجو لعام 2019 من إخراج Swaroop R. S. J.، اللي شارك في كتابة الفيلم مع نافين بوليشيتي.",
+      "summaryEn": "Agent Sai Srinivasa Athreya (stylized as Agent Sai) is a 2019 Indian Telugu-language black comedy mystery thriller film directed by Swaroop R. S. J., who co-wrote the film with Naveen Polishetty.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Agent%20Sai%20Srinivasa%20Athreya"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Agent Sai Srinivasa Athreya"
+    },
+    "indian-films/Baazigar [1993].[1080p].jpg": {
+      "title": "Baazigar [1993].[1080p]",
+      "canonicalTitle": "Baazigar",
+      "type": "film",
+      "director": "Abbas–Mustan",
+      "directors": [
+        "Abbas–Mustan"
+      ],
+      "releaseDate": "1993",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Shah Rukh Khan"
+      ],
+      "genres": [
+        "نفسي",
+        "إثارة",
+        "كوميديا"
+      ],
+      "summaryAr": "بازيجار (ترجمة مقامر) هو فيلم إثارة نفسية وكوميدي هندي باللغة الهندية عام 1993 من إخراج عباس موستان وإنتاج شركة فينوس موفيز. إنه من النجوم شاه روخ خان، كاجول، شيلبا شيتي (في أول تمثيل لها)، داليب تاهيل، وراكي.",
+      "summaryEn": "Baazigar (transl. Gambler) is a 1993 Indian Hindi-language psychological thriller and comedy film directed by Abbas–Mustan and produced by Venus Movies. It stars Shah Rukh Khan, Kajol, Shilpa Shetty (in her acting debut), Dalip Tahil, and Raakhee.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Baazigar"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Baazigar"
+    },
+    "indian-films/Bachchhan.Paandey.2022.jpg": {
+      "title": "Bachchhan.Paandey.2022",
+      "canonicalTitle": "Bachchhan Paandey",
+      "type": "film",
+      "director": "Farhad Samji",
+      "directors": [
+        "Farhad Samji"
+      ],
+      "releaseDate": "2022",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Akshay Kumar"
+      ],
+      "genres": [
+        "أكشن",
+        "كوميديا"
+      ],
+      "summaryAr": "باتشان باندي هو فيلم أكشن كوميدي هندي باللغة الهندية لعام 2022 من إخراج فرهاد سامجي وإنتاج ساجد ناديادوالا. الفيلم من بطولة أكشاي كومار، سيما بيسواس، كريتي سانون، أرشد وارسي وجاكلين فرنانديز. يلعب بانكاج تريباثي وبراتيك بابار وسانجاي ميشرا وأبهيمانيو سينغ أدوارًا داعمة.",
+      "summaryEn": "Bachchhan Paandey is a 2022 Indian Hindi-language action comedy film directed by Farhad Samji, produced by Sajid Nadiadwala. The film stars Akshay Kumar, Seema Biswas, Kriti Sanon, Arshad Warsi and Jacqueline Fernandez. Pankaj Tripathi, Prateik Babbar, Sanjay Mishra and Abhimanyu Singh play supporting roles.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bachchhan%20Paandey"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Bachchhan Paandey"
+    },
+    "indian-films/Bahubali 2 The Conclusion 2017.jpg": {
+      "title": "Bahubali 2 The Conclusion 2017",
+      "canonicalTitle": "Baahubali 2: The Conclusion",
+      "type": "film",
+      "director": "Sabu Cyril",
+      "directors": [
+        "Sabu Cyril",
+        "Lee Whittaker",
+        "Kecha Khamphakdee"
+      ],
+      "releaseDate": "2017",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "براباس",
+        "رانا داغوباتي",
+        "أنوشكا شيتي",
+        "تامانا بهاتيا",
+        "راميا كريشنان",
+        "ساتيارج"
+      ],
+      "genres": [
+        "أكشن",
+        "دراما"
+      ],
+      "summaryAr": "Baahubali 2: The Conclusion هو فيلم درامي ملحمي هندي صدر عام 2017 بلغة التيلجو، من إخراج إس إس راجامولي، اللي شارك في كتابة السيناريو مع في.",
+      "summaryEn": "Baahubali 2: The Conclusion is a 2017 Indian Telugu-language epic action drama film directed by S. S. Rajamouli, who co-wrote the script with V.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Baahubali%202%3A%20The%20Conclusion"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "wikiTitle": "Baahubali 2: The Conclusion",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "indian-films/Bajrangi.Bhaijaan.jpg": {
+      "title": "Bajrangi.Bhaijaan",
+      "canonicalTitle": "Bajrangi Bhaijaan",
+      "type": "film",
+      "director": "Kabir Khan",
+      "directors": [
+        "Kabir Khan"
+      ],
+      "releaseDate": "2015",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Salman"
+      ],
+      "genres": [
+        "كوميديا",
+        "دراما",
+        "موسيقي"
+      ],
+      "summaryAr": "باجرانجي بهايجان (ترجمة. الأخ باجرانجي) هو فيلم درامي كوميدي موسيقي هندي باللغة الهندية لعام 2015 شارك في كتابته وإخراجه كبير خان، استنادًا إلى قصة أصلية كتبها كاتب السيناريو في. فيجايندرا براساد، وإنتاج سلمان خان، روكلاين فينكاتيش وكبير خان.",
+      "summaryEn": "Bajrangi Bhaijaan (transl. Brother Bajrangi) is a 2015 Indian Hindi-language comedy drama musical film co-written and directed by Kabir Khan, based on an original story by screenwriter V. Vijayendra Prasad, and produced by Salman Khan, Rockline Venkatesh and Kabir Khan.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bajrangi%20Bhaijaan"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Bajrangi Bhaijaan"
+    },
+    "indian-films/Chalte Chalte (2003).jpg": {
+      "title": "Chalte Chalte (2003)",
+      "canonicalTitle": "Chalte Chalte",
+      "type": "film",
+      "director": "Aziz Mirza",
+      "directors": [
+        "Aziz Mirza"
+      ],
+      "releaseDate": "2003",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Shah Rukh Khan",
+        "Rani Mukerji"
+      ],
+      "genres": [
+        "كوميديا",
+        "دراما"
+      ],
+      "summaryAr": "تشالت تشالت (ترجمة. على الطريق) هو فيلم درامي كوميدي رومانسي هندي باللغة الهندية عام 2003 من إخراج عزيز ميرزا. الفيلم من بطولة شاروخان وراني موخرجي في الأدوار القيادية.",
+      "summaryEn": "Chalte Chalte (transl. On the Way) is a 2003 Indian Hindi-language romantic comedy drama film directed by Aziz Mirza. The film stars Shah Rukh Khan and Rani Mukerji in the lead roles.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chalte%20Chalte%20(2003%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Chalte Chalte (2003 film)"
+    },
+    "indian-films/Chennai Express (2013).jpg": {
+      "title": "Chennai Express (2013)",
+      "canonicalTitle": "Chennai Express",
+      "type": "film",
+      "director": "Rohit Shetty",
+      "directors": [
+        "Rohit Shetty"
+      ],
+      "releaseDate": "2013",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Deepika Padukone",
+        "Shah Rukh Khan",
+        "Sathyaraj"
+      ],
+      "genres": [
+        "أكشن",
+        "كوميديا"
+      ],
+      "summaryAr": "تشيناي إكسبرس (بالإنجليزية: Chennai Express) هو فيلم أكشن كوميدي هندي باللغة الهندية لعام 2013 من إخراج روهيت شيتي وإنتاج UTV Motion Pictures وRed Chillies Entertainment. الفيلم من بطولة ديبيكا بادوكون وشاروخان مع نيكيتين دهير وساتياراج في الأدوار الداعمة. بتدور أحداث الفيلم حول راهول ميثايوالا، رجل الأعمال اللي استقل القطار عن طريق الخطأ وسافر من مومباي إلى رامسوارام مع ابنة زعيم الجريمة المؤثر.",
+      "summaryEn": "Chennai Express is a 2013 Indian Hindi-language action comedy film directed by Rohit Shetty and produced by UTV Motion Pictures and Red Chillies Entertainment. The film stars Deepika Padukone and Shah Rukh Khan with Nikitin Dheer and Sathyaraj in supporting roles. It revolves around Rahul Mithaiwala, a businessman who accidentally boards the eponymous train and journeys from Mumbai to Rameswaram with the daughter of an influential crime boss.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chennai%20Express"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Chennai Express"
+    },
+    "indian-films/Chhapaak.jpg": {
+      "title": "Chhapaak",
+      "canonicalTitle": "Chhapaak",
+      "type": "film",
+      "director": "Meghna Gulzar",
+      "directors": [
+        "Meghna Gulzar"
+      ],
+      "releaseDate": "2020",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Deepika Padukone",
+        "Madhurjeet Sarghi"
+      ],
+      "genres": [
+        "سيرة ذاتية",
+        "دراما"
+      ],
+      "summaryAr": "تشاباك (ترجمة. سبلاش) هو فيلم درامي عن السيرة الذاتية باللغة الهندية لعام 2020 يستند إلى حياة الناجي من الهجوم الحمضي لاكشمي أغاروال. الفيلم من إخراج ميجنا جولزار، وبطولة ديبيكا بادوكون في الدور الرئيسي لشخصية مستوحاة من أغاروال إلى جانب فيكرانت ماسي ومادورجيت سارغي.",
+      "summaryEn": "Chhapaak (transl. Splash) is a 2020 Indian Hindi-language biographical drama film based on the life of acid attack survivor Laxmi Agarwal. Directed by Meghna Gulzar, the film stars Deepika Padukone in leading role of a character inspired by Agarwal alongside Vikrant Massey and Madhurjeet Sarghi.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chhapaak"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Chhapaak"
+    },
+    "indian-films/Class of 83 (2020) [720p].jpg": {
+      "title": "Class of 83 (2020) [720p]",
+      "canonicalTitle": "Class of '83",
+      "type": "film",
+      "director": "Atul Sabharwal",
+      "directors": [
+        "Atul Sabharwal"
+      ],
+      "releaseDate": "2020",
+      "studio": null,
+      "networks": [
+        "Netflix"
+      ],
+      "cast": [
+        "بوبي ديل",
+        "أنوب سوني",
+        "جوي سنغوطا",
+        "بهوبندرا جادات",
+        "نيناد ماهاجاني"
+      ],
+      "genres": [
+        "جريمة",
+        "إثارة"
+      ],
+      "summaryAr": "فئة '83 هو فيلم إثارة وجريمة هندي باللغة الهندية لعام 2020 من إنتاج شركة Red Chillies Entertainment وإخراج أتول سابهاروال لصالح Netflix. الفيلم مأخوذ عن كتاب \"فصل 83\" ويحكي قصة شرطي بطل تم تحويله إلى منصب عقابي كعميد أكاديمية الشرطة. تم عرض الفيلم لأول مرة في 21 أغسطس 2020 على Netflix.",
+      "summaryEn": "Class of '83 is a 2020 Indian Hindi-language crime thriller film produced by Red Chillies Entertainment and directed by Atul Sabharwal for Netflix. The film is based on the book \"The Class of 83\" and tells the story of a hero policeman shunted to a punishment posting as the dean of the police academy. The film premiered on 21 August 2020 on Netflix.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Class%20of%20'83"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Class of '83",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "indian-films/Darr  [1993].[1080p].jpg": {
+      "title": "Darr  [1993].[1080p]",
+      "canonicalTitle": "Darr",
+      "type": "film",
+      "directors": [
+        "ياش شوبرا"
+      ],
+      "releaseDate": "1993",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Sunny Deol"
+      ],
+      "genres": [
+        "نفسي",
+        "إثارة"
+      ],
+      "summaryAr": "دار: قصة حب عنيفة (النطق الهندي: [ɖər]؛ مضاءة. الخوف) هو فيلم إثارة نفسي هندي باللغة الهندية عام 1993 من إخراج وإنتاج ياش شوبرا تحت شعاره ياش راج فيلمز. الفيلم من بطولة صني ديول، وجوهي تشاولا في الأدوار القيادية، ويلعب شاروخان دور الخصم، إلى جانب أنوبام خير، وتانفي عزمي، وأنو كابور، وداليب تاهيل في الأدوار الداعمة.",
+      "summaryEn": "Darr: A Violent Love Story (Hindi pronunciation: [ɖər]; lit. Fear) is a 1993 Indian Hindi-language psychological thriller film directed and produced by Yash Chopra under his banner Yash Raj Films. It stars Sunny Deol, Juhi Chawla in the lead roles and Shah Rukh Khan plays the antagonist, along with Anupam Kher, Tanvi Azmi, Annu Kapoor, and Dalip Tahil in supporting roles.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Darr"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Darr",
+      "director": "ياش شوبرا",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "indian-films/Dear Sathya 2022.jpg": {
+      "title": "Dear Sathya 2022",
+      "canonicalTitle": "Dear Sathya",
+      "type": "film",
+      "director": "Shiva Ganesh",
+      "directors": [
+        "Shiva Ganesh"
+      ],
+      "releaseDate": "2022",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "آريان سانتوش",
+        "أرشانا كوتيغي",
+        "أرونا بالراج",
+        "أشفين راو"
+      ],
+      "genres": null,
+      "summaryAr": "عزيزي ساتيا هو فيلم هندي باللغة الكانادية لعام 2022 من إخراج شيفا غانيش وإنتاج سانثوش كومار.",
+      "summaryEn": "Dear Sathya is a 2022 Indian Kannada-language film directed by Shiva Ganesh and produced by Santhosh Kumar.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dear%20Sathya"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Dear Sathya",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "indian-films/Dear Zindagi  [2016].[1080p].jpg": {
+      "title": "Dear Zindagi  [2016].[1080p]",
+      "canonicalTitle": "Dear Zindagi",
+      "type": "film",
+      "director": "Gauri Shinde",
+      "directors": [
+        "Gauri Shinde"
+      ],
+      "releaseDate": "2016",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Alia Bhatt",
+        "Shah Rukh Khan"
+      ],
+      "genres": [
+        "نشأة",
+        "كوميديا",
+        "دراما"
+      ],
+      "summaryAr": "عزيزي زينداجي (ترجمة. عزيزي الحياة) هو فيلم درامي كوميدي هندي باللغة الهندية لعام 2016 عن بلوغ سن الرشد من تأليف وإخراج جوري شيندي. تم إنتاجه بواسطة جوري خان، كاران جوهر، وشيندي تحت لافتات ريد تشيليز إنترتينمنت، دارما للإنتاج، وهوب للإنتاج، على التوالي.",
+      "summaryEn": "Dear Zindagi (transl. Dear life) is a 2016 Indian Hindi-language coming-of-age comedy drama film written and directed by Gauri Shinde. It was produced by Gauri Khan, Karan Johar, and Shinde under the banners of Red Chillies Entertainment, Dharma Productions, and Hope Productions, respectively.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dear%20Zindagi"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Dear Zindagi"
+    },
+    "indian-films/Devdas [2002].jpg": {
+      "title": "Devdas [2002]",
+      "canonicalTitle": "Devdas",
+      "type": "film",
+      "directors": null,
+      "releaseDate": "2002-05-23",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "شاه روخ خان",
+        "آيشواريا راي",
+        "مدهوري دكست",
+        "جاكي شروف",
+        "كيرون خير",
+        "سميتا جايكار"
+      ],
+      "genres": [
+        "رومانسي"
+      ],
+      "summaryAr": "ديفداس (البنغالية: দেবদস، مترجمة كـ Dēbôdās) هي رواية رومانسية بنغالية كتبها سارات شاندرا تشاتوبادياي. بتدور القصة حول مثلث مأساوي يربط بين ديفداس، العاشق النموذجي في فيراها (الانفصال)؛ بارفاتي (بارو)، حب طفولته المحظور؛ و تشاندراموخي، مومس مُصلح (الطوائف). تم عرض Devdas على الشاشة 20 مرة لفيلم و5 مرات لأغنية فردية.",
+      "summaryEn": "Devdas (Bengali: দেবদাস, transliterated as Dēbôdās) is a Bengali romance novel written by Sarat Chandra Chattopadhyay. The story pivots a tragic triangle linking Devdas, an archetypal lover in viraha (separation); Parvati (Paro), his forbidden childhood love; and Chandramukhi, a reformed courtesan (tawaif). Devdas has been adapted on screen 20 times for film and 5 times for single song.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Devdas"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Devdas",
+      "director": "سانجاي ليلا بهنسالي",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/Dil To Pagal Hai  [1997].[1080p].jpg": {
+      "title": "Dil To Pagal Hai  [1997].[1080p]",
+      "canonicalTitle": "Dil To Pagal Hai",
+      "type": "film",
+      "directors": null,
+      "releaseDate": "1997",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Shah Rukh Khan"
+      ],
+      "genres": [
+        "موسيقي"
+      ],
+      "summaryAr": "Dil To Pagal Hai (النطق الهندي: [dɪl toː ˈpaːgəl ɦɛː]؛ مضاء \"القلب مجنون\") هو فيلم موسيقي رومانسي هندي باللغة الهندية عام 1997 من تأليف وإخراج وإنتاج ياش شوبرا. الفيلم من بطولة شاروخان، مادوري ديكسيت، كاريشما كابور، وأكشاي كومار.",
+      "summaryEn": "Dil To Pagal Hai (Hindi pronunciation: [dɪl toː ˈpaːgəl ɦɛː]; lit. 'The Heart Is Crazy') is a 1997 Indian Hindi-language romantic musical film written, directed, and produced by Yash Chopra. The film stars Shah Rukh Khan, Madhuri Dixit, Karisma Kapoor, and Akshay Kumar.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dil%20To%20Pagal%20Hai"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Dil To Pagal Hai",
+      "director": "ياش تشوبرا",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/dilwale.dulhania.le.jayenge [1995].jpg": {
+      "title": "dilwale.dulhania.le.jayenge [1995]",
+      "canonicalTitle": "Dilwale Dulhania Le Jayenge",
+      "directors": null,
+      "releaseDate": "1995-10-20",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "شاه روخ خان",
+        "كاجول",
+        "أمريش بوري",
+        "فريدة جلال",
+        "أنوبام خير",
+        "ساتيش شاه"
+      ],
+      "genres": [
+        "فلم دراما",
+        "فلم رومانسي",
+        "فلم بلوغ سن الرشد",
+        "كوميديا درامية",
+        "فلم كوميدي"
+      ],
+      "summaryAr": "Dilwale Dulhania Le Jayenge هو فيلم كوميدي رومانسي بوليوودي من إنتاج أديتيا شوبرا، صدر عام 1995 في الهند. قد يترجم العنوان بـ: «حب الزواج». لقد تم تطويره ككلاسيكية في بوليوود، وقد حصل على تجربة جديدة في السينما الهندية واللي انتهت هذه الحقبة في إعادة إنتاج أفلام هوليوود وفي الهنود اللي لم يعودوا أكثر من ذلك.",
+      "summaryEn": "Dilwale Dulhania Le Jayenge est une comédie romantique de Bollywood réalisée par Aditya Chopra, sortie en 1995 en Inde. Le titre peut se traduire par: « L'amant emmènera la mariée ». Il est devenu un classique de Bollywood, et a su donner un nouveau souffle au cinéma indien qui à l’époque se perdait dans des remakes de films hollywoodiens et dans lesquels les Indiens ne se retrouvaient plus.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://fr.wikipedia.org/wiki/Dilwale%20Dulhania%20Le%20Jayenge"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Dilwale Dulhania Le Jayenge",
+      "director": "أديتيا شوبرا",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/Dilwale.[2015].jpg": {
+      "title": "Dilwale.[2015]",
+      "canonicalTitle": "Dilwale",
+      "type": "film",
+      "director": "Rohit Shetty",
+      "directors": [
+        "Rohit Shetty"
+      ],
+      "releaseDate": "2015",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Shah Rukh Khan"
+      ],
+      "genres": [
+        "أكشن",
+        "كوميديا"
+      ],
+      "summaryAr": "Dilwale (ترجمة. القلب الكبير) هو فيلم أكشن كوميدي رومانسي هندي باللغة الهندية لعام 2015 من إخراج روهيت شيتي، اللي شارك في إنتاج الفيلم مع جوري خان تحت شركة Red Chillies Entertainment. الفيلم من بطولة شاروخان، وكاجول، وفارون دهاوان، وكريتي سانون، إلى جانب بومان إيراني، وفارون شارما، وجوني ليفر، وبانكاج تريباثي، وموكيش تيواري، وكبير بيدي، وفينود خانا، في آخر ظهور له في الفيلم قبل وفاته في 27 أبريل 2017.",
+      "summaryEn": "Dilwale (transl. Big-hearted) is a 2015 Indian Hindi-language romantic action comedy film directed by Rohit Shetty, who co-produced the film with Gauri Khan under Red Chillies Entertainment. The film stars Shah Rukh Khan, Kajol, Varun Dhawan, and Kriti Sanon, alongside Boman Irani, Varun Sharma, Johnny Lever, Pankaj Tripathi, Mukesh Tiwari, Kabir Bedi, and Vinod Khanna, in his final film appearance before his death of 27 April 2017.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dilwale%20(2015%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Dilwale (2015 film)"
+    },
+    "indian-films/Dunki  [2023].[1080p].jpg": {
+      "title": "Dunki  [2023].[1080p]",
+      "canonicalTitle": "Dunki",
+      "type": "film",
+      "director": "Rajkumar Hirani",
+      "directors": [
+        "Rajkumar Hirani",
+        "Red Chillies Entertainment"
+      ],
+      "releaseDate": "2023",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Taapsee Pannu"
+      ],
+      "genres": [
+        "كوميديا",
+        "دراما"
+      ],
+      "summaryAr": "Dunki هو فيلم درامي كوميدي هندي باللغة الهندية لعام 2023 يعتمد على تقنية الهجرة غير الشرعية، شارك في كتابته وإنتاجه وتحريره وإخراجه راجكومار هيراني، تحت شركة Rajkumar Hirani Films، جنبًا إلى جنب مع Jio Studios وRed Chillies Entertainment. من بطولة تابسي بانو، شاروخان، بومان إيراني، أنيل جروفر وفيكرام كوشار إلى جانب فيكي كوشال في ظهور خاص. تم الإعلان عن الفيلم رسميًا في أبريل 2022.",
+      "summaryEn": "Dunki is a 2023 Indian Hindi-language comedy-drama film based on the illegal immigration technique donkey flight, co-written, co-produced, edited and directed by Rajkumar Hirani, under Rajkumar Hirani Films, along with Jio Studios and Red Chillies Entertainment. It stars Taapsee Pannu, Shah Rukh Khan, Boman Irani, Anil Grover and Vikram Kochar alongside Vicky Kaushal in a special appearance. The film was officially announced in April 2022.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dunki%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Dunki (film)"
+    },
+    "indian-films/Fanaa.jpg": {
+      "title": "Fanaa",
+      "canonicalTitle": "Fanaa",
+      "type": "film",
+      "director": "Kunal Kohli",
+      "directors": [
+        "Kunal Kohli"
+      ],
+      "releaseDate": "2006",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Aamir Khan",
+        "Kajol"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "فانا (ترجمة. إبادة) هو فيلم هندي هندي عام 2006 باللغة الهندية فيلم أكشن وإثارة رومانسي من إخراج كونال كوهلي وإنتاج أديتيا شوبرا وياش تشوبرا تحت شعار ياش راج فيلمز. يقوم ببطولته عامر خان وكاجول في الأدوار القيادية، مع ظهور ريشي كابور وكيرون خير وتابو وشارات ساكسينا في الأدوار الداعمة.",
+      "summaryEn": "Fanaa (transl. Annihilation) is a 2006 Indian Hindi-language romantic action thriller film directed by Kunal Kohli and produced by Aditya Chopra and Yash Chopra under their banner Yash Raj Films. It stars Aamir Khan and Kajol in the lead roles, with Rishi Kapoor, Kirron Kher, Tabu, and Sharat Saxena appearing in supporting roles.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fanaa%20(2006%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Fanaa (2006 film)"
+    },
+    "indian-films/Gabbar is Back 2015.jpg": {
+      "title": "Gabbar is Back 2015",
+      "canonicalTitle": "Gabbar Is Back",
+      "type": "film",
+      "director": "Krish",
+      "directors": [
+        "Krish"
+      ],
+      "releaseDate": "2015",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Akshay Kumar",
+        "Shruti Haasan"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "عودة جبار (بالإنجليزية: Gabbar Is Back) هو فيلم هندي هندي صدر عام 2015، وهو فيلم أكشن وإثارة من إخراج كريش في أول ظهور له باللغة الهندية، وكتبه راجات أرورا وإنتاج سانجاي ليلا بهنسالي. الفيلم من بطولة أكشاي كومار وشروتي حسن مع كارينا كابور خان في ظهور خاص. طبعة جديدة رسمية من A.",
+      "summaryEn": "Gabbar Is Back is a 2015 Indian Hindi-language vigilante action thriller film directed by Krish in his Hindi debut, written by Rajat Arora and produced by Sanjay Leela Bhansali. The film stars Akshay Kumar and Shruti Haasan with Kareena Kapoor Khan in a special appearance. An official remake of A.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gabbar%20Is%20Back"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Gabbar Is Back"
+    },
+    "indian-films/Ghajini (2008).jpg": {
+      "title": "Ghajini (2008)",
+      "canonicalTitle": "Ghajini",
+      "type": "film",
+      "directors": [],
+      "releaseDate": "2008",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Khan"
+      ],
+      "genres": [
+        "نفسي",
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "غاجيني (واضح [ɡədʒniː]) هو فيلم إثارة نفسية هندي باللغة الهندية لعام 2008 من إخراج إيه آر موروجادوس (في أول فيلم هندي له) من سيناريو لموروجادوس وعامر خان.",
+      "summaryEn": "Ghajini (pronounced [ɡədʒniː]) is a 2008 Indian Hindi-language psychological action thriller film directed by A. R. Murugadoss (in his Hindi film debut) from a screenplay by Murugadoss and Aamir Khan.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ghajini%20(2008%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Ghajini (2008 film)",
+      "director": "إيه آر موروجادوس",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/Ghani 2022.jpg": {
+      "title": "Ghani 2022",
+      "canonicalTitle": "Ghani",
+      "type": "film",
+      "director": "Kiran Korrapati",
+      "directors": [
+        "Kiran Korrapati"
+      ],
+      "releaseDate": "2022",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Varun Tej"
+      ],
+      "genres": [
+        "رياضي",
+        "دراما"
+      ],
+      "summaryAr": "غاني هو فيلم درامي رياضي هندي باللغة التيلجو لعام 2022 من تأليف وإخراج كيران كورباتي وإنتاج شركة Renaissance Pictures وشركة Allu Bobby. الفيلم من بطولة فارون تيج باعتباره الشخصية الرئيسية جنبًا إلى جنب مع طاقم الممثلين المكون من أبندرا، سونيل شيتي، جاغاباتي بابو، ساي مانجريكار، ونافين شاندرا، إلى جانب ظهور خاص لتمنى. كان من المقرر عرض الفيلم في 25 فبراير 2022 بطريقة مسرحية بس تم تأجيله أكثر.",
+      "summaryEn": "Ghani is a 2022 Indian Telugu-language sports drama film written and directed by Kiran Korrapati and produced by Renaissance Pictures and Allu Bobby Company. The film stars Varun Tej as the title character alongside an ensemble cast of Upendra, Suniel Shetty, Jagapathi Babu, Saiee Manjrekar, and Naveen Chandra, along with a special appearance by Tamannaah. The film was scheduled to release on 25 February 2022 theatrically but postponed further.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ghani%20(2022%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Ghani (2022 film)"
+    },
+    "indian-films/Gunjan Saxena The Kargil Girl (2020).jpg": {
+      "title": "Gunjan Saxena The Kargil Girl (2020)",
+      "canonicalTitle": "Gunjan Saxena: The Kargil Girl",
+      "type": "film",
+      "director": "Sharan Sharma",
+      "directors": [
+        "Sharan Sharma"
+      ],
+      "releaseDate": "2020",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Janhvi Kapoor"
+      ],
+      "genres": [
+        "سيرة ذاتية",
+        "دراما"
+      ],
+      "summaryAr": "Gunjan Saxena: The Kargil Girl هو فيلم درامي عن السيرة الذاتية باللغة الهندية لعام 2020، من إخراج شاران شارما وإنتاج شركة Dharma Productions وZee Studios. الفيلم من بطولة جانفي كابور في دور طيارة في سلاح الجو الهندي جونجان ساكسينا، واحدة من أوائل النساء اللاتي حلقن في منطقة القتال، إلى جانب بانكاج تريباثي وأنجاد بيدي في الأدوار الداعمة. بدأ التصوير الرئيسي في فبراير 2019 وانتهى في أكتوبر. تم تصويره على نطاق واسع في جميع أنحاء لكناو.",
+      "summaryEn": "Gunjan Saxena: The Kargil Girl is a 2020 Indian Hindi-language biographical drama film, directed by Sharan Sharma and produced under Dharma Productions and Zee Studios. The film stars Janhvi Kapoor as Indian Air Force pilot Gunjan Saxena, one of the first women to fly in a combat zone, alongside Pankaj Tripathi and Angad Bedi in supporting roles. Principal photography commenced in February 2019 and was wrapped up in October; it was extensively filmed across Lucknow.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gunjan%20Saxena%3A%20The%20Kargil%20Girl"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Gunjan Saxena: The Kargil Girl"
+    },
+    "indian-films/Happy New Year (2014).jpg": {
+      "title": "Happy New Year (2014)",
+      "canonicalTitle": "Happy New Year",
+      "type": "film",
+      "director": "Farah Khan",
+      "directors": [
+        "Farah Khan"
+      ],
+      "releaseDate": "2014",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ديبيكا بادوكون",
+        "شاه روخ خان",
+        "أبهيشيك بجن",
+        "سونو سود",
+        "بومان إيراني",
+        "أنوبام خير"
+      ],
+      "genres": [
+        "سطو",
+        "أكشن",
+        "كوميديا"
+      ],
+      "summaryAr": "سنة جديدة سعيدة (مختصر بـ HNY: 2014) هو فيلم كوميدي هندي باللغة الهندية لعام 2014 عن السرقة من تأليف وإخراج فرح خان وإنتاج جوري خان تحت شركة ريد تشيليز إنترتينمنت. الفيلم يضم طاقم الممثلين ديبيكا بادكون، شاروخان، أبهيشيك باتشان، سونو سود، بومان إيراني، فيفان شاه وجاكي شروف. تم التخطيط للفيلم في عام 2005 بس تم تأجيله لأسباب غير معروفة ومضت فرح خان في إنتاج أوم شانتي أوم (2007) وتيز مار خان (2010).",
+      "summaryEn": "Happy New Year (abbreviated as HNY: 2014) is a 2014 Indian Hindi-language heist action comedy film written and directed by Farah Khan and produced by Gauri Khan under Red Chillies Entertainment. The film features an ensemble cast of Deepika Padukone, Shah Rukh Khan, Abhishek Bachchan, Sonu Sood, Boman Irani, Vivaan Shah and Jackie Shroff. The film was planned in 2005 but was shelved for unknown reasons and Farah Khan went on to make Om Shanti Om (2007) and Tees Maar Khan (2010).",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Happy%20New%20Year%20(2014%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Happy New Year (2014 film)",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/Holiday.jpg": {
+      "title": "Holiday",
+      "canonicalTitle": "The Holiday",
+      "type": "film",
+      "director": "Nancy Meyers",
+      "directors": [
+        "Nancy Meyers"
+      ],
+      "releaseDate": "2006",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Cameron Diaz",
+        "Kate Winslet",
+        "Iris"
+      ],
+      "genres": [
+        "كوميديا"
+      ],
+      "summaryAr": "The Holiday هو فيلم كوميدي رومانسي أمريكي عام 2006 من تأليف وإخراج نانسي مايرز. شارك في إنتاج الفيلم مايرز وبروس أ. بلوك، وتم تصوير الفيلم في كل من كاليفورنيا وإنجلترا.",
+      "summaryEn": "The Holiday is a 2006 American romantic comedy film written and directed by Nancy Meyers. Co-produced by Meyers and Bruce A. Block, the film was shot in both California and England.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Holiday"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "The Holiday"
+    },
+    "indian-films/Jab Harry Met Sejal (2017).jpg": {
+      "title": "Jab Harry Met Sejal (2017)",
+      "canonicalTitle": "Jab Harry Met Sejal",
+      "type": "film",
+      "director": "Imtiaz Ali",
+      "directors": [
+        "Imtiaz Ali"
+      ],
+      "releaseDate": "2017",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Anushka Sharma",
+        "Shah Rukh Khan",
+        "Jab Tak Hai Jaan"
+      ],
+      "genres": [
+        "كوميديا"
+      ],
+      "summaryAr": "Jab Harry Met Sejal (ترجمة. عندما التقى هاري بسيجال)، والمختصر كـ JHMS، هو فيلم كوميدي رومانسي هندي باللغة الهندية لعام 2017 من تأليف وإخراج امتياز علي. من بطولة أنوشكا شارما وشاروخان في تعاونهما الثالث بعد Rab Ne Bana Di Jodi (2008) وJab Tak Hai Jaan (2012).",
+      "summaryEn": "Jab Harry Met Sejal (transl. When Harry met Sejal), abbreviated as JHMS, is a 2017 Indian Hindi-language romantic comedy film written and directed by Imtiaz Ali. It stars Anushka Sharma and Shah Rukh Khan in their third collaboration after Rab Ne Bana Di Jodi (2008) and Jab Tak Hai Jaan (2012).",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jab%20Harry%20Met%20Sejal"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Jab Harry Met Sejal"
+    },
+    "indian-films/Jab Tak Hai Jaan (2012).jpg": {
+      "title": "Jab Tak Hai Jaan (2012)",
+      "canonicalTitle": "Jab Tak Hai Jaan",
+      "type": "film",
+      "director": "Yash Chopra",
+      "directors": [
+        "Yash Chopra"
+      ],
+      "releaseDate": "2012",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Shah Rukh Khan"
+      ],
+      "genres": [
+        "دراما"
+      ],
+      "summaryAr": "Jab Tak Hai Jaan (ترجمة. طالما أعيش)، والمختصر كـ JTHJ، هو فيلم درامي رومانسي هندي باللغة الهندية لعام 2012 كتبه أديتيا شوبرا وأخرجه ياش شوبرا. الفيلم من إنتاج شركة ياش راج فيلمز، بطولة شاروخان في دور سمر أناند، خبيرة إبطال مفعول القنابل في الجيش الهندي، اللي كانت في السابق مهاجرة تكافح في لندن، وبتدور أحداث الفيلم حول قصة حب مع ميرا ثابار (كاترينا كايف)، استنادًا إلى مذكرات تقع في أيدي أكيرا راي، مخرج الأفلام الوثائقية على قناة ديسكفري (أنوشكا شارما).",
+      "summaryEn": "Jab Tak Hai Jaan (transl. As Long as I Live), abbreviated as JTHJ, is a 2012 Indian Hindi-language romantic drama film written by Aditya Chopra and directed by Yash Chopra. Produced by Yash Raj Films, the film stars Shah Rukh Khan as Samar Anand, a bomb disposal expert for the Indian Army, formerly as a struggling immigrant in London and whirlwind romance with Meera Thappar (Katrina Kaif), based on a diary falls into the hands of Akira Rai, a Discovery Channel documentary filmmaker (Anushka Sharma).",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jab%20Tak%20Hai%20Jaan"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Jab Tak Hai Jaan"
+    },
+    "indian-films/Jawan  [2023].[1080p].jpg": {
+      "title": "Jawan  [2023].[1080p]",
+      "canonicalTitle": "Jawan",
+      "type": "film",
+      "director": "Atlee",
+      "directors": [
+        "Atlee"
+      ],
+      "releaseDate": "2023",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Shah Rukh Khan"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "Jawan (ترجمة. Soldier) هو فيلم أكشن وإثارة هندي باللغة الهندية لعام 2023 شارك في كتابته وإخراجه أتلي في أول فيلم هندي له، وإنتاج جوري خان تحت شركة Red Chillies Entertainment. يقوم ببطولته شاروخان في دور مزدوج إلى جانب فيجاي سيثوباثي، نايانثارا، ديبيكا بادوكون، برياماني، سانيا مالهوترا، وسونيل جروفر.",
+      "summaryEn": "Jawan (transl. Soldier) is a 2023 Indian Hindi-language action thriller film co-written and directed by Atlee in his Hindi film debut, and produced by Gauri Khan under Red Chillies Entertainment. It stars Shah Rukh Khan in a dual role alongside Vijay Sethupathi, Nayanthara, Deepika Padukone, Priyamani, Sanya Malhotra, and Sunil Grover.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jawan%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Jawan (film)"
+    },
+    "indian-films/Jiu Jitsu.jpg": {
+      "title": "Jiu Jitsu",
+      "canonicalTitle": "Jiu Jitsu",
+      "type": "film",
+      "director": "Dimitri Logothetis",
+      "directors": [
+        "Dimitri Logothetis"
+      ],
+      "releaseDate": "2020",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Alain Moussi"
+      ],
+      "genres": [
+        "علمي",
+        "قتال"
+      ],
+      "summaryAr": "جيو جيتسو هو فيلم خيال علمي أمريكي للفنون القتالية لعام 2020 من إخراج ديميتري لوغوثيتيس، اللي شارك في كتابة السيناريو مع جيمس ماكغراث. وهو مبني على الكتاب الهزلي لعام 2017 اللي يحمل نفس الاسم من تأليف Logothetis وMcGrath. الفيلم من بطولة آلان موسي، فرانك جريللو، جوجو تشان، توني جا ونيكولاس كيج.",
+      "summaryEn": "Jiu Jitsu is a 2020 American science fiction martial arts film directed by Dimitri Logothetis, who co-wrote the screenplay with James McGrath. It is based on the 2017 comic book of the same name by Logothetis and McGrath. It stars Alain Moussi, Frank Grillo, JuJu Chan, Tony Jaa and Nicolas Cage.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jiu%20Jitsu%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Jiu Jitsu (film)"
+    },
+    "indian-films/Kabhi Alvida Naa Kehna (2006).jpg": {
+      "title": "Kabhi Alvida Naa Kehna (2006)",
+      "canonicalTitle": "Kabhi Alvida Naa Kehna",
+      "type": "film",
+      "director": "Karan Johar",
+      "directors": [
+        "Karan Johar"
+      ],
+      "releaseDate": "2006",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "شاه روخ خان",
+        "بريتي زينتا",
+        "راني موخرجي",
+        "أبهيشيك بجن",
+        "أميتاب بجن",
+        "كيرون خير"
+      ],
+      "genres": [
+        "موسيقي",
+        "دراما"
+      ],
+      "summaryAr": "Kabhi Alvida Naa Kehna (ترجمة. لا تقل وداعًا أبدًا)، والمختصر أيضًا باسم KANK، هو فيلم درامي رومانسي موسيقي هندي باللغة الهندية لعام 2006 من تأليف وإخراج كاران جوهر، استنادًا إلى مساهمات السيناريو من قبل شيباني باتيجا ونيرانجان إينجار، وإنتاج هيرو ياش جوهر في أول ظهور لها تحت شعار دارما للإنتاج. الفيلم يضم طاقم الممثلين أميتاب باتشان، شاروخان، أبهيشيك باتشان، راني موخرجي، بريتي زينتا وكيرون خير.",
+      "summaryEn": "Kabhi Alvida Naa Kehna (transl. Never Say Goodbye), also abbreviated as KANK, is a 2006 Indian Hindi-language musical romantic drama film written and directed by Karan Johar, based on script contributions by Shibani Bathija and Niranjan Iyengar, and produced by Hiroo Yash Johar in her debut under the Dharma Productions banner. The film features an ensemble cast of Amitabh Bachchan, Shah Rukh Khan, Abhishek Bachchan, Rani Mukerji, Preity Zinta and Kirron Kher.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kabhi%20Alvida%20Naa%20Kehna"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Kabhi Alvida Naa Kehna",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/Kabhi Khushi Kabhie Gham... [2001].[1080p].jpg": {
+      "title": "Kabhi Khushi Kabhie Gham... [2001].[1080p]",
+      "canonicalTitle": "Kabhi Khushi Kabhie Gham",
+      "type": "film",
+      "director": "Karan Johar",
+      "directors": [
+        "Karan Johar"
+      ],
+      "releaseDate": "2001",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Amitabh Bachchan"
+      ],
+      "genres": [
+        "دراما"
+      ],
+      "summaryAr": "كابهي خوشي كابهي غام... (ترجمة. أحيانًا السعادة أحيانًا الحزن...)، والمختصر أيضًا باسم K3G، هو فيلم درامي عائلي هندي باللغة الهندية عام 2001 من تأليف وإخراج كاران جوهر وإنتاج والده ياش جوهر.",
+      "summaryEn": "Kabhi Khushi Kabhie Gham... (transl. Sometimes Happiness Sometimes Sadness...), also abbreviated as K3G, is a 2001 Indian Hindi-language family drama film written and directed by Karan Johar and produced by his father Yash Johar.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kabhi%20Khushi%20Kabhie%20Gham"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Kabhi Khushi Kabhie Gham"
+    },
+    "indian-films/Kal.Ho.Naa.Ho. [2003].[1080p].jpg": {
+      "title": "Kal.Ho.Naa.Ho. [2003].[1080p]",
+      "canonicalTitle": "Kal Ho Naa Ho",
+      "type": "film",
+      "directors": [],
+      "releaseDate": "2003",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Shah Rukh Khan"
+      ],
+      "genres": [
+        "كوميديا",
+        "دراما"
+      ],
+      "summaryAr": "Kal Ho Naa Ho (ترجمة. قد لا يأتي الغد أبدًا، يُنطق [kəl ɦoː naː ɦoː])، ويختصر أيضًا باسم KHNH، هو فيلم درامي كوميدي رومانسي هندي باللغة الهندية عام 2003 من إخراج المبتدأ نيخيل أدفاني، وكتبه كاران جوهر ونيرانجان إينجار، وأنتج ياش جوهر تحت إنتاج دارما. الفيلم من بطولة شاروخان، سيف علي خان، وبريتي زينتا، مع جايا باتشان، سوشما سيث، ريما لاغو، ليليت دوبي، وديلناز إيراني في الأدوار الداعمة.",
+      "summaryEn": "Kal Ho Naa Ho (transl. Tomorrow may never come, pronounced [kəl ɦoː naː ɦoː]), also abbreviated as KHNH, is a 2003 Indian Hindi-language romantic comedy drama film directed by debutant Nikhil Advani, written by Karan Johar and Niranjan Iyengar, and produced by Yash Johar under Dharma Productions. The film stars Shah Rukh Khan, Saif Ali Khan, and Preity Zinta, with Jaya Bachchan, Sushma Seth, Reema Lagoo, Lillete Dubey, and Delnaaz Irani in supporting roles.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kal%20Ho%20Naa%20Ho"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Kal Ho Naa Ho",
+      "director": "Nikhil Advani",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/Kannum Kannum Kollaiyadithaal (2020) [1080p].jpg": {
+      "title": "Kannum Kannum Kollaiyadithaal (2020) [1080p]",
+      "canonicalTitle": "Kannum Kannum Kollaiyadithaal",
+      "type": "film",
+      "director": "Desingh Periyasamy",
+      "directors": [
+        "Desingh Periyasamy"
+      ],
+      "releaseDate": "2020",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Dulquer Salmaan"
+      ],
+      "genres": [
+        "سطو",
+        "كوميديا"
+      ],
+      "summaryAr": "Kannum Kannum Kollaiyadithaal (ترجمة. \"إذا سرقت العيون بعضها البعض\") هو فيلم كوميدي رومانسي عن السرقة باللغة التاميلية لعام 2020 هندي من تأليف وإخراج Desingh Periyasamy في أول ظهور له في الإخراج. الفيلم من بطولة دولكير سلمان، وريتو فارما، وراكشان، ونيرانجاني أهاثيان.",
+      "summaryEn": "Kannum Kannum Kollaiyadithaal (transl. 'If eyes steal each other') is a 2020 Indian Tamil-language romantic heist comedy film written and directed by Desingh Periyasamy in his directorial debut. The film stars Dulquer Salmaan, Ritu Varma, Rakshan, and Niranjani Ahathian.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kannum%20Kannum%20Kollaiyadithaal"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Kannum Kannum Kollaiyadithaal"
+    },
+    "indian-films/Kesari (2019) [1080p].jpg": {
+      "title": "Kesari (2019) [1080p]",
+      "canonicalTitle": "Kesari",
+      "type": "film",
+      "director": "Anurag Singh",
+      "directors": [
+        "Anurag Singh"
+      ],
+      "releaseDate": "2019",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Akshay Kumar"
+      ],
+      "genres": [
+        "تاريخي"
+      ],
+      "summaryAr": "كيساري (ترجمة. سافرون) هو فيلم حرب تاريخي هندي باللغة الهندية لعام 2019 من بطولة أكشاي كومار وإخراج أنوراغ سينغ. وهو يتبع الأحداث اللي أدت إلى معركة ساراجارهي، وهي معركة بين 21 جنديًا سيخيًا من فوج السيخ رقم 36 التابع للجيش الهندي البريطاني و10000 - 12000 من رجال قبيلتي أفريدي وأوراكزاي البشتون في عام 1897.",
+      "summaryEn": "Kesari (transl. Saffron) is a 2019 Indian Hindi-language historical war film starring Akshay Kumar and directed by Anurag Singh. It follows the events leading to the Battle of Saragarhi, a battle between 21 Sikh soldiers of the 36th Sikhs Regiment of the British Indian Army and 10,000 - 12,000 Afridi and Orakzai Pashtun tribesmen in 1897.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kesari%20(2019%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Kesari (2019 film)"
+    },
+    "indian-films/Khuda Haafiz  (2020) [720p].jpg": {
+      "title": "Khuda Haafiz  (2020) [720p]",
+      "canonicalTitle": "Khuda Haafiz",
+      "type": "film",
+      "director": "Faruk Kabir",
+      "directors": [
+        "Faruk Kabir"
+      ],
+      "releaseDate": "2020",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Vidyut Jammwal",
+        "Shivaleeka Oberoi"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "خدى حافظ (ترجمة. الله يحفظك) هو فيلم أكشن وإثارة هندي باللغة الهندية لعام 2020 من تأليف وإخراج فاروق كبير وإنتاج استوديوهات بانوراما. الفيلم من بطولة Vidyut Jammwal وShivaleeka Oberoi، إلى جانب Annu Kapoor وAahana Kumra وShiv Panditt.",
+      "summaryEn": "Khuda Haafiz (transl. May God be your protector) is a 2020 Indian Hindi-language action thriller film written and directed by Faruk Kabir and produced by Panorama Studios. It stars Vidyut Jammwal and Shivaleeka Oberoi, alongside Annu Kapoor, Aahana Kumra and Shiv Panditt.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Khuda%20Haafiz"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Khuda Haafiz"
+    },
+    "indian-films/kill 2024.jpg": {
+      "title": "kill 2024",
+      "canonicalTitle": "Kill",
+      "type": "film",
+      "director": "Nikhil Nagesh Bhat",
+      "directors": [
+        "Nikhil Nagesh Bhat"
+      ],
+      "releaseDate": "2023",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Lakshya"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "Kill هو فيلم أكشن وإثارة هندي باللغة الهندية لعام 2023 من تأليف وإخراج نيخيل ناجيش بهات وإنتاج شركة Dharma Productions وSikhya Entertainment. الفيلم مستوحى من حادثة سرقة قطار تعرض لها بهات عام 1995، ويشارك في بطولته لاكشيا، راغاف جويال، أشيش فيديارثي، هارش تشايا، تانيا مانيكتالا وأبهيشيك شوهان. عُرض فيلم Kill لأول مرة في مهرجان تورونتو السينمائي الدولي في 7 سبتمبر 2023، وفيه حصل على المركز الثاني في جائزة اختيار الجمهور: جنون منتصف الليل.",
+      "summaryEn": "Kill is a 2023 Indian Hindi-language action thriller film written and directed by Nikhil Nagesh Bhat and produced by Dharma Productions and Sikhya Entertainment. The film, which is inspired by a train robbery experienced by Bhat in 1995, stars Lakshya, Raghav Juyal, Ashish Vidyarthi, Harsh Chhaya, Tanya Maniktala and Abhishek Chauhan. Kill premiered at the Toronto International Film Festival on 7 September 2023, where it was first runner-up for the People's Choice Award: Midnight Madness.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kill%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Kill (film)"
+    },
+    "indian-films/Kumbalangi Nights (2019) [1080p].jpg": {
+      "title": "Kumbalangi Nights (2019) [1080p]",
+      "canonicalTitle": "Kumbalangi Nights",
+      "type": "film",
+      "director": "Madhu C",
+      "directors": [
+        "Madhu C"
+      ],
+      "releaseDate": "2019",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Fahadh Faasil"
+      ],
+      "genres": [
+        "كوميديا",
+        "دراما"
+      ],
+      "summaryAr": "ليالي كومبالانجي (Kumbalangi Nights) هو فيلم درامي كوميدي رومانسي هندي باللغة المالايالامية لعام 2019 من إخراج مادو سي نارايانان في أول ظهور له كمخرج. كتبه صيام بوشكاران وتم إنتاجه بالاشتراك مع فهد فاصل وناصرية ناظم تحت إشراف شركة الإنتاج الخاصة بهم فهد فاصل والأصدقاء، بالتعاون مع ديليش بوثان وصيام بوشكاران تحت شعار بطل الطبقة العاملة.",
+      "summaryEn": "Kumbalangi Nights is a 2019 Indian Malayalam-language romantic comedy drama film directed by Madhu C. Narayanan in his directorial debut. It was written by Syam Pushkaran and jointly produced by Fahadh Faasil and Nazriya Nazim under their production house Fahadh Faasil and Friends, in association with Dileesh Pothan and Syam Pushkaran under Working Class Hero banner.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kumbalangi%20Nights"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Kumbalangi Nights"
+    },
+    "indian-films/Leo 2023.jpg": {
+      "title": "Leo 2023",
+      "canonicalTitle": "Leo",
+      "type": "film",
+      "director": "Lokesh Kanagaraj",
+      "directors": [
+        "Lokesh Kanagaraj"
+      ],
+      "releaseDate": "2023",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Vijay"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "Leo (يتم تسويقه أيضًا باسم Leo: Bloody Sweet) هو فيلم إثارة هندي باللغة التاميلية لعام 2023 من إخراج لوكيش كاناجاراج. الفيلم من إنتاج Seven Screen Studio، وهو الإصدار الثالث في عالم Lokesh السينمائي. مستوحى جزئيًا من فيلم ديفيد كروننبرغ تاريخ العنف، يلعب ليو دور البطولة فيجاي في الدور الفخري، جنبًا إلى جنب مع سانجاي دوت، أرجون، تريشا، غوثام فاسوديف مينون، ميسكين، مادونا سيباستيان، جورج ماريان، منصور علي خان، بريا أناند وماثيو توماس.",
+      "summaryEn": "Leo (also marketed as Leo: Bloody Sweet) is a 2023 Indian Tamil-language action thriller film directed by Lokesh Kanagaraj. Produced by Seven Screen Studio, it is the third instalment in the Lokesh Cinematic Universe. Partially inspired by the David Cronenberg film A History of Violence, Leo stars Vijay in the titular role, alongside Sanjay Dutt, Arjun, Trisha, Gautham Vasudev Menon, Mysskin, Madonna Sebastian, George Maryan, Mansoor Ali Khan, Priya Anand and Mathew Thomas.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leo%20(2023%20Indian%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Leo (2023 Indian film)"
+    },
+    "indian-films/Magadheera.2009.jpg": {
+      "title": "Magadheera.2009",
+      "canonicalTitle": "Magadheera",
+      "type": "film",
+      "directors": [],
+      "releaseDate": "2009",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Ram Charan"
+      ],
+      "genres": [
+        "فانتازيا",
+        "أكشن"
+      ],
+      "summaryAr": "Magadheera (مضاءة \"المحارب العظيم\") هو فيلم أكشن خيالي رومانسي ملحمي باللغة الهندية لعام 2009 شارك في كتابته وإخراجه إس إس.",
+      "summaryEn": "Magadheera (lit. 'Great Warrior') is a 2009 Indian Telugu-language epic romantic fantasy action film co-written and directed by S. S.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Magadheera"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Magadheera",
+      "director": "كودوري راجامولي",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/Mohabbatein [2000].[1080p]_1.jpg": {
+      "title": "Mohabbatein [2000].[1080p]_1",
+      "canonicalTitle": "Mohabbatein",
+      "type": "film",
+      "director": "Aditya Chopra",
+      "directors": [
+        "Aditya Chopra"
+      ],
+      "releaseDate": "2000",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Shah Rukh Khan"
+      ],
+      "genres": [
+        "موسيقي",
+        "دراما"
+      ],
+      "summaryAr": "محباتين (ترجمة. رومانسيات) هو فيلم درامي رومانسي موسيقي هندي باللغة الهندية عام 2000 من تأليف وإخراج أديتيا شوبرا، وإنتاج ياش شوبرا تحت شعار ياش راج فيلمز. الفيلم من بطولة شاروخان وأميتاب باتشان وأيشواريا راي، إلى جانب عدي شوبرا وشاميتا شيتي وجوجال هانسراج وكيم شارما وجيمي شيرجيل وبريتي جانجياني.",
+      "summaryEn": "Mohabbatein (transl. Romances) is a 2000 Indian Hindi-language musical romantic drama film written and directed by Aditya Chopra, and produced by Yash Chopra under the banner of Yash Raj Films. The film stars Shah Rukh Khan, Amitabh Bachchan and Aishwarya Rai, alongside Uday Chopra, Shamita Shetty, Jugal Hansraj, Kim Sharma, Jimmy Sheirgill, and Preeti Jhangiani.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mohabbatein"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Mohabbatein"
+    },
+    "indian-films/Monkey Man (2024).jpg": {
+      "title": "Monkey Man (2024)",
+      "canonicalTitle": "Monkey Man",
+      "type": "film",
+      "directors": [],
+      "releaseDate": "2024",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Patel"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "Monkey Man هو فيلم أكشن وإثارة صدر عام 2024 من إخراج وإنتاج ديف باتيل في أول ظهور له كمخرج، واللي شارك أيضًا في كتابة السيناريو مع بول أنجوناويلا وجون كولي. الفيلم من بطولة باتيل في دور طفل، وهو رجل يسعى للانتقام من القادة الفاسدين المسؤولين عن وفاة والدته. ظهرت شارلتو كوبلي وبيتوباش وفيبين شارما في الأدوار الداعمة.",
+      "summaryEn": "Monkey Man is a 2024 action thriller film directed and produced by Dev Patel in his directorial debut, who also co-wrote the screenplay with Paul Angunawela and John Collee. The film stars Patel as Kid, a man who seeks vengeance on the corrupt leaders responsible for his mother's death. Sharlto Copley, Pitobash, and Vipin Sharma are featured in supporting roles.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Monkey%20Man%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Monkey Man (film)",
+      "director": "ديف باتيل",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/MY NAME IS KHAN.jpg": {
+      "title": "MY NAME IS KHAN",
+      "canonicalTitle": "My Name Is Khan",
+      "type": "film",
+      "director": "Karan Johar",
+      "directors": [
+        "Karan Johar"
+      ],
+      "releaseDate": "2010",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Shah Rukh Khan",
+        "Kajol"
+      ],
+      "genres": [
+        "دراما"
+      ],
+      "summaryAr": "اسمي خان هو فيلم درامي اجتماعي لعام 2010 من إخراج كاران جوهر، وشارك في كتابته شيباني باتيجا ونيرانجان إينجار. يقوم ببطولته شاروخان وكاجول في الأدوار القيادية. يروي الفيلم قصة خيالية ينطلق فيها رضوان خان (خان)، وهو مسلم مصاب بالتوحد، في رحلة عبر الولايات المتحدة للقاء الرئيس بعد أن عانت زوجته الهندوسية مانديرا راثود خان (كاجول) من التمييز ضد الإسلام في أعقاب هجمات 11 سبتمبر.",
+      "summaryEn": "My Name Is Khan is a 2010 social drama film directed by Karan Johar, and co-written by Shibani Bathija and Niranjan Iyengar. It stars Shah Rukh Khan and Kajol in the lead roles. The film narrates the fictional story in which Rizvan Khan (Khan), an autistic Muslim, sets out on a journey across the United States to meet the President after Mandira Rathod Khan (Kajol), his Hindu wife, suffers from Islamophobic discrimination following the September 11 attacks.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/My%20Name%20Is%20Khan"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "My Name Is Khan"
+    },
+    "indian-films/Om Shanti Om [2007].[1080p].jpg": {
+      "title": "Om Shanti Om [2007].[1080p]",
+      "canonicalTitle": "Om Shanti Om",
+      "type": "film",
+      "director": "Farah Khan",
+      "directors": [
+        "Farah Khan"
+      ],
+      "releaseDate": "2007",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Shah Rukh Khan"
+      ],
+      "genres": [
+        "فلم رومانسي",
+        "فلم خيال"
+      ],
+      "summaryAr": "أوم شانتي أوم (ترجم وتم إصداره دوليًا باسم السلام عليكم) هو فيلم ماسالا هندي باللغة الهندية لعام 2007 من تأليف وإخراج فرح خان، وشارك في كتابته مايور بوري ومشتاق شيخ، وإنتاج جوري خان تحت شركة ريد تشيليز إنترتينمنت. الفيلم من بطولة شاروخان، ديبيكا بادوكون (في أول فيلم هندي لها)، أرجون رامبال، شرياس تالباد، كيرون خير.",
+      "summaryEn": "Om Shanti Om (transl. and released internationally as Peace Be With You) is a 2007 Indian Hindi-language masala film written and directed by Farah Khan, co-written by Mayur Puri and Mushtaq Shiekh, and produced by Gauri Khan under Red Chillies Entertainment. The film stars Shah Rukh Khan, Deepika Padukone (in her Hindi film debut), Arjun Rampal, Shreyas Talpade, Kirron Kher.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Om%20Shanti%20Om"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Om Shanti Om",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/Padmaavat [2018].[1080p].jpg": {
+      "title": "Padmaavat [2018].[1080p]",
+      "canonicalTitle": "Padmaavat",
+      "type": "film",
+      "director": "Sanjay Leela Bhansali",
+      "directors": [
+        "Sanjay Leela Bhansali"
+      ],
+      "releaseDate": "2018",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Deepika Padukone"
+      ],
+      "genres": [
+        "تاريخي",
+        "دراما"
+      ],
+      "summaryAr": "Padmaavat هو فيلم درامي تاريخي ملحمي باللغة الهندية لعام 2018 من إخراج سانجاي ليلا بهنسالي. استنادًا إلى القصيدة الملحمية اللي تحمل نفس الاسم لمالك محمد جاياسي، تقوم ببطولتها ديبيكا بادوكون في دور راني بادمافاتي، ملكة راجبوت السنهالية المولد المعروفة بجمالها، زوجة ماهاروال راتان سينغ، اللي يلعب دوره شهيد كابور. السلطان علاء الدين خلجي، اللي يلعب دوره رانفير سينغ، يسمع بجمالها ويهاجم مملكتها لاستعبادها.",
+      "summaryEn": "Padmaavat is a 2018 Indian Hindi-language epic historical drama film directed by Sanjay Leela Bhansali. Based on the epic poem of the same name by Malik Muhammad Jayasi, it stars Deepika Padukone as Rani Padmavati, a Sinhalese-born Rajput queen known for her beauty, wife of Maharawal Ratan Singh, played by Shahid Kapoor. Sultan Alauddin Khilji, played by Ranveer Singh, hears of her beauty and attacks her kingdom to enslave her.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Padmaavat"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Padmaavat"
+    },
+    "indian-films/Pathaan_1.jpg": {
+      "title": "Pathaan_1",
+      "canonicalTitle": "Pathaan",
+      "type": "film",
+      "director": "Siddharth Anand",
+      "directors": [
+        "Siddharth Anand"
+      ],
+      "releaseDate": "2023",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Shah Rukh Khan"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "باثان (واضح [pəʈʰaːn]) هو فيلم أكشن وإثارة هندي باللغة الهندية لعام 2023 من إخراج سيدهارث أناند وإنتاج أديتيا شوبرا تحت شركة ياش راج فيلمز. الفيلم من بطولة شاروخان في الدور الفخري، إلى جانب ديبيكا بادوكون، وجون أبراهام، وديمبل كاباديا، وأشوتوش رانا مع سلمان خان اللي يظهر في مظهر رائع. إنها الدفعة الرابعة في YRF Spy Universe، وهي الدفعة الأولى في الكون اللي تنشئ عمليات انتقال بين شخصيات من أفلام الكون الأخرى وتقع أحداثها بعد أحداث إيك ثا تايجر (2012)، تايجر زيندا هاي (2017) وحرب (2019).",
+      "summaryEn": "Pathaan (pronounced [pəʈʰaːn]) is a 2023 Indian Hindi-language action thriller film directed by Siddharth Anand and produced by Aditya Chopra under Yash Raj Films. The film stars Shah Rukh Khan in the titular role, alongside Deepika Padukone, John Abraham, Dimple Kapadia, and Ashutosh Rana with Salman Khan appears in a cameo appearance. It is the fourth installment in the YRF Spy Universe, the first installment in the universe to establish crossovers between characters from other universe films and set after the events of Ek Tha Tiger (2012), Tiger Zinda Hai (2017) and War (2019).",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pathaan%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Pathaan (film)"
+    },
+    "indian-films/Pink (2016) Hindi [720p].jpg": {
+      "title": "Pink (2016) Hindi [720p]",
+      "canonicalTitle": "Pink",
+      "type": "film",
+      "director": "Aniruddha Roy Chowdhury",
+      "directors": [
+        "Aniruddha Roy Chowdhury"
+      ],
+      "releaseDate": "2016",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "أميتاب باتشوان",
+        "تابسي باندارا",
+        "كيرتي كلهري",
+        "أندريا تارينج",
+        "أنجاد بيدي"
+      ],
+      "genres": [
+        "قانوني",
+        "إثارة"
+      ],
+      "summaryAr": "Pink هو فيلم إثارة قانوني هندي باللغة الهندية لعام 2016 من إخراج أنيرودا روي شودري وكتبه شوجيت سيركار وريتيش شاه وأنيرودا روي شودري. الفيلم من إنتاج Rising Sun Films بميزانية إجمالية قدرها ₹30 كرور روبية، مع سيناريو شاه وتأليف الموسيقى لشانتانو مويترا وأنوبام روي. يضم Pink طاقم عمل يضم أميتاب باتشان، وتابسي بانو، وكيرتي كولهاري، وأندريا تاريانج، وأنجاد بيدي، وتوشار باندي، وبيوش ميشرا، ودريتيمان تشاترجي.",
+      "summaryEn": "Pink is a 2016 Indian Hindi-language legal thriller film directed by Aniruddha Roy Chowdhury and written by Shoojit Sircar, Ritesh Shah and Aniruddha Roy Chowdhury. The film is produced by Rising Sun Films on a total budget of ₹30 crore, with screenplay by Shah and music composition by Shantanu Moitra and Anupam Roy. Pink features an ensemble cast, which includes Amitabh Bachchan, Taapsee Pannu, Kirti Kulhari, Andrea Tariang, Angad Bedi, Tushar Pandey, Piyush Mishra, and Dhritiman Chatterjee.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pink%20(2016%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Pink (2016 film)",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "indian-films/Pk (2014) [720p].jpg": {
+      "title": "Pk (2014) [720p]",
+      "canonicalTitle": "PK",
+      "type": "film",
+      "director": "Rajkumar Hirani",
+      "directors": [
+        "Rajkumar Hirani"
+      ],
+      "releaseDate": "2014",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "أَمير خان",
+        "أنوشكا شارما",
+        "سوشانت سينغ راجبوت",
+        "بومان إيراني",
+        "سانجاي دوت"
+      ],
+      "genres": [
+        "كوميديا",
+        "دراما",
+        "علمي"
+      ],
+      "summaryAr": "بي كيه (تيبسي) هو فيلم درامي كوميدي درامي هندي باللغة الهندية لعام 2014، من تحرير وإخراج راجكومار هيراني وتأليف هيراني وأبهيجات جوشي وإنتاج هيراني وفيدهو فينود شوبرا بشكل مشترك تحت رايات الإنتاج الخاصة بشركة راجكومار هيراني فيلمز وفينود شوبرا فيلمز، على التوالي. هجاء ديني يتناول الخرافات والأنبياء الزائفين، يقوم ببطولة الفيلم طاقم من عامر خان (كشخصية العنوان)، وأنوشكا شارما، وسوسانت سينغ راجبوت، وبومان إيراني، وسوراب شوكلا، وسانجاي دوت. يلعب خان دور كائن فضائي يشبه الإنسان تم إرساله إلى الأرض في مهمة بحثية.",
+      "summaryEn": "PK (Tipsy) is a 2014 Indian Hindi-language science-fiction comedy-drama film edited and directed by Rajkumar Hirani and written by Hirani and Abhijat Joshi and jointly produced by Hirani and Vidhu Vinod Chopra under the production banners of Rajkumar Hirani Films and Vinod Chopra Films, respectively. A religious satire addressing superstition and pseudoprophets, the film stars an ensemble cast of Aamir Khan (as the title character), Anushka Sharma, Sushant Singh Rajput, Boman Irani, Saurabh Shukla and Sanjay Dutt. Khan plays a humanoid alien who was sent to Earth on a research mission.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PK%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "PK (film)",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "indian-films/Pressure Cooker (2020) [1080p].jpg": {
+      "title": "Pressure Cooker (2020) [1080p]",
+      "canonicalTitle": "Pressure Cooker",
+      "type": "film",
+      "director": "Sujoi Karampuri",
+      "directors": [
+        "Sujoi Karampuri",
+        "Sushil Karampuri"
+      ],
+      "releaseDate": "2020",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ساي روناك",
+        "بريتي أسراني",
+        "راحول راماكريشنان",
+        "تانيكيللا بهاراني"
+      ],
+      "genres": [
+        "كوميديا",
+        "دراما"
+      ],
+      "summaryAr": "طنجرة الضغط هو فيلم درامي كوميدي هندي بلغة التيلجو لعام 2020 من إخراج سوجوي كارامبوري وسوشيل كارامبوري. يضم الفيلم ساي روناك وبريثي أسراني في الأدوار القيادية. صدر الفيلم في 21 فبراير 2020.",
+      "summaryEn": "Pressure Cooker is a 2020 Indian Telugu-language comedy drama film directed by Sujoi Karampuri and Sushil Karampuri. The film features Sai Ronak and Preethi Asrani in the lead roles. The film was released on 21 February 2020.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pressure%20Cooker%20(2020%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Pressure Cooker (2020 film)",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "indian-films/Raat Akeli Hai (2020) [1080p].jpg": {
+      "title": "Raat Akeli Hai (2020) [1080p]",
+      "canonicalTitle": "Raat Akeli Hai",
+      "type": "film",
+      "director": "Honey Trehan",
+      "directors": [
+        "Honey Trehan"
+      ],
+      "releaseDate": "2020",
+      "studio": null,
+      "networks": [
+        "Netflix"
+      ],
+      "cast": [
+        "Nawazuddin Siddiqui"
+      ],
+      "genres": [
+        "جريمة",
+        "إثارة"
+      ],
+      "summaryAr": "رات أكيلي هاي (ترجمة. The Night Is Lonely) هو فيلم جريمة وإثارة هندي باللغة الهندية لعام 2020 من إخراج هوني تريهان. الفيلم من بطولة نواز الدين صديقي، وراديكا أبتي، وشويتا تريباثي، وتيجمانشو دوليا، وشيفاني راغوفانشي، ونيشانت داهيا، وجيانيندرا تريباثي، وإيلا آرون، وسواناند كيركير، ونيتيش كومار تيواري، وأديتيا سريفاستافا.",
+      "summaryEn": "Raat Akeli Hai (transl. The Night Is Lonely) is a 2020 Indian Hindi-language crime thriller film directed by Honey Trehan. The film stars Nawazuddin Siddiqui, Radhika Apte, Shweta Tripathi, Tigmanshu Dhulia, Shivani Raghuvanshi, Nishant Dahiya, Gyanendra Tripathi, Ila Arun, Swanand Kirkire, Nitesh Kumar Tiwari, and Aditya Srivastava.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Raat%20Akeli%20Hai"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Raat Akeli Hai"
+    },
+    "indian-films/Raees.[2017].jpg": {
+      "title": "Raees.[2017]",
+      "canonicalTitle": "Raees",
+      "type": "film",
+      "director": "Rahul Dholakia",
+      "directors": [
+        "Rahul Dholakia"
+      ],
+      "releaseDate": "2017",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Shah Rukh Khan"
+      ],
+      "genres": [
+        "أكشن"
+      ],
+      "summaryAr": "Raees (ترجمة. Rich) هو فيلم عصابات هندي باللغة الهندية لعام 2017 من إخراج راهول دولاكيا وإنتاج ريتيش سيدواني وفرحان أختار وجوري خان تحت شركة Excel Entertainment وRed Chillies Entertainment. الفيلم من بطولة شاروخان، نواز الدين صديقي، وماهرة خان في تمثيلها الهندي الوحيد.",
+      "summaryEn": "Raees (transl. Rich) is a 2017 Indian Hindi-language gangster action film directed by Rahul Dholakia and produced by Ritesh Sidhwani, Farhan Akhtar, and Gauri Khan under Excel Entertainment and Red Chillies Entertainment. The film stars Shah Rukh Khan, Nawazuddin Siddiqui, and Mahira Khan in her only Hindi acting credit.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Raees%20(2017%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Raees (2017 film)"
+    },
+    "indian-films/Rajkumar.jpg": {
+      "title": "Rajkumar",
+      "canonicalTitle": "R... Rajkumar",
+      "type": "film",
+      "director": "Prabhu Deva",
+      "directors": [
+        "Prabhu Deva"
+      ],
+      "releaseDate": "2013",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Shahid Kapoor"
+      ],
+      "genres": [
+        "أكشن"
+      ],
+      "summaryAr": "R... Rajkumar هو فيلم أكشن رومانسي هندي باللغة الهندية لعام 2013 من تأليف وإخراج برابهو ديفا وإنتاج فيكي راجاني وسونيل لولا ضمن شركة Next Gen Films. الفيلم من بطولة شاهيد كابور، سوناكشي سينها وسونو سود في الأدوار القيادية، إلى جانب أشيش فيديارثي، أسراني، موكول ديف وسريهاري.",
+      "summaryEn": "R... Rajkumar is a 2013 Indian Hindi-language romantic action film written and directed by Prabhu Deva and produced by Viki Rajani and Sunil Lulla under Next Gen Films. The film stars Shahid Kapoor, Sonakshi Sinha and Sonu Sood in the lead roles, alongside Ashish Vidyarthi, Asrani, Mukul Dev and Srihari.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/R...%20Rajkumar"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "R... Rajkumar"
+    },
+    "indian-films/RRR.jpg": {
+      "title": "RRR",
+      "canonicalTitle": "RRR",
+      "type": "film",
+      "directors": [],
+      "releaseDate": "2022",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "إن. تي. راما راو جونيور",
+        "رام شاران",
+        "عاليا بهات",
+        "نابين لوهاغون",
+        "أجاي ديفجان",
+        "شريا ساران"
+      ],
+      "genres": [
+        "أكشن",
+        "دراما"
+      ],
+      "summaryAr": "RRR هو فيلم درامي أكشن ملحمي باللغة الهندية لعام 2022 من إخراج S. S. Rajamouli، اللي شارك في كتابة السيناريو مع V.",
+      "summaryEn": "RRR is a 2022 Indian Telugu-language epic period action drama film directed by S. S. Rajamouli, who co-wrote the screenplay with V.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/RRR"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "RRR",
+      "director": "كودوري راجامولي",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/Runway 34 (2022).jpg": {
+      "title": "Runway 34 (2022)",
+      "canonicalTitle": "Runway 34",
+      "type": "film",
+      "director": "Ajay Devgn",
+      "directors": [
+        "Ajay Devgn"
+      ],
+      "releaseDate": "2022",
+      "studio": null,
+      "networks": [
+        "Amazon Prime Video"
+      ],
+      "cast": [
+        "Ajay Devgn"
+      ],
+      "genres": [
+        "إثارة"
+      ],
+      "summaryAr": "Runway 34 هو فيلم إثارة هندي باللغة الهندية لعام 2022 من إنتاج وإخراج Ajay Devgn تحت شعار Devgn Films. الفيلم مستوحى من حادث طيران يتعلق برحلة طيران جيت إيروايز رقم 9W-555 من الدوحة إلى كوتشي في 17 أغسطس 2015. الفيلم من بطولة أجاي ديفجن وأميتاب باتشان وراكول بريت سينغ، مع لعب بومان إيراني وأنجيرا دار وأكانكشا سينغ أدوارًا محورية.",
+      "summaryEn": "Runway 34 is a 2022 Indian Hindi-language thriller film produced and directed by Ajay Devgn under the Devgn Films banner. The film is inspired by an aviation incident involving a Jet Airways flight 9W-555 from Doha to Kochi on August 17, 2015. The film stars Ajay Devgn, Amitabh Bachchan, and Rakul Preet Singh, with Boman Irani, Angira Dhar and Aakanksha Singh playing pivotal roles.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Runway%2034"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Runway 34"
+    },
+    "indian-films/Sanak.jpg": {
+      "title": "Sanak",
+      "canonicalTitle": "Sanak",
+      "type": "film",
+      "director": "Kanishk Varma",
+      "directors": [
+        "Kanishk Varma"
+      ],
+      "releaseDate": "2021",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Vidyut Jammwal"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "Sanak (ترجمة. Madness) هو فيلم أكشن وإثارة هندي باللغة الهندية لعام 2021 من إخراج كانيشك فارما وإنتاج Zee Studios وSunshine Pictures. من النجوم فيديوت جاموال، روكميني مايترا، نيها دوبيا و تشاندان روي سانيال.",
+      "summaryEn": "Sanak (transl. Madness) is a 2021 Indian Hindi-language action thriller film directed by Kanishk Varma and produced by Zee Studios and Sunshine Pictures. It stars Vidyut Jammwal, Rukmini Maitra, Neha Dhupia and Chandan Roy Sanyal.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sanak"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Sanak"
+    },
+    "indian-films/Seetharama Kalyana (2019) [1080p].jpg": {
+      "title": "Seetharama Kalyana (2019) [1080p]",
+      "canonicalTitle": "Seetharama Kalyana",
+      "type": "film",
+      "directors": [],
+      "releaseDate": "2019",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "نيكهيل غودا",
+        "راشيتا رام",
+        "ساراث كومار",
+        "ب. رافيشانكر",
+        "مادهو"
+      ],
+      "genres": [
+        "أكشن",
+        "دراما"
+      ],
+      "summaryAr": "Seetharama Kalyana هو فيلم درامي هندي باللغة الكانادية لعام 2019 من تأليف وإخراج A. Harsha وإنتاج Anitha Kumaraswamy تحت شعار Channambika Films. يضم الفيلم طاقم عمل يضم نيخيل كومار وراشيتا رام في الأدوار القيادية.",
+      "summaryEn": "Seetharama Kalyana is a 2019 Indian Kannada-language action drama film written and directed by A. Harsha and produced by Anitha Kumaraswamy under the Channambika Films banner. The film has an ensemble cast with Nikhil Kumar and Rachita Ram in the lead roles.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seetharama%20Kalyana"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Seetharama Kalyana",
+      "director": "A Harsha",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "indian-films/THE WHITE TIGER.jpg": {
+      "title": "THE WHITE TIGER",
+      "canonicalTitle": "The White Tiger",
+      "type": "film",
+      "director": "Ramin Bahrani",
+      "directors": [
+        "Ramin Bahrani"
+      ],
+      "releaseDate": "2021",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Adarsh Gourav"
+      ],
+      "genres": [
+        "كوميديا",
+        "دراما"
+      ],
+      "summaryAr": "النمر الأبيض هو فيلم درامي كوميدي أسود لعام 2021، من تأليف وإخراج رامين بحراني. الفيلم من بطولة أدارش جوراف، وبريانكا شوبرا، وراجكومار راو. الفيلم من إنتاج موكول ديورا ورامين بحراني، ومن إنتاج شوبرا جوناس وبريم أكاراجو وأفا دوفيرناي.",
+      "summaryEn": "The White Tiger is a 2021 black comedy drama film, written and directed by Ramin Bahrani. The film stars Adarsh Gourav, Priyanka Chopra, and Rajkummar Rao. The film was produced by Mukul Deora and Ramin Bahrani, and executive produced by Chopra Jonas, Prem Akkaraju, and Ava DuVernay.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20White%20Tiger%20(2021%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "The White Tiger (2021 film)"
+    },
+    "indian-films/Thugs Of Hindostan.jpg": {
+      "title": "Thugs Of Hindostan",
+      "canonicalTitle": "Thugs of Hindostan",
+      "type": "film",
+      "director": "Vijay Krishna Acharya",
+      "directors": [
+        "Vijay Krishna Acharya"
+      ],
+      "releaseDate": "2018",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Amitabh Bachchan"
+      ],
+      "genres": [
+        "أكشن",
+        "مغامرة"
+      ],
+      "summaryAr": "Thugs of Hindostan هو فيلم مغامرات هندي باللغة الهندية لعام 2018 من إخراج فيجاي كريشنا أشاريا وإنتاج أديتيا شوبرا تحت شركة ياش راج فيلمز. نجوم الفيلم أميتاب باتشان، عامر خان، كاترينا كايف (في حجاب ممتد)، فاطمة سناء شيخ، محمد زيشان أيوب، رونيت روي ولويد أوين. بتدور أحداث الفيلم خلال فترة توسع الشركة في الهند، وفيه يتم إرسال فيرانجي ملاح، وهو سفاح صغير من عوض، من قبل مسؤول في شركة الهند الشرقية للتسلل ومواجهة عصابة من البلطجية.",
+      "summaryEn": "Thugs of Hindostan is a 2018 Indian Hindi-language period action adventure film directed by Vijay Krishna Acharya and produced by Aditya Chopra under Yash Raj Films. The film stars Amitabh Bachchan, Aamir Khan, Katrina Kaif (in an extended cameo), Fatima Sana Shaikh, Mohammed Zeeshan Ayyub, Ronit Roy and Lloyd Owen. Set during the period of Company's expansion in India, Firangi Mallah, a small-time thug from Awadh, is sent by an East India Company official to infiltrate and counter a band of thugs.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thugs%20of%20Hindostan"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Thugs of Hindostan"
+    },
+    "indian-films/Tiger 3 (2023) [1080p].jpg": {
+      "title": "Tiger 3 (2023) [1080p]",
+      "canonicalTitle": "Tiger 3",
+      "type": "film",
+      "director": "Maneesh Sharma",
+      "directors": [
+        "Maneesh Sharma"
+      ],
+      "releaseDate": "2023",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Salman Khan"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "النمر 3 هو فيلم أكشن وإثارة هندي باللغة الهندية لعام 2023 من إخراج مانيش شارما وإنتاج أديتيا شوبرا تحت شركة ياش راج فيلمز. استنادًا إلى نص كتبه شريدهار راغافان وأنكور تشودري، من قصة أصلية لتشوبرا، يعد الفيلم بمثابة الدفعة الخامسة في YRF Spy Universe؛ محيط لـ إيك ثا تايجر (2012) وتايجر زيندا هاي (2017)، بتدور أحداثه بعد أحداث حرب (2019) وباتان، ويلعب النجوم سلمان خان وكاترينا كايف وعمران هاشمي في الأدوار الرئيسية، مع ريفاثي وسيمران وكومود ميشرا ورانفير شوري وفيشال جيثوا وريدهي دوجرا وعامر بشير في الأدوار المحورية، بينما يظهر شاروخان. في ظهور حجاب.",
+      "summaryEn": "Tiger 3 is a 2023 Indian Hindi-language action thriller film directed by Maneesh Sharma and produced by Aditya Chopra under Yash Raj Films. Based on a script written by Shridhar Raghavan and Anckur Chaudhry, from an original story by Chopra, the film serves as the fifth installment in the YRF Spy Universe; a circumquel to Ek Tha Tiger (2012) and Tiger Zinda Hai (2017), it is set after the events of War (2019) and Pathaan, and stars Salman Khan, Katrina Kaif and Emraan Hashmi in the lead roles, with Revathi, Simran, Kumud Mishra, Ranvir Shorey, Vishal Jethwa, Riddhi Dogra, and Aamir Bashir in pivotal roles, while Shah Rukh Khan appears in a cameo appearance.…",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tiger%203"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Tiger 3"
+    },
+    "indian-films/Tiger Zinda Hai (2017).jpg": {
+      "title": "Tiger Zinda Hai (2017)",
+      "canonicalTitle": "Tiger Zinda Hai",
+      "type": "film",
+      "director": "Ali Abbas Zafar",
+      "directors": [
+        "Ali Abbas Zafar"
+      ],
+      "releaseDate": "2017",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Salman Khan",
+        "Katrina Kaif"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "Tiger Zinda Hai (ترجمة \"Tiger Is Alive\") هو فيلم إثارة هندي باللغة الهندية لعام 2017 من تأليف وإخراج علي عباس ظفر وإنتاج Aditya Chopra تحت شركة Yash Raj Films. إنه تكملة لـ Ek Tha Tiger (2012) والدفعة الثانية في YRF Spy Universe.",
+      "summaryEn": "Tiger Zinda Hai (transl. 'Tiger Is Alive') is a 2017 Indian Hindi-language action thriller film written and directed by Ali Abbas Zafar and produced by Aditya Chopra under Yash Raj Films. It is a sequel to Ek Tha Tiger (2012) and the second installment in the YRF Spy Universe.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tiger%20Zinda%20Hai"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Tiger Zinda Hai"
+    },
+    "indian-films/Vanquish.jpg": {
+      "title": "Vanquish",
+      "canonicalTitle": "Vanquish",
+      "type": "film",
+      "director": "George Gallo",
+      "directors": [
+        "George Gallo"
+      ],
+      "releaseDate": "2021",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Morgan Freeman",
+        "Ruby Rose"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "Vanquish هو فيلم أكشن وإثارة أمريكي لعام 2021 من إخراج جورج جالو. وهو من بطولة مورغان فريمان وروبي روز. تم إصدار الفيلم في الولايات المتحدة في 16 أبريل 2021 بواسطة Lionsgate.",
+      "summaryEn": "Vanquish is a 2021 American action thriller film directed by George Gallo. It stars Morgan Freeman and Ruby Rose. The film was released in the United States on April 16, 2021, by Lionsgate.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vanquish%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Vanquish (film)"
+    },
+    "indian-films/Veer-Zaara  [2004].[1080p]_1.jpg": {
+      "title": "Veer-Zaara  [2004].[1080p]_1",
+      "canonicalTitle": "Veer-Zaara",
+      "type": "film",
+      "directors": [],
+      "releaseDate": "2004",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Shah Rukh Khan",
+        "Preity Zinta"
+      ],
+      "genres": [
+        "دراما"
+      ],
+      "summaryAr": "Veer-Zaara هو فيلم درامي رومانسي هندي باللغة الهندية لعام 2004 من إخراج وإنتاج ياش شوبرا، وكتبه وأنتجه ابنه أديتيا شوبرا. إنه من بطولة شاروخان وبريتي زينتا في دور العاشقين الفخريين، وهما فير براتاب سينغ، ضابط في القوات الجوية الهندية، وزارا حياة خان، وهي ابنة سياسي باكستاني. يتم سجن فير بتهم باطلة، وبعد 22 عامًا، تحارب محامية باكستانية شابة تدعى سامية صديقي (راني موخرجي) قضيته.",
+      "summaryEn": "Veer-Zaara is a 2004 Indian Hindi-language romantic drama film directed and produced by Yash Chopra, and written and produced by his son Aditya Chopra. It stars Shah Rukh Khan and Preity Zinta as the titular star-crossed lovers, namely, Veer Pratap Singh, an Indian Air Force officer, and Zaara Hayaat Khan, who is the daughter of a Pakistani politician. Veer is imprisoned on false charges, and 22 years later, a young Pakistani lawyer, named Saamiya Siddiqui (Rani Mukerji), fights his case.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Veer-Zaara"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Veer-Zaara",
+      "director": "ياش تشوبرا",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/Yevadu 2014.jpg": {
+      "title": "Yevadu 2014",
+      "canonicalTitle": "Yevadu",
+      "type": "film",
+      "director": "Vamsi Paidipally",
+      "directors": [
+        "Vamsi Paidipally"
+      ],
+      "releaseDate": "2014",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Ram Charan"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "Yevadu (ترجمة. من هو؟) هو فيلم أكشن وإثارة هندي بلغة التيلجو لعام 2014 شارك في كتابته وإخراج فامسي بايديبالي. نجوم الفيلم رام شاران، وألو أرجون، وشروتي حسن، وكاجال أغاروال، وإيمي جاكسون، مع جاياسودها، وساي كومار، وراهول ديف، وبراهماندام يلعبون الأدوار الداعمة.",
+      "summaryEn": "Yevadu (transl. Who is he?) is a 2014 Indian Telugu-language action thriller film co-written and directed by Vamsi Paidipally. The film stars Ram Charan, Allu Arjun, Shruti Haasan, Kajal Aggarwal and Amy Jackson, with Jayasudha, Sai Kumar, Rahul Dev and Brahmanandam play supporting roles.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yevadu"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Yevadu"
+    },
+    "indian-films/Bang Bang (2014).jpg": {
+      "title": "Bang Bang (2014)",
+      "canonicalTitle": "Bang Bang!",
+      "type": "film",
+      "director": "Siddharth Anand",
+      "directors": [
+        "Siddharth Anand"
+      ],
+      "releaseDate": "2014",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Hrithik Roshan",
+        "Katrina Kaif"
+      ],
+      "genres": [
+        "أكشن",
+        "كوميديا",
+        "موسيقي"
+      ],
+      "summaryAr": "بانغ بانغ! هو فيلم أكشن كوميدي رومانسي هندي باللغة الهندية لعام 2014 من إخراج سيدهارث أناند وإنتاج استوديوهات فوكس ستار. طبعة جديدة رسمية للفيلم الأمريكي Knight and Day (2010)، يستعير الفيلم أيضًا الإلهام من الفيلم البنغالي Jaaneman لعام 2012.",
+      "summaryEn": "Bang Bang! is a 2014 Indian Hindi-language action comedy romantic musical film directed by Siddharth Anand and produced by Fox Star Studios. An official remake of American film Knight and Day (2010), the film also borrows inspiration from the 2012 Bengali film Jaaneman.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bang%20Bang!"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Bang Bang!"
+    },
+    "indian-films/Commando.2013.jpg": {
+      "title": "Commando.2013",
+      "canonicalTitle": "Commando",
+      "type": "film",
+      "director": "Dilip Ghosh was",
+      "directors": [
+        "Dilip Ghosh was"
+      ],
+      "releaseDate": "1985-01-01",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "أرنولد شوارزنيجر",
+        "راي داون تشونغ",
+        "دان هداية",
+        "فيرنون ويلز",
+        "ديفيد باتريك كيلي",
+        "أليسا ميلانو"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "كوماندوز هي سلسلة من أفلام الحركة والإثارة الهندية باللغة الهندية من إنتاج فيبول أمروتلال شاه تحت شعار Sunshine Pictures. يتم إنتاج سلسلة الأفلام وتوزيعها بواسطة شركة Reliance Entertainment. تم إصدار الفيلم الأول Commando: A One Man Army من إخراج ديليب غوش في عام 2013، والفيلم الثاني Commando 2: The Black Money Trail من إخراج Deven Bhojani صدر في عام 2017 والفيلم الثالث Commando 3 من إخراج Aditya Datt صدر في عام 2019.",
+      "summaryEn": "Commando is a series of Indian Hindi-language action thriller films produced by Vipul Amrutlal Shah under the banner of Sunshine Pictures. The film series is co-produced and distributed by Reliance Entertainment. The first film Commando: A One Man Army directed by Dilip Ghosh was released in 2013, The second film Commando 2: The Black Money Trail directed by Deven Bhojani released in 2017 and the third film Commando 3 directed by Aditya Datt released in 2019.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Commando%20(film%20series)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Commando (film series)",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/Commando.3 [2019].[1080p].jpg": {
+      "title": "Commando.3 [2019].[1080p]",
+      "canonicalTitle": "Commando 3",
+      "type": "film",
+      "director": "Aditya Datt",
+      "directors": [
+        "Aditya Datt"
+      ],
+      "releaseDate": "2019",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Vidyut Jammwal"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "كوماندوز 3 هو فيلم أكشن وإثارة هندي باللغة الهندية لعام 2019 من إخراج أديتيا دات وإنتاج فيبول أمروتلال شاه وريلانس إنترتينمنت. الفيلم هو الفيلم الثالث من سلسلة كوماندوز بعد كوماندوز (2013) وكوماندوز 2 (2017). يقوم ببطولته فيديوت جاموال، مع جولشان ديفاياه باعتباره الخصم، إلى جانب آدا شارما وأنجيرا دهار.",
+      "summaryEn": "Commando 3 is a 2019 Indian Hindi-language action thriller film directed by Aditya Datt and produced by Vipul Amrutlal Shah and Reliance Entertainment. The film is the third film of Commando franchise following Commando (2013) and Commando 2 (2017). It stars Vidyut Jammwal, with Gulshan Devaiah as the antagonist, alongside Adah Sharma and Angira Dhar.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Commando%203%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Commando 3 (film)"
+    },
+    "indian-films/Dabangg 3.jpg": {
+      "title": "Dabangg 3",
+      "canonicalTitle": "Dabangg 3",
+      "type": "film",
+      "director": "Prabhu Deva",
+      "directors": [
+        "Prabhu Deva"
+      ],
+      "releaseDate": "2019",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Salman Khan"
+      ],
+      "genres": [
+        "أكشن",
+        "دراما"
+      ],
+      "summaryAr": "Dabangg 3 (ترجمة Fearless 3) هو فيلم درامي هندي باللغة الهندية لعام 2019 من إخراج برابهو ديفا وإنتاج مشترك بين أفلام سلمان خان وأرباز خان للإنتاج وسافرون برودكاست آند ميديا ​​المحدودة. الجزء الثالث من سلسلة أفلام Dabangg، وهو مقدمة لفيلمي Dabangg (2010) وDabangg 2 (2012).",
+      "summaryEn": "Dabangg 3 (transl. Fearless 3) is a 2019 Indian Hindi-language action drama film directed by Prabhu Deva and jointly produced by Salman Khan Films, Arbaaz Khan Productions and Saffron Broadcast & Media Limited. The third installment in the Dabangg film series, it is a prequel to Dabangg (2010) and Dabangg 2 (2012).",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dabangg%203"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Dabangg 3"
+    },
+    "indian-films/Don 2   [2011].[1080p].jpg": {
+      "title": "Don 2   [2011].[1080p]",
+      "canonicalTitle": "Don 2",
+      "type": "film",
+      "director": "Farhan Akhtar",
+      "directors": [
+        "Farhan Akhtar"
+      ],
+      "releaseDate": "2011",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Khan"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "دون 2: عودة الملك، المعروف باسم دون 2، هو فيلم أكشن وإثارة هندي باللغة الهندية لعام 2011 من تأليف وإخراج فرحان أختار. إنها الدفعة الثانية في سلسلة Don reboot وتكملة لفيلم 2006 Don. تم إنتاجه بشكل مشترك من قبل أختار وريتيش سيدواني وشاه روخ خان تحت علامتهم Excel Entertainment وRed Chillies Entertainment.",
+      "summaryEn": "Don 2: The King Is Back, better simply known as Don 2, is a 2011 Indian Hindi-language action thriller film written and directed by Farhan Akhtar. It is the second instalment in the Don reboot series and sequel to the 2006 film Don. It was jointly produced by Akhtar, Ritesh Sidhwani, and Shah Rukh Khan under their banners Excel Entertainment and Red Chillies Entertainment.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Don%202"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Don 2"
+    },
+    "indian-films/Laal Singh Chaddha.jpg": {
+      "title": "Laal Singh Chaddha",
+      "canonicalTitle": "Laal Singh Chaddha",
+      "type": "film",
+      "director": "Advait Chandan",
+      "directors": [
+        "Advait Chandan"
+      ],
+      "releaseDate": "2022",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Aamir Khan"
+      ],
+      "genres": [
+        "كوميديا",
+        "دراما"
+      ],
+      "summaryAr": "Laal Singh Chaddha هو فيلم درامي كوميدي هندي باللغة الهندية لعام 2022 من إخراج أدفيت تشاندان وكتبه أتول كولكارني. الفيلم من إنتاج شركة Paramount Pictures وAamir Khan Productions وViacom18 Studios. إنه إعادة إنتاج للفيلم الأمريكي Forrest Gump لعام 1994، وهو في حد ذاته مقتبس من رواية تحمل نفس الاسم للكاتب Winston Groom.",
+      "summaryEn": "Laal Singh Chaddha is a 2022 Indian Hindi-language comedy-drama film directed by Advait Chandan and written by Atul Kulkarni. The film is jointly produced by Paramount Pictures, Aamir Khan Productions and Viacom18 Studios. It is a remake of the 1994 American film Forrest Gump, which itself is an adaptation of the novel of the same name by Winston Groom.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Laal%20Singh%20Chaddha"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Laal Singh Chaddha"
+    },
+    "indian-films/Mardaani 2 (2019) [1080p].jpg": {
+      "title": "Mardaani 2 (2019) [1080p]",
+      "canonicalTitle": "Mardaani 2",
+      "type": "film",
+      "director": "Gopi Puthran",
+      "directors": [
+        "Gopi Puthran"
+      ],
+      "releaseDate": "2019",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Rani Mukerji",
+        "Vishal Jethwa"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "Mardaani 2 (ترجمة. Manly 2) هو فيلم أكشن وإثارة هندي باللغة الهندية لعام 2019 من تأليف وإخراج جوبي بوثران. تم إنتاجه بواسطة Aditya Chopra تحت شركة Yash Raj Films.",
+      "summaryEn": "Mardaani 2 (transl. Manly 2) is a 2019 Indian Hindi-language action-thriller film written and directed by Gopi Puthran. It is produced by Aditya Chopra under Yash Raj Films.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mardaani%202"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Mardaani 2"
+    },
+    "indian-films/Race 3 (2018).jpg": {
+      "title": "Race 3 (2018)",
+      "canonicalTitle": "Race 3",
+      "type": "film",
+      "director": "Remo D'Souza",
+      "directors": [
+        "Remo D'Souza"
+      ],
+      "releaseDate": "2018",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "سلمان خان",
+        "جاكلين فيرنانديز",
+        "أنيل كابور",
+        "ديزي شاه",
+        "بوبي ديول",
+        "ثاقب سليم"
+      ],
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "summaryAr": "السباق 3 هو فيلم أكشن وإثارة هندي باللغة الهندية لعام 2018 من إخراج ريمو ديسوزا وإنتاج راميش توراني وسلمان خان تحت شركة تيبس إندستريز وسلمان خان فيلمز. الفيلم من بطولة طاقم الممثلين أنيل كابور، سلمان خان، بوبي ديول، جاكلين فرنانديز، ديزي شاه، وساقيب سليم. إنه بمثابة التكملة المستقلة والجزء الثالث من سلسلة أفلام Race اللي بدأت بـ Race (2008) وRace 2 (2013).",
+      "summaryEn": "Race 3 is a 2018 Indian Hindi-language action thriller film directed by Remo D'Souza and produced by Ramesh Taurani and Salman Khan under Tips Industries and Salman Khan Films. The film stars an ensemble cast of Anil Kapoor, Salman Khan, Bobby Deol, Jacqueline Fernandez, Daisy Shah, and Saqib Saleem. It serves as the standalone sequel and third installment of the Race film series which started with Race (2008) and Race 2 (2013).",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Race%203"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Race 3",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/Shiddat 2021.jpg": {
+      "title": "Shiddat 2021",
+      "canonicalTitle": "Shiddat",
+      "type": "film",
+      "director": "Kunal Deshmukh",
+      "directors": [
+        "Kunal Deshmukh"
+      ],
+      "releaseDate": "2021",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Sunny Kaushal"
+      ],
+      "genres": [
+        "دراما"
+      ],
+      "summaryAr": "شدات: رحلة ما وراء الحب، أو ببساطة شدات (ترجمة. العاطفة)، هو فيلم درامي رومانسي هندي باللغة الهندية لعام 2021 من إخراج كونال ديشموخ وإنتاج بوشان كومار وكريشان كومار ودينيش فيجان تحت شعاراتهم T-Series وMaddock Films. الفيلم من بطولة صني كوشال، وراديكا مادان، وموهيت راينا، وديانا بينتي.",
+      "summaryEn": "Shiddat: Journey Beyond Love, or simply Shiddat (transl. Passion), is a 2021 Indian Hindi-language romantic drama film directed by Kunal Deshmukh and produced by Bhushan Kumar, Krishan Kumar and Dinesh Vijan under their banners T-Series and Maddock Films. The film stars Sunny Kaushal, Radhika Madan, Mohit Raina and Diana Penty.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shiddat"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Shiddat"
+    },
+    "indian-films/Swades.[2004].jpg": {
+      "title": "Swades.[2004]",
+      "canonicalTitle": "Swades",
+      "type": "film",
+      "directors": [],
+      "releaseDate": "2004",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Shah Rukh Khan"
+      ],
+      "genres": [
+        "دراما"
+      ],
+      "summaryAr": "Swades (ترجمة. Homeland) هو فيلم درامي هندي باللغة الهندية عام 2004 شارك في كتابته وإخراجه وإنتاجه أشوتوش جواريكر. الفيلم من بطولة شاروخان، إلى جانب غاياتري جوشي، كيشوري بالال، دايا شانكار باندي، راجيش فيفيك، وليك تاندون.",
+      "summaryEn": "Swades (transl. Homeland) is a 2004 Indian Hindi-language drama film co-written, directed and produced by Ashutosh Gowariker. The film stars Shah Rukh Khan, alongside Gayatri Joshi, Kishori Ballal, Daya Shankar Pandey, Rajesh Vivek, and Lekh Tandon.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Swades"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Swades",
+      "director": "أشوتوش جواريكر",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/talaash.jpg": {
+      "title": "talaash",
+      "canonicalTitle": "Talaash",
+      "type": "film",
+      "director": "Hrishikesh Mukherjee",
+      "directors": [
+        "Hrishikesh Mukherjee"
+      ],
+      "releaseDate": "2012-11-29",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "عامر خان",
+        "كارينا كابور",
+        "راني موخرجي",
+        "نواز الدين صديقي",
+        "Shernaz Patel",
+        "Sheeba Chaddha"
+      ],
+      "genres": [
+        "دراما"
+      ],
+      "summaryAr": "Talaash (بالإنجليزية: \"The Search\") هو مسلسل درامي هندي تم بثه عام 1992 على قناة دوردارشان. الفيلم من إخراج هريشيكيش موخرجي، وهو مستوحى من رواية سونار كاثي روبور كاثي للكاتب أشوتوش موخيرجي. أغنية العنوان اللي غناها سوريش واديكار وكلماتها كانت عبارة عن غلاف لأغنية \"Tum Pukar Lo\".",
+      "summaryEn": "Talaash (English: \"The Search\") is an Indian drama series that aired in 1992 on Doordarshan. Directed by Hrishikesh Mukherjee, the film is based on the novel Sonar Kathi Rupor Kathi by Ashutosh Mukherjee. The title song sung by Suresh Wadekar and lyrics by Yogesh was a cover of the song \"Tum Pukar Lo\".",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Talaash%20(Indian%20TV%20series)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Talaash (Indian TV series)",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "indian-films/Penance Lane [Z] (2020).jpg": {
+      "title": "Penance Lane [Z] (2020)",
+      "canonicalTitle": "Penance Lane",
+      "type": "film",
+      "genres": null,
+      "director": "بيتر إنجيرت",
+      "cast": [
+        "تايلر مين",
+        "ميوز واتسون",
+        "جون دوجان",
+        "سكوت تايلور-كومبتون",
+        "دانيال روبك"
+      ],
+      "releaseDate": "2020",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "مجرم سابق بيشتغل في صيانة عمارة قديمة ومعزولة سمعتها وحشة، وبيكتشف أسرار مرعبة وحاجات غريبة ومخيفة مستخبية بين الحيطان.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q130641187"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikidata",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "directors": [
+        "بيتر إنجيرت"
+      ]
+    },
+    "indian-films/Salaar (2023).jpg": {
+      "title": "Salaar (2023)",
+      "canonicalTitle": "Salaar",
+      "type": "film",
+      "genres": [
+        "إثارة أكشن"
+      ],
+      "director": "Prashanth Neel",
+      "cast": [
+        "برابهاس",
+        "جاغاباتي بابو",
+        "شروتي حسن",
+        "برتوي راج سكمارن",
+        "Bobby Simha",
+        "Easwari Rao"
+      ],
+      "releaseDate": "2023-09-28",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "اتنين صحاب عمر وإخوات في الضهر بيتحولوا لأعداء ألدّاء، في حرب شوارع وصراع دموي طاحن على السيطرة والنفوذ في إمبراطورية عصابات خيالية.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q106298596"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikidata",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "indian-films/vikram vedha2022.jpg": {
+      "title": "vikram vedha2022",
+      "canonicalTitle": "Vikram Vedha",
+      "type": "film",
+      "genres": [
+        "فلم جريمة",
+        "فلم أكشن"
+      ],
+      "director": "Gayatri",
+      "cast": [
+        "مادهافان",
+        "فيجاي سيثيباثي",
+        "Varalaxmi Sarathkumar",
+        "Shraddha Srinath",
+        "Kathir",
+        "Achyuth Kumar"
+      ],
+      "releaseDate": "2017-07-21",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "ظابط شرطة متقاعد وصارم بيطارد زعيم عصابة ذكي ومراوغ عشان يرجع مجوهرات مسروقة، لكن مواجهاته معاه بتخليه يشك في مفهوم الحق والعدالة.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q27963176"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikidata"
+    },
+    "indian-films/Brothers (2015).jpg": {
+      "title": "Brothers (2015)",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "كاران مالهوترا",
+      "directors": [
+        "كاران مالهوترا"
+      ],
+      "cast": [
+        "أكشاي كومار",
+        "سيدهارث مالهوترا"
+      ],
+      "releaseDate": "2015",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "أخين بينهم خلافات قديمة وقطع قطيعة بيتقابلوا وجهاً لوجه في حلبة قتال الفنون القتالية المختلطة، في مواجهة شرسة بتصفي حسابات العيلة.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "indian-films/Don  [2006].[1080p].jpg": {
+      "title": "Don  [2006].[1080p]",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "فارهان أختار",
+      "directors": [
+        "فارهان أختار"
+      ],
+      "cast": [
+        "شاروخان",
+        "بريانكا شوبرا"
+      ],
+      "releaseDate": "2006",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "زعيم عصابة دولية خطير بيموت في السر، فتقوم الشرطة جايبة راجل غلبان شبهه بالظبط عشان يحل محله ويدخل وسط العصابة ويوقعهم.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "indian-films/Edge Of Extinction.jpg": {
+      "title": "Edge Of Extinction",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "أندرو غيلبرت",
+      "directors": [
+        "أندرو غيلبرت"
+      ],
+      "cast": [
+        "لوك هوبسون",
+        "جورجي سيمبيرت",
+        "كريس كاي",
+        "برين هودجن"
+      ],
+      "releaseDate": "2019",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "صراع ملحمي للبقاء على قيد الحياة في عالم مدمر بتواجه فيه البشرية كوارث بيئية ومخاطر فناء شامل.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "لم يُحدد العمل بالاسم — البيانات عامة ومحتاجة مصدر"
+      }
+    },
+    "indian-films/Fan (2016).jpg": {
+      "title": "Fan (2016)",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "مانيش شارما",
+      "directors": [
+        "مانيش شارما"
+      ],
+      "cast": [
+        "شاروخان"
+      ],
+      "releaseDate": "2016",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "شاب مهووس بممثله المفضل لدرجة الجنون، حبه بيتحول لكره أعمى ورغبة في الانتقام وتدمير النجم بعد ما يرفض يقابله ويهينه.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "indian-films/Like Stars on Earth (2007).jpg": {
+      "title": "Like Stars on Earth (2007)",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "عامر خان",
+      "directors": [
+        "عامر خان"
+      ],
+      "cast": [
+        "دارشيل سفاري",
+        "عامر خان"
+      ],
+      "releaseDate": "2007",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "طفل صغير بيعاني من صعوبة القراءة والكتابة والكل فاكره بليد ومش فاهمينه، لحد ما بيجي مدرس رسم متفهم يكتشف موهبته ويغير حياته كلها.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "indian-films/Psycho Party Planner [Z].jpg": {
+      "title": "Psycho Party Planner [Z]",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "جيك هلغرن",
+      "directors": [
+        "جيك هلغرن"
+      ],
+      "cast": [
+        "ليندسي هارتلي",
+        "كاثرين هيكس",
+        "كاترينا بودن",
+        "دايمون دايوب"
+      ],
+      "releaseDate": "2019",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "تنظيم حفلة راقية بيقلب لكابوس مرعب ومطاردات نفسية ومخاطر بتلاحق أصحابها.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "إنتاج هندي درامي — المخرج والأبطال غير محددين"
+      }
+    },
+    "indian-films/SULTAN.jpg": {
+      "title": "SULTAN",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "علي عباس ظفر",
+      "directors": [
+        "علي عباس ظفر"
+      ],
+      "cast": [
+        "سلمان خان",
+        "أنوشكا شارما"
+      ],
+      "releaseDate": "2016",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "بطل مصارعة حقق بطولات ومجد كبير بيخسر كل حاجة في لحظة بسبب غروره، وبيعافر من الصفر عشان يرجع للحلبة ويسترد كرامته وحب حياته.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "indian-films/Tanhaji The Unsung Warrior (2020) [1080p].jpg": {
+      "title": "Tanhaji The Unsung Warrior (2020) [1080p]",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "أوم راوت",
+      "directors": [
+        "أوم راوت"
+      ],
+      "cast": [
+        "أجاي ديفجان",
+        "سيف علي خان"
+      ],
+      "releaseDate": "2020",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "ملحمة تاريخية حقيقية عن القائد العسكري الشجاع تانهاجي مالوساري، ومعركته البطولية عشان يسترد حصن كونهاندا لصالح شعبه.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    }
+  }
+}

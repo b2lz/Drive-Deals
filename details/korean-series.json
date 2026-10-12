@@ -1,0 +1,3420 @@
+{
+  "_meta": {
+    "version": 1,
+    "collection": "korean-series",
+    "method": "tvmaze+wikipedia",
+    "note": "Auto-filled from tvmaze / wikipedia. Summaries are spoiler-free by construction (encyclopaedic leads / catalogue synopses). Fields the source does not publish are null.",
+    "updatedAt": "2026-10-12",
+    "counts": {
+      "total": 81,
+      "researched": 79
+    }
+  },
+  "items": {
+    "korean-series/A Korean Odyssey [2017].jpg": {
+      "title": "A Korean Odyssey [2017]",
+      "canonicalTitle": "A Korean Odyssey",
+      "type": "series",
+      "releaseDate": "2017-12-23",
+      "genres": [
+        "كوميديا",
+        "فانتازيا",
+        "رومانسي"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "85 دقيقة للحلقة",
+      "summaryEn": "The story depicts the journey of seeking true light in the dark world of 2017 where the evil gods are widespread. In 2017, Son Oh Gong and King Wooma are in conflict with each other and they look for a true light in a dark world where evils exists everywhere.",
+      "links": [
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/33644/a-korean-odyssey"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 33644,
+      "extra": {
+        "note": "درامي • انتهى • 85 دقيقة للحلقة",
+        "factsSource": "Wikidata"
+      },
+      "director": "Park Hong-kyun",
+      "cast": [
+        "لي سيونغ غي",
+        "تشا سيونغ-وون",
+        "أوه يون سو",
+        "كال سو وون",
+        "لي هونغ جي",
+        "جانغ غوانغ"
+      ],
+      "summaryAr": "تصور القصة رحلة البحث عن النور الحقيقي في العالم المظلم لعام 2017 وفيه تنتشر آلهة الشر على نطاق واسع. في عام 2017، يتعارض Son Oh Gong والملك Wooma مع بعضهما البعض ويبحثان عن النور الحقيقي في عالم مظلم وفيه الشرور موجودة في كل مكان."
+    },
+    "korean-series/Alice In Borderland.jpg": {
+      "title": "Alice In Borderland [T-2-1080p-]",
+      "canonicalTitle": "Alice in Borderland",
+      "type": "series",
+      "releaseDate": "2020-12-10",
+      "genres": [
+        "خيال علمي",
+        "إثارة",
+        "غموض"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "duration": "58 دقيقة للحلقة",
+      "summaryEn": "With his two friends, a video-game-obsessed young man finds himself in a strange version of Tokyo where they must compete in dangerous games to survive. Every episode lists different main cast in the opening sequence (beside the two main which are there throughout the entire series).",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/80200575"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/50036/alice-in-borderland"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 50036,
+      "extra": {
+        "note": "درامي • انتهى • 58 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "Shinsuke Sato",
+      "cast": [
+        "كينتو يامازاكي",
+        "تاو توشيا",
+        "Nijirō Murakami",
+        "Yūki Morinaga",
+        "Keita Machida",
+        "أياكا ميوشي"
+      ],
+      "summaryAr": "يجد شاب مهووس بألعاب الفيديو نفسه مع صديقيه في نسخة غريبة من طوكيو وفيه يتعين عليهم التنافس في ألعاب خطيرة من أجل البقاء. تسرد كل حلقة طاقمًا رئيسيًا مختلفًا في التسلسل الافتتاحي (إلى جانب الممثلين الرئيسيين الموجودين طوال السلسلة بأكملها)."
+    },
+    "korean-series/All Of Us Are Dead [2022].jpg": {
+      "title": "All Of Us Are Dead [2022]",
+      "canonicalTitle": "All of Us Are Dead",
+      "type": "series",
+      "releaseDate": "2022-01-28",
+      "genres": [
+        "دراما",
+        "رعب"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "duration": "61 دقيقة للحلقة",
+      "summaryEn": "A high school becomes ground zero for a zombie virus outbreak. Trapped students must fight their way out — or turn into one of the rabid infected.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://netflix.com/title/81237994"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/47199/all-of-us-are-dead"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 47199,
+      "extra": {
+        "note": "درامي • يعرض حالياً • 61 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "لي جاي جيو",
+      "cast": [
+        "يون تشان يونغ",
+        "بارك جي-هو",
+        "تشو يي هيون",
+        "لومون",
+        "يو ان سو",
+        "لي يو مي"
+      ],
+      "summaryAr": "تصبح المدرسة الثانوية نقطة الصفر لتفشي فيروس الزومبي. يجب على الطلاب المحاصرين القتال للخروج - أو التحول إلى أحد المصابين بداء الكلب."
+    },
+    "korean-series/Angel's Last Mission Love 720p.jpg": {
+      "title": "Angel's Last Mission Love 720p",
+      "canonicalTitle": "Angel's Last Mission: Love",
+      "type": "series",
+      "releaseDate": "2019-05-22",
+      "genres": [
+        "كوميديا",
+        "فانتازيا",
+        "رومانسي"
+      ],
+      "networks": [
+        "KBS2"
+      ],
+      "studio": "KBS2",
+      "duration": "35 دقيقة للحلقة",
+      "summaryEn": "Get ready for a heavenly romance drama like you've never seen before! Have you ever seen an angel? Do you think angels really exist?",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.kbs.co.kr/2tv/drama/angel/pc/"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/40402/angels-last-mission-love"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 40402,
+      "extra": {
+        "note": "درامي • انتهى • 35 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "لي جونغ سوب",
+      "directors": [
+        "لي جونغ سوب"
+      ],
+      "cast": [
+        "كيم لي",
+        "شين هي سون",
+        "لي دون غون"
+      ],
+      "summaryAr": "استعد لدراما رومانسية سماوية كما لم تشاهدها من قبل! هل سبق لك أن رأيت ملاكا؟ هل تعتقد أن الملائكة موجودة بالفعل؟"
+    },
+    "korean-series/Are You Human 720p.jpg": {
+      "title": "Are You Human 720p",
+      "canonicalTitle": "Are You Human?",
+      "type": "series",
+      "releaseDate": "2018-06-04",
+      "genres": [
+        "رومانسي",
+        "خيال علمي",
+        "غموض"
+      ],
+      "networks": [
+        "KBS2"
+      ],
+      "studio": "KBS2",
+      "duration": "35 دقيقة للحلقة",
+      "summaryEn": "Nam Shin is the son of a family who runs a large company. After an unexpected accident he falls into a coma. His mother, Oh Ro Ra, is an authority on brain science and artificial intelligence.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://www.kbs.co.kr/drama/ruhuman/about/program/index.html"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/29540/are-you-human"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 29540,
+      "extra": {
+        "note": "درامي • انتهى • 35 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "سو كانغ جون"
+      ],
+      "director": "تشا يونغ هون",
+      "directors": [
+        "تشا يونغ هون"
+      ],
+      "summaryAr": "نام شين هو ابن عائلة تدير شركة كبيرة. بعد تعرضه لحادث غير متوقع وقع في غيبوبة. والدته، أوه رو را، هي خبيرة في علوم الدماغ والذكاء الاصطناعي."
+    },
+    "korean-series/Arthdal Chronicles.jpg": {
+      "title": "Arthdal Chronicles",
+      "canonicalTitle": "Arthdal Chronicles",
+      "type": "series",
+      "releaseDate": "2019-06-01",
+      "genres": [
+        "دراما",
+        "فانتازيا"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "90 دقيقة للحلقة",
+      "summaryEn": "A gripping tale of love, ambition, and tragedy, with four characters whose destinies are intertwined fighting for what they want in the city of Arthdal.",
+      "links": [
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/41812/arthdal-chronicles"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 41812,
+      "extra": {
+        "note": "درامي • انتهى • 90 دقيقة للحلقة",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "سونغ جوونغ كي",
+        "جانغ دونغ غون",
+        "كيم أوك بين",
+        "كيم جي وون"
+      ],
+      "director": "كيم وون سيوك",
+      "directors": [
+        "كيم وون سيوك"
+      ],
+      "summaryAr": "قصة آسرة عن الحب والطموح والمأساة، مع أربع شخصيات تتشابك مصائرها في القتال من أجل ما يريدون في مدينة أرثدال."
+    },
+    "korean-series/Backstreet Rookie.jpg": {
+      "title": "Backstreet Rookie",
+      "canonicalTitle": "Backstreet Rookie",
+      "type": "series",
+      "releaseDate": "2020-06-19",
+      "genres": [
+        "دراما",
+        "كوميديا",
+        "رومانسي"
+      ],
+      "networks": [
+        "SBS"
+      ],
+      "studio": "SBS",
+      "duration": "80 دقيقة للحلقة",
+      "summaryEn": "Jung Saet Byul is a 22-year-old, beautiful four-dimensional girl with amazing fighting skills, loves her friends, family, and retro fashion. Although boys are lining up to date her, she only looks at Choi Dae Hyun, a handsome convenience store owner. Three years ago, he became imprinted upon her as an 'unforgettable person' after a cigarette errand.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://programs.sbs.co.kr/drama/backstreetrookie/main"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/48106/backstreet-rookie"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 48106,
+      "extra": {
+        "note": "درامي • انتهى • 80 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "لي ميونغ وو",
+      "cast": [
+        "جي تشانغ ووك",
+        "كيم يو جونغ"
+      ],
+      "summaryAr": "جونغ سايت بيول فتاة تبلغ من العمر 22 عامًا، فتاة جميلة رباعية الأبعاد تتمتع بمهارات قتالية مذهلة، تحب أصدقائها وعائلتها والأزياء القديمة. على الرغم من أن الأولاد يصطفون لمواعدتها، إلا أنها تنظر بس إلى تشوي داي هيون، صاحب متجر صغير وسيم. قبل ثلاث سنوات، أصبح مطبوعًا عليها باعتباره \"شخصًا لا يُنسى\" بعد مهمة سيجارة."
+    },
+    "korean-series/Bad and Crazy.jpg": {
+      "title": "Bad and Crazy",
+      "canonicalTitle": "Bad and Crazy",
+      "type": "series",
+      "releaseDate": "2021-12-17",
+      "genres": [
+        "أكشن",
+        "إثارة"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "80 دقيقة للحلقة",
+      "summaryEn": "A story that is all about a corrupt yet practical detective who manifests a split personality who harbours a sense of justice. Soo Yul works as a police officer. He is competent at his job, but he also has questionable ethics.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.tving.com/tvn/badandcrazy"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/58876/bad-and-crazy"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 58876,
+      "extra": {
+        "note": "درامي • انتهى • 80 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "يو سون دونغ",
+      "directors": [
+        "يو سون دونغ"
+      ],
+      "cast": [
+        "لي دون ووك",
+        "وي ها جون",
+        "هان جي إيون",
+        "تشا هاك يون"
+      ],
+      "summaryAr": "قصة بتدور أحداثها حول محقق فاسد ولكنه عملي يُظهر شخصية منقسمة تتمتع بإحساس بالعدالة. يعمل سو يول كضابط شرطة. إنه كفؤ في وظيفته، بس لديه أيضًا أخلاق مشكوك فيها."
+    },
+    "korean-series/Bad Guys 720p.jpg": {
+      "title": "Bad Guys 720p",
+      "canonicalTitle": "Bad Guys",
+      "type": "series",
+      "releaseDate": "2014-10-04",
+      "genres": [
+        "أكشن",
+        "جريمة",
+        "إثارة"
+      ],
+      "networks": [
+        "OCN"
+      ],
+      "studio": "OCN",
+      "duration": "80 دقيقة للحلقة",
+      "summaryEn": "To combat rising violent crimes, the Police Chief asks Detective Oh Goo Tak to form a team consisting of criminals. He is currently suspended from the police force for using excessive force. He then gathers team members: Park Woong Chul who is a gangster, Lee Jung Moon who is the youngest serial killer with extraordinary intelligence and Jung Tae Soo who is a contract killer.",
+      "links": [
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/2814/bad-guys"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 2814,
+      "extra": {
+        "note": "درامي • انتهى • 80 دقيقة للحلقة",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "كيم جونغ مين",
+      "directors": [
+        "كيم جونغ مين"
+      ],
+      "cast": [
+        "كيم سانغ جونغ",
+        "ما دونغ سيوك",
+        "بارك هاي جين",
+        "جو دون هيوك"
+      ],
+      "summaryAr": "لمكافحة جرائم العنف المتزايدة، يطلب رئيس الشرطة من المحقق \"أوه جو تاك\" تشكيل فريق يتكون من المجرمين. وهو موقوف حاليًا عن العمل في الشرطة لاستخدامه القوة المفرطة. ثم يقوم بجمع أعضاء الفريق: بارك وونج تشول وهو رجل عصابات، ولي جونج مون وهو أصغر قاتل متسلسل يتمتع بذكاء استثنائي وجونج تاي سو وهو قاتل مأجور."
+    },
+    "korean-series/Because This Is My First Life 720p.jpg": {
+      "title": "Because This Is My First Life 720p",
+      "canonicalTitle": "Because This Is My First Life",
+      "type": "series",
+      "releaseDate": "2017-10-09",
+      "genres": [
+        "دراما",
+        "كوميديا",
+        "رومانسي"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "60 دقيقة للحلقة",
+      "summaryEn": "A house-poor man and homeless woman become housemates in a drama that examines the institution of marriage and the problems that young people face today. Nam Se Hee is a single man in his early 30's. He has chosen to not marry.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.tving.com/tvn/tvnfirstlife/"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/31843/because-this-is-my-first-life"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 31843,
+      "extra": {
+        "note": "درامي • انتهى • 60 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "لي مين كي",
+        "جونغ سو مين",
+        "كيم مين-سوك",
+        "بارك بيونغ أون",
+        "إيسوم",
+        "كيم غا-يون"
+      ],
+      "director": "بارك جون هوا",
+      "directors": [
+        "بارك جون هوا"
+      ],
+      "summaryAr": "يصبح رجل فقير وامرأة بلا مأوى زميلين في المنزل في دراما تتناول مؤسسة الزواج والمشاكل اللي يواجهها الشباب اليوم. نام سي هي رجل أعزب في أوائل الثلاثينيات من عمره. لقد اختار عدم الزواج."
+    },
+    "korean-series/Behind Your Touch.jpg": {
+      "title": "Behind Your Touch",
+      "canonicalTitle": "Behind Your Touch",
+      "type": "series",
+      "releaseDate": "2023-08-12",
+      "genres": [
+        "دراما",
+        "فانتازيا"
+      ],
+      "networks": [
+        "jTBC"
+      ],
+      "studio": "jTBC",
+      "duration": "70 دقيقة للحلقة",
+      "summaryEn": "Ye Boon, who has always dreamed of becoming a vet in the small town of Mujin in Chungjeong-do, is instead stuck doing the nitty-gritty work to make ends meet, like delivering calves and vaccinating halibuts. Then one day, she was given psychometric powers during one of her visits to a cow farm. She encounters the passionate detective Jang Yul, who mistakes her for a pervert and attempts to tackle her.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://tv.jtbc.co.kr/behindyourtouch"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/66498/behind-your-touch"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 66498,
+      "extra": {
+        "note": "درامي • انتهى • 70 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "هان جي-مين",
+        "لي مين كي"
+      ],
+      "director": "كيم سيوك يون",
+      "directors": [
+        "كيم سيوك يون"
+      ],
+      "summaryAr": "يي بون، اللي كان يحلم دائمًا بأن يصبح طبيبًا بيطريًا في بلدة موجين الصغيرة في تشونغجيونغ دو، عالق في القيام بالأعمال الجوهرية لتغطية نفقاته، مثل توليد العجول وتطعيم سمك الهلبوت. وفي أحد الأيام، تم منحها قوى القياس النفسي خلال إحدى زياراتها لمزرعة أبقار. تقابل المحقق الشغوف جانج يول، اللي يظن أنها منحرفة ويحاول التعامل معها."
+    },
+    "korean-series/Big Mouth.jpg": {
+      "title": "Big Mouth",
+      "canonicalTitle": "Big Mouth",
+      "type": "series",
+      "releaseDate": "2017-09-29",
+      "genres": [
+        "كوميديا",
+        "فانتازيا",
+        "رومانسي"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "duration": "27 دقيقة للحلقة",
+      "summaryEn": "Teenage friends find their lives upended by the wonders and horrors of puberty in this edgy comedy from real-life pals Nick Kroll and Andrew Goldberg.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/80117038"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/28757/big-mouth"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 28757,
+      "extra": {
+        "note": "انتهى • 27 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "لي جونغ سوك",
+        "إم يونا",
+        "كواك دونغ يون",
+        "كيم جو-هون",
+        "أوك جا يون",
+        "Oh Eui-sik"
+      ],
+      "director": "أو تشونغ هوان",
+      "directors": [
+        "أو تشونغ هوان"
+      ],
+      "summaryAr": "يجد الأصدقاء المراهقون حياتهم مقلوبة بسبب عجائب وأهوال البلوغ في هذه الكوميديا ​​المثيرة اللي يقدمها الصديقان الواقعيان نيك كرول وأندرو غولدبرغ."
+    },
+    "korean-series/Black Knight.jpg": {
+      "title": "Black Knight",
+      "canonicalTitle": "Black Knight",
+      "type": "series",
+      "releaseDate": "2017-12-06",
+      "genres": [
+        "دراما",
+        "فانتازيا",
+        "رومانسي"
+      ],
+      "networks": [
+        "KBS2"
+      ],
+      "studio": "KBS2",
+      "duration": "60 دقيقة للحلقة",
+      "summaryEn": "Moon Soo Ho is a businessman with a pure heart braves danger for his love, Jung Hae Ra who is a travel agent but never traveled abroad.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://www.kbs.co.kr/drama/blackknight/"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/29538/black-knight"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 29538,
+      "extra": {
+        "note": "درامي • انتهى • 60 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "تشو إي سوك",
+      "directors": [
+        "تشو إي سوك"
+      ],
+      "cast": [
+        "كيم وو بين",
+        "سونغ سونغ هيون",
+        "إسوم",
+        "كانغ يو سيوك"
+      ],
+      "summaryAr": "Moon Soo Ho هو رجل أعمال ذو قلب نقي يتحدى المخاطر من أجل حبه، Jung Hae Ra وهو وكيل سفريات لكنه لم يسافر إلى الخارج أبدًا."
+    },
+    "korean-series/Bloodhounds [1080p].jpg": {
+      "title": "Bloodhounds [1080p]",
+      "canonicalTitle": "Bloodhounds",
+      "type": "series",
+      "releaseDate": "2023-06-09",
+      "genres": [
+        "دراما",
+        "أكشن",
+        "جريمة"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "duration": "59 دقيقة للحلقة",
+      "summaryEn": "Two young boxers band together with a benevolent moneylender to take down a ruthless loan shark who preys on the financially desperate.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/81444051"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/63870/bloodhounds"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 63870,
+      "extra": {
+        "note": "درامي • يعرض حالياً • 59 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "كيم جا-سون",
+      "cast": [
+        "وو دو هوان",
+        "لي سانغ يي",
+        "هيو جون هو",
+        "بارك سونغ وونغ",
+        "جونغ دا-ايون",
+        "تشوي شي وون"
+      ],
+      "summaryAr": "يتحد ملاكمان شابان مع مُقرض أموال خيري للقضاء على سمكة قرش لا تعرف الرحمة وتفترس اليائسين ماليًا."
+    },
+    "korean-series/Bulgasal Immortal Souls [2021].jpg": {
+      "title": "Bulgasal Immortal Souls [2021]",
+      "canonicalTitle": "Bulgasal: Immortal Souls",
+      "type": "series",
+      "releaseDate": "2021-12-18",
+      "genres": [
+        "دراما"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "90 دقيقة للحلقة",
+      "summaryEn": "A fantasy drama about a woman who has experienced many reincarnations over the past 600 years while remembering all her past lives and a man who is immortal and has lived for over 600 years as a bulgasal , a mythical creature that feeds on human blood.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://program.tving.com/tvn/bulgasal"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/58908/bulgasal-immortal-souls"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 58908,
+      "extra": {
+        "note": "درامي • انتهى • 90 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "جانغ يونغ و",
+      "directors": [
+        "جانغ يونغ و"
+      ],
+      "cast": [
+        "لي جين ووك",
+        "كون نارا",
+        "لي جون",
+        "غونغ سونغ يون"
+      ],
+      "summaryAr": "دراما خيالية بتدور أحداثها حول امرأة عاشت العديد من التناسخات على مدار 600 عام الماضية بينما تتذكر كل حياتها الماضية، ورجل خالد عاش لأكثر من 600 عام باعتباره بلغاسال، وهو مخلوق أسطوري يتغذى على دماء الإنسان."
+    },
+    "korean-series/Catch the Ghost 720p.jpg": {
+      "title": "Catch the Ghost 720p",
+      "canonicalTitle": "Catch the Ghost!",
+      "type": "series",
+      "releaseDate": "2019-10-21",
+      "genres": [
+        "دراما",
+        "رومانسي",
+        "غموض"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "90 دقيقة للحلقة",
+      "summaryEn": "When a rookie detective's autistic twin sister goes missing, she joins the subway police team to try and find her.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.tving.com/tvn/catch/1/Vod/List?rcnt=1"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/42755/catch-the-ghost"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 42755,
+      "extra": {
+        "note": "درامي • انتهى • 90 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "Sin Yoon-seob",
+      "cast": [
+        "مون غون يونغ",
+        "كيم سون هو",
+        "جون أوجين",
+        "كي دو هون"
+      ],
+      "summaryAr": "عندما تختفي الأخت التوأم لمحقق مبتدئ مصابة بالتوحد، تنضم إلى فريق شرطة مترو الأنفاق لمحاولة العثور عليها."
+    },
+    "korean-series/Celebrity.jpg": {
+      "title": "Celebrity",
+      "canonicalTitle": "Celebrity",
+      "type": "series",
+      "releaseDate": "1984-02-12",
+      "genres": [
+        "دراما",
+        "جريمة"
+      ],
+      "networks": [
+        "NBC"
+      ],
+      "studio": "NBC",
+      "duration": "313 دقيقة للحلقة",
+      "summaryEn": "Three childhood friends (Mack Kleber and T.J.) leave their small Texas town behind in pursuit of the American dream. After they become famous, notorious, and respected. A terrible incident from their past will come back to haunt each of them...",
+      "links": [
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/14094/celebrity"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 14094,
+      "extra": {
+        "note": "درامي • انتهى • 313 دقيقة للحلقة",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "كيم تشول جيو",
+      "directors": [
+        "كيم تشول جيو"
+      ],
+      "cast": [
+        "بارك غي يونغ",
+        "كانغ مين هيوك",
+        "لي تشونغ آه",
+        "لي دون غون"
+      ],
+      "summaryAr": "ثلاثة من أصدقاء الطفولة (ماك كليبر وتي جيه) يتركون بلدتهم الصغيرة في تكساس خلفهم سعيًا لتحقيق الحلم الأمريكي. بعد أن يصبحوا مشهورين وسيئي السمعة ومحترمين. ستعود حادثة مروعة من ماضيهم لتطارد كل واحد منهم..."
+    },
+    "korean-series/Cheese in the Trap 720p.jpg": {
+      "title": "Cheese in the Trap 720p",
+      "canonicalTitle": "Cheese in the Trap",
+      "type": "series",
+      "releaseDate": "2016-01-04",
+      "genres": [
+        "دراما",
+        "كوميديا",
+        "رومانسي"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "60 دقيقة للحلقة",
+      "summaryEn": "Hong Sul's life is filled with work and study, and her diligent attitude is often taken advantage of by others. Yoo Jung was similar in the past, but has developed an exacting system of give-and-take to protect himself. Behind his solicitous smile lies a cold mind that demands payment for any mistakes it notes.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.interest.me/tvn/tvncheese?Main"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/9444/cheese-in-the-trap"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 9444,
+      "extra": {
+        "note": "درامي • انتهى • 60 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "بارك هاي جين",
+        "كيم غو أون",
+        "سو كانغ جون"
+      ],
+      "director": "لي يون جونغ",
+      "directors": [
+        "لي يون جونغ"
+      ],
+      "summaryAr": "حياة هونغ سول مليئة بالعمل والدراسة، وغالبًا ما يستغل الآخرون موقفها الدؤوب. كان Yoo Jung مشابهًا في الماضي، لكنه طور نظامًا صارمًا للأخذ والعطاء لحماية نفسه. خلف ابتسامته المهتمة يكمن عقل بارد يطالب بالدفع مقابل أي أخطاء يلاحظها."
+    },
+    "korean-series/Chimera [2021]_1.jpg": {
+      "title": "Chimera [2021]_1",
+      "canonicalTitle": "Chimera",
+      "type": "series",
+      "releaseDate": "2021-10-30",
+      "genres": [
+        "دراما",
+        "جريمة",
+        "غموض"
+      ],
+      "networks": [
+        "OCN"
+      ],
+      "studio": "OCN",
+      "duration": "90 دقيقة للحلقة",
+      "summaryEn": "In Chimera, a present-day case is found to be related to an explosion and series of murders in 1984 known as the Chimera Incident. The story follows a violent crimes detective named Jae Hwan, a criminal profiler named Yoo Jin, and a surgeon named Joong Yub, as they track down the criminal and uncover the secrets between the two cases.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://ocn.tving.com/ocn/VOD/View/CLIP/CA_D773716"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/57993/chimera"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 57993,
+      "extra": {
+        "note": "درامي • انتهى • 90 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "كيم دو هون",
+      "directors": [
+        "كيم دو هون"
+      ],
+      "cast": [
+        "بارك هاي سو",
+        "لي هي جون",
+        "كلوديا كيم",
+        "سو هيون"
+      ],
+      "summaryAr": "في Chimera، تم العثور على قضية حالية مرتبطة بانفجار وسلسلة من جرائم القتل في عام 1984 المعروفة باسم حادثة Chimera. بتدور أحداث القصة حول محقق جرائم عنيفة يُدعى جاي هوان، ومحلل جنائي يُدعى يو جين، وجراح يُدعى جونغ يوب، وفيه يقومون بتعقب المجرم وكشف الأسرار بين القضيتين."
+    },
+    "korean-series/Crash Landing on You [T-1080p-.jpg": {
+      "title": "Crash Landing on You [T-1080p-]",
+      "canonicalTitle": "Crash Landing on You",
+      "type": "series",
+      "releaseDate": "2019-12-14",
+      "genres": [
+        "دراما",
+        "كوميديا",
+        "رومانسي"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "101 دقيقة للحلقة",
+      "summaryEn": "Crash Landing on You follows a wealthy heiress named Yoon Se Ri, who, while paragliding, is forced to land in North Korea due to high winds. A North Korean officer named Ri Jung Hyuk hides and protects her, and in doing so, comes to love her",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.tving.com/tvn/cloy/1/Vod/List?rcnt=1"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/42756/crash-landing-on-you"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 42756,
+      "extra": {
+        "note": "درامي • انتهى • 101 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "بارك جونغ-هيو",
+      "cast": [
+        "هيون بين",
+        "سون يي جن",
+        "كيم جونغ هيون",
+        "سيو جي-هاي",
+        "يانغ كيونغ-وون",
+        "يو سو بن"
+      ],
+      "summaryAr": "Crash Landing on You تتبع وريثة ثرية تدعى Yoon Se Ri، واللي تضطر أثناء الطيران المظلي إلى الهبوط في كوريا الشمالية بسبب الرياح العاتية. يقوم ضابط كوري شمالي يُدعى ري جونغ هيوك بإخفائها وحمايتها، وبذلك يقع في حبها"
+    },
+    "korean-series/Dark Hole [T-720p-].jpg": {
+      "title": "Dark Hole [T-720p-3.53GB]",
+      "canonicalTitle": "Dark Hole",
+      "type": "series",
+      "releaseDate": "2021-04-30",
+      "genres": [
+        "أكشن",
+        "رعب",
+        "إثارة"
+      ],
+      "networks": [
+        "OCN"
+      ],
+      "studio": "OCN",
+      "duration": "90 دقيقة للحلقة",
+      "summaryEn": "A creature action thriller series about the desperate survival of the survivors among the mutant humans who drank a mysterious black smoke from the sinkhole and soon turned into monsters and quickly became a pandemonium.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.tving.com/ocn/darkhole"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/54134/dark-hole"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 54134,
+      "extra": {
+        "note": "درامي • انتهى • 90 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "كيم بونغ جو",
+      "directors": [
+        "كيم بونغ جو"
+      ],
+      "cast": [
+        "كيم أوك فين",
+        "لي جون هيوك",
+        "إم وون هي",
+        "كيم بيونغي"
+      ],
+      "summaryAr": "مسلسل تشويق وحركة مخلوق يدور حول البقاء اليائس للناجين بين البشر المتحولين اللي شربوا دخانًا أسود غامضًا من المجرى وسرعان ما تحولوا إلى وحوش وسرعان ما تحولوا إلى هرج ومرج."
+    },
+    "korean-series/Descendants of the Sun [T-1080p-19GB].jpg": {
+      "title": "Descendants of the Sun [T-1080p-]",
+      "canonicalTitle": "Descendants of the Sun",
+      "type": "series",
+      "releaseDate": "2016-02-24",
+      "genres": [
+        "دراما",
+        "رومانسي"
+      ],
+      "networks": [
+        "KBS2"
+      ],
+      "studio": "KBS2",
+      "duration": "60 دقيقة للحلقة",
+      "summaryEn": "This story tells of doctors stationed in the fictional war zone of Urk, and follows the love story that develops between a surgeon and a special forces officer, both elite in their respective fields. The story tracks both their personal and professional struggles while exploring issues about the value of life.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://www.kbs.co.kr/drama/sun/"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/9426/descendants-of-the-sun"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 9426,
+      "extra": {
+        "note": "درامي • انتهى • 60 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "لي اونج-بوك",
+      "cast": [
+        "سونغ جوونغ كي",
+        "سونغ هي كيو",
+        "جين جو",
+        "كيم جي وون",
+        "بارك-هوون",
+        "تشوي وونغ"
+      ],
+      "summaryAr": "تحكي هذه القصة عن أطباء متمركزين في منطقة الحرب الخيالية في أورك، وتتبع قصة الحب اللي تتطور بين جراح وضابط في القوات الخاصة، وكلاهما من النخبة في مجال تخصصهما. تتتبع القصة صراعاتهم الشخصية والمهنية أثناء استكشاف القضايا المتعلقة بقيمة الحياة."
+    },
+    "korean-series/Doctor Stranger [T-1080p-33.7GB].jpg": {
+      "title": "Doctor Stranger [T-1080p]",
+      "canonicalTitle": "Doctor Stranger",
+      "type": "series",
+      "releaseDate": "2014-05-05",
+      "genres": [
+        "دراما",
+        "رومانسي"
+      ],
+      "networks": [
+        "SBS"
+      ],
+      "studio": "SBS",
+      "duration": "65 دقيقة للحلقة",
+      "summaryEn": "The series will revolve around Park Hoon, a South Korean who was captured with his father and grows up in North Korea. He is trained to become a genius doctor, and though Park Hoon lands a job at the best South Korean hospital after defecting, he is treated as a foreigner. To find his lost North Korean first love, Song Jae Hee, he does anything to make money.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.sbs.co.kr/builder/programMainList.do?pgm_id=22000002970"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/7367/doctor-stranger"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 7367,
+      "extra": {
+        "note": "درامي • انتهى • 65 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "جين-هيوك",
+      "cast": [
+        "لي جونغ سوك",
+        "بارك هاي جين",
+        "جين سي يون",
+        "كانغ سو را",
+        "David No"
+      ],
+      "summaryAr": "بتدور أحداث المسلسل حول بارك هون، وهو كوري جنوبي تم أسره مع والده ونشأ في كوريا الشمالية. تم تدريبه ليصبح طبيبًا عبقري، وعلى الرغم من أن بارك هون حصل على وظيفة في أفضل مستشفى في كوريا الجنوبية بعد انشقاقه، إلا أنه يُعامل كأجنبي. للعثور على حبه الأول المفقود في كوريا الشمالية، سونغ جاي هي، يفعل أي شيء لكسب المال."
+    },
+    "korean-series/Doom At Your   Service [2021].jpg": {
+      "title": "Doom At Your   Service [2021]",
+      "canonicalTitle": "Doom at Your Service",
+      "type": "series",
+      "releaseDate": "2021-05-10",
+      "genres": [
+        "دراما",
+        "فانتازيا",
+        "رومانسي"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "66 دقيقة للحلقة",
+      "summaryEn": "Dong Kyung is an editor for a web novel company. Myul Mang, suddenly appears in her ordinary life. She makes a 100 day contract with Myul Mang, risking her life and her love.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.tving.com/tvn/myulmang/"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/54146/doom-at-your-service"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 54146,
+      "extra": {
+        "note": "درامي • انتهى • 66 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "كون يونغ إيل",
+      "directors": [
+        "كون يونغ إيل"
+      ],
+      "cast": [
+        "بارك بو يونغ",
+        "سو إن غوك",
+        "لي سو هيوك",
+        "كانغ تيه أو"
+      ],
+      "summaryAr": "دونغ كيونغ هو محرر لشركة روايات على شبكة الإنترنت. تظهر ميول مانج فجأة في حياتها العادية. لقد أبرمت عقدًا لمدة 100 يوم مع ميول مانج، مخاطرة بحياتها وحبها."
+    },
+    "korean-series/Evilive.jpg": {
+      "title": "Evilive",
+      "canonicalTitle": "Evilive",
+      "type": "series",
+      "releaseDate": "2023-10-14",
+      "genres": [
+        "جريمة",
+        "إثارة",
+        "غموض"
+      ],
+      "networks": [
+        "ENA"
+      ],
+      "studio": "ENA",
+      "duration": "60 دقيقة للحلقة",
+      "summaryEn": "Han Dong-soo, a livelihood lawyer who gets a case by recklessly asking for a visit from an inmate who is not familiar with the situation. He receives a dubious offer from gangster Seo Do-young, who was once a promising baseball prospect, to follow a woman. A single derailment that he thought was the first and last.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://ena.skylifetv.co.kr/bbs/board.php?bo_table=skydrama&wr_id=161&sca=%EC%B5%9C%EC%8B%A0"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/71183/evilive"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 71183,
+      "extra": {
+        "note": "درامي • انتهى • 60 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "كيم جونغ مين",
+      "directors": [
+        "كيم جونغ مين"
+      ],
+      "cast": [
+        "شين ها كيون",
+        "كيم يونغ كوانغ",
+        "شين جيه آ"
+      ],
+      "summaryAr": "هان دونغ سو، محامي سبل العيش اللي يحصل على قضية عن طريق طلب زيارة متهور من سجين ليس على دراية بالوضع. يتلقى عرضًا مريبًا من رجل العصابات سيو دو يونج، اللي كان في السابق لاعبًا واعدًا في لعبة البيسبول، لمتابعة امرأة. انحراف واحد عن المسار كان يعتقد أنه الأول والأخير."
+    },
+    "korean-series/Extraordinary Attorney Woo [T-1080p-5.16GB].[2022]_1.jpg": {
+      "title": "Extraordinary Attorney Woo [T-1080p-].[2022]_1",
+      "canonicalTitle": "Extraordinary Attorney Woo",
+      "type": "series",
+      "releaseDate": "2022-06-29",
+      "genres": [
+        "دراما"
+      ],
+      "networks": [
+        "ENA"
+      ],
+      "studio": "ENA",
+      "duration": "71 دقيقة للحلقة",
+      "summaryEn": "The story of 27-year-old lawyer Woo Young Woo, who has Asperger's syndrome and graduated at the top of her class at Seoul National University for both college and law school.However, she still finds herself struggling when it comes to social interactions.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://ena.skylifetv.co.kr/bbs/board.php?bo_table=skydrama&wr_id=113&sca=%EC%B5%9C%EC%8B%A0"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/62357/extraordinary-attorney-woo"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 62357,
+      "extra": {
+        "note": "درامي • انتهى • 71 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "يون ان سيك",
+      "cast": [
+        "بارك أون بين",
+        "كانغ تاي أوه",
+        "كانغ كي يونغ",
+        "جيون باي سو",
+        "بايك جي وون",
+        "ها يون كيونغ"
+      ],
+      "summaryAr": "قصة المحامية وو يونغ وو البالغة من العمر 27 عامًا، واللي تعاني من متلازمة أسبرجر وتخرجت على رأس فصلها في جامعة سيول الوطنية لكل من الكلية وكلية الحقوق. ومع ذلك، فإنها لا تزال بتلاقي نفسها تكافح عندما يتعلق الأمر بالتفاعلات الاجتماعية."
+    },
+    "korean-series/Ghost Doctor.jpg": {
+      "title": "Ghost Doctor",
+      "canonicalTitle": "Ghost Doctor",
+      "type": "series",
+      "releaseDate": "2022-01-03",
+      "genres": [
+        "فانتازيا"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "70 دقيقة للحلقة",
+      "summaryEn": "Cha Young Min is a genius doctor, but he is arrogant and selfish. One day, he gets involved in an unexpected case. Due to the unexpected case, his spirit possesses another doctor's body.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://program.tving.com/tvn/ghostdoctor"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/59338/ghost-doctor"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 59338,
+      "extra": {
+        "note": "درامي • انتهى • 70 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "بي راين",
+        "كيم بوم",
+        "يوي",
+        "سون نا أون"
+      ],
+      "director": "بو سونغ تشول",
+      "directors": [
+        "بو سونغ تشول"
+      ],
+      "summaryAr": "تشا يونغ مين طبيب عبقري، لكنه متعجرف وأناني. وفي أحد الأيام، يتورط في قضية غير متوقعة. وبسبب الحالة غير المتوقعة، استحوذت روحه على جسد طبيب آخر."
+    },
+    "korean-series/Happiness  [T-720p-4.29GB]_1.jpg": {
+      "title": "Happiness  [T-720p-]_1",
+      "canonicalTitle": "Happiness",
+      "type": "series",
+      "releaseDate": "2025-04-02",
+      "genres": [
+        "كوميديا"
+      ],
+      "networks": [
+        "Three"
+      ],
+      "studio": "Three",
+      "duration": "22 دقيقة للحلقة",
+      "summaryEn": "Charlie Summers, ex-Kiwi Broadway director, is forced by circumstance to return to his home town of Tauranga, where his mum makes him join her amateur theatre society.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.threenow.co.nz/shows/happiness/1740953212622"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/83734/happiness"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 83734,
+      "extra": {
+        "note": "درامي • 22 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "آن كيل هو",
+      "directors": [
+        "آن كيل هو"
+      ],
+      "cast": [
+        "هان هيو جو",
+        "بارك هيونغ سيك",
+        "جو وو جين"
+      ],
+      "summaryAr": "تشارلي سمرز، مخرج كيوي برودواي السابق، تجبره الظروف على العودة إلى مسقط رأسه في تاورانجا، وفيه تجعله والدته ينضم إلى مجتمعها المسرحي للهواة."
+    },
+    "korean-series/HeartBeat.jpg": {
+      "title": "HeartBeat",
+      "canonicalTitle": "Heartbeat",
+      "type": "series",
+      "releaseDate": "2016-03-22",
+      "genres": [
+        "دراما"
+      ],
+      "networks": [
+        "NBC"
+      ],
+      "studio": "NBC",
+      "duration": "60 دقيقة للحلقة",
+      "summaryEn": "Based on the real life and achievements of Dr. Kathy Magliato, this unique character-driven medical drama follows Dr. Alex Panttiere, an outspoken, world-renowned heart transplant surgeon, one of the few women in her field.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://www.nbc.com/heartbeat"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/3078/heartbeat"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 3078,
+      "extra": {
+        "note": "درامي • انتهى • 60 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "نيك بيري",
+        "Niamh Cusack",
+        "ديريك فولدز",
+        "بيل ماينارد",
+        "Jason Durr",
+        "Joseph McFadden"
+      ],
+      "creators": "Keith Richardson, جوني بيرن, Gerry Mill",
+      "director": "لي هيون سوك",
+      "directors": [
+        "لي هيون سوك"
+      ],
+      "summaryAr": "استنادًا إلى الحياة الحقيقية وإنجازات الدكتورة كاثي ماجلياتو، تتبع هذه الدراما الطبية الفريدة اللي تحركها الشخصية الدكتورة أليكس بانتيير، جراح زراعة القلب الصريح والشائع عالميًا، وهي واحدة من النساء القلائل في مجالها."
+    },
+    "korean-series/HELLBOUND.jpg": {
+      "title": "HELLBOUND",
+      "canonicalTitle": "Hellbound",
+      "type": "series",
+      "releaseDate": "2021-11-19",
+      "genres": [
+        "دراما",
+        "رعب"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "duration": "51 دقيقة للحلقة",
+      "summaryEn": "In Hellbound , supernatural beings appear out of nowhere to condemn people to hell. It doesn't matter whether these events are a blessing or a curse: a new religious group is interpreting them all as the will of the divine. What unfolds through this predicament is an intense and highly-charged story about people who must survive under conditions of utter social chaos.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/81256675"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/56942/hellbound"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 56942,
+      "extra": {
+        "note": "درامي • انتهى • 51 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "يون سانغ هو",
+      "cast": [
+        "يو آه إن",
+        "بارك جونغ مين",
+        "كيم هيون جو",
+        "وون جين آه",
+        "يانغ ايك جون",
+        "كيم دو يون"
+      ],
+      "creators": "يون سانغ هو",
+      "summaryAr": "في Hellbound، تظهر كائنات خارقة للطبيعة من العدم لتحكم على الناس بالجحيم. ولا يهم ما لو كانت هذه الأحداث نعمة أم نقمة: فهناك مجموعة دينية جديدة تفسرها كلها على أنها إرادة إلهية. ما يتكشف خلال هذا المأزق هو قصة مكثفة ومشحونة للغاية عن الأشخاص اللي يجب عليهم البقاء على قيد الحياة في ظل ظروف الفوضى الاجتماعية المطلقة."
+    },
+    "korean-series/Hometown Cha Cha Cha [T-1080p-18.3GB].jpg": {
+      "title": "Hometown Cha Cha Cha [T-1080p-]",
+      "canonicalTitle": "Hometown Cha-Cha-Cha",
+      "type": "series",
+      "releaseDate": "2021-08-28",
+      "genres": [
+        "دراما",
+        "رومانسي"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "90 دقيقة للحلقة",
+      "summaryEn": "Yoon Hye Jin is a woman who has both beauty and brains. Her life plan falls apart because of the tiny bit of righteousness in her heart, and after various obstacles, she moves to the seashore village Gongjin and meets Mr. Hong.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.tving.com/tvn/chachacha"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/56464/hometown-cha-cha-cha"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 56464,
+      "extra": {
+        "note": "درامي • انتهى • 90 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "يوو جاي-وون",
+      "cast": [
+        "شين مين آه",
+        "لي سانغ يي",
+        "كيم سيون هو"
+      ],
+      "creators": "شين ها-اون",
+      "summaryAr": "يون هاي جين هي امرأة تتمتع بالجمال والعقل. تنهار خطة حياتها بسبب القليل من البر في قلبها، وبعد عقبات مختلفة، تنتقل إلى قرية شاطئ البحر Gongjin وتلتقي بالسيد هونغ."
+    },
+    "korean-series/House of Ninjas_1.jpg": {
+      "title": "House of Ninjas_1",
+      "canonicalTitle": "House of Ninjas",
+      "type": "series",
+      "releaseDate": "2024-02-15",
+      "genres": [
+        "دراما",
+        "أكشن"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "duration": "53 دقيقة للحلقة",
+      "summaryEn": "Ninjas were a fixture of milestones in Japanese history, and even now they're taking on secret missions behind the curtain of Japanese society. Set in modern Japan, House of Ninjas tells the story of the Tawara family, the last ninja family that had abandoned its roots after a certain incident in the past, who must take on the greatest crisis in Japanese history that threatens to shake the nation to its core.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/81465101"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/64015/house-of-ninjas"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 64015,
+      "extra": {
+        "note": "درامي • 53 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "ديف يوس",
+      "directors": [
+        "ديف يوس"
+      ],
+      "cast": [
+        "كينتو كاكو",
+        "يوسوكي إيغوتشي",
+        "تاي تيمورا"
+      ],
+      "summaryAr": "كان محاربو النينجا من المعالم البارزة في التاريخ الياباني، وحتى دلوقتي يقومون بمهام سرية خلف ستار المجتمع الياباني. بتدور أحداث House of Ninjas في اليابان الحديثة، وتحكي قصة عائلة Tawara، آخر عائلة نينجا تخلت عن جذورها بعد حادثة معينة في الماضي، واللي يجب عليها مواجهة أكبر أزمة في التاريخ الياباني واللي تهدد بهز الأمة حتى النخاع."
+    },
+    "korean-series/Island.jpg": {
+      "title": "Island",
+      "canonicalTitle": "Island",
+      "type": "series",
+      "releaseDate": "2022-12-30",
+      "genres": [
+        "دراما",
+        "فانتازيا",
+        "رعب"
+      ],
+      "networks": [
+        "TVING"
+      ],
+      "duration": "53 دقيقة للحلقة",
+      "summaryEn": "Based off of a popular webtoon series of the same name, Island tells the story of a group of people who are fated to save the world by facing off against an ominous force on the island of Jeju. Won Mi Ho is the only daughter of her father who runs Daehan Group. Her arrogant and selfish attitude causes her to make a big mistake that eventually angers her father into banishing her to Jeju island.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.tving.com/contents/P001665114"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/64224/island"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 64224,
+      "extra": {
+        "note": "درامي • انتهى • 53 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "باه ج جونغ",
+      "directors": [
+        "باه ج جونغ"
+      ],
+      "cast": [
+        "كيم نام جيل",
+        "لي دا هي",
+        "تشا أون وو"
+      ],
+      "summaryAr": "استنادًا إلى سلسلة ويبتون شهيرة تحمل نفس الاسم، تحكي Island قصة مجموعة من الأشخاص اللي قدر لهم إنقاذ العالم من خلال مواجهة قوة مشؤومة في جزيرة جيجو. وون مي هو هي الابنة الوحيدة لوالدها اللي يدير مجموعة Daehan. دفعها موقفها المتغطرس والأناني إلى ارتكاب خطأ فادح أدى في النهاية إلى إثارة غضب والدها ودفعه إلى نفيها إلى جزيرة جيجو."
+    },
+    "korean-series/Its Okay To Not Be Okay [T-1080p-50.4GB].jpg": {
+      "title": "Its Okay To Not Be Okay [T-1080p]",
+      "canonicalTitle": "It's Okay to Not Be Okay",
+      "type": "series",
+      "releaseDate": "2020-06-20",
+      "genres": [
+        "دراما",
+        "فانتازيا",
+        "رومانسي"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "90 دقيقة للحلقة",
+      "summaryEn": "It's Okay to Not Be Okay will tell the story of a community health worker at a psychiatric ward who doesn't have time for love and a storybook writer who has never known love due to a birth defect. After meeting one another, the two slowly begin to heal each other's emotional wounds.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.tving.com/tvn/tvnpsycho/1/Vod/List"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/48104/its-okay-to-not-be-okay"
+        }
+      ],
+      "confidence": "medium",
+      "source": "tvmaze",
+      "tvmazeId": 48104,
+      "extra": {
+        "note": "درامي • انتهى • 90 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "بارك شين و",
+      "directors": [
+        "بارك شين و"
+      ],
+      "cast": [
+        "كيم سو هيون",
+        "سو ييا جي",
+        "أو جونغ سي",
+        "بارك غي يونغ"
+      ],
+      "summaryAr": "يحكي فيلم \"لا بأس أن لا تكون بخير\" قصة عامل صحة مجتمعي في جناح الطب النفسي ليس لديه وقت للحب، وكاتب قصص لم يعرف الحب أبدًا بسبب عيب خلقي. بعد لقاء بعضهما البعض، يبدأ الاثنان ببطء في شفاء الجروح العاطفية لبعضهما البعض."
+    },
+    "korean-series/King The Land.jpg": {
+      "title": "King The Land",
+      "canonicalTitle": "King the Land",
+      "type": "series",
+      "releaseDate": "2023-06-17",
+      "genres": [
+        "كوميديا",
+        "رومانسي"
+      ],
+      "networks": [
+        "jTBC"
+      ],
+      "studio": "jTBC",
+      "duration": "70 دقيقة للحلقة",
+      "summaryEn": "Set in the backdrop of a hotelier's dream, the VVIP business lounge 'King the Land', it depicts the story of a man who cannot withstand a fake smile and a woman who always has to smile brightly.",
+      "links": [
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/64352/king-the-land"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 64352,
+      "extra": {
+        "note": "درامي • انتهى • 70 دقيقة للحلقة",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "لي جون هو",
+        "إم يونا",
+        "كو وون هي",
+        "كيم غا-يون",
+        "آهن سي-ها",
+        "كيم جاي-وون"
+      ],
+      "director": "إم هيون ووك",
+      "directors": [
+        "إم هيون ووك"
+      ],
+      "summaryAr": "تقع في خلفية حلم صاحب الفندق، صالة الأعمال لكبار الشخصيات \"King the Land\"، وهي تصور قصة رجل لا يستطيع تحمل ابتسامة مزيفة وامرأة يجب عليها دائمًا أن تبتسم بشكل مشرق."
+    },
+    "korean-series/Kingdom [T-2-1080p-17.3GB].jpg": {
+      "title": "Kingdom [T-2-1080p-]",
+      "canonicalTitle": "Kingdom",
+      "type": "series",
+      "releaseDate": "2014-10-08",
+      "genres": [
+        "دراما",
+        "عائلي",
+        "رياضات"
+      ],
+      "networks": [
+        "Audience Network"
+      ],
+      "studio": "Audience Network",
+      "duration": "60 دقيقة للحلقة",
+      "summaryEn": "Kingdom is a raw family drama set against the world of Mixed Martial Arts (MMA) in Venice, California. Alvey Kulina owns Navy St. MMA with the help of his girlfriend Lisa Prince.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.directvpr.com/english/kingdom"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/214/kingdom"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 214,
+      "extra": {
+        "note": "درامي • انتهى • 60 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "فرانك جريلو",
+        "كيلي سانشيز",
+        "مات لوريا",
+        "جوناثان تاكر",
+        "نيك جوناس",
+        "جوانا جوينج"
+      ],
+      "creators": "Byron Balasco",
+      "director": "كيم سونغ هون",
+      "directors": [
+        "كيم سونغ هون"
+      ],
+      "summaryAr": "Kingdom هي دراما عائلية بتدور أحداثها في مواجهة عالم الفنون القتالية المختلطة (MMA) في البندقية، كاليفورنيا. يمتلك ألفي كولينا Navy St. MMA بمساعدة صديقته ليزا برينس."
+    },
+    "korean-series/Love Alarm.jpg": {
+      "title": "Love Alarm",
+      "canonicalTitle": "Love Alarm",
+      "type": "series",
+      "releaseDate": "2019-08-22",
+      "genres": [
+        "دراما",
+        "رومانسي"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "duration": "52 دقيقة للحلقة",
+      "summaryEn": "In a world where an app alerts people if someone in the vicinity likes them, Kim Jo Jo experiences young love while coping with personal adversities.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/80168068"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/26152/love-alarm"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 26152,
+      "extra": {
+        "note": "درامي • انتهى • 52 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "لي نا جونغ",
+      "directors": [
+        "لي نا جونغ"
+      ],
+      "cast": [
+        "كيم سو هيون",
+        "جونغ غا رام",
+        "سونغ كانغ"
+      ],
+      "summaryAr": "في عالم وفيه ينبه أحد التطبيقات الأشخاص لو كان هناك شخص ما في المنطقة المجاورة معجب بهم، تختبر كيم جو جو حب الشباب أثناء التعامل مع الشدائد الشخصية."
+    },
+    "korean-series/Money Heist.jpg": {
+      "title": "Money Heist",
+      "canonicalTitle": "Money Heist: Korea - Joint Economic Area",
+      "type": "series",
+      "releaseDate": "2022-06-24",
+      "genres": [
+        "دراما",
+        "جريمة",
+        "إثارة"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "duration": "70 دقيقة للحلقة",
+      "summaryEn": "Thieves overtake the mint of a unified Korea. With hostages trapped inside, the police must stop them — as well as the shadowy mastermind behind it all.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/80997343"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/59307/money-heist-korea-joint-economic-area"
+        }
+      ],
+      "confidence": "medium",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 59307,
+      "extra": {
+        "note": "درامي • انتهى • 70 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "كولدو سيرا",
+      "cast": [
+        "ألفارو مورتي",
+        "بيدرو ألونسو",
+        "أورسولا كوربيرو",
+        "ميغيل هيران",
+        "إيتزيار إيتونو",
+        "إستير آيسبو"
+      ],
+      "creators": "اليكس بينا",
+      "summaryAr": "اللصوص يتفوقون على النعناع في كوريا الموحدة. مع احتجاز الرهائن في الداخل، يجب على الشرطة إيقافهم - وكذلك العقل المدبر الغامض وراء كل ذلك."
+    },
+    "korean-series/Monstrous.jpg": {
+      "title": "Monstrous",
+      "canonicalTitle": "Monstrous",
+      "type": "series",
+      "releaseDate": "2022-04-29",
+      "genres": [
+        "دراما",
+        "إثارة",
+        "غموض"
+      ],
+      "networks": [
+        "TVING"
+      ],
+      "duration": "36 دقيقة للحلقة",
+      "summaryEn": "Jung Gi Hoon is an archaeologist who has always been interested in all sorts of mystical phenomena. But one day a strange incident completely changed his life. Now he publishes the occult magazine \"Monthly Strange Stories\" and runs a Youtube channel.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.hancinema.net/logos/tving-icon.png"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/61188/monstrous"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 61188,
+      "extra": {
+        "note": "درامي • انتهى • 36 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "جانغ كون-جاي",
+      "cast": [
+        "كو كيو هوان",
+        "شين هيون-بين",
+        "كيم دجي-يونغ",
+        "بارك هو سان",
+        "كواك دونغ يون",
+        "نام دا ريوم"
+      ],
+      "summaryAr": "جونغ جي هون هو عالم آثار كان دائمًا مهتمًا بجميع أنواع الظواهر الغامضة. بس في يوم من الأيام حدثت حادثة غريبة غيرت حياته بالكامل. وهو دلوقتي ينشر المجلة الغامضة \"قصص شهرية غريبة\" ويدير قناة على اليوتيوب."
+    },
+    "korean-series/Moon Lovers - Scarlet Heart Ryeo [T-1080p-23.1GB].jpg": {
+      "title": "Moon Lovers - Scarlet Heart Ryeo [T-1080p-]",
+      "canonicalTitle": "Moon Lovers: Scarlet Heart Ryeo",
+      "type": "series",
+      "releaseDate": "2016-08-29",
+      "genres": [
+        "فانتازيا",
+        "رومانسي"
+      ],
+      "networks": [
+        "SBS"
+      ],
+      "studio": "SBS",
+      "duration": "60 دقيقة للحلقة",
+      "summaryEn": "When a total eclipse of the sun takes place, a 21st century woman, Go Ha Jin, is transported back in time to the Goryeo Dynasty of Korea. She wakes up in the body of 16-year-old Hae Soo, an aristocrat living with Lady Hae, her cousin who happens to be married to one of the sons of King Taejo. She soon befriends several of the princes, who find her carefree and exuberant attitude refreshing.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.sbs.co.kr/builder/programMainList.do?pgm_id=22000009610"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/18630/moon-lovers-scarlet-heart-ryeo"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 18630,
+      "extra": {
+        "note": "درامي • انتهى • 60 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "لي جون جي",
+        "آيو",
+        "كانغ ها نول",
+        "نام جو هيوك",
+        "جي سو"
+      ],
+      "director": "كيم جيو تاي",
+      "directors": [
+        "كيم جيو تاي"
+      ],
+      "summaryAr": "عندما يحدث كسوف كلي للشمس، يتم نقل امرأة من القرن الحادي والعشرين، تُدعى جو ها جين، بالزمن إلى أسرة كوريو الكورية. تستيقظ في جسد هاي سو البالغة من العمر 16 عامًا، وهي أرستقراطية تعيش مع السيدة هاي، ابنة عمها اللي تصادف أنها متزوجة من أحد أبناء الملك تايجو. وسرعان ما تصادقت مع العديد من الأمراء، اللي وجدوا موقفها الخالي من الهموم والحيوية منعشًا."
+    },
+    "korean-series/My Girlfriend Is a Gumiho  720p.jpg": {
+      "title": "My Girlfriend Is a Gumiho  720p",
+      "canonicalTitle": "My Girlfriend is a Gumiho",
+      "type": "series",
+      "releaseDate": "2010-08-11",
+      "genres": [
+        "كوميديا",
+        "فانتازيا",
+        "رومانسي"
+      ],
+      "networks": [
+        "SBS"
+      ],
+      "studio": "SBS",
+      "duration": "70 دقيقة للحلقة",
+      "summaryEn": "Cha Dae Woong is a spoiled brat with plans to become a successful action star. One day, on the run from his rich grandfather's latest fit of rage towards him, he accidentally frees a nine-tailed fox, Gu Mi Ho, who has been imprisoned in a painting for 500 years. Frightened at first, he runs away to the woods and ends up getting seriously injured.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://tv.sbs.co.kr/mygumiho/"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/8325/my-girlfriend-is-a-gumiho"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 8325,
+      "extra": {
+        "note": "درامي • انتهى • 70 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "لي سونغ جي",
+        "شين مينا",
+        "نو مين وو",
+        "بارك سو جين"
+      ],
+      "director": "بو سيونغ تشول",
+      "directors": [
+        "بو سيونغ تشول"
+      ],
+      "summaryAr": "تشا داي وونغ هو طفل مدلل لديه خطط ليصبح نجم حركة ناجحًا. في أحد الأيام، أثناء هروبه من نوبة غضب جده الغني تجاهه، قام بطريق الخطأ بتحرير الثعلب ذو تسعة ذيول، غو مي هو، اللي كان مسجونًا في لوحة لمدة 500 عام. خائفًا في البداية، يهرب إلى الغابة وينتهي به الأمر مصابًا بجروح خطيرة."
+    },
+    "korean-series/My Love from the Star 720p.jpg": {
+      "title": "My Love from the Star 720p",
+      "canonicalTitle": "My Love from the Star",
+      "type": "series",
+      "releaseDate": "2013-12-18",
+      "genres": [
+        "رومانسي",
+        "خيال علمي",
+        "إثارة"
+      ],
+      "networks": [
+        "SBS"
+      ],
+      "studio": "SBS",
+      "duration": "70 دقيقة للحلقة",
+      "summaryEn": "Do Min Joon is an alien who landed on Earth 400 years ago during the Joseon Dynasty period. He possesses a near-perfect appearance and enhanced physical abilities involving his vision, hearing and speed. He holds a cynical view to human beings, but he falls in love with the beautiful actress Chun Song Yi.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.sbs.co.kr/builder/programMainList.do?pgm_id=22000001041"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/3704/my-love-from-the-star"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 3704,
+      "extra": {
+        "note": "درامي • انتهى • 70 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "Joyce Bernal",
+      "cast": [
+        "كيم سو هيون",
+        "جون جي هيون",
+        "بارك هاي جين",
+        "يو إن نا"
+      ],
+      "summaryAr": "دو مين جون هو كائن فضائي هبط على الأرض منذ 400 عام خلال فترة مملكة جوسون. يتمتع بمظهر شبه مثالي وقدرات بدنية معززة تشمل رؤيته وسمعه وسرعته. يحمل نظرة ساخرة للبشر، لكنه يقع في حب الممثلة الجميلة تشون سونغ يي."
+    },
+    "korean-series/My Name [T-1080p-12.6GB].jpg": {
+      "title": "My Name [T-1080p]",
+      "canonicalTitle": "My Name",
+      "type": "series",
+      "releaseDate": "2021-10-15",
+      "genres": [
+        "دراما",
+        "أكشن",
+        "جريمة"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "duration": "50 دقيقة للحلقة",
+      "summaryEn": "Following her father's murder, a revenge-driven woman puts her trust in a powerful crime boss -- and enters the police force under his direction.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/81011211"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/57415/my-name"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 57415,
+      "extra": {
+        "note": "درامي • انتهى • 50 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "كيم جين مين",
+      "cast": [
+        "هان سو هي",
+        "بارك هي-سون",
+        "كيم سانغ هو",
+        "اهن بو هيون",
+        "لي هاك جو",
+        "تشانغ رايول"
+      ],
+      "summaryAr": "بعد مقتل والدها، تضع امرأة ذات رغبة انتقامية ثقتها في زعيم عصابة قوي، وتدخل قوة الشرطة تحت إشرافه."
+    },
+    "korean-series/My Secret Romance 720p.jpg": {
+      "title": "My Secret Romance 720p",
+      "canonicalTitle": "My Secret Romance",
+      "type": "series",
+      "releaseDate": "2017-04-17",
+      "genres": [
+        "دراما",
+        "كوميديا",
+        "رومانسي"
+      ],
+      "networks": [
+        "OCN"
+      ],
+      "studio": "OCN",
+      "duration": "60 دقيقة للحلقة",
+      "summaryEn": "Cha Jin Wook is the son of a wealthy family who runs a large firm. He is known to pursue short term love only, but he is changing when he is crossing paths with Lee Yoo Mi. They both end up having an one-night stand together in a dating world of busy people who tend to flirt and chase ''certain'' relationships rather than a connection in which they are allowed to show their true feelings.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.interest.me/ocn/mysecretromance"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/25984/my-secret-romance"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 25984,
+      "extra": {
+        "note": "درامي • انتهى • 60 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "سونغ هوون",
+        "سونغ جي يون",
+        "كيم جاي-يونغ"
+      ],
+      "director": "كانغ تشول و",
+      "directors": [
+        "كانغ تشول و"
+      ],
+      "summaryAr": "تشا جين ووك هو ابن عائلة ثرية تدير شركة كبيرة. ومن المعروف أنه يسعى وراء الحب قصير الأمد بس، لكنه يتغير عندما يلتقي مع Lee Yoo Mi. ينتهي الأمر بهما كلاهما إلى قضاء ليلة واحدة معًا في عالم مواعدة يضم أشخاصًا مشغولين يميلون إلى المغازلة ومطاردة علاقات \"معينة\" بدلاً من الاتصال اللي يُسمح لهم فيه بإظهار مشاعرهم الحقيقية."
+    },
+    "korean-series/Oh My Ghost 720p.jpg": {
+      "title": "Oh My Ghost 720p",
+      "canonicalTitle": "Oh My Ghost",
+      "type": "series",
+      "releaseDate": "2015-07-03",
+      "genres": [
+        "دراما",
+        "كوميديا",
+        "رومانسي"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "60 دقيقة للحلقة",
+      "summaryEn": "Na Bong-sun has an extremely timid personality and low self-esteem, doesn't have any close friends, and is constantly getting reprimanded at her job as an assistant chef at Sun Restaurant. She also occasionally sees ghosts, thanks to a shaman grandmother. One day, Bong-sun gets possessed by a lustful virgin ghost named Shin Soon-ae.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.interest.me/tvn/ohmyghost"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/7139/oh-my-ghost"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 7139,
+      "extra": {
+        "note": "درامي • انتهى • 60 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "يو جي وون",
+      "directors": [
+        "يو جي وون"
+      ],
+      "cast": [
+        "بارك بو يونغ",
+        "تشو جونغ سوك",
+        "إم جو هوان",
+        "كيم سول جي"
+      ],
+      "summaryAr": "تتمتع Na Bong-sun بشخصية خجولة للغاية وتدني احترام الذات، وليس لديها أي أصدقاء مقربين، وتتعرض للتوبيخ باستمرار في وظيفتها كمساعد طاهٍ في مطعم Sun. كما أنها ترى أحيانًا أشباحًا، وذلك بفضل جدتها الشامانية. في أحد الأيام، استحوذ على \"بونغ سون\" شبح عذراء شهواني يُدعى \"شين سون آي\"."
+    },
+    "korean-series/One Ordinary Day [T-720p-2.74GB]_1.jpg": {
+      "title": "One Ordinary Day [T-720p-]_1",
+      "canonicalTitle": "One Ordinary Day",
+      "type": "series",
+      "releaseDate": "2021-11-27",
+      "genres": [
+        "دراما"
+      ],
+      "networks": [
+        "Coupang Play"
+      ],
+      "duration": "60 دقيقة للحلقة",
+      "summaryEn": "Kim Hyun Soo is an ordinary university student, but he is accused of murder by an overnight mistake. His life descends into a bottomless pit. Shin Joong Han is a third rate lawyer.",
+      "links": [
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/55058/one-ordinary-day"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 55058,
+      "extra": {
+        "note": "درامي • انتهى • 60 دقيقة للحلقة",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "كيم سو هيون"
+      ],
+      "director": "لي ميونغ و",
+      "directors": [
+        "لي ميونغ و"
+      ],
+      "summaryAr": "كيم هيون سو طالب جامعي عادي، لكنه متهم بالقتل عن طريق خطأ بين عشية وضحاها. وتنحدر حياته إلى حفرة لا نهاية لها. شين جونغ هان محامي من الدرجة الثالثة."
+    },
+    "korean-series/Parasyte The Grey.jpg": {
+      "title": "Parasyte The Grey",
+      "canonicalTitle": "Parasyte: The Grey",
+      "type": "series",
+      "releaseDate": "2024-04-05",
+      "genres": [
+        "أكشن",
+        "رعب",
+        "خيال علمي"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "duration": "50 دقيقة للحلقة",
+      "summaryEn": "When unidentified parasites violently take over human hosts and gain power, humanity must rise to combat the growing threat.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/81194158"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/63701/parasyte-the-grey"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 63701,
+      "extra": {
+        "note": "درامي • انتهى • 50 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "يون سانغ هو",
+      "directors": [
+        "يون سانغ هو"
+      ],
+      "cast": [
+        "جون سو ني",
+        "كوو غيو هوان",
+        "لي جونغ هيون"
+      ],
+      "summaryAr": "عندما تستولي طفيليات مجهولة الهوية بعنف على المضيفين البشريين وتكتسب القوة، يجب على البشرية أن تنهض لمكافحة التهديد المتزايد."
+    },
+    "korean-series/Romance Is a Bonus Book.jpg": {
+      "title": "Romance Is a Bonus Book",
+      "canonicalTitle": "Romance Is a Bonus Book",
+      "type": "series",
+      "releaseDate": "2019-01-26",
+      "genres": [
+        "دراما",
+        "كوميديا",
+        "رومانسي"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "60 دقيقة للحلقة",
+      "summaryEn": "Romance Is a Bonus Book is about the love story between two people in their 30s, who work in the world of publishing. Cha Eun Ho is a successful and handsome writer who is also the youngest chief editor at a publishing company. He has a calm demeanor and remains reasonable at work.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.tving.com/tvn/bonusbook/1/Vod/List"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/40275/romance-is-a-bonus-book"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 40275,
+      "extra": {
+        "note": "درامي • انتهى • 60 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "لي نا يونغ",
+        "لي جونغ سوك",
+        "جونغ يوو-جين",
+        "وي ها جون"
+      ],
+      "director": "لي جونغ هيو",
+      "directors": [
+        "لي جونغ هيو"
+      ],
+      "summaryAr": "بتدور أحداث Romance Is a Bonus Book حول قصة حب بين شخصين في الثلاثينيات من العمر، يعملان في عالم النشر. تشا إيون هو كاتب ناجح ووسيم وهو أيضًا أصغر رئيس تحرير في شركة نشر. يتمتع بسلوك هادئ ويظل معقولاً في العمل."
+    },
+    "korean-series/Shadow Detective.jpg": {
+      "title": "Shadow Detective",
+      "canonicalTitle": "Shadow Detective",
+      "type": "series",
+      "releaseDate": "2022-10-26",
+      "genres": [
+        "جريمة"
+      ],
+      "networks": [
+        "Disney+"
+      ],
+      "duration": "56 دقيقة للحلقة",
+      "summaryEn": "The story of a detective who is about to retire unfolds a breathtaking psychological warfare with a mysterious man who follows his path while hiding his identity.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.disneyplus.com/series/shadow-detective/5f3Gi2h8PfIT"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/64112/shadow-detective"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 64112,
+      "extra": {
+        "note": "درامي • انتهى • 56 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "لي سونغ مين",
+        "كيونغ سو جين",
+        "لي هاك جو"
+      ],
+      "director": "هان دونغ هوا",
+      "directors": [
+        "هان دونغ هوا"
+      ],
+      "summaryAr": "قصة محقق على وشك التقاعد تكشف عن حرب نفسية تحبس الأنفاس مع رجل غامض يتتبع طريقه بينما يخفي هويته."
+    },
+    "korean-series/Sisyphus The Myth 720p.jpg": {
+      "title": "Sisyphus The Myth 720p",
+      "canonicalTitle": "Sisyphus: The Myth",
+      "type": "series",
+      "releaseDate": "2021-02-17",
+      "genres": [
+        "دراما",
+        "فانتازيا",
+        "غموض"
+      ],
+      "networks": [
+        "jTBC"
+      ],
+      "studio": "jTBC",
+      "duration": "79 دقيقة للحلقة",
+      "summaryEn": "Sisyphus: The Myth is a fantasy-mystery drama that follows Han Tae Sool, a genius engineer who embarks on a perilous journey to bring to light hidden beings that are secretly residing in our world, and Tae Sool's savior Kang Seo Hae, who has walked a long and dangerous path for him. At some point in their lives, everyone has asked themselves the question, \"What if we could go back to the past?",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://tv.jtbc.joins.com/sisyphus"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/52769/sisyphus-the-myth"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 52769,
+      "extra": {
+        "note": "درامي • انتهى • 79 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "تشو سونغ وو",
+        "بارك شين هي"
+      ],
+      "director": "جين هيوك",
+      "directors": [
+        "جين هيوك"
+      ],
+      "summaryAr": "Sisyphus: The Myth هي دراما خيالية وغامضة تتبع هان تاي سول، المهندس العبقري اللي يشرع في رحلة محفوفة بالمخاطر لتسليط الضوء على الكائنات المخفية اللي تعيش سرًا في عالمنا، ومنقذ تاي سول كانغ سيو هاي، اللي سار في طريق طويل وخطير من أجله. في مرحلة ما من حياتهم، يسأل الجميع أنفسهم هذا السؤال: \"ماذا لو تمكنا من العودة إلى الماضي؟"
+    },
+    "korean-series/SQUID GAME.jpg": {
+      "title": "SQUID GAME",
+      "canonicalTitle": "Squid Game",
+      "type": "series",
+      "releaseDate": "2021-09-17",
+      "genres": [
+        "دراما",
+        "إثارة",
+        "غموض"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "duration": "59 دقيقة للحلقة",
+      "summaryEn": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/81040344"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/43687/squid-game"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 43687,
+      "extra": {
+        "note": "درامي • انتهى • 59 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "هوانغ دونغ هيوك",
+      "cast": [
+        "لي جونغ جاي",
+        "بارك هاي سو",
+        "هو ايون جونغ",
+        "أوه يونغ سو",
+        "أنوبام تريباثي",
+        "كيم جو-ريونغ"
+      ],
+      "creators": "هوانغ دونغ هيوك",
+      "summaryAr": "يقبل المئات من اللاعبين اللي يعانون من ضائقة مالية دعوة غريبة للتنافس في ألعاب الأطفال. في الداخل، تنتظرك جائزة مغرية - ذات مخاطر عالية مميتة."
+    },
+    "korean-series/Strong Girl.Nam soon.jpg": {
+      "title": "Strong Girl.Nam soon",
+      "canonicalTitle": "Strong Girl Nam Soon",
+      "type": "series",
+      "releaseDate": "2023-10-07",
+      "genres": [
+        "كوميديا",
+        "جريمة",
+        "رومانسي"
+      ],
+      "networks": [
+        "jTBC"
+      ],
+      "studio": "jTBC",
+      "duration": "70 دقيقة للحلقة",
+      "summaryEn": "Kang Nam Soon has superhuman strength. She went missing as a kid in Mongolia. Now as an adult, she comes to Gangnam, Seoul, South Korea to find her parents.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://tv.jtbc.co.kr/stronggirlnamsoon"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/66026/strong-girl-nam-soon"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 66026,
+      "extra": {
+        "note": "درامي • انتهى • 70 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "كيم جيونغ سيك",
+      "cast": [
+        "لي يو مي",
+        "كيم جونغ-إيون",
+        "كيم هاي سوك",
+        "اونغ سونغ وو",
+        "بيون وو سوك"
+      ],
+      "creators": "بايك مي-كيونغ",
+      "summaryAr": "يتمتع كانغ نام سون بقوة خارقة. لقد اختفت عندما كانت طفلة في منغوليا. دلوقتي كشخص بالغ، تأتي إلى جانجنام، سيول، كوريا الجنوبية للعثور على والديها."
+    },
+    "korean-series/Suspicious Partner.jpg": {
+      "title": "Suspicious Partner",
+      "canonicalTitle": "Suspicious Partner",
+      "type": "series",
+      "releaseDate": "2017-05-10",
+      "genres": [
+        "كوميديا",
+        "رومانسي",
+        "إثارة"
+      ],
+      "networks": [
+        "SBS"
+      ],
+      "studio": "SBS",
+      "duration": "30 دقيقة للحلقة",
+      "summaryEn": "A forgetful killer can be a dangerous thing. Noh Ji Wook is a prosecutor who changes jobs to become a private attorney at a powerful law firm. Meanwhile, Eun Bong Hee is a prosecutor trainee who works with prosecutor Cha Yoo Jung, Ji Wook's ex-girlfriend who desperately wants to win him back.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.sbs.co.kr/builder/programReplayVideo.do?pgm_id=22000010339&pgm_build_id=22709&pgm_mnu_id=48526"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/26157/suspicious-partner"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 26157,
+      "extra": {
+        "note": "درامي • انتهى • 30 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "بارك سيون-هو",
+      "cast": [
+        "جي تشانغ ووك",
+        "نام جي هيون",
+        "تشوي تاي جون",
+        "كوون نارا",
+        "لي ديوك-هوا",
+        "نام غي-اي"
+      ],
+      "summaryAr": "القاتل النسيان يمكن أن يكون شيئًا خطيرًا. نوه جي ووك هو المدعي العام اللي يغير وظيفته ليصبح محاميًا خاصًا في شركة محاماة قوية. في هذه الأثناء، إيون بونغ هي هي المدعية العامة المتدربة اللي تعمل مع المدعي العام تشا يو جونغ، صديقة جي ووك السابقة اللي تريد بشدة استعادته."
+    },
+    "korean-series/Sweet Home [1080p]_1.jpg": {
+      "title": "Sweet Home [1080p]_1",
+      "canonicalTitle": "Sweet Home",
+      "type": "series",
+      "releaseDate": "2020-12-18",
+      "genres": [
+        "أكشن",
+        "فانتازيا",
+        "رعب"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "duration": "58 دقيقة للحلقة",
+      "summaryEn": "Adapted from a popular webtoon of the same name, Sweet Home is a VFX/SFX filled thriller based on the unique world in which people turn into monsters that reflect their internal desires. Cha Hyun Soo, a reclusive high school student who moves into a new apartment called Green Home after a personal tragedy, faces a series of life changing situations that brings him out to the world to save others.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/81061734"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/46570/sweet-home"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 46570,
+      "extra": {
+        "note": "درامي • انتهى • 58 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "لي اونج-بوك",
+      "cast": [
+        "سونغ كانغ",
+        "لي جين-ووك",
+        "لي سي يونغ",
+        "بارك جيو يونغ",
+        "غو يون جونغ",
+        "لي دو-هيون"
+      ],
+      "summaryAr": "مقتبس من ويبتون شهير يحمل نفس الاسم، Sweet Home هو فيلم تشويق مليئ بالمؤثرات البصرية/المؤثرات الصوتية يعتمد على العالم الفريد اللي يتحول فيه الناس إلى وحوش تعكس رغباتهم الداخلية. تشا هيون سو، طالب في المدرسة الثانوية منعزل ينتقل إلى شقة جديدة تسمى Green Home بعد تعرضه لمأساة شخصية، ويواجه سلسلة من المواقف المتغيرة لحياته واللي تخرجه إلى العالم لإنقاذ الآخرين."
+    },
+    "korean-series/Tale of the Nine-Tailed.jpg": {
+      "title": "Tale of the Nine-Tailed",
+      "canonicalTitle": "Tale of the Nine Tailed",
+      "type": "series",
+      "releaseDate": "2020-10-07",
+      "genres": [
+        "دراما",
+        "إثارة"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "74 دقيقة للحلقة",
+      "summaryEn": "Tale of the Nine Tailed follows the life of the gumiho, who once ruled as a living god of the Baekdudaegan Mountain Range but now works as a sort of public official between this world and the underworld. His main job is to clean up the mess left behind by those who disturb the world of the living while hiding behind the guise of ghost tales.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://tvn.cjenm.com/ko/Tale-of-the-Nine-Tailed-1938/"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/49996/tale-of-the-nine-tailed"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 49996,
+      "extra": {
+        "note": "درامي • انتهى • 74 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "لي دونغ ووك",
+        "جو بو آه",
+        "كيم بوم",
+        "Hwang Hee",
+        "Lee Tae-ri",
+        "Aysha"
+      ],
+      "director": "كانغ شين هيو",
+      "directors": [
+        "كانغ شين هيو"
+      ],
+      "summaryAr": "حكاية الذيول التسعة تتبع حياة جوميهو، اللي حكم ذات يوم كإله حي لسلسلة جبال بيكدودايجان ولكنه يعمل دلوقتي كنوع من المسؤول العام بين هذا العالم والعالم السفلي. وظيفته الرئيسية هي تنظيف الفوضى اللي خلفها أولئك اللي يزعجون عالم الأحياء بينما يختبئون وراء ستار حكايات الأشباح."
+    },
+    "korean-series/The Devil Judge.jpg": {
+      "title": "The Devil Judge",
+      "canonicalTitle": "The Devil Judge",
+      "type": "series",
+      "releaseDate": "2021-07-03",
+      "genres": [
+        "دراما",
+        "غموض"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "90 دقيقة للحلقة",
+      "summaryEn": "Kang Yo Han is a head trial judge who punishes the dishonest in the courtroom with no mercy, turning it into a reality show, and thus has earned the nickname \"devil judge\"; however, his mysterious aura conceals his true identity and ambitions.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.tving.com/tvn/thedeviljudge"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/55452/the-devil-judge"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 55452,
+      "extra": {
+        "note": "درامي • انتهى • 90 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "جي سونغ",
+        "كيم مين جونغ",
+        "بارك جن يونغ",
+        "بارك جيو يونغ",
+        "كيم جاي كيونغ",
+        "اهن ناي سانغ"
+      ],
+      "director": "تشوي جونغ غيو",
+      "directors": [
+        "تشوي جونغ غيو"
+      ],
+      "summaryAr": "كانغ يو هان هو قاضي المحكمة الرئيسي اللي يعاقب المخادعين في قاعة المحكمة بلا رحمة، ويحوله إلى عرض واقعي، وبالتالي حصل على لقب \"القاضي الشيطان\"؛ بس هالته الغامضة تخفي هويته الحقيقية وطموحاته."
+    },
+    "korean-series/The School Nurse Files 720p.jpg": {
+      "title": "The School Nurse Files 720p",
+      "canonicalTitle": "The School Nurse Files",
+      "type": "series",
+      "releaseDate": "2020-09-25",
+      "genres": [
+        "دراما",
+        "كوميديا",
+        "فانتازيا"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "duration": "51 دقيقة للحلقة",
+      "summaryEn": "Wielding a light-up sword through the dark corners of a high school, a nurse with an unusual gift protects students from monsters only she can see.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/80209129"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/40131/the-school-nurse-files"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 40131,
+      "extra": {
+        "note": "درامي • انتهى • 51 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "لي كيونغ مي",
+      "cast": [
+        "جونغ يو مي",
+        "نام جوهيوك",
+        "كيم مي سوو"
+      ],
+      "summaryAr": "تحمل ممرضة سيفًا مضيءً عبر الزوايا المظلمة لمدرسة ثانوية، ولديها هدية غير عادية لحماية الطلاب من الوحوش اللي لا يراها أحد سواها."
+    },
+    "korean-series/The Secret Life of My Secretary [2019]_1.jpg": {
+      "title": "The Secret Life of My Secretary [2019]_1",
+      "canonicalTitle": "The Secret Life of My Secretary",
+      "type": "series",
+      "releaseDate": "2019-05-06",
+      "genres": [
+        "كوميديا",
+        "رومانسي"
+      ],
+      "networks": [
+        "SBS"
+      ],
+      "studio": "SBS",
+      "duration": "35 دقيقة للحلقة",
+      "summaryEn": "The Secret Life of My Secretary is about a cold-hearted boss of a mobile media company finding his true identity and finally starting to respect people after losing his sight. Do Min Ik works as a director of the mobile media 1 team at T&amp;T. He is smart and excellent at his job.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://programs.sbs.co.kr/drama/mysecretarylife"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/41720/the-secret-life-of-my-secretary"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 41720,
+      "extra": {
+        "note": "درامي • انتهى • 35 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "كيم يونغ كوانغ",
+        "جين كي جو",
+        "كيم جاي كيونغ",
+        "Koo Ja-sung",
+        "Kim Byeong-choon",
+        "جانغ سو يون"
+      ],
+      "director": "لي كانغ يونغ",
+      "directors": [
+        "لي كانغ يونغ"
+      ],
+      "summaryAr": "الحياة السرية لسكرتيرتي بتدور أحداث الفيلم حول رئيس بارد القلب لشركة إعلام متنقلة يجد هويته الحقيقية ويبدأ أخيرًا في احترام الناس بعد أن فقد بصره. يعمل Do Min Ik كمدير لفريق الوسائط المحمولة 1 في T&T. إنه ذكي وممتاز في وظيفته."
+    },
+    "korean-series/The Silent Sea [T-1080p-8.77GB].[2021].jpg": {
+      "title": "The Silent Sea [T-1080p-8.77GB].[2021]",
+      "canonicalTitle": "The Silent Sea",
+      "type": "series",
+      "releaseDate": "2021-12-24",
+      "genres": [
+        "خيال علمي",
+        "إثارة",
+        "غموض"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "duration": "45 دقيقة للحلقة",
+      "summaryEn": "Set in a future Earth that has undergone desertification, The Silent Sea is the story of the members of a special team sent to secure a mysterious sample from an abandoned research facility on the moon.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/81098012"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/50242/the-silent-sea"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 50242,
+      "extra": {
+        "note": "درامي • انتهى • 45 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "تشوي هانغ يونغ",
+      "cast": [
+        "غونغ يو",
+        "باي دونا",
+        "لي جون",
+        "كيم سون-يونغ",
+        "هيو سونغ تاي",
+        "لي مو سنغ"
+      ],
+      "summaryAr": "تقع أحداث البحر الصامت في أرض مستقبلية تعرضت للتصحر، وهي قصة أعضاء فريق خاص تم إرساله لتأمين عينة غامضة من منشأة بحثية مهجورة على القمر."
+    },
+    "korean-series/The Worst of Evil.jpg": {
+      "title": "The Worst of Evil",
+      "canonicalTitle": "The Worst of Evil",
+      "type": "series",
+      "releaseDate": "2023-09-27",
+      "genres": [
+        "أكشن",
+        "جريمة",
+        "إثارة"
+      ],
+      "networks": [
+        "Disney+"
+      ],
+      "duration": "58 دقيقة للحلقة",
+      "summaryEn": "In 1995, an investigation begins to dismantle the drug cartels of Korea, China, and Japan. Countryside detective Junmo goes undercover within the rising Gangnam Union, unaware of the complex relationship between his wife and the gang's boss. Their intertwined fates lead to the worst of scenarios.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.disneyplus.com/series/the-worst-of-evil/29IM2a96KyDP"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/65500/the-worst-of-evil"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 65500,
+      "extra": {
+        "note": "درامي • انتهى • 58 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "جي تشانغ ووك",
+        "وي ها جون",
+        "إم سي مي",
+        "بيبي"
+      ],
+      "director": "هان دونغ ووك",
+      "directors": [
+        "هان دونغ ووك"
+      ],
+      "summaryAr": "في عام 1995، يبدأ التحقيق لتفكيك عصابات المخدرات في كوريا والصين واليابان. يتخفى المحقق الريفي \"جونمو\" داخل اتحاد \"جانج نام\" الصاعد، غير مدرك للعلاقة المعقدة بين زوجته ورئيس العصابة. مصائرهم المتشابكة تؤدي إلى أسوأ السيناريوهات."
+    },
+    "korean-series/The.King.Eternal.Monarch [2020].jpg": {
+      "title": "The.King.Eternal.Monarch [2020]",
+      "canonicalTitle": "The King: Eternal Monarch",
+      "type": "series",
+      "releaseDate": "2020-04-17",
+      "genres": [
+        "دراما",
+        "فانتازيا",
+        "رومانسي"
+      ],
+      "networks": [
+        "SBS"
+      ],
+      "studio": "SBS",
+      "duration": "70 دقيقة للحلقة",
+      "summaryEn": "The Devil is released into the human world and soon opens a door into a parallel world. The Devil asks if he lived a better life in the other world, if he could live in the other world. Against the Devil's question, Korean Emperor Lee Gon tries to close the door to the parallel world and South Korean Detective Jung Tae Eul tries to protect the lives of people and the person she loves.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://programs.sbs.co.kr/drama/theking/"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/46631/the-king-eternal-monarch"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 46631,
+      "extra": {
+        "note": "درامي • انتهى • 70 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "بيك سانغ هون",
+      "directors": [
+        "بيك سانغ هون"
+      ],
+      "cast": [
+        "سونغ جونغ كي",
+        "جون يو بين",
+        "أوك تيك يون",
+        "كواك دونغ يون"
+      ],
+      "summaryAr": "يتم إطلاق الشيطان في عالم البشر وسرعان ما يفتح الباب لعالم موازٍ. يسأل الشيطان لو كان يعيش حياة أفضل في العالم الآخر، لو كان يستطيع العيش في العالم الآخر. مقابل سؤال الشيطان، يحاول الإمبراطور الكوري لي غون إغلاق الباب أمام العالم الموازي، وتحاول المحققة الكورية الجنوبية جونغ تاي إيول حماية حياة الناس والشخص اللي تحبه."
+    },
+    "korean-series/Vagabond.jpg": {
+      "title": "Vagabond",
+      "canonicalTitle": "Vagabond",
+      "type": "series",
+      "releaseDate": "2019-09-20",
+      "genres": [
+        "دراما",
+        "أكشن",
+        "إثارة"
+      ],
+      "networks": [
+        "SBS"
+      ],
+      "studio": "SBS",
+      "duration": "70 دقيقة للحلقة",
+      "summaryEn": "A mysterious plane crash kills over 200 civilians, including Cha Dal Gun's nephew. Determined to find out the truth behind the accident, Cha Dal Gun embarks on an investigation that leads him to a tangled web of corruption. His life intertwines with Go Hae Ri, a covert operative for the National Intelligence Service.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://programs.sbs.co.kr/drama/vagabond"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/38725/vagabond"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 38725,
+      "extra": {
+        "note": "درامي • انتهى • 70 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "يو إن شيك",
+      "directors": [
+        "يو إن شيك"
+      ],
+      "cast": [
+        "لي سونغ جي",
+        "سوزي",
+        "شين سونغ روك"
+      ],
+      "summaryAr": "يؤدي حادث تحطم طائرة غامض إلى مقتل أكثر من 200 مدني، بما في ذلك ابن شقيق تشا دال غون. عازمًا على اكتشاف الحقيقة وراء الحادث، يشرع \"تشا دال غون\" في إجراء تحقيق يقوده إلى شبكة متشابكة من الفساد. تتشابك حياته مع Go Hae Ri، العميلة السرية لجهاز المخابرات الوطنية."
+    },
+    "korean-series/Vincenzo.jpg": {
+      "title": "Vincenzo",
+      "canonicalTitle": "Vincenzo",
+      "type": "series",
+      "releaseDate": "2021-02-20",
+      "genres": [
+        "دراما",
+        "كوميديا",
+        "جريمة"
+      ],
+      "networks": [
+        "tvN"
+      ],
+      "studio": "tvN",
+      "duration": "90 دقيقة للحلقة",
+      "summaryEn": "During a visit to his motherland, a Korean-Italian mafia lawyer gives an unrivaled conglomerate a taste of its own medicine with a side of justice.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.tving.com/tvn/tvnvincenzo"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/52656/vincenzo"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 52656,
+      "extra": {
+        "note": "درامي • انتهى • 90 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "كيم هي وون",
+      "directors": [
+        "كيم هي وون"
+      ],
+      "cast": [
+        "سونغ جونغ كي",
+        "جون يو بين",
+        "أوك تيك يون",
+        "كواك دونغ يون"
+      ],
+      "summaryAr": "خلال زيارة إلى وطنه الأم، يُذيق محامي مافيا كوري إيطالي مجموعة لا مثيل لها من الدواء الخاص بها مع جانب من العدالة."
+    },
+    "korean-series/Wok of Love.jpg": {
+      "title": "Wok of Love",
+      "canonicalTitle": "Wok of Love",
+      "type": "series",
+      "releaseDate": "2018-05-07",
+      "genres": [
+        "دراما",
+        "كوميديا",
+        "رومانسي"
+      ],
+      "networks": [
+        "SBS"
+      ],
+      "studio": "SBS",
+      "duration": "35 دقيقة للحلقة",
+      "summaryEn": "Wok of Love tells a story of love, survival with a focus on a star chef who fell from the top chef in the best Chinese restaurant in Korea to a tiny kitchen of a local diner down on its luck. Chef Seo Poong was once a star chef and worked at the best Chinese restaurant. His popularity faded and he eventually wound up working at a small, failing Chinese restaurant.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://programs.sbs.co.kr/drama/wokoflove"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/36397/wok-of-love"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 36397,
+      "extra": {
+        "note": "درامي • انتهى • 35 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "Wikidata"
+      },
+      "director": "بارك سيون-هو",
+      "cast": [
+        "لي جون هو",
+        "جانغ هيوك",
+        "جونغ ريو وون"
+      ],
+      "summaryAr": "يروي Wok of Love قصة حب وبقاء على قيد الحياة مع التركيز على طاهٍ نجم انتقل من أعلى طهاة في أفضل مطعم صيني في كوريا إلى مطبخ صغير لعشاء محلي بسبب حظه. كان الشيف سيو بونج طاهياً نجماً وعمل في أفضل مطعم صيني. تلاشت شعبيته وانتهى به الأمر في النهاية بالعمل في مطعم صيني صغير فاشل."
+    },
+    "korean-series/Defendant.S01. [2017].jpg": {
+      "title": "Defendant.S01. [2017]",
+      "canonicalTitle": "Defendant",
+      "type": "series",
+      "releaseDate": "2017-01-23",
+      "genres": [
+        "إثارة"
+      ],
+      "networks": [
+        "SBS"
+      ],
+      "studio": "SBS",
+      "duration": "65 دقيقة للحلقة",
+      "summaryAr": "بارك جونغ وو هو المدعي العام في مكتب المدعي العام لمنطقة سيول المركزية. وفي أحد الأيام، يستيقظ لبيلاقي نفسه محتجزًا في مركز الشرطة. لديه فقدان الذاكرة المؤقت.",
+      "summaryEn": "Park Jung Woo is a prosecutor at Seoul Central District Prosecutors' Office. One day, he wakes up and finds himself in locked up at the police station. He has temporary amnesia.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://program.sbs.co.kr/builder/programMainList.do?pgm_id=22000010159"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/19719/defendant"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 19719,
+      "extra": {
+        "note": "درامي • انتهى • 65 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "تشو يونغ غوانغ",
+      "directors": [
+        "تشو يونغ غوانغ"
+      ],
+      "cast": [
+        "جي سونغ",
+        "أوم كي جون",
+        "كون يوري",
+        "أو تشانغ سيوك"
+      ]
+    },
+    "korean-series/Healer S01.jpg": {
+      "title": "Healer S01",
+      "canonicalTitle": "Healer",
+      "type": "series",
+      "releaseDate": "2014-12-08",
+      "genres": [
+        "أكشن",
+        "رومانسي",
+        "إثارة"
+      ],
+      "networks": [
+        "KBS2"
+      ],
+      "studio": "KBS2",
+      "duration": "70 دقيقة للحلقة",
+      "summaryAr": "مراسلة غامضة، مراسلة صحيفة على الإنترنت لا تهتم إلا بمصالحها الخاصة، مراسلة مشهورة تتألم من الحقيقة والواقع. عندما يلتقي هؤلاء الأشخاص الثلاثة، تبدأ قصة حب عاطفية وتكشف حقائق الماضي والحاضر عن نفسها للعالم. تعرض هذه الدراما الشباب وكيف يتحولون إلى مراسلين حقيقيين.",
+      "summaryEn": "A mysterious messenger, an online newspaper reporter who only concerns her own interests, a popular reporter who agonizes over the truth and reality. When these three people meet, a passionate romance starts and the truths from the past and present reveal themselves to the world. This drama features young people and how they grow into real reporters.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://www.kbs.co.kr/drama/healer/"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/3350/healer"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 3350,
+      "extra": {
+        "note": "درامي • انتهى • 70 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "جي تشانغ ووك",
+        "بارك مين يونغ",
+        "يو جي-تاي",
+        "كيم مي كيونغ",
+        "دو جي وون",
+        "Park Sang-won"
+      ],
+      "director": "لي جونغ سوب",
+      "directors": [
+        "لي جونغ سوب"
+      ]
+    },
+    "korean-series/Revenge.of.  Others.S01.jpg": {
+      "title": "Revenge.of.  Others.S01",
+      "canonicalTitle": "Revenge of Others",
+      "type": "series",
+      "releaseDate": "2022-11-09",
+      "genres": [
+        "دراما",
+        "إثارة",
+        "غموض"
+      ],
+      "networks": [
+        "Disney+"
+      ],
+      "studio": null,
+      "duration": "61 دقيقة للحلقة",
+      "summaryAr": "قصة أوك تشان مي اللي وجدت قاتل شقيقها التوأم.",
+      "summaryEn": "The story of Ok Chan Mi who is finding the murderer of her twin brother.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.disneyplus.com/series/revenge-of-others/5S2vFCHxQzzS"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/64083/revenge-of-others"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 64083,
+      "extra": {
+        "note": "درامي • انتهى • 61 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "شين يي يون",
+        "لومون",
+        "وويون",
+        "سيو جي هون",
+        "تشونغ سو بين",
+        "تشاي سانغ وو"
+      ],
+      "director": "كيم يو جين",
+      "directors": [
+        "كيم يو جين"
+      ]
+    },
+    "korean-series/Taxi Driver S1.jpg": {
+      "title": "Taxi Driver S1",
+      "canonicalTitle": "Taxi Driver",
+      "type": "series",
+      "releaseDate": "2021-04-09",
+      "genres": [
+        "دراما",
+        "أكشن",
+        "جريمة"
+      ],
+      "networks": [
+        "SBS"
+      ],
+      "studio": "SBS",
+      "duration": "71 دقيقة للحلقة",
+      "summaryAr": "قصة خدمة سيارات الأجرة الغامضة اللي تنتقم نيابة عن الضحايا غير القادرين على الحصول على العدالة من القانون. كيم دو كي هو سائق غامض لشركة سيارات الأجرة اللي قُتلت والدته. كانغ ها نا محامية متحمسة.",
+      "summaryEn": "The story of a mysterious taxi service that takes revenge on behalf of victims who are unable to get justice from the law. Kim Do Ki is a mysterious driver for the taxi company whose mother was murdered. Kang Ha Na is a passionate attorney.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://programs.sbs.co.kr/drama/taxidriver2/about/73743"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/52770/taxi-driver"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 52770,
+      "extra": {
+        "note": "درامي • انتهى • 71 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "لي جي هون",
+        "إيسوم",
+        "كيم آي سونغ",
+        "بيو يي-جين",
+        "باي يو-رام",
+        "جانغ هيوك-جين"
+      ],
+      "director": "بارك جون و",
+      "directors": [
+        "بارك جون و"
+      ]
+    },
+    "korean-series/The Good Detective S01.jpg": {
+      "title": "The Good Detective S01",
+      "canonicalTitle": "The Good Detective",
+      "type": "series",
+      "releaseDate": "2020-07-06",
+      "genres": [
+        "دراما",
+        "جريمة"
+      ],
+      "networks": [
+        "jTBC"
+      ],
+      "studio": "jTBC",
+      "duration": "80 دقيقة للحلقة",
+      "summaryAr": "بتدور أحداث الفيلم في مدينة إنتشون بكوريا الجنوبية، وفيه يحاول المحققون القبض على المجرمين اللي يخفون حقائق قبيحة. عمل كانغ دو تشانغ كمحقق على مدار الـ 18 عامًا الماضية. ولد ونشأ في إنشيون.",
+      "summaryEn": "Set in Incheon, South Korea, detectives try to catch criminals, who hide ugly truths. Kang Do Chang has worked as a detective for the past 18 years. He was born and raised in Incheon.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://tv.jtbc.joins.com/thegooddetective2"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/48384/the-good-detective"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 48384,
+      "extra": {
+        "note": "درامي • انتهى • 80 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "سون هيون-جو",
+        "جانغ سيونغ جو"
+      ],
+      "director": "تشو نام غوك",
+      "directors": [
+        "تشو نام غوك"
+      ]
+    },
+    "korean-series/Vigilante.S01 [1080p].jpg": {
+      "title": "Vigilante.S01 [1080p]",
+      "canonicalTitle": "Vigilante",
+      "type": "series",
+      "releaseDate": "2023-11-08",
+      "genres": [
+        "أكشن",
+        "جريمة",
+        "إثارة"
+      ],
+      "networks": [
+        "Disney+"
+      ],
+      "studio": null,
+      "duration": "45 دقيقة للحلقة",
+      "summaryAr": "يروي Vigilante قصة رحلة شاب عازم على الانتقام بعد أن شهد مقتل والدته بطريقة وحشية عندما كان طفلاً. منذ الحدث الصادم، كرّس كيم جي يونغ نفسه للفنون القتالية، وأصبح طالبًا مثاليًا في أكاديمية الشرطة. بعد إطلاق سراح المعتدي على والدته، يقبض عليه جي يونغ وسط اعتداء آخر، مما يضعه على طريق تحقيق العدالة بين يديه، ويحظى باهتمام غير مرحب به من وسائل الإعلام والشرطة.",
+      "summaryEn": "Vigilante tells the story of the journey of a young man bent on seeking revenge after witnessing his mother's brutal murder as a child. Since the traumatic event, Kim Ji Yong has dedicated himself to martial arts, becoming an exemplary student at the police academy. Upon his mother's attacker's release, Ji Yong catches him in the midst of another assault, setting him on a path of taking justice into his own hands, garnering unwelcome attention from the media and police.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.disneyplus.com/series/vigilante/300E8tZ0zq45"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/66446/vigilante"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 66446,
+      "extra": {
+        "note": "درامي • انتهى • 45 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "تشوي جونغ يون",
+      "directors": [
+        "تشوي جونغ يون"
+      ],
+      "cast": [
+        "نام جو هيوك",
+        "يو جي تاي",
+        "لي جون هيوك",
+        "كيم سو جين"
+      ]
+    },
+    "korean-series/Bargain 720p_1.jpg": {
+      "title": "Bargain 720p_1",
+      "canonicalTitle": "Bargain",
+      "type": "series",
+      "director": "Jeon Woo-sung",
+      "directors": [
+        "Jeon Woo-sung"
+      ],
+      "releaseDate": "2022",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Jin Seon-kyu"
+      ],
+      "genres": null,
+      "summaryAr": "صفقة (الكورية: 몸값) هو مسلسل تلفزيوني كوري جنوبي لعام 2022 من إخراج جيون وو سونغ وبطولة جين سيون كيو، جيون جونغ سيو وتشانغ ريول. تم بثه على TVING من 28 أكتوبر حتى 4 نوفمبر 2022.",
+      "summaryEn": "Bargain (Korean: 몸값) is a 2022 South Korean television miniseries directed by Jeon Woo-sung and starring Jin Seon-kyu, Jeon Jong-seo and Chang Ryul. It aired on TVING from October 28 through November 4, 2022.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bargain%20(TV%20series)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Bargain (TV series)"
+    },
+    "korean-series/Big.Bet.S01.[2022].jpg": {
+      "title": "Big.Bet.S01.[2022]",
+      "canonicalTitle": "Big Bet",
+      "type": "series",
+      "director": "Kang Yun-seong",
+      "directors": [
+        "Kang Yun-seong"
+      ],
+      "releaseDate": "2022",
+      "studio": null,
+      "networks": [
+        "Hulu"
+      ],
+      "cast": [
+        "Choi Min-sik"
+      ],
+      "genres": [
+        "مسلسل جريمة",
+        "مسلسل أكشن"
+      ],
+      "summaryAr": "الرهان الكبير (الكورية: 카지노) هو مسلسل تلفزيوني كوري جنوبي لعام 2022 من إخراج كانغ يون سيونغ، وبطولة تشوي مين سيك، وسون سوك كو، ولي دونغ هوي. بتدور أحداث المسلسل حول شخصية أسطورية في عالم الكازينو بالفلبين. تم عرض الموسم الأول لأول مرة في 21 ديسمبر 2022، ويتم بثه كل يوم أربعاء الساعة 14:00 (KST) على Disney + في مناطق مختارة وعلى Hulu في الولايات المتحدة.",
+      "summaryEn": "Big Bet (Korean: 카지노) is a 2022 South Korean television series directed by Kang Yun-seong, starring Choi Min-sik, Son Suk-ku, and Lee Dong-hwi. The series revolves around a legendary figure in the Philippines' casino world. The first season premiered on December 21, 2022, and aired every Wednesday at 14:00 (KST) on Disney+ in selected territories and on Hulu in the United States.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Big%20Bet%20(TV%20series)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Big Bet (TV series)",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "korean-series/Deaths Game [1080p-6.14GB].jpg": {
+      "title": "Deaths Game [1080p-6.14GB]",
+      "canonicalTitle": "Death's Game",
+      "type": "series",
+      "director": "Ha Byung-hoon",
+      "directors": [
+        "Ha Byung-hoon"
+      ],
+      "releaseDate": "2023",
+      "studio": null,
+      "networks": [
+        "Amazon Prime Video"
+      ],
+      "cast": [
+        "سو إن غوك",
+        "بارك سو دام",
+        "كيم جي هون",
+        "تشو سي وون"
+      ],
+      "genres": [
+        "فانتازيا"
+      ],
+      "summaryAr": "لعبة الموت (الكورية: 이재، 곧 죽습니다) هي مسلسل تلفزيوني خيالي كوري جنوبي من تأليف وإخراج ها بيونغ هون من 2023 إلى 2024. استنادًا إلى ويبتون يحمل نفس الاسم من تأليف Lee Won-sik وGgulchan، بتدور أحداث المسلسل حول Choi Yee-jae (Seo In-guk)، وهو رجل مات منتحرًا بعد أن فقد الأمل. تمت معاقبته لاحقًا بالموت (بارك سو دام)، وهو كيان يجبره على تجربة 12 دورة من التناسخ والموت.",
+      "summaryEn": "Death's Game (Korean: 이재, 곧 죽습니다) is a 2023–2024 South Korean fantasy anthology television series written and directed by Ha Byung-hoon. Based on a webtoon of the same name by Lee Won-sik and Ggulchan, the series follows Choi Yee-jae (Seo In-guk), a man who dies by suicide after losing hope. He is subsequently punished by Death (Park So-dam), an entity who forces him to experience 12 cycles of reincarnation and death.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Death's%20Game"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "wikiTitle": "Death's Game",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "korean-series/Hell Is Other People [T-1080p-22.6GB].jpg": {
+      "title": "Hell Is Other People [T-1080p-]",
+      "canonicalTitle": "Hell Is Other People",
+      "type": "series",
+      "directors": [
+        "لي تشانغ هي"
+      ],
+      "releaseDate": "2019",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Yim Si-wan",
+        "Lee Dong-wook"
+      ],
+      "genres": [
+        "مسلسل إثارة",
+        "فلم جريمة",
+        "فلم رعب",
+        "فلم غموض"
+      ],
+      "summaryAr": "غرباء من الجحيم، المعروف أيضًا باسم الجحيم هو أشخاص آخرون، هو مسلسل تلفزيوني كوري جنوبي لعام 2019 من بطولة يم سي وان ولي دونج ووك. استنادًا إلى Naver Webtoon Hell Is Other People بقلم Kim Yong-ki، فهي السلسلة الثانية من مشروع \"Dramatic Cinema\" لـ OCN اللي يجمع بين تنسيقات الأفلام والدراما. تم بثه في الفترة من 31 أغسطس إلى 6 أكتوبر 2019.",
+      "summaryEn": "Strangers from Hell, also known as Hell Is Other People, is a 2019 South Korean television series starring Yim Si-wan and Lee Dong-wook. Based on the Naver Webtoon Hell Is Other People by Kim Yong-ki, it is the second series of OCN's \"Dramatic Cinema\" project which combines film and drama formats. It aired from August 31 to October 6, 2019.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hell%20Is%20Other%20People%20(TV%20series)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Hell Is Other People (TV series)",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "لي تشانغ هي"
+    },
+    "korean-series/Strong Girl Bong Soon S01.jpg": {
+      "title": "Strong Girl Bong Soon S01",
+      "canonicalTitle": "Strong Girl Bong-soon",
+      "type": "series",
+      "directors": [
+        "لي هيونغ مين"
+      ],
+      "releaseDate": "2017",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Park Bo-young"
+      ],
+      "genres": null,
+      "summaryAr": "الفتاة القوية بونغ سون (الكورية: 힘쎈여자 도봉순) هو مسلسل تلفزيوني كوري جنوبي لعام 2017 من بطولة بارك بو يونغ في دور البطولة كامرأة ذات قوة خارقة، مع بارك هيونغ سيك وجي سو. تم بثه على قناة JTBC في الفترة من 24 فبراير إلى 15 أبريل 2017. وقد نال المسلسل استحسان الجمهور، وفيه سجلت الحلقة الأخيرة 8.96٪ في التقييمات الوطنية، ليصبح \"أعلى نسبة مشاهدة بين أعمال JTBC الدرامية\" في ذلك الوقت.",
+      "summaryEn": "Strong Girl Bong-soon (Korean: 힘쎈여자 도봉순) is a 2017 South Korean television series starring Park Bo-young in the title role as a woman with superhuman strength, with Park Hyung-sik and Ji Soo. It aired on JTBC from February 24 to April 15, 2017. The series received audience acclaim, with its final episode recording 8.96% in nationwide ratings, becoming the \"highest viewership rating among JTBC dramas\" at that point of time.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Strong%20Girl%20Bong-soon"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Strong Girl Bong-soon",
+      "director": "لي هيونغ مين",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "korean-series/Tempted.jpg": {
+      "title": "Tempted",
+      "canonicalTitle": "Tempted",
+      "directors": [
+        "كانغ إن"
+      ],
+      "releaseDate": "2018",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "وو دو هوان",
+        "جوي",
+        "كيم مين-جاي",
+        "مون جا يونغ"
+      ],
+      "genres": [
+        "فانتازيا"
+      ],
+      "summaryAr": "Tempted هو المجلد السادس من سلسلة كتب الخيال House of Night، اللي كتبها American PC. طاقم الممثلين وكريستين فريق التمثيل. تم نشره في 27 أكتوبر 2009 بواسطة St.",
+      "summaryEn": "Tempted is the sixth volume of the House of Night fantasy book series, written by American P.C. Cast and Kristin Cast. It was published on October 27, 2009, by St.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tempted%20(Cast%20novel)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Tempted (Cast novel)",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "كانغ إن"
+    },
+    "korean-series/Goblin 720p.jpg": {
+      "title": "Goblin 720p",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "لي إيون بوك",
+      "directors": [
+        "لي إيون بوك"
+      ],
+      "cast": [
+        "غونغ يو",
+        "لي دونغ ووك",
+        "كيم غو إيون"
+      ],
+      "releaseDate": "2016",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "جنرال محارب ملعون بالخلود وعايش بقاله مئات السنين، بيلف ويدوّر على عروسته البشرية الوحيدة اللي تقدر تشيل السيف المغروس في صدره عشان يرتاح.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "العنوان الصحيح Guardian: The Lonely and Great God (Goblin)"
+      }
+    },
+    "korean-series/Inheritors.jpg": {
+      "title": "Inheritors",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "كانغ شين هيو",
+      "directors": [
+        "كانغ شين هيو"
+      ],
+      "cast": [
+        "لي مين هو",
+        "بارك شين هاي",
+        "كيم وو بين"
+      ],
+      "releaseDate": "2013",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "دراما رومانسية شبابية بتدور وسط طلاب مدرسة ثانوية راقية لأولاد العائلات الغنية وورثة الشركات، وخناقاتهم ومشاعر الحب المعقدة بينهم.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "العنوان الصحيح The Heirs"
+      }
+    },
+    "korean-series/The First Responders.1&2.jpg": {
+      "title": "The First Responders.1&2",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "شين كيونغ سو",
+      "directors": [
+        "شين كيونغ سو"
+      ],
+      "cast": [
+        "كيم ري وون",
+        "سون هو جون",
+        "غونغ سيونغ يون"
+      ],
+      "releaseDate": "2022-2023",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "أكشن وتشويق سريع بيجمع بين ظباط الشرطة ورجال الإطفاء والمسعفين، وهما شغالين مع بعض في الميدان عشان يحلوا الجرائم الصعبة وينقذوا أرواح الناس في أصعب اللحظات.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "korean-series/The K2 S01.jpg": {
+      "title": "The K2 S01",
+      "canonicalTitle": "The K2",
+      "type": "series",
+      "genres": [
+        "أكشن",
+        "رومانسي",
+        "سياسي",
+        "تشويق"
+      ],
+      "director": "كواك جونغ هوان",
+      "cast": [
+        "جي تشانغ ووك",
+        "سونغ يون آه",
+        "إم يون آه",
+        "جو سونغ ها",
+        "كيم كاب سو"
+      ],
+      "releaseDate": "2016-09-23",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "جندي ومرتزق سابق معروف بلقب K2 بيهرب بعد ما اتظلم في مقتل حبيبته، وبيشتغل حارس شخصي لبنت مرشح رئاسي في وسط لعبة سياسية مليانة مؤامرات وخيانة.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [
+        {
+          "label": "ويكيبيديا (إنجليزي)",
+          "url": "https://en.wikipedia.org/wiki/The_K2"
+        },
+        {
+          "label": "Rotten Tomatoes",
+          "url": "https://www.rottentomatoes.com/tv/the_k2/cast-and-crew"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikidata",
+      "directors": [
+        "كواك جونغ هوان"
+      ],
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "factsNote": "سجل Wikidata كان يصفه كفيلم ويخلو من السنة والملخص — تم تصحيحه يدوياً."
+      }
+    },
+    "korean-series/W Two Worlds Apart [2016].jpg": {
+      "title": "W Two Worlds Apart [2016]",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": [
+        "خيال",
+        "رومانسي",
+        "إثارة",
+        "كوميديا"
+      ],
+      "director": "جونغ داي يون",
+      "directors": [
+        "جونغ داي يون"
+      ],
+      "cast": [
+        "لي جونغ سوك",
+        "هان هيو جو",
+        "كيم إوي سونغ"
+      ],
+      "releaseDate": "2016",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "دكتورة شابة بيختفي أبوها رسام الويبتون الشهير فجأة، فبتلاقي نفسها اتسحبت جوة عالم القصة المصورة اللي رسمها، وبتبدأ قصة حب غريبة بينها وبين بطل القصة كانغ تشول.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [
+        {
+          "label": "ويكيبيديا (إنجليزي)",
+          "url": "https://en.wikipedia.org/wiki/W_(TV_series)"
+        },
+        {
+          "label": "ويكيبيديا (عربي)",
+          "url": "https://ar.wikipedia.org/wiki/%D8%AF%D8%A8%D9%84%D9%8A%D9%88_(%D8%B3%D9%84%D8%B3%D9%84%D8%A9)"
+        }
+      ],
+      "confidence": "high",
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "factsNote": "تطابق العنوان يدوياً مع العمل المذكور أعلاه بعد فشل البحث الآلي في التطابق."
+      }
+    }
+  }
+}

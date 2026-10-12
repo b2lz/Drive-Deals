@@ -1,0 +1,580 @@
+{
+  "_meta": {
+    "version": 1,
+    "collection": "turkish-series",
+    "method": "tvmaze+wikipedia+wikidata",
+    "note": "Auto-filled from tvmaze / wikipedia. Summaries are spoiler-free by construction (encyclopaedic leads / catalogue synopses). Fields the source does not publish are null.",
+    "updatedAt": "2026-10-11",
+    "counts": {
+      "total": 16,
+      "researched": 8
+    }
+  },
+  "items": {
+    "turkish-series/bizim hikaye.jpg": {
+      "title": "bizim hikaye",
+      "canonicalTitle": "Bizim Hikaye",
+      "type": "series",
+      "releaseDate": "2017-09-14",
+      "genres": [
+        "دراما",
+        "كوميديا",
+        "عائلي"
+      ],
+      "networks": [
+        "NOW"
+      ],
+      "studio": "NOW",
+      "duration": "120 دقيقة للحلقة",
+      "summaryAr": "فيليز هي الأكبر بين الأشقاء الستة، والدها فكري مدمن على الكحول. وتقع كل مسؤولية إدارة المنزل وتربية إخوتها على عاتقها. يقع باريش في حب فيليز بسبب طبيعتها، بس هل تقدر أن تقع في حب شخص آخر عندما تكون حياتها ليست ملكها بل حياة عائلتها؟",
+      "summaryEn": "Filiz is the eldest of the 6 siblings whose father, Fikri, is an alcoholic. All the responsibility of managing the house and raising her siblings falls on her shoulders. Baris falls in love with Filiz for who she is but can she fall in love with someone else when her life is not her own but her family's?",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.fox.com.tr/Bizim-Hikaye/izle"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/31823/bizim-hikaye"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 31823,
+      "extra": {
+        "note": "درامي • انتهى • 120 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "سيردار غوزيلكلي",
+      "directors": [
+        "سيردار غوزيلكلي"
+      ],
+      "cast": [
+        "هازال كايا",
+        "بوراك دينيز",
+        "ريها أوزكان"
+      ]
+    },
+    "turkish-series/cukur.jpg": {
+      "title": "cukur",
+      "canonicalTitle": "Çukur",
+      "type": "series",
+      "releaseDate": "2017-10-23",
+      "genres": [
+        "دراما",
+        "أكشن",
+        "جريمة"
+      ],
+      "networks": [
+        "Show TV"
+      ],
+      "studio": "Show TV",
+      "duration": "130 دقيقة للحلقة",
+      "summaryAr": "حي خطير، \"الحفرة\"، تديره عائلة مافيا نبيلة تدعى كوشوفاليلار. عندما تكون الأسرة في خطر فقدان السيطرة على الحفرة، يجب على ابنهم الأصغر دلوقتي العودة إلى منزله، وفيه لا يقدر الهروب منه أبدًا.",
+      "summaryEn": "A dangerous neighborhood, \"The Pit\", ran by a noble mafia family called Koçovalılar. When the family is in the danger of losing the control of The Pit, their youngest son now must come back to his home, where he could never escape from.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://www.showtv.com.tr/dizi/tanitim/cukur/2076"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/32417/cukur"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 32417,
+      "extra": {
+        "note": "درامي • انتهى • 130 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "أراس بولوت إينيملي",
+        "ديلان تشيتشك دنيز",
+        "نجيب ميميلي",
+        "رضا قوجة أوغلي",
+        "أونير أركان",
+        "بريهان سافاش"
+      ],
+      "director": "سنان أوزتورك",
+      "directors": [
+        "سنان أوزتورك"
+      ]
+    },
+    "turkish-series/Ertugrul.jpg": {
+      "title": "Ertugrul",
+      "canonicalTitle": "Diriliş Ertuğrul",
+      "type": "series",
+      "releaseDate": "2014-12-10",
+      "genres": [
+        "أكشن",
+        "حرب"
+      ],
+      "networks": [
+        "TRT1"
+      ],
+      "studio": "TRT1",
+      "duration": "130 دقيقة للحلقة",
+      "summaryAr": "القصة البطولية لأرطغرل غازي والد عثمان (عثمان) مؤسس الدولة العثمانية.",
+      "summaryEn": "Heroic story of Ertugrul Ghazi, the father of Osman (Uthman) who founded the Ottoman State.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.trt1.com.tr/diziler/dirilis-ertugrul"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/11834/dirilis-ertugrul"
+        }
+      ],
+      "confidence": "medium",
+      "source": "tvmaze",
+      "tvmazeId": 11834,
+      "extra": {
+        "note": "درامي • انتهى • 130 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "متين غوناي",
+      "directors": [
+        "متين غوناي"
+      ],
+      "cast": [
+        "إنغين ألتان دوزياتان",
+        "إسرا بيليغيتش",
+        "سيمجيز كوشكون",
+        "نوريتين سونمز"
+      ]
+    },
+    "turkish-series/Soz.jpg": {
+      "title": "Soz",
+      "canonicalTitle": "Söz",
+      "type": "series",
+      "releaseDate": "2017-04-03",
+      "genres": [
+        "دراما",
+        "أكشن",
+        "جريمة"
+      ],
+      "networks": [
+        "Star TV"
+      ],
+      "studio": "Star TV",
+      "duration": "120 دقيقة للحلقة",
+      "summaryAr": "يافوز كاراسو، جندي تركي مدرب جيدًا، موجود في إسطنبول مع خطيبته وفيه تجري عملية إرهابية. يحاول الدكتور بحر، وهو ليس جراحًا، إنقاذ خطيبته.",
+      "summaryEn": "Yavuz Karasu, a well-trained Turkish soldier, is in Istanbul with his fiance where a terrorist operation takes place. Dr. Bahar, who is not a surgeon, tries to save his fiance.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.startv.com.tr/dizi/soz/fragmanlar"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/29702/soz"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 29702,
+      "extra": {
+        "note": "درامي • انتهى • 120 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "تولغا ساريتاش"
+      ],
+      "director": "ياغيز ألب أكايدين",
+      "directors": [
+        "ياغيز ألب أكايدين"
+      ]
+    },
+    "turkish-series/الحب الاعمى.jpg": {
+      "title": "الحب الاعمى",
+      "canonicalTitle": "حب أعمى",
+      "type": "series",
+      "director": "هلال سارال",
+      "directors": [
+        "هلال سارال"
+      ],
+      "releaseDate": "2015",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "بوراك أوزجيفيت ونيسليهان أتاغول وكان أورغانجي أوغلو"
+      ],
+      "genres": null,
+      "summaryAr": "حب أعمى (التركية: KARA SEVDA) هو مسلسل تلفزيوني تركي درامي رومانسي صدر في 15 أكتوبر 2015 من إنتاج شركة القمر للإنتاج الفني عُرض على قناة ستار تي في. لذلك الموسم الأول من 35 حلقة وانتهى في يونيو 2016 فيما يعرض الموسم الثاني في 21 سبتمبر 2016 وانتهى في يونيو 2017. المسلسل من إخراج هلال سارال، ومن إنتاج كيرم شاتاي.",
+      "summaryEn": "حب أعمى (التركية: KARA SEVDA) هو مسلسل تلفزيوني تركي درامي رومانسي صدر في 15 أكتوبر 2015 من إنتاج شركة القمر للإنتاج الفني عُرض على قناة ستار تي في. يتألف الموسم الأول من 35 حلقة وانتهى في يونيو 2016 فيما عُرض الموسم الثاني في 21 سبتمبر 2016 وانتهى في يونيو 2017. المسلسل من إخراج هلال سارال، ومن إنتاج كيرم شاتاي.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%A8%20%D8%A3%D8%B9%D9%85%D9%89"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "wikiTitle": "حب أعمى",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "turkish-series/الحب لا يفهم الكلام.jpg": {
+      "title": "الحب لا يفهم الكلام",
+      "canonicalTitle": "الحب لا يفهم من الكلام",
+      "type": "series",
+      "directors": [
+        "بهادير إنجه"
+      ],
+      "releaseDate": "2016",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "الممثلة التركية الشابة هاندا ارتشيل والممثل بوراك دينيز"
+      ],
+      "genres": null,
+      "summaryAr": "الحب لا يفهم من الكلام (التركية: Aşk Laftan Anlamaz) هو مسلسل تركي رومانسي كوميدي اُنتج عام 2016، من بطولة الممثلة التركية الشابة هاندا ارتشيل والممثل بوراك دينيز، أوزجان تيك ديمير أوديميت جول، عرض على قناة شو تي في التركية في 15 يونيو 2016، ومن تأليف زينب عاشق.",
+      "summaryEn": "الحب لا يفهم من الكلام (التركية: Aşk Laftan Anlamaz) هو مسلسل تركي رومانسي كوميدي اُنتج عام 2016، من بطولة الممثلة التركية الشابة هاندا ارتشيل والممثل بوراك دينيز، أوزجان تيك ديمير وديميت جول، عرض على قناة شو تي في التركية في 15 يونيو 2016، ومن تأليف زينب عاشق.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%A8%20%D9%84%D8%A7%20%D9%8A%D9%81%D9%87%D9%85%20%D9%85%D9%86%20%D8%A7%D9%84%D9%83%D9%84%D8%A7%D9%85%20(%D9%85%D8%B3%D9%84%D8%B3%D9%84)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "الحب لا يفهم من الكلام (مسلسل)",
+      "director": "بهادير إنجه",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "turkish-series/المؤسس عثمان.jpg": {
+      "title": "المؤسس عثمان",
+      "canonicalTitle": "المؤسس عثمان",
+      "type": "series",
+      "directors": [
+        "متين غوناي ثم أحمد يلماز"
+      ],
+      "releaseDate": "2019",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "الممثل بوراك اوزجيفيت"
+      ],
+      "genres": null,
+      "summaryAr": "مواطن عثمان (التركية: Kuruluş Osman) هو مسلسل تلفزيوني تركي يجمع بين التاريخ، الإثارة، المغامرة، والدراما، من إنتاج شركة بوزداغ فيلم. عرضت الحلقة الأولى في 20 نوفمبر 2019، وأخرجه في البداية متين غوناي ثم أحمد يلماز لاحقًا، بينما قام بكتابته محمد بوزداغ. من بطولة الممثل بوراك أوزجيفيت، يلدز جاغري عتيقسوي.",
+      "summaryEn": "المؤسس عثمان (التركية: Kuruluş Osman)هو مسلسل تلفزيوني تركي يجمع بين التاريخ، الأكشن، المغامرة، والدراما، من إنتاج شركة بوزداغ فيلم. عرضت الحلقة الأولى في 20 نوفمبر 2019، وتولى إخراجه في البداية متين غوناي ثم أحمد يلماز لاحقًا، بينما قام بكتابته محمد بوزداغ. من بطولة الممثل بوراك اوزجيفيت، يلدز جاغري عتيقسوي.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D8%A4%D8%B3%D8%B3%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20(%D9%85%D8%B3%D9%84%D8%B3%D9%84)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "المؤسس عثمان (مسلسل)",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "متين غوناي ثم أحمد يلماز"
+    },
+    "turkish-series/حب للايجار.jpg": {
+      "title": "حب للايجار",
+      "canonicalTitle": "حب للإيجار",
+      "type": "series",
+      "directors": [
+        "متين باليك أوغلو"
+      ],
+      "releaseDate": "2015",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "باريش أردوتش",
+        "إلتشين سانغو"
+      ],
+      "genres": null,
+      "summaryAr": "حب الإيجار (التركية: Kiralık Aşk) هو مسلسل تركي رومانسي فكاهي تلفزيوني. بطله باريش اردوتش، إلتشين سانجو، صالح باديمسي، سينيم أوزتورك. تم العرض لأول مرة على ستار تيفي في 19 يونيو 2015.",
+      "summaryEn": "حب للإيجار (التركية: Kiralık Aşk) هو مسلسل تركي رومانسي فكاهي تلفزيوني. أبطاله باريش اردوتش، إلتشين سانجو، صالح باديمسي، سينيم أوزتورك. عرض لأول مرة على ستار تيفي في 19 حزيران 2015.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%A8%20%D9%84%D9%84%D8%A5%D9%8A%D8%AC%D8%A7%D8%B1"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "حب للإيجار",
+      "director": "متين باليك أوغلو",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "turkish-series/Price of Passion.jpg": {
+      "title": "Price of Passion",
+      "canonicalTitle": "Price of Passion",
+      "type": "film",
+      "genres": [
+        "رومانسي"
+      ],
+      "director": "ياسين أوسلو",
+      "cast": [
+        "إبراهيم تشيليكول",
+        "بيرجه أكلاي",
+        "Muhammet Uzuner",
+        "أرزو جامزي",
+        "Ece Dizdar",
+        "Deniz Celiloğlu"
+      ],
+      "releaseDate": "2017",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "دراما رومانسية وأكشن مشوقة عن دكتورة جراحة بتلاقي نفسها مجبرة تتجوز قاتل محترف عشان تحمي أخوها وتنقذ حياته.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q45281070"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikidata",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "directors": [
+        "ياسين أوسلو"
+      ]
+    },
+    "turkish-series/FERIHA.jpg": {
+      "title": "FERIHA",
+      "canonicalTitle": "Adını Feriha Koydum",
+      "type": "series",
+      "releaseDate": "2011-01-14",
+      "genres": [
+        "دراما"
+      ],
+      "networks": [
+        "Show TV"
+      ],
+      "director": "مروة غونجاي",
+      "writer": null,
+      "cast": [
+        "شاتاي أولسوي",
+        "هازال كايا"
+      ],
+      "summaryAr": "سميتها فريحة (بالتركية: Adını Feriha Koydum) هو مسلسل درامي تلفزيوني تركي تم بثه لأول مرة على قناة شو تي في في الفترة من 14 يناير 2011 إلى 29 يونيو 2012.",
+      "summaryEn": "I Named her Feriha (Turkish: Adını Feriha Koydum) is a Turkish television drama series which was first broadcast on Show TV from 14 January 2011 to 29 June 2012.",
+      "links": [
+        {
+          "label": "ويكيبيديا",
+          "url": "https://en.wikipedia.org/wiki/Ad%C4%B1n%C4%B1%20Feriha%20Koydum"
+        }
+      ],
+      "confidence": "high",
+      "extra": {
+        "note": "بحث يدوي — المجلد «FERIHA» والمقال «Adını Feriha Koydum» مختلفان",
+        "factsSource": "بحث يدوي"
+      },
+      "directors": [
+        "مروة غونجاي"
+      ]
+    },
+    "turkish-series/السلطان عبد الحميد.jpg": {
+      "title": "السلطان عبد الحميد",
+      "canonicalTitle": "السلطان عبد الحميد الثاني وصراع الذئاب (مسلسل)",
+      "type": "series",
+      "releaseDate": "2017-02-24",
+      "genres": [
+        "تاريخي",
+        "دراما",
+        "أكشن"
+      ],
+      "networks": [
+        "TRT 1"
+      ],
+      "director": "إيمري كونوك",
+      "writer": null,
+      "cast": [
+        "بولنت إينال",
+        "أوزليم كونوك"
+      ],
+      "summaryAr": "مسلسل تاريخي بيحكي عن فترة حكم السلطان عبد الحميد الثاني وأواخر أيام الدولة العثمانية، والصراعات والمؤامرات السياسية اللي واجهها عشان يحافظ على دولته.",
+      "summaryEn": null,
+      "links": [
+        {
+          "label": "ويكيبيديا",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A7%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%20%D9%88%D8%B5%D8%B1%D8%A7%D8%B9%20%D8%A7%D9%84%D8%B0%D8%A6%D8%A7%D8%A8%20(%D9%85%D8%B3%D9%84%D8%B3%D9%84)"
+        }
+      ],
+      "confidence": "high",
+      "extra": {
+        "note": "بحث يدوي — المجلد «السلطان عبد الحميد» والمقال «السلطان عبد الحميد الثاني وصراع الذئاب (مسلسل)» مختلفان",
+        "factsSource": "بحث يدوي"
+      },
+      "directors": [
+        "إيمري كونوك"
+      ]
+    },
+    "turkish-series/عمر.jpg": {
+      "title": "عمر",
+      "canonicalTitle": "عمر (مسلسل)",
+      "type": "series",
+      "releaseDate": "2012",
+      "genres": [
+        "تاريخي",
+        "سيرة ذاتية",
+        "دراما"
+      ],
+      "networks": [
+        "MBC",
+        "تلفزيون قطر"
+      ],
+      "director": "حاتم علي",
+      "writer": "وليد سيف",
+      "cast": [
+        "سامر إسماعيل",
+        "غسان مسعود",
+        "ميهار خضور",
+        "مي سكاف"
+      ],
+      "summaryAr": "ملحمة تاريخية درامية بتتناول سيرة الفاروق عمر بن الخطاب من بدايات الإسلام، وترصد محطات مهمة في تأسيس الدولة والفتوحات.",
+      "summaryEn": null,
+      "links": [
+        {
+          "label": "ويكيبيديا",
+          "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%85%D8%B1%20(%D9%85%D8%B3%D9%84%D8%B3%D9%84)"
+        }
+      ],
+      "confidence": "high",
+      "extra": {
+        "note": "بحث يدوي — المجلد «عمر» والمقال «عمر (مسلسل)» مختلفان"
+      }
+    },
+    "turkish-series/محمد الفاتح.jpg": {
+      "title": "محمد الفاتح",
+      "canonicalTitle": "محمد: سلطان الفتوحات",
+      "type": "series",
+      "releaseDate": "2024-02-27",
+      "genres": [
+        "تاريخي",
+        "أكشن",
+        "دراما",
+        "مغامرات"
+      ],
+      "networks": [
+        "MBC"
+      ],
+      "director": "شفق بال",
+      "writer": null,
+      "cast": [
+        "سيركان تشاي أوغلو",
+        "سليم بايراكتار",
+        "توبا أنسال",
+        "فيكري كوشكان"
+      ],
+      "summaryAr": "مسلسل تاريخي وأكشن بيتناول قصة حياة السلطان العثماني الشاب محمد الفاتح وطموحه العسكري وخطته لفتح القسطنطينية.",
+      "summaryEn": null,
+      "links": [
+        {
+          "label": "ويكيبيديا",
+          "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF%3A%20%D8%B3%D9%84%D8%B7%D8%A7%D9%86%20%D8%A7%D9%84%D9%81%D8%AA%D9%88%D8%AD%D8%A7%D8%AA"
+        }
+      ],
+      "confidence": "medium",
+      "extra": {
+        "note": "بحث يدوي — المجلد «محمد الفاتح» والمقال «محمد: سلطان الفتوحات» مختلفان",
+        "reviewNote": "نفس الموضوع عنده مسلسل تركي آخر اسمه «Fatih» (2013) أُلغي بعد خمس حلقات — لو المجلد بيحمل لده، راجع الاختيار",
+        "factsSource": "بحث يدوي"
+      },
+      "needsReview": true
+    },
+    "turkish-series/احمد بن حنبل.jpg": {
+      "title": "احمد بن حنبل",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "عبد الباري أبو الخير",
+      "directors": [
+        "عبد الباري أبو الخير"
+      ],
+      "cast": [
+        "مهيار خضور",
+        "سلوم حداد"
+      ],
+      "releaseDate": "2017",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "عمل تاريخي ديني بيرصد سيرة الإمام أحمد بن حنبل ومواقفه وثباته في مواجهة محنة خلق القرآن وصراعات عصره.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "turkish-series/زمن الخيانة.jpg": {
+      "title": "زمن الخيانة",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "نعيم الحمصي",
+      "directors": [
+        "نعيم الحمصي"
+      ],
+      "cast": [
+        "نخبة من نجوم الدراما التركية الاجتماعية"
+      ],
+      "releaseDate": "2016",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "دراما اجتماعية بتناقش تفكك العلاقات الأسرية ومشاكل الجواز لما يدخل بينهم الطمع والخيانة والصراعات على الفلوس.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "قائمة أسماء عامة وليست أسماء بعينها"
+      }
+    },
+    "turkish-series/طائر الصباح.jpg": {
+      "title": "طائر الصباح",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": [
+        "رومانسي",
+        "كوميدي"
+      ],
+      "director": "تشاغري بايراق",
+      "directors": [
+        "تشاغري بايراق"
+      ],
+      "cast": [
+        "ديميت أوزديمير",
+        "جان يامان",
+        "أوزنور سيرتشيلار",
+        "براند تونجا"
+      ],
+      "releaseDate": "2018",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "سنام بنت بسيطة بتشتغل في بقالة أبوها، وبتحاول تلاقي شغل عشان تهرب من ضغوط الجواز، ولما بتشتغل في شركة إعلانات مع أختها بتدخل في قصة حب ومواقف كوميدية مع مديرها.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [
+        {
+          "label": "TMDB — Erkenci Kuş",
+          "url": "https://www.themoviedb.org/tv/80411-erkenci-kus"
+        }
+      ],
+      "confidence": "high",
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "factsNote": "تطابق العنوان يدوياً مع العمل المذكور أعلاه بعد فشل البحث الآلي في التطابق."
+      }
+    }
+  }
+}

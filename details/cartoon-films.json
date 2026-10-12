@@ -1,0 +1,4108 @@
+{
+  "_meta": {
+    "version": 1,
+    "collection": "cartoon-films",
+    "method": "wikipedia+wikidata",
+    "note": "Auto-filled from wikipedia. Summaries are spoiler-free by construction (encyclopaedic leads / catalogue synopses). Fields the source does not publish are null.",
+    "updatedAt": "2026-10-11",
+    "counts": {
+      "total": 124,
+      "researched": 102
+    }
+  },
+  "items": {
+    "cartoon-films/101 كلب.jpg": {
+      "title": "101 كلب",
+      "canonicalTitle": "101 مرقش",
+      "type": "film",
+      "directors": [
+        "كلايد جيرونيني / ولفغانغ ريثرمان"
+      ],
+      "releaseDate": "1996",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "رود تايلور",
+        "بيتي لو جيرسون"
+      ],
+      "genres": null,
+      "summaryAr": "101 مرقش (الإنجليزية: 101 Dalmatians) هو فيلم كوميدي أمريكي صور في لندن، وأنتج في سنة 1996، وهو من إنتاج شركة والت ديزني، وهو حكايته العسكرية من فيلم مرقش ومرقش وألذي أنتج في سنة 1961.",
+      "summaryEn": "101 مرقش (الإنجليزية: 101 Dalmatians) هو فيلم أمريكي كوميدي صور في لندن، وأنتج في سنة 1996، وهو من إنتاج شركة والت ديزني، وهو حكايته مستوحاة من فيلم مئة مرقش ومرقش وألذي أنتج في سنة 1961.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/101%20%D9%85%D8%B1%D9%82%D8%B4"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "wikiTitle": "101 مرقش",
+      "director": "كلايد جيرونيني / ولفغانغ ريثرمان",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "بيانات نسخة ديزني عام 1961 — لا يُعرف أي نسخة في المجلد"
+      }
+    },
+    "cartoon-films/A Bug's Life.jpg": {
+      "title": "A Bug's Life",
+      "canonicalTitle": "A Bug's Life",
+      "director": "John Lasseter e co-dirigido e escrito",
+      "directors": [
+        "John Lasseter e co-dirigido e escrito",
+        "Flik"
+      ],
+      "releaseDate": "1998",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "راندي نيومان"
+      ],
+      "genres": [
+        "فلم كوميدي",
+        "فلم مغامرة",
+        "فلم عائلي"
+      ],
+      "summaryAr": "حياة حشرة (حمالة الصدر: Vida de Inseto; prt: Uma Vida de Insecto) هو فيلم رسوم متحركة كوميدي حاسوبي تم إنتاجه عام 1998 من قبل استوديوهات بيكسار للرسوم المتحركة لصالح أفلام والت ديزني. تم إنتاج الرسوم المتحركة الطويلة الثانية من شركة Pixar بواسطة Toy Story. يرأسه جون لاسيتر ويشارك في إدارته وكتبه أندرو ستانتون، وهو تاريخ يشتمل على شخص محبط تمامًا، فليك، اللي يشتري \"محاربين شجاعين\" لإنقاذ مستعمرتهم من عائلات السجناء، لكنه يقوم بتجنيد مجموعة غير مؤهلة من الدوائر الداخلية.",
+      "summaryEn": "A Bug's Life (bra: Vida de Inseto; prt: Uma Vida de Insecto) é um filme de comédia de animação computadorizada estadunidense de 1998 produzido pela Pixar Animation Studios para a Walt Disney Pictures. Foi o segundo longa animado produzido pela Pixar após Toy Story. Dirigido por John Lasseter e co-dirigido e escrito por Andrew Stanton, a história envolve uma formiga desajustada, Flik, ​​que procura \"corajosos guerreiros\" para salvar sua colônia de gafanhotos famintos, mas acaba recrutando um grupo inepto de insetos circenses.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://pt.wikipedia.org/wiki/A%20Bug's%20Life"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "A Bug's Life",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/alice in wonderland.jpg": {
+      "title": "alice in wonderland",
+      "canonicalTitle": "Alice in Wonderland",
+      "type": "film",
+      "director": "Tim Burton",
+      "directors": [
+        "Tim Burton"
+      ],
+      "releaseDate": "2010",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Mia Wasikowska"
+      ],
+      "genres": [
+        "فانتازيا",
+        "مغامرة",
+        "أكشن"
+      ],
+      "summaryAr": "أليس في بلاد العجائب (بالإنجليزية: Alice in Wonderland)‏ هو فيلم مغامرات وفانتازيا مظلمة قوطي أمريكي صدر عام 2010، من إخراج تيم بيرتون وسيناريو من تأليف ليندا وولفرتون وإنتاج والت ديزني بيكتشرز. الفيلم من بطولة ميا واسيكوسكا في دور الحركة الحية، جوني ديب، آن هاثاواي، مات لوكاس، هيلينا بونهام كارتر، وكريسبين جلوفر، ويتميز بأصوات آلان ريكمان، ستيفن فراي، مايكل شين، تيموثي سبال، كريستوفر لي، بول وايتهاوس، باربرا وندسور ومايكل جوف.",
+      "summaryEn": "Alice in Wonderland is a 2010 American Gothic dark fantasy adventure film directed by Tim Burton from a screenplay written by Linda Woolverton and produced by Walt Disney Pictures. The film stars Mia Wasikowska in the live-action role, Johnny Depp, Anne Hathaway, Matt Lucas, Helena Bonham Carter, and Crispin Glover, and features the voices of Alan Rickman, Stephen Fry, Michael Sheen, Timothy Spall, Christopher Lee, Paul Whitehouse, Barbara Windsor and Michael Gough.…",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alice%20in%20Wonderland%20(2010%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Alice in Wonderland (2010 film)"
+    },
+    "cartoon-films/Anastasia.jpg": {
+      "title": "Anastasia",
+      "canonicalTitle": "Anastasia",
+      "type": "film",
+      "directors": [
+        "دون بلوث / غاري غولدمان"
+      ],
+      "releaseDate": "1997",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ميغ رايان",
+        "جون كيوزاك"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "تاريخي",
+        "فانتازيا"
+      ],
+      "summaryAr": "أميرة روسية يتيمة وتايهة عن أهلها من وهي صغيرة بتسعى تكتشف حقيقة أصلها وتاريخ عيلتها الملكية رومانوف، في وسط مؤامرات ومطاردات ساحر شرير.",
+      "summaryEn": "Anastasia is a 1997 American animated musical historical fantasy film directed and produced by Don Bluth and Gary Goldman from a screenplay by the writing teams of Susan Gauthier and Bruce Graham, and Bob Tzudiker and Noni White, and based on a story adaptation by Eric Tuchman. It features songs written by Stephen Flaherty and Lynn Ahrens (in their film songwriting debut), and a musical score composed and conducted by David Newman. The film stars the voices of Meg Ryan, John Cusack, Kelsey Grammer, Christopher Lloyd, Hank Azaria, Bernadette Peters, Kirsten Dunst, and Angela Lansbury.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anastasia%20(1997%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Anastasia (1997 film)",
+      "director": "دون بلوث / غاري غولدمان",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/Arthur.Christmas.jpg": {
+      "title": "Arthur.Christmas",
+      "canonicalTitle": "Arthur Christmas",
+      "type": "film",
+      "director": "Sarah Smith",
+      "directors": [
+        "Sarah Smith"
+      ],
+      "releaseDate": "2011",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "هاري جريجسون وليمز"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "كوميديا"
+      ],
+      "summaryAr": "آرثر كريسماس هو فيلم رسوم متحركة كوميدي لعيد الميلاد لعام 2011 من إخراج سارة سميث، اللي شاركت في كتابته مع بيتر باينهام. تم إنتاجه بواسطة Columbia Pictures وSony Pictures Animation وAardman Features باعتباره الفيلم الروائي الثاني للرسوم المتحركة بالكمبيوتر، بعد Flushed Away (2006). يضم طاقم الصوت جيمس ماكافوي، وهيو لوري، وبيل نيغي، وجيم برودبنت، وإيميلدا ستونتون، وآشلي جنسن.",
+      "summaryEn": "Arthur Christmas is a 2011 animated Christmas comedy film directed by Sarah Smith, who co-wrote it with Peter Baynham. It was produced by Columbia Pictures, Sony Pictures Animation, and Aardman Features as the latter's second computer-animated feature film, following Flushed Away (2006). The voice cast features James McAvoy, Hugh Laurie, Bill Nighy, Jim Broadbent, Imelda Staunton, and Ashley Jensen.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arthur%20Christmas"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Arthur Christmas",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/astro boy.jpg": {
+      "title": "astro boy",
+      "canonicalTitle": "Astro Boy",
+      "type": "film",
+      "director": "David Bowers",
+      "directors": [
+        "David Bowers"
+      ],
+      "releaseDate": "2009",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Freddie Highmore"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "أبطال خارقون",
+        "علمي",
+        "كوميديا"
+      ],
+      "summaryAr": "أسترو بوي هو فيلم رسوم متحركة لبطل خارق وخيال علمي ومغامرة كوميدية لعام 2009 يعتمد بشكل فضفاض على سلسلة المانجا اللي كتبها أوسامو تيزوكا. الفيلم من إنتاج شركة Imagi Studios ومقرها هونج كونج، وأخرجه ديفيد باورز اللي شارك في كتابة السيناريو مع تيموثي هايد هاريس. الفيلم من بطولة فريدي هايمور، كريستين بيل، نيكولاس كيج، دونالد ساذرلاند، بيل نيغي، مات لوكاس، يوجين ليفي، صامويل إل.",
+      "summaryEn": "Astro Boy is a 2009 animated superhero science fiction comedy adventure film loosely based on the manga series by Osamu Tezuka. Produced by the Hong Kong-based company Imagi Studios, it was directed by David Bowers who co-wrote the screenplay with Timothy Hyde Harris. The film stars Freddie Highmore, Kristen Bell, Nicolas Cage, Donald Sutherland, Bill Nighy, Matt Lucas, Eugene Levy, Samuel L.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Astro%20Boy%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Astro Boy (film)"
+    },
+    "cartoon-films/Bambi.jpg": {
+      "title": "Bambi",
+      "canonicalTitle": "Bambi",
+      "type": "film",
+      "director": "David D",
+      "directors": [
+        "David D"
+      ],
+      "releaseDate": "1942",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Donald Novis"
+      ],
+      "genres": [
+        "نشأة",
+        "رسوم متحركة"
+      ],
+      "summaryAr": "بامبي هو فيلم رسوم متحركة أمريكي عن بلوغ سن الرشد عام 1942 من إنتاج والت ديزني وتم إصداره بواسطة صور راديو RKO، ويستند بشكل فضفاض إلى رواية فيليكس سالتن عام 1923 بامبي، حياة في الغابة. أدير من قبل ديفيد د.هاند، وفريق من ستة مخرجين للتسلسل.",
+      "summaryEn": "Bambi is a 1942 American animated coming-of-age film produced by Walt Disney and released by RKO Radio Pictures, loosely based on Felix Salten's 1923 novel Bambi, a Life in the Woods. It was directed by David D. Hand, and a team of six sequence directors.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bambi"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Bambi",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Bolt.jpg": {
+      "title": "Bolt",
+      "canonicalTitle": "Bolt",
+      "type": "film",
+      "director": "Henri Colline",
+      "directors": [
+        "Henri Colline",
+        "George Mendeluk"
+      ],
+      "releaseDate": "1995",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Richard Grieco"
+      ],
+      "genres": [
+        "دراما"
+      ],
+      "summaryAr": "بولت هو فيلم درامي أمريكي عام 1995 من إخراج هنري كولين وجورج منديلوك وبطولة ريتشارد جريكو في دور راكب الدراجة النارية من نيوجيرسي. بعد فرارها إلى الغرب هربًا من حرب العصابات، تنخرط بولت في علاقة عاطفية مع الأمريكيين الأصليين باتي ديرهارت (شون يونغ)، وتضطر إلى القتال لحماية عائلتها من أحد تجار الأراضي. يؤدي ظهور منافس العصابة السابق بيلي نايلز (مايكل أيرونسايد) في المحمية إلى تصاعد الصراع إلى ذروة عنيفة.",
+      "summaryEn": "Bolt is a 1995 American drama film directed by Henri Colline and George Mendeluk and starring Richard Grieco in the title role as a New Jersey biker. After fleeing west to escape a gang war, Bolt becomes romantically involved with Native American Patty Deerheart (Sean Young), and is compelled to battle to protect her family from a land runner. The appearance of former gang rival Billy Niles (Michael Ironside) on the reservation causes the conflict to escalate into a violent climax.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolt%20(1994%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Bolt (1994 film)"
+    },
+    "cartoon-films/brother bear.jpg": {
+      "title": "brother bear",
+      "canonicalTitle": "Brother Bear",
+      "type": "film",
+      "director": "Aaron Blaise",
+      "directors": [
+        "Aaron Blaise",
+        "Robert Walker"
+      ],
+      "releaseDate": "2003",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جواكين فينيكس",
+        "جيريمي سوزار",
+        "ريك مورانيس",
+        "ديف توماس"
+      ],
+      "genres": [
+        "كوميديا",
+        "دراما",
+        "رسوم متحركة",
+        "موسيقي"
+      ],
+      "summaryAr": "Brother Bear هو فيلم رسوم متحركة موسيقي خيالي ومغامرة كوميدي درامي أمريكي عام 2003 من إنتاج ميزة والت ديزني للرسوم المتحركة. الفيلم من إخراج آرون بليز وروبرت ووكر، وكتبه تاب مورفي وفرق الكتابة المؤلفة من لورن كاميرون وديفيد هوسيلتون وستيف بينسيتش ورون جيه فريدمان.",
+      "summaryEn": "Brother Bear is a 2003 American animated musical fantasy adventure comedy-drama film produced by Walt Disney Feature Animation. Directed by Aaron Blaise and Robert Walker, it was written by Tab Murphy, and the writing teams of Lorne Cameron and David Hoselton, and Steve Bencich and Ron J. Friedman.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brother%20Bear"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Brother Bear"
+    },
+    "cartoon-films/cars.jpg": {
+      "title": "cars",
+      "canonicalTitle": "Cars",
+      "type": "film",
+      "director": "John Lasseter",
+      "directors": [
+        "John Lasseter",
+        "Dan Fogelman",
+        "Kiel Murray",
+        "Phil Lorin",
+        "Jorgen Klubien"
+      ],
+      "releaseDate": "2006",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Paul Newman",
+        "Owen Wilson"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "رياضي",
+        "كوميديا"
+      ],
+      "summaryAr": "سيارات هو فيلم رسوم متحركة رياضي كوميدي أمريكي عام 2006 من إخراج جون لاسيتر، اللي شارك في كتابته مع جو رانفت، دان فوجلمان، كيل موراي، فيل لورين ويورغن كلوبين. الفيلم من إنتاج استوديوهات بيكسار للرسوم المتحركة لصالح أفلام والت ديزني، بطولة الفيلم بول نيومان وأوين ويلسون، مع طاقم صوتي يتكون من بوني هانت، لاري ذا كيبل جاي، توني شلهوب، شيش مارين، مايكل واليس، جورج كارلين، بول دولي، جينيفر لويس، جويدو كواروني، مايكل كيتون، كاثرين هيلموند، جون راتزينبيرجر، وريتشارد بيتي.",
+      "summaryEn": "Cars is a 2006 American animated sports comedy film directed by John Lasseter, who co-wrote it with Joe Ranft, Dan Fogelman, Kiel Murray, Phil Lorin and Jorgen Klubien. Produced by Pixar Animation Studios for Walt Disney Pictures, the film stars Paul Newman and Owen Wilson, with an ensemble voice cast consisting of Bonnie Hunt, Larry the Cable Guy, Tony Shalhoub, Cheech Marin, Michael Wallis, George Carlin, Paul Dooley, Jenifer Lewis, Guido Quaroni, Michael Keaton, Katherine Helmond, John Ratzenberger, and Richard Petty.…",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cars%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Cars (film)",
+      "creators": "جون لاسيتر",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/chicken little.jpg": {
+      "title": "chicken little",
+      "canonicalTitle": "Chicken Little",
+      "type": "film",
+      "director": "Mark Dindal",
+      "directors": [
+        "Mark Dindal"
+      ],
+      "releaseDate": "2005",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "زاك براف",
+        "جوان كوساك",
+        "غاري مارشال",
+        "دون نوتس"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "علمي",
+        "كوميديا"
+      ],
+      "summaryAr": "دجاج صغير هو فيلم رسوم متحركة خيال علمي كوميدي أمريكي عام 2005 من إنتاج والت ديزني للرسوم المتحركة. إنها مستوحاة بشكل فضفاض من الحكاية الشعبية الأوروبية \"هيني بيني\"، المعروفة في الولايات المتحدة باسم \"الدجاج الصغير\". سبق لشركة ديزني أن قامت بتعديل الحكاية في فيلم قصير عام 1943.",
+      "summaryEn": "Chicken Little is a 2005 American animated science fiction comedy film produced by Walt Disney Feature Animation. It is loosely inspired by the European folk tale \"Henny Penny\", known in the United States as \"Chicken Little\". Disney had previously adapted the tale in a 1943 short film.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chicken%20Little%20(2005%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Chicken Little (2005 film)"
+    },
+    "cartoon-films/cinderella.jpg": {
+      "title": "cinderella",
+      "canonicalTitle": "Cinderella",
+      "type": "film",
+      "director": "Wilfred Jackson",
+      "directors": [
+        "Wilfred Jackson",
+        "Hamilton Luske",
+        "Clyde Geronimi"
+      ],
+      "releaseDate": "1950",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "كاميلا كابيو",
+        "إيدينا مينزيل",
+        "ميني درايفر",
+        "نيكولاس جاليتزين",
+        "بيلي بوتر",
+        "بيرس بروسنان"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "فانتازيا"
+      ],
+      "summaryAr": "سندريلا هو فيلم رسوم متحركة موسيقي خيالي أمريكي عام 1950 من إنتاج شركة والت ديزني للإنتاج وإصداره بواسطة صور راديو RKO. استنادًا إلى حكاية تشارلز بيرولت الخيالية عام 1697، يتتبع الفيلم سندريلا، ابنة الأرستقراطي الأرملة، اللي أُجبرت على أن تصبح خادمة لزوجة أبيها القاسية وأختين غير شقيقتين، حتى منحتها عرابة سندريلا الخيالية فرصة حضور الحفل الملكي ومقابلة الأمير. أشرف على الإنتاج بن شاربستين، وأخرجه ويلفريد جاكسون وهاملتون لوسكي وكلايد جيرونيمي.",
+      "summaryEn": "Cinderella is a 1950 American animated musical fantasy film produced by Walt Disney Productions and released by RKO Radio Pictures. Based on Charles Perrault's 1697 fairy tale, the film follows Cinderella, the daughter of a widowed aristocrat, who is forced to become a servant of her cruel stepmother and two stepsisters, until Cinderella's fairy godmother grants her the chance to attend the royal ball and meet the prince. The production was supervised by Ben Sharpsteen, and was directed by Wilfred Jackson, Hamilton Luske, and Clyde Geronimi.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cinderella%20(1950%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Cinderella (1950 film)",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/coco.jpg": {
+      "title": "coco",
+      "canonicalTitle": "Coco",
+      "type": "film",
+      "director": "Lee Unkrich",
+      "directors": [
+        "Lee Unkrich"
+      ],
+      "releaseDate": "2017",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "أنتوني غونزاليس",
+        "غائيل غارسيا برنال",
+        "بنجامنت برات",
+        "ألاننا أوباتش"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "فانتازيا"
+      ],
+      "summaryAr": "كوكو هو فيلم رسوم متحركة أمريكي خيالي لعام 2017 من إخراج لي أونكريش وتأليف أدريان مولينا وماثيو ألدريتش. الفيلم من إنتاج استوديوهات بيكسار للرسوم المتحركة لصالح أفلام والت ديزني، ويقوم ببطولته أصوات أنتوني جونزاليس، وجايل جارسيا برنال، وبنجامين برات، وألانا أوباتش، ورينيه فيكتور، وآنا أوفيليا مورجويا، وإدوارد جيمس أولموس. بتدور أحداث الفيلم حول صبي يبلغ من العمر 12 عامًا في المكسيك يُدعى ميغيل (غونزاليس) يتم نقله عن طريق الخطأ إلى أرض الموتى، وفيه يطلب المساعدة من جده الأكبر الموسيقي المتوفى لإعادته إلى عائلته وإلغاء حظرهم على الموسيقى.",
+      "summaryEn": "Coco is a 2017 American animated fantasy film directed by Lee Unkrich, and written by Adrian Molina and Matthew Aldrich. Produced by Pixar Animation Studios for Walt Disney Pictures, the film stars the voices of Anthony Gonzalez, Gael García Bernal, Benjamin Bratt, Alanna Ubach, Renée Victor, Ana Ofelia Murguía and Edward James Olmos. It follows a 12-year-old boy in Mexico named Miguel (Gonzalez) who is accidentally transported to the Land of the Dead, where he seeks the help of his deceased musician great-great-grandfather to return him to his family and reverse their ban on music.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coco%20(2017%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Coco (2017 film)"
+    },
+    "cartoon-films/Despicable Me 3.jpg": {
+      "title": "Despicable Me 3",
+      "canonicalTitle": "Despicable Me 3",
+      "type": "film",
+      "director": "Pierre Coffin",
+      "directors": [
+        "Pierre Coffin",
+        "Kyle Balda"
+      ],
+      "releaseDate": "2017",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ستيف كيريل",
+        "كريستن ويغ",
+        "تري باركر",
+        "ميراندا كوسغروف"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "كوميديا"
+      ],
+      "summaryAr": "أنا الحقير 3 هو فيلم رسوم متحركة كوميدي أمريكي لعام 2017 من إخراج بيير كوفين وكايل بالدا وتأليف سينكو بول وكين دوريو. تم إنتاجه بواسطة Universal Pictures وIllumination، وهو الإصدار الرئيسي الثالث والدفعة الرابعة الشاملة في امتياز Despicable Me. الفيلم من بطولة أصوات ستيف كاريل (في دور مزدوج)، كريستين ويج، تري باركر، كوفين، ميراندا كوسجروف، ستيف كوجان، جيني سليت، دانا جاير، نيف شاريل وجولي أندروز.",
+      "summaryEn": "Despicable Me 3 is a 2017 American animated comedy film directed by Pierre Coffin and Kyle Balda and written by Cinco Paul and Ken Daurio. Produced by Universal Pictures and Illumination, it is the third main installment and the fourth overall installment in the Despicable Me franchise. The film stars the voices of Steve Carell (in a dual role), Kristen Wiig, Trey Parker, Coffin, Miranda Cosgrove, Steve Coogan, Jenny Slate, Dana Gaier, Nev Scharrel and Julie Andrews.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Despicable%20Me%203"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Despicable Me 3"
+    },
+    "cartoon-films/dinosaur.jpg": {
+      "title": "dinosaur",
+      "canonicalTitle": "Dinosaur",
+      "type": "film",
+      "director": "Ralph Zondag",
+      "directors": [
+        "Ralph Zondag",
+        "Eric Leighton"
+      ],
+      "releaseDate": "2000",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "دي بي سوني",
+        "ألفري وودارد",
+        "أوسي ديفيس",
+        "هايدن بانتيير"
+      ],
+      "genres": [
+        "مغامرة",
+        "أكشن",
+        "رسوم متحركة"
+      ],
+      "summaryAr": "ديناصور هو فيلم مغامرات أمريكي عام 2000 من إخراج رالف زونداغ وإريك لايتون وكتبه جون هاريسون وروبرت نيلسون جاكوبس ووالون جرين. فيلم الرسوم المتحركة الواقعي من إنتاج Walt Disney Features Animation وThe Secret Lab، وهو من بطولة أصوات D. B.",
+      "summaryEn": "Dinosaur is a 2000 American adventure film directed by Ralph Zondag and Eric Leighton and written by John Harrison, Robert Nelson Jacobs, and Walon Green. Produced by Walt Disney Feature Animation and The Secret Lab, the live-action animated film stars the voices of D. B.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dinosaur%20(2000%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Dinosaur (2000 film)"
+    },
+    "cartoon-films/Elemental.jpg": {
+      "title": "Elemental",
+      "canonicalTitle": "Elemental",
+      "type": "film",
+      "director": "Peter Sohn",
+      "directors": [
+        "Peter Sohn"
+      ],
+      "releaseDate": "2023",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ليا لويس",
+        "ممودو آتي",
+        "روني ديل كارمن",
+        "شيلا أومي"
+      ],
+      "genres": [
+        "كوميديا",
+        "دراما",
+        "رسوم متحركة"
+      ],
+      "summaryAr": "Elemental هو فيلم رسوم متحركة رومانسي كوميدي درامي أمريكي عام 2023 من إخراج بيتر سون وتأليف جون هوبيرج وكات ليكيل وبريندا هسوه. من إنتاج استوديوهات بيكسار للرسوم المتحركة لصالح أفلام والت ديزني، وهو من بطولة أصوات ليا لويس، ومامودو آثي، وروني ديل كارمن، وشيلا أومي، وويندي ماكليندون كوفي، وكاثرين أوهارا. بتدور أحداث القصة في عالم تسكنه عناصر الطبيعة المجسمة، وبتدور أحداث القصة حول عنصر النار إمبر لومين (لويس) وعنصر الماء وايد ريبل (آثي)، اللذين يقضيان وقتًا معًا في المدينة أثناء محاولتهما إنقاذ متجر صغير يملكه بيرني، والد إمبر، (ديل كارمن).",
+      "summaryEn": "Elemental is a 2023 American animated romantic comedy-drama film directed by Peter Sohn, and written by John Hoberg, Kat Likkel, and Brenda Hsueh. Produced by Pixar Animation Studios for Walt Disney Pictures, it stars the voices of Leah Lewis, Mamoudou Athie, Ronnie del Carmen, Shila Ommi, Wendi McLendon-Covey, and Catherine O'Hara. Set in a world inhabited by anthropomorphic elements of nature, the story follows fire element Ember Lumen (Lewis) and water element Wade Ripple (Athie), who spend time together in the city while trying to save a convenience store owned by Ember's father, Bernie (Del Carmen).",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Elemental%20(2023%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Elemental (2023 film)"
+    },
+    "cartoon-films/elio.jpg": {
+      "title": "elio",
+      "canonicalTitle": "Elio",
+      "type": "film",
+      "director": "Madeline Sharafian",
+      "directors": [
+        "Madeline Sharafian",
+        "Domee Shi",
+        "Adrian Molina"
+      ],
+      "releaseDate": "2025",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "يوناس كيبرياب",
+        "أمريكا فيريرا",
+        "جاميلا جميل",
+        "براد غاريت"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "علمي",
+        "مغامرة"
+      ],
+      "summaryAr": "إليو هو فيلم رسوم متحركة وخيال علمي ومغامرات أمريكي صدر عام 2025، من إخراج مادلين شرفيان ودومي شي وأدريان مولينا، وتأليف جوليا تشو ومارك هامر ومايك جونز. الفيلم من إنتاج استوديوهات بيكسار للرسوم المتحركة لصالح أفلام والت ديزني، ويشارك في بطولة الفيلم أصوات يوناس كيبريب، وزوي سالدانيا، وريمي إدجرلي، وبراندون مون، وبراد جاريت، وجميلة جميل. بتدور أحداث الفيلم حول إليو (كيبرياب) البالغ من العمر 11 عامًا واللي يعتقد خطأً أنه سفير الأرض بين المجرات بعد أن أرسله الفضائيون إلى المجتمع لإجراء اتصالات، ويجب عليه أن يتغلب على أزمة تتعلق بأمير الحرب جريجون (جاريت)، وهو والد الطفل الفضائي جلوردون (إدجيرلي) اللي يصادق إليو.",
+      "summaryEn": "Elio is a 2025 American animated science fiction adventure film directed by Madeline Sharafian, Domee Shi, and Adrian Molina, and written by Julia Cho, Mark Hammer, and Mike Jones. Produced by Pixar Animation Studios for Walt Disney Pictures, the film stars the voices of Yonas Kibreab, Zoe Saldaña, Remy Edgerly, Brandon Moon, Brad Garrett, and Jameela Jamil. It follows 11-year-old Elio (Kibreab) who is mistaken for the intergalactic ambassador of Earth after being beamed up to the Communiverse by aliens for making contact, and must navigate a crisis that involves the warlord Grigon (Garrett), who is the father of the alien child Glordon (Edgerly) who Elio befriends.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Elio%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Elio (film)"
+    },
+    "cartoon-films/epic.jpg": {
+      "title": "epic",
+      "canonicalTitle": "Epic",
+      "type": "film",
+      "directors": [
+        "كريس ويج"
+      ],
+      "releaseDate": "2013",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "أماندا سيفريد",
+        "كولين فاريل"
+      ],
+      "genres": [
+        "دراما"
+      ],
+      "summaryAr": "بنت مراهقة بتتصغر في الحجم فجأة وبتلاقي نفسها جوة عالم سري مصغر في الغابة، فبتنضم لمحاربين أوراق الشجر عشان ينقذوا الطبيعة من قوى الظلام.",
+      "summaryEn": "Epic commonly refers to: Epic poetry, a long narrative poem celebrating heroic deeds and events significant to a culture or nation Epic film, a genre of film defined by the spectacular presentation of human drama on a grandiose scale Epic(s) or EPIC(s) may also refer to:",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Epic"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Epic",
+      "director": "كريس ويج",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "الملخص مكتوب بصيغة ناقصة ويحتاج مراجعة"
+      }
+    },
+    "cartoon-films/finding nemo - dori.jpg": {
+      "title": "finding nemo - dori",
+      "canonicalTitle": "Finding Nemo",
+      "type": "film",
+      "director": "Andrew Stanton",
+      "directors": [
+        "Andrew Stanton"
+      ],
+      "releaseDate": "2016",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "إلين دي جينيريس",
+        "ألبرت بروكس",
+        "ألكسندر غولد",
+        "هايدن رولنس"
+      ],
+      "genres": [
+        "رسوم متحركة"
+      ],
+      "summaryAr": "البحث عن نيمو هو امتياز إعلامي لسلسلة أفلام رسوم متحركة أمريكية بدأ بفيلم عام 2003 اللي يحمل نفس الاسم، من إنتاج شركة بيكسار وإصدار صور والت ديزني. أعقب الفيلم الأصلي تكملة مستقلة بعنوان Finding Dory، صدرت في عام 2016. كلا الفيلمين من إخراج أندرو ستانتون.",
+      "summaryEn": "Finding Nemo is an American animated film series media franchise that began with the 2003 film of the same name, produced by Pixar and released by Walt Disney Pictures. The original film was followed by a standalone sequel, Finding Dory, released in 2016. Both films were directed by Andrew Stanton.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Finding%20Nemo%20(franchise)"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "wikiTitle": "Finding Nemo (franchise)",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "العنوان يجمع فيلمين:الجزء الأول 2003 والجزء الثاني 2016 — التاريخ المكتوب هو تاريخ دوري"
+      }
+    },
+    "cartoon-films/Flushed Away.jpg": {
+      "title": "Flushed Away",
+      "canonicalTitle": "Flushed Away",
+      "type": "film",
+      "director": "David Bowers",
+      "directors": [
+        "David Bowers",
+        "Sam Fell"
+      ],
+      "releaseDate": "2006",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "هيو جاكمان",
+        "كيت وينسلت",
+        "إيان ماك كولن",
+        "جان رينو"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "مغامرة",
+        "كوميديا"
+      ],
+      "summaryAr": "Flushed Away هو فيلم رسوم متحركة ومغامرة كوميدي لعام 2006 من إخراج ديفيد باورز وسام فيل، وكتبه ديك كليمنت، إيان لا فرينيس، كريس لويد، جو كينان، وويل ديفيز. الفيلم من إنتاج DreamWorks Animation SKG وAardman Features، وهو من بطولة أصوات هيو جاكمان، وكيت وينسلت، وإيان ماكيلين، وشين ريتشي، وبيل نيغي، وآندي سيركيس، وجان رينو. في الفيلم، فأر فاخر اسمه رودي سانت.",
+      "summaryEn": "Flushed Away is a 2006 animated adventure comedy film directed by David Bowers and Sam Fell, and written by Dick Clement, Ian La Frenais, Chris Lloyd, Joe Keenan, and Will Davies. Produced by DreamWorks Animation SKG and Aardman Features, the film stars the voices of Hugh Jackman, Kate Winslet, Ian McKellen, Shane Richie, Bill Nighy, Andy Serkis, and Jean Reno. In the film, a fancy rat named Roddy St.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flushed%20Away"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Flushed Away"
+    },
+    "cartoon-films/Frozen.jpg": {
+      "title": "Frozen",
+      "canonicalTitle": "Frozen",
+      "type": "film",
+      "director": "Wang Xiaoshuai",
+      "directors": [
+        "Wang Xiaoshuai"
+      ],
+      "releaseDate": "1997",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "كريستن بيل",
+        "إيدينا مينزل",
+        "جوناثان غروف",
+        "جوش غاد"
+      ],
+      "genres": [
+        "كوميديا درامية",
+        "فلم موسيقي",
+        "فلم كوميدي",
+        "فلم بلوغ سن الرشد",
+        "فلم خيال"
+      ],
+      "summaryAr": "مجمدة (صينى: 极度寒冷) هو فيلم عام 1997 من إخراج وانغ شياوشواي. تم تصوير الفيلم، وهو إنتاج مشترك بين الصين وهولندا وهونج كونج، في عام 1994، بس السلطات الصينية حظرته وكان لا بد من تهريبه إلى خارج البلاد. علاوة على ذلك، كان وانغ يعمل في ظل القائمة السوداء اللي فرضها مكتب السينما الصيني بعد عرض فيلمه السابق \"الأيام\" دوليا دون موافقة الحكومة.",
+      "summaryEn": "Frozen (Chinese: 极度寒冷) is a 1997 film directed by Wang Xiaoshuai. A Chinese-Dutch-Hong Kong co-production, the film was originally shot in 1994, but was banned by Chinese authorities and had to be smuggled out of the country. Moreover, Wang was operating under a blacklisting from the Chinese Film Bureau that was imposed after his previous film, The Days, was screened internationally without government approval.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Frozen%20(1997%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Frozen (1997 film)",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Gnome Alone.jpg": {
+      "title": "Gnome Alone",
+      "canonicalTitle": "Gnome Alone",
+      "type": "film",
+      "director": "Peter Lepeniotis",
+      "directors": [
+        "Peter Lepeniotis"
+      ],
+      "releaseDate": "2017",
+      "studio": null,
+      "networks": [
+        "Netflix"
+      ],
+      "cast": [
+        "بيكي جي",
+        "جوش بيك",
+        "تارا سترونغ",
+        "أوليفيا هولت"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "فانتازيا",
+        "كوميديا"
+      ],
+      "summaryAr": "Gnome Alone هو فيلم رسوم متحركة خيالي كوميدي لعام 2017 من إخراج بيتر ليبينيوتيس وكتبه مايكل شوارتز وزينة زافلو، وهو من قصة لروبرت مورلاند. الفيلم من إنتاج Vanguard Animation و3QU Media، ويقوم ببطولته أصوات بيكي جي، وجوش بيك، وأوليفيا هولت، وجورج لوبيز، وباتريك ستامب، وديفيد كوشنر، وتارا سترونج. بتدور أحداث الفيلم حول فتاة صغيرة تنتقل إلى تندرفيل، وتتحد فجأة مع مجموعة من التماثيل وجارها الغريب في محاولة لهزيمة مجموعة من الوحوش المسعورة والجائعة تسمى تروجز.",
+      "summaryEn": "Gnome Alone is a 2017 animated fantasy comedy film directed by Peter Lepeniotis and written by Michael Schwartz and Zina Zaflow, from a story by Robert Moreland. Produced by Vanguard Animation and 3QU Media, the film stars the voices of Becky G, Josh Peck, Olivia Holt, George Lopez, Patrick Stump, David Koechner, and Tara Strong. It follows a young girl who moves to Tenderville, suddenly pairing up with a group of gnomes and her awkward neighbor in an attempt to defeat a pack of rabid and hungry beasts called Troggs.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gnome%20Alone"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Gnome Alone"
+    },
+    "cartoon-films/home_on_the_range.jpg": {
+      "title": "home_on_the_range",
+      "canonicalTitle": "Home on the Range",
+      "type": "film",
+      "director": "Will Finn",
+      "directors": [
+        "Will Finn",
+        "John Sanford"
+      ],
+      "releaseDate": "2004",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "روزان بار",
+        "جودي دينش",
+        "جيني تيلي",
+        "كوبا غودينغ"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "ويسترن"
+      ],
+      "summaryAr": "Home on the Range هو فيلم رسوم متحركة أمريكي تم إنتاجه في عام 2004 بواسطة شركة والت ديزني للرسوم المتحركة. الفيلم من تأليف وإخراج ويل فين وجون سانفورد، ويقوم ببطولته أصوات روزان بار وجودي دينش وجنيفر تيلي وكوبا جودينج جونيور وراندي كويد وستيف بوسيمي. بتدور أحداث الفيلم في الغرب القديم ويتبع ثلاثيًا غير متطابق من أبقار الألبان - ماجي المتهورة والمغامرة؛ الأولية، السيدة المناسبة.",
+      "summaryEn": "Home on the Range is a 2004 American animated western film produced by Walt Disney Feature Animation. Written and directed by Will Finn and John Sanford, it stars the voices of Roseanne Barr, Judi Dench, Jennifer Tilly, Cuba Gooding Jr., Randy Quaid, and Steve Buscemi. The film is set in the Old West and follows a mismatched trio of dairy cows—brash, adventurous Maggie; prim, proper Mrs.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Home%20on%20the%20Range%20(2004%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Home on the Range (2004 film)"
+    },
+    "cartoon-films/horton hears a who.jpg": {
+      "title": "horton hears a who",
+      "canonicalTitle": "Horton Hears a Who!",
+      "director": "Chuck Jones",
+      "directors": [
+        "Chuck Jones"
+      ],
+      "releaseDate": "2008",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جون باول"
+      ],
+      "genres": [
+        "فلم عائلي"
+      ],
+      "summaryAr": "هورتون يسمع من! (البرازيل: Horton e o Mundo dos Quem / البرتغال: Horton e o Mundo dos Quem!) هو فيلم رسوم متحركة رائع، صدر عام 2008، وهو كتاب مستوحى من نفس الاسم اللي ابتكره دكتور سوس، واللي قام أيضًا بكتابة تاريخ غرينش.",
+      "summaryEn": "Horton Hears a Who! (Brasil: Horton e o Mundo dos Quem / Portugal: Horton e o Mundo dos Quem!) é um filme de animação estadunidense, de 2008, baseado no livro de mesmo nome criado por Dr. Seuss, que também escreveu a história do Grinch.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://pt.wikipedia.org/wiki/Horton%20Hears%20a%20Who!"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Horton Hears a Who!",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Hotel.Transylvania.3.jpg": {
+      "title": "Hotel.Transylvania.3",
+      "canonicalTitle": "Hotel Transylvania 3: Summer Vacation",
+      "type": "film",
+      "director": "Genndy Tartakovsky",
+      "directors": [
+        "Genndy Tartakovsky"
+      ],
+      "releaseDate": "2018",
+      "studio": null,
+      "networks": [
+        "Netflix"
+      ],
+      "cast": [
+        "آدم ساندلر",
+        "أندي سامبرغ",
+        "سيلينا غوميز",
+        "كيفن جيمس"
+      ],
+      "genres": [
+        "رعب",
+        "كوميديا",
+        "رسوم متحركة"
+      ],
+      "summaryAr": "فندق ترانسيلفانيا 3: العطلة الصيفية هو فيلم رسوم متحركة ورعب كوميدي أمريكي لعام 2018 من إخراج غيندي تارتاكوفسكي وتأليف تارتاكوفسكي ومايكل ماكولرز. الفيلم من إنتاج شركة سوني بيكتشرز أنيميشن، وهو الفيلم الثالث في سلسلة فندق ترانسيلفانيا. آدم ساندلر، آندي سامبرج، سيلينا جوميز، كيفن جيمس، ديفيد سبيد، ستيف بوسيمي، كيجان مايكل كي، مولي شانون، فران دريشر، وميل بروكس يعيدون أدوارهم من الأجزاء السابقة، مع انضمام كاثرين هان وجيم جافيجان إلى فريق التمثيل.",
+      "summaryEn": "Hotel Transylvania 3: Summer Vacation is a 2018 American animated horror-comedy film directed by Genndy Tartakovsky and written by Tartakovsky and Michael McCullers. Produced by Sony Pictures Animation, it is the third film in the Hotel Transylvania franchise. Adam Sandler, Andy Samberg, Selena Gomez, Kevin James, David Spade, Steve Buscemi, Keegan-Michael Key, Molly Shannon, Fran Drescher, and Mel Brooks reprise their roles from previous installments, with Kathryn Hahn and Jim Gaffigan joining the cast.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hotel%20Transylvania%203%3A%20Summer%20Vacation"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Hotel Transylvania 3: Summer Vacation"
+    },
+    "cartoon-films/Ice Age.jpg": {
+      "title": "Ice Age",
+      "canonicalTitle": "Ice Age",
+      "type": "film",
+      "director": "Michael J",
+      "directors": [
+        "Michael J"
+      ],
+      "releaseDate": "2002-03-15",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ري رومانو",
+        "جون ليغويزامو",
+        "دنيس ليري",
+        "كوين لطيفاح"
+      ],
+      "genres": [
+        "رسوم متحركة"
+      ],
+      "summaryAr": "العصر الجليدي هو امتياز إعلامي أمريكي أنشأه مايكل جيه ويلسون، وشارك في تطويره واستنادًا إلى فكرة لوري فورتي. بتدور أحداث السلسلة حول مجموعة من الثدييات اللي نجت من العصر الجليدي البليستوسيني، وتتكون من أفلام رسوم متحركة بالكمبيوتر وأفلام قصيرة وعروض تلفزيونية خاصة وسلسلة من ألعاب الفيديو.",
+      "summaryEn": "Ice Age is an American media franchise created by Michael J. Wilson, co-developed and based on an idea by Lori Forte. The franchise, centering on a group of mammals surviving the Pleistocene ice age, consists of computer-animated films, short films, TV specials and a series of video games.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ice%20Age%20(franchise)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Ice Age (franchise)",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Inside-Out.jpg": {
+      "title": "Inside-Out",
+      "canonicalTitle": "Inside Out",
+      "type": "film",
+      "director": "Pete Docter",
+      "directors": [
+        "Pete Docter",
+        "Josh Cooley"
+      ],
+      "releaseDate": "2015",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "تربل إتش",
+        "مايكل رابابورت",
+        "باركر بوزي",
+        "مايكل كودليتز",
+        "جولي وايت",
+        "بروس ديرن"
+      ],
+      "genres": [
+        "نشأة",
+        "رسوم متحركة"
+      ],
+      "summaryAr": "بالداخل بالخارج هو فيلم رسوم متحركة أمريكي عن بلوغ سن الرشد عام 2015 من إخراج بيت دوكتر اللي شارك في كتابته مع ميج ليفوف وجوش كولي. الفيلم من إنتاج استوديوهات بيكسار للرسوم المتحركة لصالح أفلام والت ديزني، ويقوم ببطولة الفيلم أصوات إيمي بوهلر، وفيليس سميث، وريتشارد كايند، وبيل هادر، ولويس بلاك، وميندي كالينج، وكايتلين دياس، وديان لين، وكايل ماكلاشلان. يتتبع فيلم Inside Out الأعمال الداخلية لعقل رايلي (دياس)، وهي فتاة صغيرة تتكيف مع انتقال عائلتها وفيه تتحكم خمسة مشاعر مجسدة في أفكارها وأفعالها.",
+      "summaryEn": "Inside Out is a 2015 American animated coming-of-age film directed by Pete Docter who co-wrote it with Meg LeFauve and Josh Cooley. Produced by Pixar Animation Studios for Walt Disney Pictures, the film stars the voices of Amy Poehler, Phyllis Smith, Richard Kind, Bill Hader, Lewis Black, Mindy Kaling, Kaitlyn Dias, Diane Lane, and Kyle MacLachlan. Inside Out follows the inner workings of the mind of Riley (Dias), a young girl who adapts to her family's relocation as five personified emotions administer her thoughts and actions.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Inside%20Out"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Inside Out",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Kubo.jpg": {
+      "title": "Kubo",
+      "canonicalTitle": "Kubo and the Two Strings",
+      "type": "film",
+      "directors": [
+        "تراويس نايت"
+      ],
+      "releaseDate": "2016",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ماثيو mcgreader",
+        "أريتا غاريتا",
+        "روبي ديجلاس",
+        "ريجينا كينج",
+        "مارك ويليامز"
+      ],
+      "genres": [
+        "مغامرة",
+        "خيال",
+        "أنيميشن",
+        "عائلي"
+      ],
+      "summaryAr": "ولد موهوب بيعزف على آلة الشاميسين السحرية وبيقدر يحرك الورق بالأوريغامي، بينطلق في رحلة خطيرة عشان يجمع درع أبوه الساموراي ويواجه أرواح شريرة من ماضيه.",
+      "summaryEn": "Bahay Kubo: A Pinoy Mano Po! is a 2007 Filipino comedy-drama film starring Maricel Soriano and Eric Quizon. It was one of the official entries of the Metro Manila Film Festival.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kubo_and_the_Two_Strings"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "director": "تراويس نايت",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "السجل كان يشير إلى فيلم فلبيني بلا صلة — أُعيد بناؤه على فيلم لايكا (2016)."
+      }
+    },
+    "cartoon-films/lady and tramp.jpg": {
+      "title": "lady and tramp",
+      "canonicalTitle": "Lady and the Tramp",
+      "type": "film",
+      "director": "Hamilton Luske",
+      "directors": [
+        "Hamilton Luske",
+        "Clyde Geronimi",
+        "Wilfred Jackson"
+      ],
+      "releaseDate": "1955",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "باربرا لودي",
+        "لاري روبرتس",
+        "بيغي لي",
+        "بيل بوكوم"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "كوميديا"
+      ],
+      "summaryAr": "السيدة والصعلوك هو فيلم رسوم متحركة موسيقي رومانسي كوميدي أمريكي أنتج عام 1955 بواسطة شركة والت ديزني للإنتاج وأصدرته شركة بوينا فيستا لتوزيع الأفلام. استنادًا إلى قصة مجلة وارد جرين عام 1945 في مجلة كوزموبوليتان \"Happy Dan، the Cynical Dog\"، أخرج الفيلم هاميلتون لوسكي، وكلايد جيرونيمي، وويلفريد جاكسون. يتميز الفيلم بأصوات بيجي لي، وباربرا لودي، ولاري روبرتس، وبيل طومسون، وبيل بوكوم، وستان فريبيرج، وفيرنا فيلتون، وآلان ريد، وجورج جيفوت، ودالاس ماكينون، ولي ميلار.",
+      "summaryEn": "Lady and the Tramp is a 1955 American animated musical romantic comedy film produced by Walt Disney Productions and released by Buena Vista Film Distribution. Based on Ward Greene's 1945 Cosmopolitan magazine story \"Happy Dan, the Cynical Dog\", it was directed by Hamilton Luske, Clyde Geronimi, and Wilfred Jackson. The film features the voices of Peggy Lee, Barbara Luddy, Larry Roberts, Bill Thompson, Bill Baucom, Stan Freberg, Verna Felton, Alan Reed, George Givot, Dallas McKennon, and Lee Millar.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lady%20and%20the%20Tramp"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Lady and the Tramp"
+    },
+    "cartoon-films/Madagascar.jpg": {
+      "title": "Madagascar",
+      "canonicalTitle": "Madagascar",
+      "type": "film",
+      "directors": null,
+      "releaseDate": "2005-05-27",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "بن ستيلر",
+        "كريس روك",
+        "ديفيد شفيمر",
+        "جندا بينكيت سميث"
+      ],
+      "genres": [
+        "رسوم متحركة"
+      ],
+      "summaryAr": "مدغشقر هو امتياز إعلامي أمريكي لشركة DreamWorks Animation. ظهرت أصوات بن ستيلر وكريس روك وديفيد شويمر وجادا بينكيت سميث في الأفلام. بدأت في عام 2005 مع إصدار فيلم الرسوم المتحركة اللي يحمل نفس الاسم، تلاه فيلم مدغشقر: الهروب 2 أفريقيا في عام 2008 ومدغشقر 3: المطلوبين في أوروبا في عام 2012.",
+      "summaryEn": "Madagascar is an American media franchise of DreamWorks Animation. The voices of Ben Stiller, Chris Rock, David Schwimmer and Jada Pinkett Smith are featured in the films. It began in 2005 with the release of the animated feature film of the same name, followed by Madagascar: Escape 2 Africa in 2008 and Madagascar 3: Europe's Most Wanted in 2012.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Madagascar%20(franchise)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Madagascar (franchise)",
+      "director": "Eric Darnell",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Meet The Robinsons.jpg": {
+      "title": "Meet The Robinsons",
+      "canonicalTitle": "Meet the Robinsons",
+      "type": "film",
+      "director": "Stephen Anderson",
+      "directors": [
+        "Stephen Anderson"
+      ],
+      "releaseDate": "2007",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Jordan Fry"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "علمي",
+        "كوميديا"
+      ],
+      "summaryAr": "تعرف على عائلة روبنسون هو فيلم رسوم متحركة خيال علمي كوميدي أمريكي عام 2007 من إنتاج استوديوهات والت ديزني للرسوم المتحركة. استنادًا إلى كتاب الأطفال \"يوم مع ويلبر روبنسون\" لعام 1990 من تأليف ويليام جويس، أخرج الفيلم ستيفن أندرسون، وكتبه أندرسون، دون هول، ناثان جرينو، جو ماتيو، جون بيرنشتاين، ميشيل سبيتز، وأوريان ريدسون، وبطولة أصوات دانييل هانسن وجوردان فراي، ويسلي سينجرمان، أنجيلا باسيت، توم سيليك، هارلاند ويليامز، لوري ميتكالف، نيكول سوليفان، آدم. الغرب، إيثان ساندلر، توم كيني، وأندرسون.",
+      "summaryEn": "Meet the Robinsons is a 2007 American animated science fiction comedy film produced by Walt Disney Animation Studios. Based on the 1990 children's book A Day with Wilbur Robinson by William Joyce, the film was directed by Stephen Anderson, and written by Anderson, Don Hall, Nathan Greno, Joe Mateo, Jon Bernstein, Michelle Spitz, and Aurian Redson, and stars the voices of Daniel Hansen and Jordan Fry, Wesley Singerman, Angela Bassett, Tom Selleck, Harland Williams, Laurie Metcalf, Nicole Sullivan, Adam West, Ethan Sandler, Tom Kenny, and Anderson.…",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Meet%20the%20Robinsons"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Meet the Robinsons"
+    },
+    "cartoon-films/mickeys christmas carol.jpg": {
+      "title": "mickeys christmas carol",
+      "canonicalTitle": "A Christmas Carol",
+      "type": "film",
+      "directors": [
+        "بورني ماتتسون"
+      ],
+      "releaseDate": "2009",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "واين ألوين",
+        "آلان يونغ"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "فانتازيا"
+      ],
+      "summaryAr": "معالجة كرتونية لطيفة لرواية تشارلز ديكنز الشهيرة مع ميكي ماوس والعم دهب البخيل اللي بيزوروه تلات أشباح في ليلة الكريسماس عشان يعلموه الكرم.",
+      "summaryEn": "A Christmas Carol (also known as Disney's A Christmas Carol) is a 2009 American animated Christmas fantasy film based on the 1843 novel of the same name by Charles Dickens. The film was directed, written, and co-produced by Robert Zemeckis, and stars a motion-captured and voice cast that includes Jim Carrey, Gary Oldman, Colin Firth, Bob Hoskins, Robin Wright Penn, Cary Elwes and Fionnula Flanagan. Produced by Walt Disney Pictures and ImageMovers Digital, and released by Walt Disney Studios Motion Pictures, it is Disney's third adaptation of the novel, following Mickey's Christmas Carol (1983) and The Muppet Christmas Carol (1992).",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/A%20Christmas%20Carol%20(2009%20film)"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "wikiTitle": "A Christmas Carol (2009 film)",
+      "director": "بورني ماتتسون",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "العنوان الصحيح Mickey's Christmas Carol"
+      }
+    },
+    "cartoon-films/migration.jpg": {
+      "title": "migration",
+      "canonicalTitle": "Migration",
+      "type": "film",
+      "director": "Benjamin Renner",
+      "directors": [
+        "Benjamin Renner"
+      ],
+      "releaseDate": "2023",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "كوميل نانجاني",
+        "إليزابيث بانكس",
+        "أكوافينا",
+        "كيغان مايكل كاي"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "مغامرة",
+        "كوميديا"
+      ],
+      "summaryAr": "الهجرة هو فيلم رسوم متحركة ومغامرة كوميدي أمريكي لعام 2023 من إخراج بنجامين رينر وتأليف مايك وايت، من قصة طوروها. الفيلم من إنتاج شركة Illumination وUniversal Pictures، ويقوم ببطولته أصوات كميل نانجياني، وإليزابيث بانكس، وكيجان مايكل كي، وأوكوافينا، وداني ديفيتو. تتبع القصة عائلة من البط البري اللي يحاولون إقناع والدهم المفرط في الحماية بالذهاب في إجازة العمر ومحاولة الهجرة من نيو إنجلاند عبر مدينة نيويورك إلى جامايكا.",
+      "summaryEn": "Migration is a 2023 American animated adventure comedy film directed by Benjamin Renner and written by Mike White, from a story they developed. Produced by Illumination and Universal Pictures, the film stars the voices of Kumail Nanjiani, Elizabeth Banks, Keegan-Michael Key, Awkwafina, and Danny DeVito. The story follows a family of mallards who try to convince their overprotective father to go on a vacation of a lifetime and attempt to migrate from New England, through New York City, to Jamaica.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Migration%20(2023%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Migration (2023 film)"
+    },
+    "cartoon-films/Moana.jpg": {
+      "title": "Moana",
+      "canonicalTitle": "Moana",
+      "type": "film",
+      "director": "John Musker",
+      "directors": [
+        "John Musker",
+        "Ron Clements"
+      ],
+      "releaseDate": "2016",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Dwayne Johnson",
+        "Auliʻi Cravalho"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "مغامرة"
+      ],
+      "summaryAr": "موانا هو فيلم رسوم متحركة موسيقي أمريكي من إنتاج استوديوهات والت ديزني للرسوم المتحركة وأخرجه جون موسكر ورون كليمنتس وسيناريو جاريد بوش. الفيلم من بطولة دواين جونسون وأولي كرافاليو في أول فيلم روائي طويل لها. أغانيها كتبها لين مانويل ميراندا، أوبيتايا فواي، ومارك مانسينا، اللي قام أيضًا بتأليف النوتة الموسيقية.",
+      "summaryEn": "Moana is a 2016 American animated musical adventure film produced by Walt Disney Animation Studios and directed by John Musker and Ron Clements from a screenplay by Jared Bush. The film stars Dwayne Johnson and Auliʻi Cravalho in her feature film debut. Its songs were written by Lin-Manuel Miranda, Opetaia Foaʻi, and Mark Mancina, who also composed the score.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moana%20(2016%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Moana (2016 film)"
+    },
+    "cartoon-films/monster inc.jpg": {
+      "title": "monster inc",
+      "canonicalTitle": "Monsters, Inc.",
+      "type": "film",
+      "director": "Pete Docter",
+      "directors": [
+        "Pete Docter"
+      ],
+      "releaseDate": "2001",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "بيلي كريستال",
+        "جون غودمان",
+        "ماري غيبس",
+        "ستيف بوسيمي"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "فانتازيا",
+        "كوميديا"
+      ],
+      "summaryAr": "Monsters، Inc. هو فيلم رسوم متحركة خيالي كوميدي أمريكي عام 2001 من إخراج بيت دوكتر وكتبه أندرو ستانتون ودانيال جيرسون. الفيلم من إنتاج استوديوهات بيكسار للرسوم المتحركة لصالح أفلام والت ديزني، ويؤدي أصوات جون جودمان، وبيلي كريستال، وستيف بوسيمي، وجيمس كوبورن، وجنيفر تيلي، وماري جيبس.",
+      "summaryEn": "Monsters, Inc. is a 2001 American animated fantasy comedy film directed by Pete Docter, and written by Andrew Stanton and Daniel Gerson. Produced by Pixar Animation Studios for Walt Disney Pictures, the film stars the voices of John Goodman, Billy Crystal, Steve Buscemi, James Coburn, Jennifer Tilly, and Mary Gibbs.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Monsters%2C%20Inc."
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "wikiTitle": "Monsters, Inc."
+    },
+    "cartoon-films/Monsters University.jpg": {
+      "title": "Monsters University",
+      "canonicalTitle": "Monsters University",
+      "type": "film",
+      "director": "Dan Scanlon",
+      "directors": [
+        "Dan Scanlon"
+      ],
+      "releaseDate": "2013",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "بيلي كريستال",
+        "جون غودمان",
+        "ستيف بوسيمي",
+        "هيلن ميرن"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "كوميديا"
+      ],
+      "summaryAr": "جامعة الوحوش هو فيلم رسوم متحركة كوميدي أمريكي لعام 2013 من إخراج دان سكانلون وكتبه سكانلون وفريق الكتابة المكون من دان جيرسون وروبرت إل بيرد. تم إنتاج الفيلم بواسطة استوديوهات بيكسار للرسوم المتحركة لصالح أفلام والت ديزني، وهو مقدمة لشركة Monsters, Inc.",
+      "summaryEn": "Monsters University is a 2013 American animated comedy film directed by Dan Scanlon and written by Scanlon and the writing team of Dan Gerson and Robert L. Baird. Produced by Pixar Animation Studios for Walt Disney Pictures, it is a prequel to Monsters, Inc.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Monsters%20University"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Monsters University"
+    },
+    "cartoon-films/mowgli legend of the jungle.jpg": {
+      "title": "mowgli legend of the jungle",
+      "canonicalTitle": "Mowgli: Legend of the Jungle",
+      "type": "film",
+      "director": "Andy Serkis",
+      "directors": [
+        "Andy Serkis"
+      ],
+      "releaseDate": "2018",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Rohan Chand"
+      ],
+      "genres": [
+        "مغامرة",
+        "دراما"
+      ],
+      "summaryAr": "ماوكلي: أسطورة الغابة (المعروف أيضًا باسم ماوكلي) هو فيلم مغامرات درامي لعام 2018 من إخراج آندي سركيس مع سيناريو كالي كلوفز، استنادًا إلى القصص اللي تم جمعها في كل قصص ماوكلي بواسطة روديارد كيبلينج. الفيلم من بطولة روهان تشاند، وماثيو ريس، وفريدا بينتو، إلى جانب عروض الصوت والتقاط الحركة من كريستيان بيل، وكيت بلانشيت، وبينديكت كومبرباتش، وناعومي هاريس، وسيركيس. في هذا الفيلم، ينطلق صبي بشري يتيم ربته الذئاب في رحلة للعثور على قرية بشرية أثناء الهروب من شيريخان.",
+      "summaryEn": "Mowgli: Legend of the Jungle (also known and stylized on screen simply as Mowgli) is a 2018 adventure drama film directed by Andy Serkis with a screenplay by Callie Kloves, based on stories collected in All the Mowgli Stories by Rudyard Kipling. The film stars Rohan Chand, Matthew Rhys, and Freida Pinto, along with voice and motion-capture performances from Christian Bale, Cate Blanchett, Benedict Cumberbatch, Naomie Harris, and Serkis. In this film, an orphaned human boy who was raised by wolves, sets out on a journey to find a human village while evading Shere Khan.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mowgli%3A%20Legend%20of%20the%20Jungle"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Mowgli: Legend of the Jungle"
+    },
+    "cartoon-films/mulan.jpg": {
+      "title": "mulan",
+      "canonicalTitle": "Mulan",
+      "type": "film",
+      "director": "Barry Cook",
+      "directors": [
+        "Barry Cook",
+        "Tony Bancroft"
+      ],
+      "releaseDate": "1998",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "مينغ نا وين",
+        "إدي مورفي",
+        "بي دي وونغ",
+        "ميغيل فيرير"
+      ],
+      "genres": [
+        "أكشن",
+        "مغامرة",
+        "رسوم متحركة",
+        "موسيقي"
+      ],
+      "summaryAr": "مولان هو فيلم رسوم متحركة موسيقي أمريكي عن بلوغ سن الرشد ومغامرة، يستند إلى الأسطورة الصينية هوا مولان، ومن إنتاج ميزة والت ديزني للرسوم المتحركة. الفيلم من إخراج باري كوك وتوني بانكروفت وإنتاج بام كوتس، من سيناريو لريتا هسياو وكريس ساندرز وفيليب لازيبنيك وفريق الكتابة المكون من ريموند سينجر ويوجينيا بوستويك سينجر، وقصة لروبرت دي سان سوسي.",
+      "summaryEn": "Mulan is a 1998 American animated musical coming-of-age action-adventure film based on the Chinese legend of Hua Mulan, and produced by Walt Disney Feature Animation. The film was directed by Barry Cook and Tony Bancroft and produced by Pam Coats, from a screenplay by Rita Hsiao, Chris Sanders, Philip LaZebnik, and the writing team of Raymond Singer and Eugenia Bostwick-Singer, and a story by Robert D. San Souci.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mulan%20(1998%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Mulan (1998 film)"
+    },
+    "cartoon-films/my father's dragon.jpg": {
+      "title": "my father's dragon",
+      "canonicalTitle": "My Father's Dragon",
+      "type": "film",
+      "director": "Nora Twomey",
+      "directors": [
+        "Nora Twomey"
+      ],
+      "releaseDate": "2022",
+      "studio": null,
+      "networks": [
+        "Netflix"
+      ],
+      "cast": [
+        "ميغومي هاياشيبارا",
+        "جوجي يانامي",
+        "دايسكي غوري",
+        "ماساكو نوزاوا",
+        "Katsuhisa Namase",
+        "سوميكو ساكاموتو"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "فانتازيا",
+        "مغامرة",
+        "كوميديا"
+      ],
+      "summaryAr": "My Father's Dragon هو فيلم رسوم متحركة خيالي ومغامرة كوميدي لعام 2022 من إخراج نورا تومي وسيناريو ميج ليفوف اللي شارك في كتابة القصة مع جون مورغان. وهو مقتبس من رواية الأطفال اللي تحمل نفس الاسم واللي صدرت عام 1948 للكاتبة روث ستايلز جانيت. الفيلم مخصص أيضًا لمورغان اللي توفي بسبب مرض السرطان أثناء إنتاج الفيلم في مارس 2016.",
+      "summaryEn": "My Father's Dragon is a 2022 animated fantasy adventure comedy film directed by Nora Twomey with a screenplay by Meg LeFauve who co-wrote the story with John Morgan. It is based on the 1948 children's novel of the same name by Ruth Stiles Gannett. The film is also dedicated to Morgan who died from cancer during the film's production in March 2016.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/My%20Father's%20Dragon%20(2022%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "My Father's Dragon (2022 film)",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/oliver company.jpg": {
+      "title": "oliver company",
+      "canonicalTitle": "Oliver & Company",
+      "type": "film",
+      "director": "George Scribner",
+      "directors": [
+        "George Scribner"
+      ],
+      "releaseDate": "1988",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جوي لورنس",
+        "بيلي جويل",
+        "بيتي ميدلر",
+        "ريتشارد مولغان"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "كوميديا",
+        "دراما"
+      ],
+      "summaryAr": "أوليفر وشركاه هو فيلم رسوم متحركة موسيقي كوميدي درامي أمريكي عام 1988 من إنتاج والت ديزني للرسوم المتحركة ومستوحى من رواية تشارلز ديكنز أوليفر تويست ورواية فيكتور هوغو البؤساء. أخرجه جورج سكريبنر وكتبه جيم كوكس وتيم ديزني وجيمس مانجولد. في الفيلم، أوليفر هو قطة صغيرة بلا مأوى تنضم إلى عصابة من الكلاب تتمحور حول فاجن ودودجر للبقاء على قيد الحياة في الشوارع.",
+      "summaryEn": "Oliver & Company is a 1988 American animated musical comedy drama film produced by Walt Disney Feature Animation and inspired by the Charles Dickens novel Oliver Twist and the Victor Hugo novel Les Misérables. It was directed by George Scribner and written by Jim Cox, Tim Disney, and James Mangold. In the film, Oliver is a homeless kitten who joins a gang of dogs centered around Fagin and Dodger to survive in the streets.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Oliver%20%26%20Company"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Oliver & Company"
+    },
+    "cartoon-films/over_the_moon.jpg": {
+      "title": "over_the_moon",
+      "canonicalTitle": "Over the Moon",
+      "type": "film",
+      "director": "Glen Keane",
+      "directors": [
+        "Glen Keane"
+      ],
+      "releaseDate": "2020",
+      "studio": null,
+      "networks": [
+        "Netflix"
+      ],
+      "cast": [
+        "كاثي أنغ",
+        "فيليبا سو",
+        "كين جيونغ",
+        "جون تشو"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "فانتازيا",
+        "كوميديا"
+      ],
+      "summaryAr": "Over the Moon هو فيلم رسوم متحركة موسيقي خيالي كوميدي لعام 2020 من إخراج غلين كين وشارك في إخراجه جون كاهرس، من سيناريو لأودري ويلز. تم إنتاج الفيلم بواسطة Pearl Studio وNetflix Animation، وتمت الرسوم المتحركة بواسطة Sony Pictures Imageworks. يقوم ببطولته أصوات كاثي أنج، وفيليبا سو، وكين جيونج، وجون تشو، وروثي آن مايلز، ومارجريت تشو، وساندرا أوه.",
+      "summaryEn": "Over the Moon is a 2020 animated musical fantasy comedy film directed by Glen Keane and co-directed by John Kahrs, from a screenplay by Audrey Wells. The film was produced by Pearl Studio and Netflix Animation, and animated by Sony Pictures Imageworks. It stars the voices of Cathy Ang, Phillipa Soo, Ken Jeong, John Cho, Ruthie Ann Miles, Margaret Cho, and Sandra Oh.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Over%20the%20Moon%20(2020%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Over the Moon (2020 film)"
+    },
+    "cartoon-films/ParaNorman.jpg": {
+      "title": "ParaNorman",
+      "canonicalTitle": "ParaNorman",
+      "type": "film",
+      "director": "Sam Fell",
+      "directors": [
+        "Sam Fell",
+        "Chris Butler"
+      ],
+      "releaseDate": "2012",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "كودي سميث-مكفي",
+        "آنا كندريك",
+        "كريستوفر مينتز-بلاس",
+        "كيسي أفليك"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "كوميديا",
+        "رعب"
+      ],
+      "summaryAr": "بارانورمان هو فيلم رسوم متحركة كوميدي أمريكي مستقل لعام 2012 من إنتاج لايكا. الفيلم من إخراج سام فيل وكريس بتلر وكتبه بتلر، ويشارك في بطولة الفيلم أصوات كودي سميت ماكفي، جوديل فيرلاند، برنارد هيل، تاكر البريزي، آنا كندريك، كيسي أفليك، كريستوفر مينتز بلاس، ليزلي مان، جيف جارلين، إيلين ستريتش، وجون جودمان. إنه أول فيلم بتقنية إيقاف الحركة يستخدم طابعة ملونة ثلاثية الأبعاد لإنشاء وجوه الشخصيات.",
+      "summaryEn": "ParaNorman is a 2012 American independent stop-motion animated comedy horror film produced by Laika. Directed by Sam Fell and Chris Butler and written by Butler, the film stars the voices of Kodi Smit-McPhee, Jodelle Ferland, Bernard Hill, Tucker Albrizzi, Anna Kendrick, Casey Affleck, Christopher Mintz-Plasse, Leslie Mann, Jeff Garlin, Elaine Stritch, and John Goodman. It is the first stop-motion film to use a 3D color printer to create character faces.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ParaNorman"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "ParaNorman"
+    },
+    "cartoon-films/Peter Pan.jpg": {
+      "title": "Peter Pan",
+      "canonicalTitle": "Peter Pan",
+      "type": "film",
+      "directors": [],
+      "releaseDate": "2003",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "بوبي دريسكول",
+        "كاثرين بومونت",
+        "هانس كونريد",
+        "بيل تومسون"
+      ],
+      "genres": [
+        "فانتازيا",
+        "مغامرة"
+      ],
+      "summaryAr": "بيتر بان هو فيلم مغامرات خيالي أنتج عام 2003 من إخراج بي جي هوجان وكتبه هوجان ومايكل جولدنبرج.",
+      "summaryEn": "Peter Pan is a 2003 fantasy adventure film directed by P. J. Hogan and written by Hogan and Michael Goldenberg.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peter%20Pan%20(2003%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Peter Pan (2003 film)",
+      "director": "Clyde Geronimi",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Pinocchio.jpg": {
+      "title": "Pinocchio",
+      "canonicalTitle": "Pinocchio",
+      "type": "film",
+      "director": "Bill Roberts",
+      "directors": [
+        "Bill Roberts",
+        "Norman Ferguson",
+        "Jack Kinney",
+        "Wilfred Jackson"
+      ],
+      "creators": [
+        "Geppetto"
+      ],
+      "releaseDate": "1940",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ديكي جونز",
+        "كريستيان رو",
+        "كليف إدواردز",
+        "ميل بلانك"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "فانتازيا"
+      ],
+      "summaryAr": "بينوكيو هو فيلم رسوم متحركة موسيقي خيالي أمريكي عام 1940 يستند بشكل فضفاض إلى رواية كارلو كولودي عام 1883 مغامرات بينوكيو، من إنتاج والت ديزني وإصداره بواسطة صور راديو RKO. أشرف على الإنتاج بن شاربستين وهاميلتون لوسكي، وأخرج تسلسل الفيلم بيل روبرتس ونورمان فيرجسون وجاك كيني وويلفريد جاكسون وتي هي.",
+      "summaryEn": "Pinocchio is a 1940 American animated musical fantasy film loosely based on Carlo Collodi's 1883 novel The Adventures of Pinocchio, produced by Walt Disney and released by RKO Radio Pictures. The production was supervised by Ben Sharpsteen and Hamilton Luske, and the film's sequences were directed by Bill Roberts, Norman Ferguson, Jack Kinney, Wilfred Jackson and T. Hee.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pinocchio%20(1940%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Pinocchio (1940 film)"
+    },
+    "cartoon-films/pocahontas.jpg": {
+      "title": "pocahontas",
+      "canonicalTitle": "Pocahontas",
+      "type": "film",
+      "director": "Mike Gabriel",
+      "directors": [
+        "Mike Gabriel",
+        "Eric Goldberg"
+      ],
+      "releaseDate": "1995",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Mel Gibson",
+        "Smith"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "تاريخي",
+        "دراما"
+      ],
+      "summaryAr": "بوكاهونتاس هو فيلم رسوم متحركة أمريكي درامي تاريخي موسيقي عام 1995 يعتمد بشكل فضفاض على حياة امرأة بوهاتان بوكاهونتاس ووصول المستوطنين الإنجليز من شركة فيرجينيا. أخرجه مايك غابرييل وإريك غولدبرغ وسيناريو كتبه كارل بيندر وسوزانا جرانت وفيليب لازيبنيك. الفيلم من إنتاج شركة والت ديزني للرسوم المتحركة، ويصور الفيلم لقاء بوكاهونتاس مع جون سميث وإنقاذها الأسطوري لحياته.",
+      "summaryEn": "Pocahontas is a 1995 American animated musical historical drama film loosely based on the life of Powhatan woman Pocahontas and the arrival of English settlers from the Virginia Company. It was directed by Mike Gabriel and Eric Goldberg from a screenplay written by Carl Binder, Susannah Grant and Philip LaZebnik. Produced by Walt Disney Feature Animation, the film romanticizes Pocahontas' encounter with John Smith and her legendary saving of his life.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pocahontas%20(1995%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Pocahontas (1995 film)"
+    },
+    "cartoon-films/Quest For Zhu.jpg": {
+      "title": "Quest For Zhu",
+      "canonicalTitle": "Quest for Zhu",
+      "type": "film",
+      "directors": null,
+      "releaseDate": "2011",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Mariah Wilkerson"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "أكشن",
+        "مغامرة"
+      ],
+      "summaryAr": "Quest for Zhu هو فيلم رسوم متحركة/مغامرات مباشر إلى DVD لعام 2011 وأول فيلم روائي طويل كامل يعتمد على امتياز ZhuZhu Pets. الفيلم من بطولة ماريا ويلكرسون، وشانون تشان كينت، وإيان جيمس كورليت، وشون كامبل، وإيرين ماثيوز، وجيليان مايكلز، وجان رابسون، وكاثلين بار. صدر الفيلم على DVD في 27 سبتمبر 2011.",
+      "summaryEn": "Quest for Zhu is a 2011 direct-to-DVD animated action/adventure film and the first full-length feature film based on the ZhuZhu Pets franchise. It stars Mariah Wilkerson, Shannon Chan-Kent, Ian James Corlett, Sean Campbell, Erin Mathews, Jillian Michaels, Jan Rabson, and Kathleen Barr. The film was released on DVD on September 27, 2011.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quest%20for%20Zhu"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Quest for Zhu",
+      "director": "Bob Doucette",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Ralph Breaks The Internet.jpg": {
+      "title": "Ralph Breaks The Internet",
+      "canonicalTitle": "Ralph Breaks the Internet",
+      "type": "film",
+      "director": "Rich Moore",
+      "directors": [
+        "Rich Moore",
+        "Phil Johnston"
+      ],
+      "releaseDate": "2018",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جون سي رايلي",
+        "سارة سيلفمان",
+        "جال غادوت",
+        "تاراجي بي هنسون"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "كوميديا"
+      ],
+      "summaryAr": "رالف يكسر الإنترنت هو فيلم رسوم متحركة كوميدي أمريكي لعام 2018 من إنتاج استوديوهات والت ديزني للرسوم المتحركة. الفيلم من إخراج ريتش مور وفيل جونستون وكتبه جونستون وباميلا ريبون. جون سي.",
+      "summaryEn": "Ralph Breaks the Internet is a 2018 American animated comedy film produced by Walt Disney Animation Studios. The film was directed by Rich Moore and Phil Johnston and written by Johnston and Pamela Ribon. John C.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ralph%20Breaks%20the%20Internet"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Ralph Breaks the Internet"
+    },
+    "cartoon-films/Ratatouille.jpg": {
+      "title": "Ratatouille",
+      "canonicalTitle": "Ratatouille",
+      "type": "film",
+      "director": "Brad Bird",
+      "directors": [
+        "Brad Bird"
+      ],
+      "releaseDate": "2007",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "مايكل جاكينو"
+      ],
+      "genres": [
+        "كوميديا",
+        "دراما",
+        "رسوم متحركة"
+      ],
+      "summaryAr": "راتاتوي (RAT-ə-TOO-ee) هو فيلم رسوم متحركة كوميدي درامي أمريكي عام 2007 من تأليف وإخراج براد بيرد، من قصة جان بينكافا وجيم كابوبيانكو وبيرد. الفيلم من إنتاج استوديوهات بيكسار للرسوم المتحركة لصالح أفلام والت ديزني، ويقوم ببطولته أصوات باتون أوسوالت، ولو رومانو، وإيان هولم، وجانين جاروفالو، وبيتر أوتول، وبريان دينيهي، وبيتر سون، وبراد جاريت. يشير العنوان إلى الطبق الفرنسي راتاتوي، ويشير أيضًا إلى نوع الشخصية الرئيسية، وهو الجرذ.",
+      "summaryEn": "Ratatouille ( RAT-ə-TOO-ee) is a 2007 American animated comedy-drama film written and directed by Brad Bird, from a story by Jan Pinkava, Jim Capobianco and Bird. Produced by Pixar Animation Studios for Walt Disney Pictures, the film stars the voices of Patton Oswalt, Lou Romano, Ian Holm, Janeane Garofalo, Peter O'Toole, Brian Dennehy, Peter Sohn and Brad Garrett. The title refers to the French dish ratatouille, and also references the species of the main character, a rat.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ratatouille%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Ratatouille (film)",
+      "creators": "براد بيرد",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Raya And The Last Dragon.jpg": {
+      "title": "Raya And The Last Dragon",
+      "canonicalTitle": "Raya and the Last Dragon",
+      "type": "film",
+      "director": "Don Hall",
+      "directors": [
+        "Don Hall",
+        "Carlos López Estrada"
+      ],
+      "releaseDate": "2021",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "كيلي ماري تران",
+        "أكوفينا",
+        "جيما تشان",
+        "دانيال دي كيم"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "فانتازيا",
+        "أكشن",
+        "كوميديا"
+      ],
+      "summaryAr": "Raya and the Last Dragon ( RYE-ə ) هو فيلم رسوم متحركة خيالي كوميدي أمريكي لعام 2021 من إنتاج استوديوهات والت ديزني للرسوم المتحركة. أخرجه دون هول وكارلوس لوبيز إسترادا، وكتبه كوي نغوين وأديل ليم، ويشارك في بطولته أصوات كيلي ماري تران، وأوكوافينا، وإيزاك وانغ، وجيما تشان، ودانييل داي كيم، وبينيديكت وونغ. بتدور أحداث الفيلم حول الأميرة المحاربة رايا (تران) وهي تبحث عن التنين الأسطوري الأخير، سيسو (أوكوافينا)، لإنقاذ والدها (كيم) وأرض كوماندرا من الأرواح الشريرة المعروفة باسم درون.",
+      "summaryEn": "Raya and the Last Dragon ( RYE-ə) is a 2021 American animated fantasy action comedy film produced by Walt Disney Animation Studios. It was directed by Don Hall and Carlos López Estrada, and written by Qui Nguyen and Adele Lim, and stars the voices of Kelly Marie Tran, Awkwafina, Izaac Wang, Gemma Chan, Daniel Dae Kim, and Benedict Wong. The film's plot follows the warrior princess Raya (Tran) as she seeks the fabled last dragon, Sisu (Awkwafina), to save her father (Kim) and the land of Kumandra from evil spirits that are known as Druun.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Raya%20and%20the%20Last%20Dragon"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Raya and the Last Dragon"
+    },
+    "cartoon-films/robots.jpg": {
+      "title": "robots",
+      "canonicalTitle": "Robots",
+      "type": "film",
+      "director": "Chris Wedge",
+      "directors": [
+        "Chris Wedge"
+      ],
+      "releaseDate": "2005",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جون باول"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "علمي",
+        "كوميديا"
+      ],
+      "summaryAr": "الروبوتات هو فيلم رسوم متحركة خيال علمي كوميدي أمريكي عام 2005 من إخراج كريس ويدج وكتبه ديفيد ليندساي أبير ولويل غانز وبابالو ماندل. الفيلم من إنتاج شركة 20th Century Fox Animation وBlue Sky Studios، وهو من بطولة أصوات إيوان ماكجريجور، هالي بيري، جريج كينير، ميل بروكس، أماندا بينز، درو كاري وروبن ويليامز. بتدور أحداث القصة حول مخترع الروبوت الطموح رودني كوبربوتوم، اللي يبحث عن عمل في شركة مثله الأعلى بيجويلد في مدينة الروبوت، لكنه يكتشف مؤامرة من قبل الرئيس التنفيذي الجديد فينياس تي.",
+      "summaryEn": "Robots is a 2005 American animated science fiction comedy film directed by Chris Wedge and written by David Lindsay-Abaire, Lowell Ganz and Babaloo Mandel. Produced by 20th Century Fox Animation and Blue Sky Studios, it stars the voices of Ewan McGregor, Halle Berry, Greg Kinnear, Mel Brooks, Amanda Bynes, Drew Carey and Robin Williams. The story follows ambitious robot inventor Rodney Copperbottom, who seeks employment at the company of his idol Bigweld in Robot City, but discovers a plot by its new CEO Phineas T.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Robots%20(2005%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Robots (2005 film)",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Sleeping Beauty.jpg": {
+      "title": "Sleeping Beauty",
+      "canonicalTitle": "Sleeping Beauty",
+      "type": "film",
+      "director": "Wolfgang Reitherman",
+      "directors": [
+        "Wolfgang Reitherman",
+        "Eric Larson",
+        "Les Clark"
+      ],
+      "releaseDate": "1959",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ماري كوستا",
+        "بيل شيرلي",
+        "إلينور أودلي",
+        "فيرنا فيلتون"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "فانتازيا"
+      ],
+      "summaryAr": "الجميلة النائمة (بالإنجليزية: Sleeping Beauty)‏ هو فيلم رسوم متحركة موسيقي خيالي أمريكي أنتج عام 1959 بواسطة شركة والت ديزني للإنتاج وأصدرته شركة بوينا فيستا لتوزيع الأفلام. استنادًا إلى قصة تشارلز بيرولت الخيالية عام 1697، يتتبع الفيلم الأميرة أورورا، اللي لعنتها الجنية الشريرة مالفيسنت لتموت بسبب وخز إصبعها على مغزل عجلة الغزل في عيد ميلادها السادس عشر. يتم إنقاذها من قبل ثلاث جنيات جيدات، اللاتي يغيرن اللعنة بحيث تقع أورورا في نوم عميق وتستيقظ بقبلة الحب الحقيقي. أشرف على الإنتاج كلايد جيرونيمي، وأخرجه وولفغانغ ريثرمان وإريك لارسون وليه كلارك.",
+      "summaryEn": "Sleeping Beauty is a 1959 American animated musical fantasy film produced by Walt Disney Productions and released by Buena Vista Film Distribution. Based on Charles Perrault's 1697 fairy tale, the film follows Princess Aurora, who was cursed by the evil fairy Maleficent to die from pricking her finger on the spindle of a spinning wheel on her 16th birthday; she is rescued by three good fairies, who change the curse so that Aurora falls into a deep sleep and will be awakened by true love's kiss. The production was supervised by Clyde Geronimi, and was directed by Wolfgang Reitherman, Eric Larson, and Les Clark.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sleeping%20Beauty%20(1959%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Sleeping Beauty (1959 film)"
+    },
+    "cartoon-films/smurfs.jpg": {
+      "title": "smurfs",
+      "canonicalTitle": "The Smurfs",
+      "type": "film",
+      "director": "Raja Gosnell",
+      "directors": [
+        "Raja Gosnell"
+      ],
+      "creators": [
+        "Peyo"
+      ],
+      "releaseDate": "2011",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Neil Patrick Harris"
+      ],
+      "genres": [
+        "فانتازيا",
+        "كوميديا"
+      ],
+      "summaryAr": "السنافر هو فيلم كوميدي خيالي أمريكي لعام 2011 يستند إلى سلسلة الكتب المصورة اللي أنشأها بيو. من إخراج رجا جوسنيل وتأليف ج. ديفيد ستيم، وديفيد إن.",
+      "summaryEn": "The Smurfs is a 2011 American fantasy comedy film based on the comic book series created by Peyo. Directed by Raja Gosnell and written by J. David Stem, David N.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Smurfs%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "The Smurfs (film)"
+    },
+    "cartoon-films/Soul.jpg": {
+      "title": "Soul",
+      "canonicalTitle": "Soul",
+      "type": "film",
+      "director": "بيت دكتور / كيمب باورز",
+      "directors": [
+        "بيت دكتور",
+        "كيمب باورز"
+      ],
+      "releaseDate": "2020-06-25",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جيمي فوكس",
+        "تينا فاي",
+        "فيليشيا راشد",
+        "ريتشارد أيوادي"
+      ],
+      "genres": [
+        "animated",
+        "comedy",
+        "drama",
+        "adventure"
+      ],
+      "summaryAr": "مدرس موسيقى وعازف بيانو بيجيله فرصة عمره للعزف في فرقة جاز كبيرة، بس بيقع في بالوعة فجأة وروحه بتسافر لعالم برزخي يتعلم فيه معنى الشغف الحقيقي بالحياة.",
+      "summaryEn": "A jazz musician and teacher who is stuck in a rut gets the chance to escape his soul when he finds himself trapped in a surreal world between life and the afterlife, where he has to rediscover what makes life worth living.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Soul_(2020_film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "العنوان «Soul» ملتبس. التطابق الآلي chose فيلم وثائقي عن حفلة عام 1971؛ أُعيد بناء السجل من فيلم بيكسار (2020) لأنه الأنسب لمجلد أفلام الكرتون — يحتاج تأكيداً."
+      }
+    },
+    "cartoon-films/Spider Man into The Spider Verse.jpg": {
+      "title": "Spider Man into The Spider Verse",
+      "canonicalTitle": "Spider-Man: Into the Spider-Verse",
+      "type": "film",
+      "director": "Bob Persichetti",
+      "directors": [
+        "Bob Persichetti",
+        "Peter Ramsey",
+        "Rodney Rothman"
+      ],
+      "releaseDate": "2018",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "شاميك مور",
+        "جيك جونسون",
+        "هايلي ستاينفيلد",
+        "ماشرشالا علي"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "أبطال خارقون"
+      ],
+      "summaryAr": "Spider-Man: Into the Spider-Verse هو فيلم رسوم متحركة أمريكي لعام 2018 يستند إلى شخصية Spider-Man من Marvel Comics. الفيلم من إخراج بوب بيرسيكيتي وبيتر رامزي ورودني روثمان وسيناريو لفيل لورد وروثمان، وهو أول فيلم رسوم متحركة في سلسلة سبايدر مان. يلعب شاميك مور دور صوت مايلز موراليس، مع جيك جونسون، وهيلي ستاينفيلد، وماهرشالا علي، وبريان تيري هنري، وليلي توملين، ولونا لورين فيليز، وزوي كرافيتز، وجون مولاني، وكيميكو جلين، ونيكولاس كيج، وكاثرين هان، وليف شرايبر في الأدوار الصوتية الداعمة.",
+      "summaryEn": "Spider-Man: Into the Spider-Verse is a 2018 American animated superhero film based on the Marvel Comics character Spider-Man. Directed by Bob Persichetti, Peter Ramsey and Rodney Rothman from a screenplay by Phil Lord and Rothman, it is the first animated film in the Spider-Man franchise. Shameik Moore stars as the voice of Miles Morales, with Jake Johnson, Hailee Steinfeld, Mahershala Ali, Brian Tyree Henry, Lily Tomlin, Luna Lauren Vélez, Zoë Kravitz, John Mulaney, Kimiko Glenn, Nicolas Cage, Kathryn Hahn, and Liev Schreiber in supporting voice roles.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spider-Man%3A%20Into%20the%20Spider-Verse"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Spider-Man: Into the Spider-Verse"
+    },
+    "cartoon-films/Spies in Disguise.jpg": {
+      "title": "Spies in Disguise",
+      "canonicalTitle": "Spies in Disguise",
+      "type": "film",
+      "director": "Nick Bruno",
+      "directors": [
+        "Nick Bruno",
+        "Troy Quane"
+      ],
+      "releaseDate": "2019",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ويل سميث",
+        "توم هولاند",
+        "راشيدا جونز",
+        "بن ميندلسون"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "كوميديا"
+      ],
+      "summaryAr": "جواسيس مقنعون هو فيلم رسوم متحركة أمريكي تجسس كوميدي لعام 2019 من إنتاج شركة 20th Century Fox Animation وBlue Sky Studios وChernin Entertainment لصالح 20th Century Fox. الفيلم من إخراج نيك برونو وتروي كوان، ويشارك في بطولة الفيلم المواهب الصوتية لكل من ويل سميث، وتوم هولاند، ورشيدة جونز، وبن مندلسون، وريبا ماكنتاير، وراشيل بروسناهان، وكارين جيلان، ودي جي خالد، وماسي أوكا. بتدور أحداث الفيلم حول عميل التجسس السري للغاية لانس ستيرلنج (سميث) اللي يصادق العالم الشاب الذكي والتر بيكيت (هولندا)، ويجب على الاثنين بعد ذلك العمل معًا لوقف الإرهابي السيبراني ا��ذي يسعى للانتقام كيليان (مندلسون).",
+      "summaryEn": "Spies in Disguise is a 2019 American animated spy comedy film produced by 20th Century Fox Animation, Blue Sky Studios, and Chernin Entertainment for 20th Century Fox. Directed by Nick Bruno and Troy Quane, the film stars the voice talents of Will Smith, Tom Holland, Rashida Jones, Ben Mendelsohn, Reba McEntire, Rachel Brosnahan, Karen Gillan, DJ Khaled, and Masi Oka. In the film, the plot involves super secret spy agent Lance Sterling (Smith) who befriends the intelligent young scientist Walter Beckett (Holland), the two must then work together to stop the revenge-seeking cybernetic terrorist Killian (Mendelsohn).",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spies%20in%20Disguise"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Spies in Disguise"
+    },
+    "cartoon-films/The Bugs Bunny.jpg": {
+      "title": "The Bugs Bunny",
+      "canonicalTitle": "Bugs Bunny",
+      "type": "film",
+      "directors": [
+        "تشاك جونز"
+      ],
+      "releaseDate": "1990",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ميل بلانك"
+      ],
+      "genres": null,
+      "summaryAr": "أشهر وأذكى أرنب في تاريخ الكرتون، بياكل جزرته بمزاجه ويفرس أعدائه وصيادينه بمقالب وحيل ذكية متتنسيش.",
+      "summaryEn": "Bugs Bunny is a cartoon character created in the late 1930s at Warner Bros. Cartoons (originally Leon Schlesinger Productions) and voiced originally by Mel Blanc. Bugs is best known for his featured roles in the Looney Tunes and Merrie Melodies series of animated short films, released by Warner Bros.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bugs%20Bunny"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Bugs Bunny",
+      "director": "تشاك جونز",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "البيانات موضع شك: تشاك جونز أخرج في الأربعينيات، وميل بلانك توفي عام 1989"
+      }
+    },
+    "cartoon-films/THE EMOJI MOVIE.jpg": {
+      "title": "THE EMOJI MOVIE",
+      "canonicalTitle": "The Emoji Movie",
+      "type": "film",
+      "director": "Tony Leondis",
+      "directors": [
+        "Tony Leondis"
+      ],
+      "releaseDate": "2017",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "تي جي ميلر",
+        "جيمس كوردن",
+        "آنا فارير",
+        "مايا رودولف"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "كوميديا"
+      ],
+      "summaryAr": "فيلم الرموز التعبيرية هو فيلم رسوم متحركة كوميدي أمريكي لعام 2017 يعتمد على الرموز التعبيرية. يتميز بأصوات T. J. ميلر، جيمس كوردن، آنا فارس، مايا رودولف، ستيفن رايت، جينيفر كوليدج، جيك تي.",
+      "summaryEn": "The Emoji Movie is a 2017 American animated comedy film based on emojis. It features the voices of T.J. Miller, James Corden, Anna Faris, Maya Rudolph, Steven Wright, Jennifer Coolidge, Jake T.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Emoji%20Movie"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "The Emoji Movie"
+    },
+    "cartoon-films/the good dinosaur.jpg": {
+      "title": "the good dinosaur",
+      "canonicalTitle": "The Good Dinosaur",
+      "type": "film",
+      "director": "Peter Sohn",
+      "directors": [
+        "Peter Sohn"
+      ],
+      "releaseDate": "2015",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Jeff Danna"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "مغامرة"
+      ],
+      "summaryAr": "الديناصور الجيد (بالإنجليزية: The Good Dinosaur) هو فيلم رسوم متحركة أمريكي من نوع مغامرات تم إنتاجه في عام 2015 من إخراج بيتر سون وتأليف ميج ليفوف. من إنتاج استوديوهات بيكسار للرسوم المتحركة لصالح أفلام والت ديزني، وهو من بطولة أصوات ريموند أوتشوا، وجاك برايت، وستيف زان، وسام إليوت، وآنا باكين، وأيه جيه.",
+      "summaryEn": "The Good Dinosaur is a 2015 American animated adventure film directed by Peter Sohn and written by Meg LeFauve. Produced by Pixar Animation Studios for Walt Disney Pictures, It stars the voices of Raymond Ochoa, Jack Bright, Steve Zahn, Sam Elliott, Anna Paquin, A. J.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Good%20Dinosaur"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "The Good Dinosaur",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/the grinch.jpg": {
+      "title": "the grinch",
+      "canonicalTitle": "The Grinch",
+      "type": "film",
+      "director": "Scott Mosier",
+      "directors": [
+        "Scott Mosier",
+        "Yarrow Cheney"
+      ],
+      "releaseDate": "2018",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Benedict Cumberbatch"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "كوميديا"
+      ],
+      "summaryAr": "دكتور سيوس ذا غرينش (أو ببساطة ذا غرينش) هو فيلم رسوم متحركة أمريكي كوميدي لعيد الميلاد لعام 2018 يعتمد على كيف سرق غرينش عيد الميلاد! بواسطة د.",
+      "summaryEn": "Dr. Seuss' The Grinch (or simply The Grinch) is a 2018 American animated Christmas comedy film based on How the Grinch Stole Christmas! by Dr.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Grinch%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "The Grinch (film)"
+    },
+    "cartoon-films/The Hunchback of Notre-Dame.jpg": {
+      "title": "The Hunchback of Notre-Dame",
+      "canonicalTitle": "The Hunchback of Notre Dame",
+      "type": "film",
+      "director": "Gary Trousdale",
+      "directors": [
+        "Gary Trousdale",
+        "Kirk Wise"
+      ],
+      "releaseDate": "1996",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Tom Hulce"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "دراما"
+      ],
+      "summaryAr": "أحدب نوتردام (بالإنجليزية: The Hunchback of Notre Dame)‏ هو فيلم رسوم متحركة موسيقي درامي أمريكي صدر عام 1996، وهو مستوحى بشكل فضفاض من رواية عام 1831 للكاتب فيكتور هوغو، ومن إنتاج والت ديزني للرسوم المتحركة. الفيلم من إخراج غاري تروسديل وكيرك وايز، وإنتاج دون هان، وتأليف تاب ميرفي، وإيرين ميكي، وجوناثان روبرتس، وفريق الكتابة المكون من بوب تزوديكر ونوني وايت، ونجوم الفيلم توم هولس، وديمي مور، وتوني جاي، وكيفن كلاين.",
+      "summaryEn": "The Hunchback of Notre Dame is a 1996 American animated musical drama film loosely based on the 1831 novel by Victor Hugo, and produced by Walt Disney Feature Animation. Directed by Gary Trousdale and Kirk Wise, produced by Don Hahn, and written by Tab Murphy, Irene Mecchi, Jonathan Roberts, and the writing team of Bob Tzudiker and Noni White, the film stars Tom Hulce, Demi Moore, Tony Jay, and Kevin Kline.…",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Hunchback%20of%20Notre%20Dame%20(1996%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "The Hunchback of Notre Dame (1996 film)"
+    },
+    "cartoon-films/The Incredibles.jpg": {
+      "title": "The Incredibles",
+      "canonicalTitle": "The Incredibles",
+      "type": "film",
+      "director": "Brad Bird",
+      "directors": [
+        "Brad Bird"
+      ],
+      "releaseDate": "2004",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "كريغ نيلسون",
+        "هولي هنتر",
+        "سارة فوليل",
+        "صامويل جاكسون"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "أبطال خارقون"
+      ],
+      "summaryAr": "الخارقون هو فيلم رسوم متحركة أمريكي لعام 2004 من تأليف وإخراج براد بيرد. الفيلم من إنتاج استوديوهات بيكسار للرسوم المتحركة لصالح أفلام والت ديزني، ويقوم ببطولته أصوات كريج تي نيلسون، وهولي هانتر، وسارة فويل، وسبنسر فوكس، وجيسون لي، وصامويل إل.",
+      "summaryEn": "The Incredibles is a 2004 American animated superhero film written and directed by Brad Bird. Produced by Pixar Animation Studios for Walt Disney Pictures, it stars the voices of Craig T. Nelson, Holly Hunter, Sarah Vowell, Spencer Fox, Jason Lee, Samuel L.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Incredibles"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "The Incredibles"
+    },
+    "cartoon-films/The Jungle Book.jpg": {
+      "title": "The Jungle Book",
+      "canonicalTitle": "The Jungle Book",
+      "type": "film",
+      "director": "Wolfgang Reitherman",
+      "directors": [
+        "Wolfgang Reitherman"
+      ],
+      "releaseDate": "1967",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "نيل سيثي",
+        "بيل موري",
+        "بن كينغسلي",
+        "إدريس إلبا",
+        "لوبيتا نيونقو",
+        "سكارليت جوهانسون"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "مغامرة"
+      ],
+      "summaryAr": "كتاب الأدغال (بالإنجليزية: The Jungle Book) هو فيلم رسوم متحركة موسيقي أمريكي من إنتاج عام 1967، من إنتاج شركة والت ديزني للإنتاج وإصدار شركة بوينا فيستا للتوزيع. مستوحى من قصص \"ماوكلي\" من كتاب روديارد كيبلينغ اللي صدر عام 1894 واللي يحمل نفس الاسم، وهو آخر فيلم رسوم متحركة طويل من إنتاج والت ديزني، اللي توفي أثناء إنتاجه. أخرجه وولفجانج ريثرمان وكتبه لاري كليمونز ورالف رايت وكين أندرسون وفانس جيري.",
+      "summaryEn": "The Jungle Book is a 1967 American animated musical adventure film produced by Walt Disney Productions and released by Buena Vista Distribution. Based on the \"Mowgli\" stories from Rudyard Kipling's 1894 book of the same name, it is the final animated feature film to be produced by Walt Disney, who died during its production. It was directed by Wolfgang Reitherman and written by Larry Clemmons, Ralph Wright, Ken Anderson, and Vance Gerry.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Jungle%20Book%20(1967%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "The Jungle Book (1967 film)",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/the knight and the princess.jpg": {
+      "title": "the knight and the princess",
+      "canonicalTitle": "The Knight and the Princess",
+      "type": "film",
+      "director": "Bashir el-Deek",
+      "directors": [
+        "Bashir el-Deek"
+      ],
+      "releaseDate": "2019",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Haitham Elkhamissi"
+      ],
+      "genres": [
+        "أكشن",
+        "دراما",
+        "رسوم متحركة",
+        "موسيقي"
+      ],
+      "summaryAr": "الفارس والأميرة هو فيلم رسوم متحركة موسيقي درامي مصري لعام 2019. وهو أول فيلم رسوم متحركة مصري طويل. وهو من إخراج بشير الديك، وإنتاج العباس حميد الدين، وتأليف رسام الكاريكاتير مصطفى حسين.",
+      "summaryEn": "The Knight and the Princess is a 2019 Egyptian animated musical action-drama film. It is notable first-ever Egyptian animation feature film. It was directed by Bashir el-Deek, produced by Alabbas Hamidaddin, and created by cartoonist Mustafa Hussein.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Knight%20and%20the%20Princess"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "The Knight and the Princess"
+    },
+    "cartoon-films/the princess and frog.jpg": {
+      "title": "the princess and frog",
+      "canonicalTitle": "The Princess and the Frog",
+      "type": "film",
+      "director": "John Musker",
+      "directors": [
+        "John Musker",
+        "Ron Clements"
+      ],
+      "releaseDate": "2009",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "أنيكا نوني روز",
+        "برونو كامبوس",
+        "كيث ديفيد",
+        "مايكل-ليون وولي"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "فانتازيا",
+        "كوميديا"
+      ],
+      "summaryAr": "الأميرة والضفدع هو فيلم رسوم متحركة موسيقي خيالي كوميدي أمريكي عام 2009 من إنتاج استوديوهات والت ديزني للرسوم المتحركة. مستوحاة جزئيًا من رواية 2002 The Frog Princess للكاتب E. D.",
+      "summaryEn": "The Princess and the Frog is a 2009 American animated musical fantasy comedy film produced by Walt Disney Animation Studios. Inspired in part by the 2002 novel The Frog Princess by E. D.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Princess%20and%20the%20Frog"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "The Princess and the Frog"
+    },
+    "cartoon-films/The Sea Beast.jpg": {
+      "title": "The Sea Beast",
+      "canonicalTitle": "The Sea Beast",
+      "type": "film",
+      "director": "Chris Williams",
+      "directors": [
+        "Chris Williams"
+      ],
+      "releaseDate": "2022",
+      "studio": null,
+      "networks": [
+        "Netflix"
+      ],
+      "cast": [
+        "كارل أوربان",
+        "زاريس-أنجيل هاتور",
+        "جارد هاريس",
+        "كاثي بيرك"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "فانتازيا",
+        "مغامرة",
+        "كوميديا"
+      ],
+      "summaryAr": "The Sea Beast هو فيلم رسوم متحركة خيالي ومغامرة كوميدي أمريكي لعام 2022 من إخراج كريس ويليامز، اللي شارك في كتابة السيناريو مع نيل بنجامين وإنتاجه مع جيد شلانجر. الفيلم من بطولة أصوات كارل أوربان، وزاريس أنجيل هاتور، وجاريد هاريس، وماريان جان بابتيست مع الأدوار الداعمة لكاثي بيرك، وجيم كارتر، ودون ماكيشان، ودان ستيفنز. يحكي الفيلم قصة صياد وحوش البحر وفتاة يتيمة صغيرة تنضم إلى طاقمه في بحثهم عن وحش بعيد المنال يُعرف باسم Red Bluster.",
+      "summaryEn": "The Sea Beast is a 2022 American animated fantasy adventure comedy film directed by Chris Williams, who co-wrote the screenplay with Nell Benjamin and produced with Jed Schlanger. The film stars the voices of Karl Urban, Zaris-Angel Hator, Jared Harris, and Marianne Jean-Baptiste with supporting roles by Kathy Burke, Jim Carter, Doon Mackichan, and Dan Stevens. It tells the story of a sea-monster hunter and a young orphan girl who joins his crew on their search for an elusive beast known as the Red Bluster.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Sea%20Beast%20(2022%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "The Sea Beast (2022 film)"
+    },
+    "cartoon-films/The Secret Life of Pets.jpg": {
+      "title": "The Secret Life of Pets",
+      "canonicalTitle": "The Secret Life of Pets",
+      "type": "film",
+      "director": "Chris Renaud",
+      "directors": [
+        "Chris Renaud"
+      ],
+      "releaseDate": "2016",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "لويس سي كيه",
+        "إريك ستونستريت",
+        "كيفن هارت",
+        "جيني سلايت"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "كوميديا"
+      ],
+      "summaryAr": "الحياة السرية للحيوانات الأليفة هو فيلم رسوم متحركة كوميدي أمريكي لعام 2016 من إخراج كريس رينو وكتبه بريان لينش وسينكو بول وكين دوريو. الفيلم من إنتاج شركة Universal Pictures وIllumination Entertainment، وتوزيع شركة Universal، ويقوم ببطولته أصوات لويس سي كيه، وإريك ستونستريت، وجيني سليت، وكيفن هارت، وليك بيل، وهانيبال بوريس، وبوبي موينيهان، ودانا كارفي، وإيلي كيمبر، وألبرت بروكس، وستيف كوجان. تجري أحداث الفيلم في مدينة نيويورك، وبتدور أحداثه حول العلاقة بين كلب جاك راسل تيرير يُدعى ماكس وكلب عملاق جامح يُد��ى ديوك.",
+      "summaryEn": "The Secret Life of Pets is a 2016 American animated comedy film directed by Chris Renaud and written by Brian Lynch, Cinco Paul, and Ken Daurio. Produced by Universal Pictures and Illumination Entertainment, and distributed by Universal, the film stars the voices of Louis C.K., Eric Stonestreet, Jenny Slate, Kevin Hart, Lake Bell, Hannibal Buress, Bobby Moynihan, Dana Carvey, Ellie Kemper, Albert Brooks, and Steve Coogan. Taking place in New York City, the film's plot follows the relationship between a Jack Russell Terrier dog named Max and a giant, unruly dog named Duke.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Secret%20Life%20of%20Pets"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "The Secret Life of Pets"
+    },
+    "cartoon-films/the snow queen.jpg": {
+      "title": "the snow queen",
+      "canonicalTitle": "The Snow Queen",
+      "type": "film",
+      "director": "Lev Atamanov",
+      "directors": [
+        "Lev Atamanov"
+      ],
+      "releaseDate": "1957",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "نيوشا",
+        "إيفان أوخلوبيستين",
+        "آنا شوروتشكوڤا",
+        "راميل لاتيبوف"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "فانتازيا"
+      ],
+      "summaryAr": "ملكة الثلج (بالروسية: Снезная королева، بالحروف اللاتينية: Snezhnaya Koroleva) هو فيلم رسوم متحركة موسيقي خيالي سوفيتي عام 1957 من إخراج ليف أتامانوف. إنه تاسع إنتاج رسوم متحركة كامل الطول لشركة Soyuzmultfilm ويستند إلى حكاية عام 1844 \"ملكة الثلج\" للكاتب هانز كريستيان أندرسن. يعد الفيلم واحدًا من أقدم التعديلات السينمائية للحكاية الإسكندنافية الدنماركية منذ نشرها في New Fairy Tales.",
+      "summaryEn": "The Snow Queen (Russian: Снежная королева, romanized: Snezhnaya Koroleva) is a 1957 Soviet animated musical fantasy film directed by Lev Atamanov. It is the ninth full-length animated production by Soyuzmultfilm and is based on the 1844 fable \"The Snow Queen\" by Hans Christian Andersen. The film is one of the earliest cinematic adaptations of the Scandinavian Danish fable since its publication in New Fairy Tales.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Snow%20Queen%20(1957%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "The Snow Queen (1957 film)"
+    },
+    "cartoon-films/The.Boxtrolls.jpg": {
+      "title": "The.Boxtrolls",
+      "canonicalTitle": "The Boxtrolls",
+      "type": "film",
+      "director": "Graham Annable",
+      "directors": [
+        "Graham Annable",
+        "Anthony Stacchi"
+      ],
+      "releaseDate": "2014",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "داريو ماريانيللي"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "فانتازيا",
+        "كوميديا"
+      ],
+      "summaryAr": "The Boxtrolls هو فيلم رسوم متحركة أمريكي خيالي كوميدي صدر عام 2014 من إنتاج لايكا. الفيلم مستوحى بشكل فضفاض من رواية آلان سنو لعام 2005 Here Be Monsters!، الفيلم من إخراج جراهام أنابل وأنتوني ستاتشي. ويضم أصوات بن كينغسلي، إسحاق هيمبستيد رايت، إيل فانينغ، توني كوليت، جاريد هاريس، نيك فروست، ريتشارد أيواد، تريسي مورغان، وسيمون بيج.",
+      "summaryEn": "The Boxtrolls is a 2014 American stop-motion animated steampunk fantasy comedy film produced by Laika. Loosely based on Alan Snow's 2005 novel Here Be Monsters!, the film was directed by Graham Annable and Anthony Stacchi. It features the voices of Ben Kingsley, Isaac Hempstead Wright, Elle Fanning, Toni Collette, Jared Harris, Nick Frost, Richard Ayoade, Tracy Morgan, and Simon Pegg.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Boxtrolls"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "The Boxtrolls",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/The.Willoughbys.jpg": {
+      "title": "The.Willoughbys",
+      "canonicalTitle": "The Willoughbys",
+      "type": "film",
+      "director": "Kris Pearn",
+      "directors": [
+        "Kris Pearn"
+      ],
+      "releaseDate": "2020",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "مارك موذرسباو"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "كوميديا"
+      ],
+      "summaryAr": "The Willoughbys هو فيلم رسوم متحركة كوميدي أسود لعام 2020 من إخراج كريس بيرن وشارك في الإخراج روب لوديرماير (في أول فيلم روائي طويل له)، من سيناريو كتبه بيرن ومارك ستانلي. استنادًا إلى كتاب يحمل نفس الاسم للكاتب لويس لوري، يقوم ببطولة الفيلم أصوات ويل فورتي، ومايا رودولف، وأليسيا كارا، وتيري كروز، ومارتن شورت، وجين كراكوفسكي، وشون كولين، وريكي جيرفيه، اللي يروي الفيلم أيضًا. تتبع القصة أربعة أطفال يحاولون العثور على آباء جدد ليحلوا محل آباءهم الأنانيين والمهملين.",
+      "summaryEn": "The Willoughbys is a 2020 animated black comedy film directed by Kris Pearn and co-directed by Rob Lodermeier (in his feature directorial debut), from a screenplay written by Pearn and Mark Stanleigh. Based on the book of the same name by Lois Lowry, the film stars the voices of Will Forte, Maya Rudolph, Alessia Cara, Terry Crews, Martin Short, Jane Krakowski, Seán Cullen, and Ricky Gervais, who also narrates the film. The story follows four children trying to find new parents to replace their self-centered and neglectful ones.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Willoughbys"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "The Willoughbys",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/tinker bell_1.jpg": {
+      "title": "tinker bell_1",
+      "canonicalTitle": "Tinker Bell",
+      "type": "film",
+      "directors": null,
+      "releaseDate": "2008-09-11",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ماي ويتمان",
+        "كريستن تشينوويث",
+        "ريڤن-سيموني",
+        "لوسي ليو"
+      ],
+      "genres": [
+        "رسوم متحركة"
+      ],
+      "summaryAr": "تينكر بيل هي شخصية خيالية من مسرحية بيتر بان للمخرج جي إم باري عام 1904 وروايتها بيتر وويندي عام 1911.",
+      "summaryEn": "Tinker Bell is a fictional character from J. M. Barrie's 1904 play Peter Pan and its 1911 novelisation Peter and Wendy.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tinker%20Bell"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Tinker Bell",
+      "director": "برادلي رايموند",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Toy.Story.jpg": {
+      "title": "Toy.Story",
+      "canonicalTitle": "Toy Story",
+      "type": "film",
+      "director": "John Lasseter",
+      "directors": [
+        "John Lasseter"
+      ],
+      "releaseDate": "1995",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "توم هانكس",
+        "تيم ألن",
+        "دون ريكليس",
+        "جيم ڤارني"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "مغامرة",
+        "كوميديا"
+      ],
+      "summaryAr": "Toy Story هو فيلم رسوم متحركة ومغامرة كوميدي أمريكي عام 1995 من إخراج جون لاسيتر وكتبه جوس ويدون وأندرو ستانتون وجويل كوهين وأليك سوكولو. أول فيلم رسوم متحركة كامل بالكمبيوتر، وكذلك أول فيلم روائي طويل من إنتاج استوديوهات بيكسار للرسوم المتحركة، يقوم ببطولته أصوات توم هانكس، وتيم ألين، وآني بوتس، وجون راتزينبيرجر، ودون ريكلز، ووالاس شون، وجيم فارني. تقع أحداث Toy Story في عالم تنبض فيه الألعاب بالحياة، وتتتبع دمية رعاة البقر من الطراز القديم تُدعى وودي (هانكس)، اللي يشعر بالغيرة لأن شخصية حركة طالب الف��اء، باز لايت يير (ألين)، تحل محله باعتبارها اللعبة المفضلة لمالكها آندي.",
+      "summaryEn": "Toy Story is a 1995 American animated adventure comedy film directed by John Lasseter, and written by Joss Whedon, Andrew Stanton, Joel Cohen, and Alec Sokolow. The first entirely computer-animated feature film, as well as the first feature film produced by Pixar Animation Studios, it stars the voices of Tom Hanks, Tim Allen, Annie Potts, John Ratzenberger, Don Rickles, Wallace Shawn, and Jim Varney. Set in a world where toys come to life, Toy Story follows an old-fashioned cowboy doll named Woody (Hanks), who becomes jealous that a space cadet action figure, Buzz Lightyear (Allen), is replacing him as the favorite toy of their owner Andy.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Toy%20Story"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Toy Story"
+    },
+    "cartoon-films/Turning Red.jpg": {
+      "title": "Turning Red",
+      "canonicalTitle": "Turning Red",
+      "type": "film",
+      "director": "Domee Shi",
+      "directors": [
+        "Domee Shi"
+      ],
+      "releaseDate": "2022",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "روزالين تشيانغ",
+        "ساندرا أو",
+        "أڤا مورس",
+        "هاين بارك"
+      ],
+      "genres": [
+        "نشأة",
+        "رسوم متحركة"
+      ],
+      "summaryAr": "Turning Red هو فيلم رسوم متحركة أمريكي عن بلوغ سن الرشد عام 2022 من إخراج دومي شي من نص كتبته مع جوليا تشو. تم إنتاجه بواسطة استوديوهات بيكسار للرسوم المتحركة لصالح أفلام والت ديزني، وهو أول فيلم روائي طويل من إنتاج بيكسار من إخراج مخرجة بس. يقوم ببطولته أصوات روزالي شيانغ، وساندرا أوه، وأفا مورس، وهيين بارك، ومايتري راماكريشنان، وأوريون لي.",
+      "summaryEn": "Turning Red is a 2022 American animated coming-of-age film directed by Domee Shi from a script she wrote with Julia Cho. Produced by Pixar Animation Studios for Walt Disney Pictures, it marks the first Pixar feature film solely directed by a female director. It stars the voices of Rosalie Chiang, Sandra Oh, Ava Morse, Hyein Park, Maitreyi Ramakrishnan, and Orion Lee.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turning%20Red"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Turning Red"
+    },
+    "cartoon-films/UP.jpg": {
+      "title": "UP",
+      "canonicalTitle": "Up",
+      "type": "film",
+      "director": "Michael Apted",
+      "directors": [
+        "Michael Apted"
+      ],
+      "releaseDate": "2009-05-13",
+      "studio": null,
+      "networks": [
+        "BBC One"
+      ],
+      "cast": [
+        "إدوارد أسنر",
+        "جوردان ناغاي",
+        "كريستوفر بلامر",
+        "بوب بيترسون"
+      ],
+      "genres": [
+        "وثائقي"
+      ],
+      "summaryAr": "سلسلة Up من الأفلام الوثائقية تتبع حياة عشرة أولاد وأربع فتيات في المملكة المتحدة، ابتداءً من عام 1964، عندما كانوا في السابعة من العمر. يتكون المسلسل الوثائقي من عشر حلقات - واحدة كل سبع سنوات - تمتد على 63 عامًا حتى الدفعة النهائية في عام 2026. الفيلم الأول كان بعنوان Seven Up!، والثاني 7 Plus Seven؛ الثالث 21 اب؛ والباقي بعنوان بالمثل حتى 70 اب، مطابقة لعمر الموضوعات وقت التصوير.",
+      "summaryEn": "The Up series of documentary films follows the lives of ten boys and four girls in the United Kingdom, beginning in 1964, when they were seven years old. The documentary series has had ten episodes—one every seven years—spanning 63 years to the final instalment in 2026. The first film was titled Seven Up!, the second 7 Plus Seven ; the third 21 Up; and the rest similarly titled through to 70 Up , matching the age of the subjects at the time of filming.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Up%20(film%20series)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Up (film series)",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/valiant.jpg": {
+      "title": "valiant",
+      "canonicalTitle": "Eddie Valiant",
+      "type": "film",
+      "directors": [
+        "غاري تشابمان"
+      ],
+      "releaseDate": "2005",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "إيوان مكغريغور",
+        "ريكي جيرفيس"
+      ],
+      "genres": null,
+      "summaryAr": "حمامة صغيرة الحجم بس شجاعة وطموحة بتقرر تنضم لفرقة الحمام الزاجل الملكية في الحرب العالمية عشان تنقل رسائل سرية ومصيرية للحلفاء.",
+      "summaryEn": "Eddie Valiant is a fictional character and the protagonist of the novel Who Censored Roger Rabbit?, and the film adaptation, Who Framed Roger Rabbit.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eddie%20Valiant"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "wikiTitle": "Eddie Valiant",
+      "director": "غاري تشابمان",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/Wall E.jpg": {
+      "title": "Wall E",
+      "canonicalTitle": "WALL•E",
+      "type": "film",
+      "directors": null,
+      "releaseDate": "2008-06-21",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Walt Disney Pictures"
+      ],
+      "genres": [
+        "فلم كوميدي رومانسي",
+        "فيلم ما بعد الكارثة",
+        "الخيال العلمي الهزلي",
+        "فلم مغامرة",
+        "فيلم استرجاع"
+      ],
+      "summaryAr": "WALL•E هو فيلم رسوم متحركة لعام 2008 شارك في كتابته وإخراج أندرو ستانتون. تم إنتاجه بواسطة استوديوهات بيكسار للرسوم المتحركة، في إنتاج مشترك مع أفلام والت ديزني، وتوزيع بواسطة استوديوهات والت ديزني للصور المتحركة. في فيلم Pixar الأول اللي يروي قصة نائب الروبوت WALL•E، اللي يعد في مستقبل طويل الأمد والوحيد المغامر لبيانو تيرا، يتخلى عن الحياة اليومية بسبب الإغراءات الزائدة والاستمرارية المتراكمة للفشل.",
+      "summaryEn": "WALL•E è un film d'animazione del 2008 co-scritto e diretto da Andrew Stanton. Prodotto da Pixar Animation Studios, in co-produzione con Walt Disney Pictures, e distribuito da Walt Disney Studios Motion Pictures. È il nono lungometraggio Pixar e narra le vicende del robot WALL•E, che in un lontano futuro è l'unico abitante del pianeta Terra, ormai abbandonato dagli esseri umani a causa dell'eccessivo inquinamento e del continuo accumulo di rifiuti.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://it.wikipedia.org/wiki/WALL%E2%80%A2E"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "WALL•E",
+      "director": "أندرو ستانتون",
+      "creators": "أندرو ستانتون",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Winnie the Pooh.jpg": {
+      "title": "Winnie the Pooh",
+      "canonicalTitle": "Winnie the Pooh",
+      "type": "film",
+      "director": "Stephen Anderson",
+      "directors": [
+        "Stephen Anderson",
+        "Don Hall"
+      ],
+      "releaseDate": "2011",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جيم كومنغز",
+        "زوي ديشانيل",
+        "جون كليز",
+        "كريغ فيرغسون"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "كوميديا"
+      ],
+      "summaryAr": "ويني ذا بوه هو فيلم رسوم متحركة موسيقي كوميدي أمريكي عام 2011 من إنتاج استوديوهات والت ديزني للرسوم المتحركة. وهو مبني على سلسلة كتب من تأليف A. A.",
+      "summaryEn": "Winnie the Pooh is a 2011 American animated musical comedy film produced by Walt Disney Animation Studios. It is based on the book series by A. A.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Winnie%20the%20Pooh%20(2011%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Winnie the Pooh (2011 film)"
+    },
+    "cartoon-films/wish dragon.jpg": {
+      "title": "wish dragon",
+      "canonicalTitle": "Wish Dragon",
+      "type": "film",
+      "director": "Chris Appelhans",
+      "directors": [
+        "Chris Appelhans"
+      ],
+      "releaseDate": "2021",
+      "studio": null,
+      "networks": [
+        "Netflix"
+      ],
+      "cast": [
+        "Jimmy Wong"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "فانتازيا",
+        "كوميديا"
+      ],
+      "summaryAr": "Wish Dragon هو فيلم رسوم متحركة خيالي كوميدي لعام 2021 من تأليف وإخراج كريس أبيلهانز في أول ظهور له كمخرج. الفيلم من بطولة جيمي وونغ، وجون تشو، وكونستانس وو، وناتاشا ليو بورديزو، وجيمي أو يانغ، وآرون يو، وويل يون لي، وروني تشينج.",
+      "summaryEn": "Wish Dragon is a 2021 animated fantasy comedy film written and directed by Chris Appelhans in his directorial debut. The film stars Jimmy Wong, John Cho, Constance Wu, Natasha Liu Bordizzo, Jimmy O. Yang, Aaron Yoo, Will Yun Lee, and Ronny Chieng.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wish%20Dragon"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Wish Dragon"
+    },
+    "cartoon-films/wonder park.jpg": {
+      "title": "wonder park",
+      "canonicalTitle": "Wonder Park",
+      "type": "film",
+      "director": "Dylan Brown",
+      "directors": [
+        "Dylan Brown"
+      ],
+      "releaseDate": "2019",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "بريانا دينسكي",
+        "ماثيو برودريك",
+        "جينيفنر غارنر",
+        "كين هدسون كامبل"
+      ],
+      "genres": [
+        "كوميديا",
+        "دراما",
+        "رسوم متحركة",
+        "فانتازيا"
+      ],
+      "summaryAr": "Wonder Park هو فيلم رسوم متحركة فانتازيا ومغامرة كوميدي درامي لعام 2019 من تأليف جوش أبلباوم وأندريه نيميك، حول فتاة صغيرة تواجه نسخة حقيقية من متنزهها الترفيهي السحري اللي تديره حيوانات مجسمة. يتميز الفيلم بأصوات جينيفر جارنر، وماثيو برودريك، وجون أوليفر، وميلا كونيس، وكينان طومسون، وكين جيونج، ونوربرت ليو بوتز، وبريانا دينسكي، وكين هدسون كامبل. تم إنتاج الرسوم المتحركة بواسطة Paramount Animation وNickelodeon Movies، وتم إنتاج الرسوم المتحركة بواسطة Ilion Animation Studios.",
+      "summaryEn": "Wonder Park is a 2019 animated fantasy adventure comedy-drama film written by Josh Appelbaum and André Nemec, about a young girl who encounters a real version of her magical amusement park run by anthropomorphic animals. The film features the voices of Jennifer Garner, Matthew Broderick, John Oliver, Mila Kunis, Kenan Thompson, Ken Jeong, Norbert Leo Butz, Brianna Denski, and Ken Hudson Campbell. Produced by Paramount Animation and Nickelodeon Movies, the animation was provided by Ilion Animation Studios.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wonder%20Park"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Wonder Park"
+    },
+    "cartoon-films/Woody.jpg": {
+      "title": "Woody",
+      "canonicalTitle": "Woody",
+      "type": "film",
+      "director": "Andrew Stanton",
+      "directors": [
+        "Andrew Stanton",
+        "Pete Docter",
+        "Joe Ranft"
+      ],
+      "releaseDate": "1995",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "توم هانكس"
+      ],
+      "genres": null,
+      "summaryAr": "شريف وودي برايد (أو ببساطة وودي) هي دمية رعاة البقر ذات سلسلة سحب واللي تظهر في امتياز Disney-Pixar Toy Story. في الأفلام، يعد وودي أحد الأبطال الرئيسيين، إلى جانب Buzz Lightyear وJessie وBo Peep وBullseye. تم التعبير عنه بشكل أساسي بواسطة توم هانكس، اللي قام بأداء صوته في أفلام Toy Story والأفلام القصيرة والعروض التلفزيونية الخاصة.",
+      "summaryEn": "Sheriff Woody Pride (or simply Woody) is a pull-string cowboy doll who appears in the Disney–Pixar Toy Story franchise. In the films, Woody is one of the main protagonists, alongside Buzz Lightyear, Jessie, Bo Peep, and Bullseye. He is primarily voiced by Tom Hanks, who voices him in the Toy Story films, short films, and TV specials.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Woody%20(Toy%20Story)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Woody (Toy Story)",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "أول ظهور لشخصية وودي في فيلم Toy Story"
+      }
+    },
+    "cartoon-films/Zootopia.jpg": {
+      "title": "Zootopia",
+      "canonicalTitle": "Zootopia",
+      "type": "film",
+      "director": "Byron Howard",
+      "directors": [
+        "Byron Howard",
+        "Rich Moore"
+      ],
+      "releaseDate": "2016",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "مايكل جاكينو"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "كوميديا"
+      ],
+      "summaryAr": "زوتوبيا (بعنوان زوتروبوليس في بعض الأسواق) هو فيلم رسوم متحركة أمريكي لفيلم الصديق الشرطي الكوميدي لعام 2016 من إنتاج استوديوهات والت ديزني للرسوم المتحركة. الفيلم من إخراج بايرون هوارد وريتش مور وكتبه جاريد بوش وفيل جونستون، وهو أول فيلم في سلسلة زوتوبيا. ويضم أصوات جينيفر جودوين، جايسون بيتمان، إدريس إلبا، جيني سليت، نيت تورنس، بوني هانت، دون ليك، تومي تشونغ، جي.",
+      "summaryEn": "Zootopia (titled Zootropolis in some markets) is a 2016 American animated buddy cop comedy film produced by Walt Disney Animation Studios. Directed by Byron Howard and Rich Moore and written by Jared Bush and Phil Johnston, it is the first film in the Zootopia franchise. It features the voices of Ginnifer Goodwin, Jason Bateman, Idris Elba, Jenny Slate, Nate Torrence, Bonnie Hunt, Don Lake, Tommy Chong, J.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zootopia"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Zootopia",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Aladdin.jpg": {
+      "title": "Aladdin",
+      "canonicalTitle": "Aladdin",
+      "type": "film",
+      "director": "John Musker",
+      "directors": [
+        "John Musker",
+        "Ron Clements"
+      ],
+      "releaseDate": "1992",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "سكوت وينجر",
+        "روبن ويليامز",
+        "ليندا لاركين",
+        "جوناثان فريمان"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "فانتازيا"
+      ],
+      "summaryAr": "علاء الدين هو فيلم رسوم متحركة موسيقي خيالي أمريكي عام 1992، مستوحى من الحكاية الشعبية في الشرق الأوسط \"علاء الدين\" من ألف ليلة وليلة وإنتاج والت ديزني للرسوم المتحركة. الفيلم من إنتاج وإخراج جون موسكر ورون كليمنتس، وكلاهما شارك في كتابة السيناريو مع تيد إليوت وتيري روسيو.",
+      "summaryEn": "Aladdin is a 1992 American animated musical fantasy film based on the Middle Eastern folk tale \"Aladdin\" from One Thousand and One Nights and produced by Walt Disney Feature Animation. The film was produced and directed by John Musker and Ron Clements, both of whom co-wrote the screenplay with Ted Elliott and Terry Rossio.…",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Aladdin%20(1992%20Disney%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Aladdin (1992 Disney film)"
+    },
+    "cartoon-films/angry birds.jpg": {
+      "title": "angry birds",
+      "canonicalTitle": "Angry Birds",
+      "type": "film",
+      "director": "Finnish game designer Jaakko Iisalo",
+      "directors": [
+        "Finnish game designer Jaakko Iisalo"
+      ],
+      "releaseDate": "2016",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جيسون سوديكيس",
+        "جوش غاد",
+        "داني مكبريد",
+        "مايا رودولف"
+      ],
+      "genres": null,
+      "summaryAr": "Angry Birds هي سلسلة ألعاب فيديو وامتياز إعلامي أنشأها مصمم الألعاب الفنلندي Jaakko Iisalo وتملكها شركة Rovio Entertainment، وهي شركة تابعة لشركة Sega. يتبع الامتياز في المقام الأول قطيعًا من الطيور المجسمة اللي لا تطير وهي تدافع عن عش بيضها من نوع من الخنازير الخضراء المستديرة. غالبية ألعاب فيديو Angry Birds هي ألعاب ألغاز تم تطويرها بواسطة Rovio Entertainment وتم إصدارها للأجهزة المحمولة، بينما تم تطوير الألعاب الأخرى والعروض الجانبية بواسطة استوديوهات أخرى وهي في أنواع أخرى مثل السباق ولعب الأدوار ومطابقة البلاط.",
+      "summaryEn": "Angry Birds is a video game series and media franchise created by Finnish game designer Jaakko Iisalo and owned by Rovio Entertainment, a subsidiary of Sega. The franchise primarily follows a flock of anthropomorphic flightless birds as they defend their nest of eggs from a species of green rotund pigs. A majority of the Angry Birds video games are puzzle games developed by Rovio Entertainment and released for mobile devices, while other games and spinoffs have been developed by other studios and are in other genres such as racing, role-playing, and tile-matching.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angry%20Birds"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Angry Birds",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/Beauty and the Beast.jpg": {
+      "title": "Beauty and the Beast",
+      "canonicalTitle": "Beauty and the Beast",
+      "type": "film",
+      "director": "Gary Trousdale",
+      "directors": [
+        "Gary Trousdale",
+        "Kirk Wise"
+      ],
+      "releaseDate": "1991",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Paige O'Hara"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "فانتازيا"
+      ],
+      "summaryAr": "الجميلة والوحش هو فيلم رسوم متحركة موسيقي رومانسي خيالي أمريكي عام 1991 من إخراج غاري تروسديل وكيرك وايز، وكتبه ليندا وولفرتون، وهو مقتبس من الحكاية الخيالية الفرنسية \"الجميلة والوحش\". الفيلم من إنتاج شركة والت ديزني للرسوم المتحركة، ونجوم الفيلم بيج أوهارا، روبي بنسون، ريتشارد وايت، جيري أورباخ، ديفيد أوغدن ستيرز، أنجيلا لانسبري، برادلي مايكل بيرس، ريكس إيفرهارت، جيسي كورتي، هال سميث في فيلمه الأخير، وجو آن ورلي. بتدور أحداث الفيلم في فرنسا في القرن الثامن عشر، وفيه يُلعن أمير أناني ليظل وحشًا إلى الأبد ما لم يتمكن من كسب حب امرأة شابة مفعمة بالحيوية تدعى بيل قبل أن تسقط البتلة الأخيرة من وردته المسحورة.",
+      "summaryEn": "Beauty and the Beast is a 1991 American animated musical romantic fantasy film directed by Gary Trousdale and Kirk Wise, written by Linda Woolverton, and based on the French fairy tale \"Beauty and the Beast\". Produced by Walt Disney Feature Animation, the film stars Paige O'Hara, Robby Benson, Richard White, Jerry Orbach, David Ogden Stiers, Angela Lansbury, Bradley Michael Pierce, Rex Everhart, Jesse Corti, Hal Smith in his final film, and Jo Anne Worley. Set in 18th-century France, a selfish prince is cursed to remain a beast forever unless he can earn the love of a spirited young woman named Belle before the final petal falls from his enchanted rose.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Beauty%20and%20the%20Beast%20(1991%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Beauty and the Beast (1991 film)"
+    },
+    "cartoon-films/Big Hero 6 (2014).jpg": {
+      "title": "Big Hero 6 (2014)",
+      "canonicalTitle": "Big Hero 6",
+      "type": "film",
+      "director": "Don Hall",
+      "directors": [
+        "Don Hall",
+        "Chris Williams"
+      ],
+      "releaseDate": "2014",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "هنري جاكمان"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "أبطال خارقون"
+      ],
+      "summaryAr": "Big Hero 6 هو فيلم رسوم متحركة أمريكي للأبطال الخارقين لعام 2014 يعتمد بشكل فضفاض على فريق الأبطال الخارقين من Marvel Comics Big Hero 6. من إنتاج استوديوهات والت ديزني للرسوم المتحركة، وأخرجه دون هول وكريس ويليامز، وكتبه جوردان روبرتس وروبرت إل بيرد ودانييل جيرسون.",
+      "summaryEn": "Big Hero 6 is a 2014 American animated superhero film loosely based on the Marvel Comics superhero team Big Hero 6. Produced by Walt Disney Animation Studios, it was directed by Don Hall and Chris Williams, and written by Jordan Roberts, Robert L. Baird and Daniel Gerson.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Big%20Hero%206%20(film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Big Hero 6 (film)",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Cloudy with a Chance of Meatballs.jpg": {
+      "title": "Cloudy with a Chance of Meatballs",
+      "canonicalTitle": "Cloudy with a Chance of Meatballs",
+      "type": "film",
+      "director": "Phil Lord e Chris Miller",
+      "directors": [
+        "Phil Lord e Chris Miller"
+      ],
+      "releaseDate": "2009",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "مارك موذرسباو"
+      ],
+      "genres": [
+        "فلم كوارث",
+        "فلم كوميدي",
+        "فلم خيال",
+        "فيلم مراهقة",
+        "فيلم استرجاع"
+      ],
+      "summaryAr": "Cloudy with a Chance of Meatballs هو فيلم رسوم متحركة كوميدي ثلاثي الأبعاد من إنتاج Sony Pictures Animation، تم توزيعه بواسطة Columbia Pictures، وصدر في 18 سبتمبر 2009. الفيلم مبني على كتاب بنفس اسم الكاتب الأمريكي جودي باريت والرسام رون باريت، وقد تم إصداره بواسطة 14 سبتمبر 1978. تم عرض الفيلم بأصوات بيل هادر، وآنا فارس، وبروس كامبل، وجيمس كان، وبوب جيه.",
+      "summaryEn": "Cloudy with a Chance of Meatballs é um filme de comédia animado em 3D produzida pela Sony Pictures Animation, distribuída pela Columbia Pictures, e lançado em 18 de setembro de 2009. O filme é baseado no livro de mesmo nome de autoria do escritor americano Judi Barrett e ilustrador Ron Barrett, foi lançada em 14 de setembro de 1978. O filme apresenta as vozes de Bill Hader, Anna Faris, Bruce Campbell, James Caan, Bobb'e J.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://pt.wikipedia.org/wiki/Cloudy%20with%20a%20Chance%20of%20Meatballs%20(filme)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Cloudy with a Chance of Meatballs (filme)",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Guillermo del Toros Pinocchio.jpg": {
+      "title": "Guillermo del Toros Pinocchio",
+      "canonicalTitle": "Guillermo del Toro",
+      "directors": null,
+      "releaseDate": "2022",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "غريغوري مان",
+        "إيوان ماكغريغور",
+        "ديفيد برادلي",
+        "تيلدا سوينتون"
+      ],
+      "genres": [
+        "رعب"
+      ],
+      "summaryAr": "غييرمو ديل تورو غوميز (الإسبانية: [ɡiˈʝeɾmo ðel ˈtoɾo]؛ من مواليد 9 أكتوبر 1964) هو مخرج وممثل مكسيكي. اتسمت أعماله بارتباط قوي بالحكايات الخيالية، والقوطية، والرعب، وغالبًا ما كان يمزج بين الأنواع، مع محاولة لبث الجمال البصري أو الشعري في البشع. لقد كان مفتونًا بالوحوش طوال حياته، واللي يعتبرها رموزًا للقوة العظمى.",
+      "summaryEn": "Guillermo del Toro Gómez (Spanish: [ɡiˈʝeɾmo ðel ˈtoɾo]; born 9 October 1964) is a Mexican filmmaker and actor. His work has been characterized by a strong connection to fairy tales, gothicism, and horror, often blending the genres, with an effort to infuse visual or poetic beauty in the grotesque. He has had a lifelong fascination with monsters, which he considers symbols of great power.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guillermo%20del%20Toro"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Guillermo del Toro",
+      "director": "جييرمو ديل تورو",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Hercules.jpg": {
+      "title": "Hercules",
+      "canonicalTitle": "Hercules",
+      "type": "film",
+      "director": "John Musker",
+      "directors": [
+        "John Musker",
+        "Ron Clements"
+      ],
+      "releaseDate": "1997",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "تايته دونوفان",
+        "داني ديفيتو",
+        "جيمس وودز",
+        "سوزان إيغان"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "فانتازيا",
+        "كوميديا"
+      ],
+      "summaryAr": "هرقل هو فيلم رسوم متحركة موسيقي خيالي كوميدي أمريكي عام 1997 يعتمد بشكل فضفاض على البطل الأسطوري هيراكليس (المعروف في الفيلم باسمه الروماني هرقل)، وهو ابن زيوس في الأساطير اليونانية. الفيلم من إنتاج شركة والت ديزني للرسوم المتحركة، وأخرجه جون موسكر ورون كليمنتس، وكلاهما شارك في كتابة السيناريو مع إيرين ميكي، وفريق الكتابة المكون من دونالد ماكنيري وبوب شو.",
+      "summaryEn": "Hercules is a 1997 American animated musical fantasy comedy film loosely based on the legendary hero Heracles (known in the film by his Roman name, Hercules), a son of Zeus in Greek mythology. Produced by Walt Disney Feature Animation, the film was directed by John Musker and Ron Clements, both of whom co-wrote the screenplay with Irene Mecchi, and the writing team of Donald McEnery and Bob Shaw.…",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hercules%20(1997%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Hercules (1997 film)"
+    },
+    "cartoon-films/Home.2015.jpg": {
+      "title": "Home.2015",
+      "canonicalTitle": "Home",
+      "type": "film",
+      "director": "Tim Johnson",
+      "directors": [
+        "Tim Johnson"
+      ],
+      "releaseDate": "2015",
+      "studio": null,
+      "networks": [
+        "Netflix"
+      ],
+      "cast": [
+        "غلين كلوز",
+        "يان أرثوس-بيرتراند",
+        "سلمى حايك",
+        "جاك القمار"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "علمي",
+        "كوميديا"
+      ],
+      "summaryAr": "الصفحة الرئيسية هو فيلم رسوم متحركة خيال علمي كوميدي أمريكي لعام 2015 من إنتاج DreamWorks Animation، ويستند بشكل فضفاض إلى كتاب الأطفال لعام 2007 المعنى الحقيقي لسمكداي. الفيلم من إخراج تيم جونسون، وكتبه توم جيه أستل ومات إمبر، ويقوم ببطولته أصوات جيم بارسونز، وريهانا، وجنيفر لوبيز، وستيف مارتن.",
+      "summaryEn": "Home is a 2015 American animated science fiction comedy film produced by DreamWorks Animation, loosely based on the 2007 children's book The True Meaning of Smekday. The film was directed by Tim Johnson, written by Tom J. Astle and Matt Ember, and stars the voices of Jim Parsons, Rihanna, Jennifer Lopez, and Steve Martin.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Home%20(2015%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Home (2015 film)",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/how to train your dragon.jpg": {
+      "title": "how to train your dragon",
+      "canonicalTitle": "How to Train Your Dragon",
+      "type": "film",
+      "directors": null,
+      "releaseDate": "2010-03-18",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جون باول"
+      ],
+      "genres": [
+        "فانتازيا",
+        "مغامرة"
+      ],
+      "summaryAr": "How to Train Your Dragon هو امتياز إعلامي للمغامرات الخيالية الأمريكية من DreamWorks Animation ويستند إلى سلسلة كتب تحمل نفس الاسم للمؤلفة البريطانية كريسيدا كويل. يتكون من ثلاثة أفلام روائية: كيف تدرب تنينك (2010)، كيف تدرب تنينك 2 (2014)، وكيف تدرب تنينك: العالم المخفي (2019). تم إصدار نسخة جديدة من الفيلم الأول في عام 2025، ومن المقرر إصدار تكملة له في عام 2027.",
+      "summaryEn": "How to Train Your Dragon is an American fantasy adventure media franchise from DreamWorks Animation and based on the book series of the same name by British author Cressida Cowell. It consists of three feature films: How to Train Your Dragon (2010), How to Train Your Dragon 2 (2014), and How to Train Your Dragon: The Hidden World (2019). A live-action remake of the first film was released in 2025, with a sequel scheduled for 2027.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/How%20to%20Train%20Your%20Dragon"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "How to Train Your Dragon",
+      "director": "دين ديبلوس",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/megamind.jpg": {
+      "title": "megamind",
+      "canonicalTitle": "Megamind",
+      "type": "film",
+      "director": "Tom McGrath",
+      "directors": [
+        "Tom McGrath",
+        "Tina Fey",
+        "Jonah Hill",
+        "David Cross",
+        "Brad Pitt"
+      ],
+      "releaseDate": "2010",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "هانس زيمر"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "أبطال خارقون",
+        "كوميديا"
+      ],
+      "summaryAr": "Megamind هو فيلم رسوم متحركة أمريكي لعام 2010 عن فيلم كوميدي خارق من إنتاج DreamWorks Animation. الفيلم من إخراج توم ماكجراث، ويضم أصوات ويل فيريل، وتينا فاي، وجونا هيل، وديفيد كروس، وبراد بيت. يحكي الفيلم قصة ميجامايند (فيريل)، وهو شرير فائق الذكاء من خارج كوكب الأرض.",
+      "summaryEn": "Megamind is a 2010 American animated superhero comedy film produced by DreamWorks Animation. Directed by Tom McGrath, the film features the voices of Will Ferrell, Tina Fey, Jonah Hill, David Cross, and Brad Pitt. It tells the story of Megamind (Ferrell), a highly intelligent extraterrestrial supervillain.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Megamind"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Megamind",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Monsters vs. Aliens.jpg": {
+      "title": "Monsters vs. Aliens",
+      "canonicalTitle": "Monsters vs. Aliens",
+      "type": "film",
+      "director": "Conrad Vernon",
+      "directors": [
+        "Conrad Vernon",
+        "Rob Letterman"
+      ],
+      "releaseDate": "2009",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Reese Witherspoon"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "علمي",
+        "كوميديا"
+      ],
+      "summaryAr": "الوحوش ضد الأجانب هو فيلم رسوم متحركة خيال علمي كوميدي أمريكي لعام 2009 من إخراج كونراد فيرنون وروب ليترمان وكتبه ليترمان ومايا فوربس ووالي وولودارسكي وجوناثان آيبل وجلين بيرجر. الفيلم من إنتاج شركة DreamWorks Animation، وهو الجزء الأول من سلسلة Monsters vs.",
+      "summaryEn": "Monsters vs. Aliens is a 2009 American animated science fiction comedy film directed by Conrad Vernon and Rob Letterman and written by Letterman, Maya Forbes, Wally Wolodarsky, Jonathan Aibel and Glenn Berger. Produced by DreamWorks Animation, it is the first installment in the Monsters vs.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Monsters%20vs.%20Aliens"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Monsters vs. Aliens"
+    },
+    "cartoon-films/Puss.In.Boots_1.jpg": {
+      "title": "Puss.In.Boots_1",
+      "canonicalTitle": "Puss in Boots",
+      "type": "film",
+      "director": "Chris Miller",
+      "directors": [
+        "Chris Miller"
+      ],
+      "releaseDate": "2011",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "هنري جاكمان"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "مغامرة",
+        "كوميديا"
+      ],
+      "summaryAr": "Puss in Boots هو فيلم رسوم متحركة أمريكي مغامرات كوميدي لعام 2011 يظهر الشخصية الفخرية في الأصل من Shrek 2 (2004) وهي مستوحاة من الحكاية الخيالية. الفيلم من إنتاج شركة DreamWorks Animation، وهو من إخراج كريس ميلر وكتبه توم ويلر. يلعب أنطونيو بانديراس دور Puss in Boots، إلى جانب سلمى حايك وزاك جاليفياناكيس وبيلي بوب ثورنتون وإيمي سيداريس.",
+      "summaryEn": "Puss in Boots is a 2011 American animated adventure comedy film featuring the titular character originally from Shrek 2 (2004) and inspired by the fairy tale. Produced by DreamWorks Animation, the film was directed by Chris Miller and written by Tom Wheeler. Antonio Banderas stars as Puss in Boots, alongside Salma Hayek, Zach Galifianakis, Billy Bob Thornton, and Amy Sedaris.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Puss%20in%20Boots%20(2011%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Puss in Boots (2011 film)",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/Rio.jpg": {
+      "title": "Rio",
+      "canonicalTitle": "Rio",
+      "type": "film",
+      "director": "Carlos Saldanha",
+      "directors": [
+        "Carlos Saldanha"
+      ],
+      "releaseDate": "2011",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جيسي أيزنبرغ",
+        "آن هاثاواي",
+        "جورج لوبيز",
+        "جيمي فوكس"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "مغامرة",
+        "كوميديا"
+      ],
+      "summaryAr": "ريو هو فيلم رسوم متحركة موسيقي ومغامرة كوميدي أمريكي لعام 2011 من إخراج كارلوس سالدانها وكتبه دون ريمر وجوشوا ستيرنين وجينيفر فينتيميليا وسام هاربر. يشير العنوان إلى مدينة ريو دي جانيرو البرازيلية، وفيه بتدور أحداث الفيلم. الفيلم من إنتاج شركة 20th Century Fox Animation وBlue Sky Studios، ويضم أصوات آن هاثاواي، وجيسي أيزنبرغ، وجيمين كليمنت، وليزلي مان، وجورج لوبيز، وجيمي فوكس، وتريسي مورغان.",
+      "summaryEn": "Rio is a 2011 American animated musical adventure comedy film directed by Carlos Saldanha and written by Don Rhymer, Joshua Sternin, Jennifer Ventimilia, and Sam Harper. The title refers to the Brazilian city of Rio de Janeiro, where the film is set. Produced by 20th Century Fox Animation and Blue Sky Studios, the film features the voices of Anne Hathaway, Jesse Eisenberg, Jemaine Clement, Leslie Mann, George Lopez, Jamie Foxx and Tracy Morgan.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rio%20(2011%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Rio (2011 film)"
+    },
+    "cartoon-films/Spirit Stallion of the Cimarron.jpg": {
+      "title": "Spirit Stallion of the Cimarron",
+      "canonicalTitle": "Spirit: Stallion of the Cimarron",
+      "type": "film",
+      "director": "Kelly Asbury",
+      "directors": [
+        "Kelly Asbury",
+        "Lorna Cook"
+      ],
+      "releaseDate": "2002",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "مات ديمون",
+        "جيمس كرومل",
+        "تشوبر برنت",
+        "جيف ليبو"
+      ],
+      "genres": [
+        "رسوم متحركة"
+      ],
+      "summaryAr": "الروح: فحل سيمارون (أو ببساطة الروح) هو فيلم رسوم متحركة أمريكي عام 2002 من إخراج كيلي أسبوري ولورنا كوك، كتبه جون فوسكو، من فكرة جيفري كاتزنبرج، اللي أنتج مع ميراي سوريا. بتدور أحداث الفيلم في الغرب القديم في أواخر القرن التاسع عشر، ويتبع الفيلم سبيريت، وهو فحل موستانج كيجر (اللي عبر عنه مات ديمون باعتباره الراوي)، واللي تم أسره خلال حروب الهنود الأمريكيين بواسطة فرسان الولايات المتحدة؛ تم إطلاق سراحه في النهاية من قبل رجل من لاكوتا يُدعى ليتل كريك واللي يرتبط به أيضًا، بالإضافة إلى فرس تدعى راين. تم إنتاج الفيلم بواسطة DreamWorks Animation، وفيه يجمع بين الرسوم المتحركة التقليدية والرسوم المتحركة بالكمبيوتر.",
+      "summaryEn": "Spirit: Stallion of the Cimarron (or simply Spirit) is a 2002 American animated Western film directed by Kelly Asbury and Lorna Cook, written by John Fusco, from an idea by Jeffrey Katzenberg, who produced with Mireille Soria. Set in the Old West in the late 19th century, the film follows Spirit, a Kiger mustang stallion (voiced by Matt Damon as a narrator), who is captured during the American Indian Wars by the United States Cavalry; he is eventually freed by a Lakota man named Little Creek with whom he bonds, as well as a mare named Rain. The film was produced by DreamWorks Animation, combining traditional animation and computer animation.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spirit%3A%20Stallion%20of%20the%20Cimarron"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Spirit: Stallion of the Cimarron"
+    },
+    "cartoon-films/surfs up.jpg": {
+      "title": "surfs up",
+      "canonicalTitle": "Surf's Up",
+      "type": "film",
+      "director": "Ash Brannon",
+      "directors": [
+        "Ash Brannon",
+        "Chris Buck"
+      ],
+      "releaseDate": "2007",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "شيا لابوف",
+        "جيف بريدجز",
+        "زوي ديشانيل",
+        "جون هيدر"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "رياضي",
+        "كوميديا"
+      ],
+      "summaryAr": "Surf's Up هو فيلم رسوم متحركة أمريكي وثائقي ساخر رياضي كوميدي عام 2007 من إخراج آش برانون وكريس باك، وكتبه برانون وباك ودون ريمر وكريس جينكينز. الفيلم من إنتاج شركة سوني بيكتشرز أنيميشن، ويضم أصوات شيا لابوف، وجيف بريدجز، وزوي ديشانيل، وجون هيدر، وجيمس وودز. إنها محاكاة ساخرة لأفلام وثائقية عن رياضة ركوب الأمواج، مثل الصيف اللي لا نهاية له، خطوة إلى السائل، وركوب العمالقة، مع أجزاء من الحبكة تحاكي نورث شور.",
+      "summaryEn": "Surf's Up is a 2007 American animated mockumentary sports comedy film directed by Ash Brannon and Chris Buck, and written by Brannon, Buck, Don Rhymer and Chris Jenkins. Produced by Sony Pictures Animation, the film features the voices of Shia LaBeouf, Jeff Bridges, Zooey Deschanel, Jon Heder, and James Woods. It is a parody of surfing documentaries, such as The Endless Summer, Step into Liquid, and Riding Giants, with parts of the plot parodying North Shore.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Surf's%20Up%20(film)"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "wikiTitle": "Surf's Up (film)"
+    },
+    "cartoon-films/Tangled.jpg": {
+      "title": "Tangled",
+      "canonicalTitle": "Tangled",
+      "type": "film",
+      "director": "Nathan Greno",
+      "directors": [
+        "Nathan Greno",
+        "Byron Howard"
+      ],
+      "releaseDate": "2010",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Mandy Moore"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "فانتازيا",
+        "كوميديا"
+      ],
+      "summaryAr": "متشابك هو فيلم رسوم متحركة موسيقي خيالي كوميدي أمريكي عام 2010 من إخراج ناثان جرينو وبايرون هوارد، كتبه دان فوجلمان، ويستند بشكل فضفاض إلى الحكاية الخيالية الألمانية \"رابونزيل\". الفيلم من إنتاج استوديوهات والت ديزني للرسوم المتحركة، وبطولة ماندي مور، زاكاري ليفي، ودونا ميرفي. يحكي الفيلم قصة رابونزل (مور)، الأميرة الشابة ذات الشعر الأشقر السحري الطويل اللي تحاول مغادرة برجها السري.",
+      "summaryEn": "Tangled is a 2010 American animated musical fantasy comedy film directed by Nathan Greno and Byron Howard, written by Dan Fogelman, and loosely based on the German fairy tale \"Rapunzel\". Produced by Walt Disney Animation Studios, it stars Mandy Moore, Zachary Levi, and Donna Murphy. The film tells the story of Rapunzel (Moore), a young princess with magical long blonde hair who tries to leave her secret tower.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tangled"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Tangled"
+    },
+    "cartoon-films/tarzan.jpg": {
+      "title": "tarzan",
+      "canonicalTitle": "Tarzan",
+      "type": "film",
+      "director": "Kevin Lima",
+      "directors": [
+        "Kevin Lima",
+        "Chris Buck"
+      ],
+      "releaseDate": "1999",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "توني غولدوين",
+        "ميني درايفر",
+        "غلين كلوز",
+        "روزي أودونيل"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "مغامرة"
+      ],
+      "summaryAr": "طرزان هو فيلم رسوم متحركة أمريكي من عام 1999 يستند إلى قصة طرزان القرود اللي كتبها إدغار رايس بوروز عام 1912. تم إنتاجه بواسطة ميزة والت ديزني للرسوم المتحركة، وأخرجه كيفن ليما وكريس باك، من سيناريو من تأليف تاب مورفي وفريق الكتابة المكون من بوب تسوديكر ونوني وايت، وهو أول فيلم رسوم متحركة رئيسي مقتبس عن القصة. يلعب توني جولدوين دور الشخصية المميزة، إلى جانب ميني درايفر، وجلين كلوز، وروزي أودونيل، وأليكس د.",
+      "summaryEn": "Tarzan is a 1999 American animated adventure film based on the 1912 story Tarzan of the Apes by Edgar Rice Burroughs. Produced by Walt Disney Feature Animation, it was directed by Kevin Lima and Chris Buck, from a screenplay by Tab Murphy and the writing team of Bob Tzudiker and Noni White, and is the first major animated film adaptation of the story. Tony Goldwyn stars as the titular character, alongside Minnie Driver, Glenn Close, Rosie O'Donnell, Alex D.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tarzan%20(1999%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Tarzan (1999 film)"
+    },
+    "cartoon-films/the croods.jpg": {
+      "title": "the croods",
+      "canonicalTitle": "The Croods",
+      "type": "film",
+      "director": "Chris Sanders",
+      "directors": [
+        "Chris Sanders",
+        "Kirk DeMicco"
+      ],
+      "releaseDate": "2013",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "آلان سيلفستري"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "مغامرة",
+        "كوميديا"
+      ],
+      "summaryAr": "The Croods هو فيلم رسوم متحركة ومغامرة كوميدي أمريكي لعام 2013 من إنتاج DreamWorks Animation. الفيلم من تأليف وإخراج كريس ساندرز وكيرك ديميكو، وكلاهما شارك في كتابة القصة مع جون كليز. الفيلم من بطولة أصوات نيكولاس كيج، إيما ستون، رايان رينولدز، كاثرين كينر، كلارك ديوك، وكلوريس ليتشمان.",
+      "summaryEn": "The Croods is a 2013 American animated adventure comedy film produced by DreamWorks Animation. The film was written and directed by Chris Sanders and Kirk DeMicco, both of whom co-wrote the story with John Cleese. The film stars the voices of Nicolas Cage, Emma Stone, Ryan Reynolds, Catherine Keener, Clark Duke, and Cloris Leachman.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Croods"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "The Croods",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-films/The Emperor's New Groove.jpg": {
+      "title": "The Emperor's New Groove",
+      "canonicalTitle": "The Emperor's New Groove",
+      "type": "film",
+      "director": "Mark Dindal",
+      "directors": [
+        "Mark Dindal"
+      ],
+      "releaseDate": "2000",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "David Spade"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "كوميديا"
+      ],
+      "summaryAr": "حياة الإمبراطور الجديدة هو فيلم رسوم متحركة كوميدي أمريكي عام 2000 من إنتاج شركة والت ديزني للرسوم المتحركة. أخرجه مارك ديندال وكتبه ديفيد رينولدز، بناءً على قصة كتبها ديندال وكريس ويليامز. الفيلم من بطولة ديفيد سبيد، وجون جودمان، وإرثا كيت، وباتريك واربورتون، وويندي ماليك.",
+      "summaryEn": "The Emperor's New Groove is a 2000 American animated comedy film produced by Walt Disney Feature Animation. It was directed by Mark Dindal and written by David Reynolds, based on a story conceived by Dindal and Chris Williams. The film stars David Spade, John Goodman, Eartha Kitt, Patrick Warburton, and Wendie Malick.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Emperor's%20New%20Groove"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "The Emperor's New Groove"
+    },
+    "cartoon-films/the lion king.jpg": {
+      "title": "the lion king",
+      "canonicalTitle": "The Lion King",
+      "type": "film",
+      "director": "Roger Allers",
+      "directors": [
+        "Roger Allers",
+        "Rob Minkoff"
+      ],
+      "releaseDate": "1994",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ماثيو برودريك",
+        "جيريمي إيرنز",
+        "جيمس إيرل جونز",
+        "ناثان لين"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "دراما"
+      ],
+      "summaryAr": "الأسد الملك هو فيلم رسوم متحركة موسيقي درامي أمريكي عام 1994 من إخراج روجر أليرز وروب مينكوف وكتبه إيرين ميكي وجوناثان روبرتس وليندا وولفرتون. من إنتاج ميزة والت ديزني للرسوم المتحركة، ويضم طاقمًا صوتيًا يتكون من ماثيو برودريك، وجيمس إيرل جونز، وجيريمي آيرونز، وجوناثان تايلور توماس، ومويرا كيلي، ونيكيتا كالام، ومادج سنكلير، وناثان لين، وإيرني سابيلا، وووبي غولدبرغ، وتشيش مارين، وروان أتكينسون، وروبرت غيوم. بتدور أحداث القصة حول أمير أسد شاب يُدعى سيمب��، يُنفى من مملكته بعد مقتل والده موفاسا على يد عمه سكار للاستيلاء على العرش.",
+      "summaryEn": "The Lion King is a 1994 American animated musical drama film directed by Roger Allers and Rob Minkoff and written by Irene Mecchi, Jonathan Roberts, and Linda Woolverton. Produced by Walt Disney Feature Animation, it features an ensemble voice cast consisting of Matthew Broderick, James Earl Jones, Jeremy Irons, Jonathan Taylor Thomas, Moira Kelly, Niketa Calame, Madge Sinclair, Nathan Lane, Ernie Sabella, Whoopi Goldberg, Cheech Marin, Rowan Atkinson, and Robert Guillaume. The story follows a young lion prince named Simba, who is exiled from his kingdom after his father Mufasa is murdered by his uncle Scar to seize the throne.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Lion%20King"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "The Lion King"
+    },
+    "cartoon-films/The Little Mermaid.jpg": {
+      "title": "The Little Mermaid",
+      "canonicalTitle": "The Little Mermaid",
+      "type": "film",
+      "director": "John Musker",
+      "directors": [
+        "John Musker",
+        "Ron Clements"
+      ],
+      "releaseDate": "1989",
+      "studio": null,
+      "networks": [
+        "CBS"
+      ],
+      "cast": [
+        "Sierra Boggess"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "موسيقي",
+        "فانتازيا"
+      ],
+      "summaryAr": "The Little Mermaid هو فيلم رسوم متحركة موسيقي خيالي أمريكي عام 1989 من تأليف وإخراج جون موسكر ورون كليمنتس وإنتاج موسكر وهوارد أشمان، اللي كتب أيضًا أغاني الفيلم مع الملحن آلان مينكين. الفيلم مستوحى بشكل فضفاض من الحكاية الخيالية الدنماركية \"The Little Mermaid\" عام 1837 للكاتب هانز كريستيان أندرسن، وقد تم إنتاجه بواسطة ميزة والت ديزني للرسوم المتحركة بالتعاون مع شركاء الشاشة الفضية IV وتم إصداره بواسطة صور والت ديزني. يتميز الفيلم بأصوات رينيه أوبرجونوا، وكريستوفر دانيال بارنز، وجودي بنسون، وبات كارول، وبادي إدواردز، وبودي هاكيت، وجيسون مارين، وكينيث مارس، وبن رايت، وصامويل إي.",
+      "summaryEn": "The Little Mermaid is a 1989 American animated musical fantasy film written and directed by John Musker and Ron Clements and produced by Musker and Howard Ashman, who also wrote the film's songs with composer Alan Menken. Loosely based on the 1837 Danish fairy tale \"The Little Mermaid\" by Hans Christian Andersen, it was produced by Walt Disney Feature Animation in association with Silver Screen Partners IV and released by Walt Disney Pictures. The film features the voices of René Auberjonois, Christopher Daniel Barnes, Jodi Benson, Pat Carroll, Paddi Edwards, Buddy Hackett, Jason Marin, Kenneth Mars, Ben Wright, and Samuel E.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The%20Little%20Mermaid%20(1989%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "The Little Mermaid (1989 film)"
+    },
+    "cartoon-films/turbo.jpg": {
+      "title": "turbo",
+      "canonicalTitle": "Turbo",
+      "type": "film",
+      "director": "David Soren",
+      "directors": [
+        "David Soren"
+      ],
+      "releaseDate": "2013",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Ryan Reynolds"
+      ],
+      "genres": [
+        "رسوم متحركة",
+        "رياضي",
+        "كوميديا"
+      ],
+      "summaryAr": "توربو هو فيلم رسوم متحركة رياضي كوميدي أمريكي لعام 2013 من إخراج ديفيد سورين وكتبه سورين ودارين ليمكي وروبرت سيجل. من بطولة رايان رينولدز، وبول جياماتي، ومايكل بينيا، ولويس جوزمان، وبيل هادر، وصامويل إل جاكسون.",
+      "summaryEn": "Turbo is a 2013 American animated sports comedy film directed by David Soren and written by Soren, Darren Lemke and Robert Siegel. It stars Ryan Reynolds, Paul Giamatti, Michael Peña, Luis Guzmán, Bill Hader, and Samuel L. Jackson.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turbo%20(2013%20film)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "Turbo (2013 film)"
+    },
+    "cartoon-films/Rise of the Teenage Mutant Ninja Turtles.jpg": {
+      "title": "Rise of the Teenage Mutant Ninja Turtles",
+      "canonicalTitle": "Rise of the Teenage Mutant Ninja Turtles: The Movie",
+      "type": "film",
+      "genres": [
+        "فلم كوميدي",
+        "فلم بطل خارق",
+        "فلم مغامرة",
+        "ninja film"
+      ],
+      "director": "Andy Suriano",
+      "cast": [
+        "بين شوارتز",
+        "عمر بنسون ميلر",
+        "براندون مايكل سميث",
+        "جوش برينر"
+      ],
+      "releaseDate": "2022-08-05",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "مغامرات أكشن سريعة لسلاحف النينجا الأربعة في نيويورك، بيكتشفوا فيها أسلحة وقوى صوفية سحرية لمواجهة غزو فضائي شرير بيهدد العالم.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q111958728"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikidata",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/Shaun the Sheep Movie (2015).jpg": {
+      "title": "Shaun the Sheep Movie (2015)",
+      "canonicalTitle": "Shaun the Sheep Movie",
+      "type": "film",
+      "genres": [
+        "فلم كوميدي",
+        "فلم مغامرة"
+      ],
+      "director": "Richard Starzak",
+      "cast": [
+        "جاستن فليتشر",
+        "جون سباركس",
+        "إيما تايت",
+        "كريس موريل"
+      ],
+      "releaseDate": "2015-02-06",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "الخروف الذكي والمشاكس شون بيعمل مقلب يتسبب في إن المزارع يروح المدينة الكبيرة ويفقد ذاكرته، فيضطر القطيع كله يتنكر ويسافر المدينة عشان يرجعوه في مغامرة كوميدية صامتة.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q15545272"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikidata",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/A.Goofy.y.jpg": {
+      "title": "A.Goofy.y",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "كيفن ليما",
+      "directors": [
+        "كيفن ليما"
+      ],
+      "cast": [
+        "بيل فارمر",
+        "جيسون مارسدن"
+      ],
+      "releaseDate": "1995",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "مغامرة كوميدية عائلية دافية للأب البسيط جوفي وابنه المراهق ماكس في رحلة سفر بالعربية بيحاول الأب فيها يقرب من ابنه ويفهم دماغه.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/atlants.jpg": {
+      "title": "atlants",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "غاري تروسديل / كيرك وايز",
+      "directors": [
+        "غاري تروسديل / كيرك وايز"
+      ],
+      "cast": [
+        "مايكل جيه فوكس",
+        "كريبلي باور"
+      ],
+      "releaseDate": "2001",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "شاب باحث ولغوي مقتنع بوجود مدينة أتلانتس المفقودة بينضم لبعثة استكشافية غواصة تحت المحيط، وبيكتشف أسرار تكنولوجية وسحرية مذهلة للشعب الغارق.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/bee.jpg": {
+      "title": "bee",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "سيمون سميث / ستيف فيكنر",
+      "directors": [
+        "سيمون سميث / ستيف فيكنر"
+      ],
+      "cast": [
+        "جيري سينفيلد",
+        "رينيه زيلويغر"
+      ],
+      "releaseDate": "2007",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "نحلة شابة بتزهق من روتين مصنع العسل في الخلية وبتقرر تخرج وتتكلم مع البشر، وبتكتشف إن الناس بتسرق عسلهم فبترفع قضية عليهم في المحكمة.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/Bilal A New Breed of Hero 2018.jpg": {
+      "title": "Bilal A New Breed of Hero 2018",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "خرم آغا / أيمن جمال",
+      "directors": [
+        "خرم آغا / أيمن جمال"
+      ],
+      "cast": [
+        "أديوالي أقبوي",
+        "إيان ماكشين"
+      ],
+      "releaseDate": "2018",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "ملحمة سينمائية مستوحاة من قصة بلال بن رباح من طفولته وبحثه عن الحرية والكرامة والعدالة في مواجهة الظلم والعبودية.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/ducktales.jpg": {
+      "title": "ducktales",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "بوب هيلفيتش",
+      "directors": [
+        "بوب هيلفيتش"
+      ],
+      "cast": [
+        "آلان يونغ",
+        "تيري مكنرن"
+      ],
+      "releaseDate": "1990",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "مغامرات عم دهب مع ولاد إخوته الصغيرين في البحث عن مصباح سحري أسطوري في الصحراء، ومواجهتهم مع ساحر شرير طمعان في المصباح.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/hop.jpg": {
+      "title": "hop",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "تيم هيل",
+      "directors": [
+        "تيم هيل"
+      ],
+      "cast": [
+        "جيمس مارسدن",
+        "راسل براند"
+      ],
+      "releaseDate": "2011",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "أرنب صغير المفروض يورث منصب أرنب الفصح بس هو بيحب المزيكا ونفسه يبقى عازف درامز في فرقة روك، فيهرب لهوليوود ويصاحب شاب بشري عاطل.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/How.To.Train.Your.Dragon 3.jpg": {
+      "title": "How.To.Train.Your.Dragon 3",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "دين ديبلوا",
+      "directors": [
+        "دين ديبلوا"
+      ],
+      "cast": [
+        "جاي باروشيل",
+        "أميركا فيريرا"
+      ],
+      "releaseDate": "2019",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "حازوقة وتنينه الوفي أبو سن بيبحثوا عن العالم الخفي والآمن للتنانين، في مواجهة صياد شرير مصمم يقضي على فصيلة غضب الليل.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/klaus.jpg": {
+      "title": "klaus",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "سيرجيو بابلوس",
+      "directors": [
+        "سيرجيو بابلوس"
+      ],
+      "cast": [
+        "جيسون شوارتزمان",
+        "جي كي سيمونز"
+      ],
+      "releaseDate": "2019",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "ساعي بريد أناني بيتعاقب ويتنفي لجزيرة تلج معزولة أهلها بيكرهوا بعض، بس بيتعرف على نجار عجوز بيصنع ألعاب خشب، ويتعاونوا سوا وينشروا الفرحة والبهجة.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/kronk.jpg": {
+      "title": "kronk",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "إليوت مي / ساول أندرو",
+      "directors": [
+        "إليوت مي / ساول أندرو"
+      ],
+      "cast": [
+        "باتريك واربرتون",
+        "أوسكار لي"
+      ],
+      "releaseDate": "2005",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "كوميديا لطيفة من ديزني عن الطباخ الطيب كرونك ومحاولاته عشان يثبت لأبوه الصارم إنه راجل ناجح وعنده بيت وأسرة، في وسط مواقف طريفة.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/kung fu banda.jpg": {
+      "title": "kung fu banda",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "مارك أوسبورن / جون ستيفنسون",
+      "directors": [
+        "مارك أوسبورن / جون ستيفنسون"
+      ],
+      "cast": [
+        "جاك بلاك",
+        "داستن هوفمان"
+      ],
+      "releaseDate": "2008",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "الباندا التخين والكسول بو بيتم اختياره بالصدفة محارب التنين الأسطوري، وبيتمرن على إيد المعلم شيفو والغاضبين الخمسة عشان يقف في وش الشرير تاي لونغ.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/Leo.jpg": {
+      "title": "Leo",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "روبرت سميجل / كريس اليوان",
+      "directors": [
+        "روبرت سميجل / كريس اليوان"
+      ],
+      "cast": [
+        "آدم ساندلر",
+        "بيل برور"
+      ],
+      "releaseDate": "2023",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "سحلية عجوزة عايشة في حوض إزاز بمدرسة بقالها 74 سنة، بتكتشف إن باقي في عمرها سنة واحدة بس، فبتبدأ تتكلم مع تلامذة الفصل في السر وتساعدهم في مشاكلهم.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/mars need moms.jpg": {
+      "title": "mars need moms",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "سيمون ويلز",
+      "directors": [
+        "سيمون ويلز"
+      ],
+      "cast": [
+        "سيث غرين",
+        "جوان كوزاك"
+      ],
+      "releaseDate": "2011",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "ولد مراهق بيسافر في مركبة فضائية للمريخ بعد ما كائنات فضائية خطفت أمه عشان يسرقوا حنيتها ومشاعره ويربوا بيها أطفالهم.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/Ninja Turtles.jpg": {
+      "title": "Ninja Turtles",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "جيف رو",
+      "directors": [
+        "جيف رو"
+      ],
+      "cast": [
+        "هيرك إيفو",
+        "نيسيا باري"
+      ],
+      "releaseDate": "2023",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "سلاحف النينجا بيقرروا يخرجوا من المجاري لسطح نيويورك عشان يساعدوا الناس ويكسبوا حبهم كأبطال خارقين ويحاربوا جيش من المتحولين.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "العنوان الصحيح Teenage Mutant Ninja Turtles: Mutant Mayhem"
+      }
+    },
+    "cartoon-films/onword.jpg": {
+      "title": "onword",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "دان سكانلون",
+      "directors": [
+        "دان سكانلون"
+      ],
+      "cast": [
+        "توم هولاند",
+        "كريس برات"
+      ],
+      "releaseDate": "2020",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "أخين قزمين في عالم فانتازي حديث نسي السحر، بيلاقوا عصا سحرية سابها أبوهم الراحل وبتديهم فرصة 24 ساعة يرجعوه للحياة عشان يشوفوه.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/Open Seasone.jpg": {
+      "title": "Open Seasone",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "روجر أليرز / جيل كينان",
+      "directors": [
+        "روجر أليرز / جيل كينان"
+      ],
+      "cast": [
+        "مارتن لورنس",
+        "أشتون كوتشر"
+      ],
+      "releaseDate": "2006",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "دب أليف ومدلع عايش في راحة تامة مع البشر بيلاقي نفسه فجأة في الغابة المفتوحة قبل موسم الصيد بيوم، فيتعاون مع غزال مجنون عشان ينجوا من الصيادين.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/peabody&sherman.jpg": {
+      "title": "peabody&sherman",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "روب مينكوف",
+      "directors": [
+        "روب مينكوف"
+      ],
+      "cast": [
+        "تاي باريل",
+        "ماكس تشارلز"
+      ],
+      "releaseDate": "2014",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "كلب عبقري ونابغة متبني طفل بشري اسمه شيرمان، بيخترعوا آلة زمن بيسافروا بيها عبر العصور التاريخية لمقابلة أشهر الشخصيات وتصليح أخطاء الزمن.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/Shreak.jpg": {
+      "title": "Shreak",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "أندرو آدمز / فيكي جونسون",
+      "directors": [
+        "أندرو آدمز / فيكي جونسون"
+      ],
+      "cast": [
+        "مايك مايرز",
+        "إيدي مورفي",
+        "كاميرون دياز"
+      ],
+      "releaseDate": "2001",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "غول أخضر عايش في مستنقعه في هدوء بيتفاجئ بالمخلوقات الخرافية محتلة مكانه، فيوافق ينقذ أميرة محبوسة في برج يحرسه تنين بمساعدة حمار ثرثار عشان يرجع بيته.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/Sinbad.jpg": {
+      "title": "Sinbad",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "تيم جونسون / باتريك غيلمور",
+      "directors": [
+        "تيم جونسون / باتريك غيلمور"
+      ],
+      "cast": [
+        "براد بيت",
+        "كاثريت زيتا جونز"
+      ],
+      "releaseDate": "2003",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "البحار المغامر سندباد بيتهموه ظلم بسرقة كتاب السلام السحري، فيسافر عبر البحار لعالم الأساطير عشان يرجعه وينقذ رقبة صاحبه من الإعدام.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "العنوان الصحيح Sinbad: Legend of the Seven Seas"
+      }
+    },
+    "cartoon-films/Sing.jpg": {
+      "title": "Sing",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "غارث جينينغز",
+      "directors": [
+        "غارث جينينغز"
+      ],
+      "cast": [
+        "ماثيو ماكونهي",
+        "ريس ويذرسبون"
+      ],
+      "releaseDate": "2016",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "دب كوالا متفائل ومفلس بيحاول ينقذ مسرحه العريق من الإغلاق عن طريق إطلاق أكبر مسابقة غناء للحيوانات في المدينة لاكتشاف المواهب.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-films/Tresure Island.jpg": {
+      "title": "Tresure Island",
+      "canonicalTitle": null,
+      "type": "film",
+      "genres": null,
+      "director": "رون كليمنتس / جون موسكر",
+      "directors": [
+        "رون كليمنتس / جون موسكر"
+      ],
+      "cast": [
+        "جوزيف غوردون ليفيت",
+        "برايان موراي"
+      ],
+      "releaseDate": "2002",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "مغامرة خيال علمي فخمة مستوحاة من رواية جزيرة الكنز، عن ولد مراهق بيلاقي خريطة سرية تقوده لكنز أسطوري عبر مجرات وكواكب الفضاء.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "العنوان الصحيح Treasure Island / Treasure Planet"
+      }
+    }
+  }
+}

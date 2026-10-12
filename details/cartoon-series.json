@@ -1,0 +1,3139 @@
+{
+  "_meta": {
+    "version": 1,
+    "collection": "cartoon-series",
+    "method": "tvmaze+wikipedia+wikidata",
+    "note": "Auto-filled from tvmaze / wikipedia. Summaries are spoiler-free by construction (encyclopaedic leads / catalogue synopses). Fields the source does not publish are null.",
+    "updatedAt": "2026-10-11",
+    "counts": {
+      "total": 94,
+      "researched": 69
+    }
+  },
+  "items": {
+    "cartoon-series/looney tunes.jpg": {
+      "title": "looney tunes",
+      "canonicalTitle": "Looney Tunes",
+      "type": "series",
+      "releaseDate": "1929-05-01",
+      "genres": [
+        "كوميديا"
+      ],
+      "networks": [
+        "ABC"
+      ],
+      "studio": "ABC",
+      "duration": "30 دقيقة للحلقة",
+      "summaryAr": "إنها الرسوم الكاريكاتورية اللي نشأت معها واللي سيعرفها أطفالك ويحبونها. مرحبًا بكم مرة أخرى في عالم Warner Bros. Looney Tunes الرائع والغريب، بطولة Bugs Bunny وDaffy Duck وPorky Pig وRoad Runner وجميع أصدقائهم المهووسين.",
+      "summaryEn": "They're the cartoons you grew up with and the ones your own kids will come to know and love. Welcome back to the wonderful, wacky world of Warner Bros. Looney Tunes , starring Bugs Bunny, Daffy Duck, Porky Pig, Road Runner and all their zany friends.",
+      "links": [
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/4533/looney-tunes"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 4533,
+      "extra": {
+        "note": "انتهى • 30 دقيقة للحلقة",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "تيكس أيفري",
+      "cast": [
+        "ميل بلانك",
+        "يون فوراي",
+        "ستان فريبرغ",
+        "بيا بيناديريت"
+      ]
+    },
+    "cartoon-series/Martin Mystery.jpg": {
+      "title": "Martin Mystery",
+      "canonicalTitle": "Martin Mystery",
+      "type": "series",
+      "releaseDate": "2003-10-01",
+      "genres": [
+        "كوميديا",
+        "أكشن",
+        "غموض"
+      ],
+      "networks": [
+        "YTV"
+      ],
+      "studio": "YTV",
+      "duration": "30 دقيقة للحلقة",
+      "summaryAr": "Martin Mystery عبارة عن مهرجان لزج من الوحل والإثارة والكوميديا، من بطولة مارتن وديانا: مراهقين غير متطابقين مع شخصيات متناقضة بشكل مضحك في مهمة للتحقيق في أغرب الألغاز الخارقة للطبيعة والمخلوقات الأكثر نحافة من الخارج. بتكليف من \"المركز\" - مكتب سري متخصص في الظواهر الغامضة - وبمساعدة جافا، رجل الكهف الضخم الضائع في الوقت المناسب، يقفزون من واجباتهم المدرسية المتوسطة إلى الكهوف والمخابئ المخيفة اللي يقطر منها الوحل.",
+      "summaryEn": "Martin Mystery is a dripping goo-fest of slime, thrills and comedy, starring Martin and Diana: two mismatched teenagers with hilariously opposite personalities on a mission to investigate the weirdest paranormal enigmas and the slimiest creatures from beyond. Commissioned by \"THE CENTER\" - an undercover bureau specializing in mysterious phenomena - and with the help of Java, a massive caveman lost in time, they leap from their average school duties to eerie slime-dripping caves and lairs.",
+      "links": [
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/16444/martin-mystery"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 16444,
+      "extra": {
+        "note": "انتهى • 30 دقيقة للحلقة",
+        "factsSource": "بحث يدوي"
+      },
+      "creators": "فينسنت شالفون ديميرساي, Alfredo Castelli, دايفيد ميشيل",
+      "director": "ستيفان بيري",
+      "directors": [
+        "ستيفان بيري"
+      ],
+      "cast": [
+        "لورين تيب",
+        "بيلي فريمان"
+      ]
+    },
+    "cartoon-series/Marvel Spider Man.jpg": {
+      "title": "Marvel Spider Man",
+      "canonicalTitle": "Spider-Man",
+      "director": "Marc Webb (2012–2014",
+      "directors": [
+        "Marc Webb (2012–2014"
+      ],
+      "releaseDate": "2017",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "دريك بيل",
+        "روبي ديموند",
+        "نيل باتريك هاريس",
+        "جوش كيتون"
+      ],
+      "genres": [
+        "أبطال خارقون"
+      ],
+      "summaryAr": "Spider-Man هو بطل خارق في الكتب المصورة الأمريكية اللي نشرتها Marvel Comics. تم إنشاؤه بواسطة الكاتب والمحرر ستان لي والفنان ستيف ديتكو، ظهر لأول مرة في الكتاب الهزلي المختار Amazing Fantasy # 15 (أغسطس 1962) في العصر الفضي للكتب المصورة. يُنظر إليه على نطاق واسع على أنه أحد الأبطال الخارقين الأكثر شهرة ونجاحًا تجاريًا، وقد ظهر في الكتب المصورة والبرامج التلفزيونية والأفلام وألعاب الفيديو والروايات والمسرحيات.",
+      "summaryEn": "Spider-Man is a superhero in American comic books published by Marvel Comics. Created by writer-editor Stan Lee and artist Steve Ditko, he first appeared in the anthology comic book Amazing Fantasy #15 (August 1962) in the Silver Age of Comic Books. Widely regarded as one of the most popular and commercially successful superheroes, he has been featured in comic books, television shows, films, video games, novels, and plays.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spider-Man"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "Spider-Man",
+      "creators": "جو كيسادا, جيف لوب, ستان لي",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/megas xlr.jpg": {
+      "title": "megas xlr",
+      "canonicalTitle": "Megas XLR",
+      "type": "series",
+      "releaseDate": "2004-05-01",
+      "genres": [
+        "أكشن",
+        "مغامرة"
+      ],
+      "networks": [
+        "Cartoon Network"
+      ],
+      "studio": "Cartoon Network",
+      "duration": "25 دقيقة للحلقة",
+      "summaryAr": "Megas XLR عبارة عن سلسلة بتدور أحداثها حول بطاطس الأريكة ذات الوزن الزائد واللي تُدعى Coop واللي تتعثر عبر روبوت عملاق في ساحة للخردة. سرعان ما يكتشف أن الروبوت قد تم إرساله من المستقبل عندما تعود امرأة تدعى كيفا إلى الماضي للمطالبة بما هو حقها، على الرغم من أن كووب أجرى العديد من التعديلات على الآلة لذا فهو الوحيد اللي يقدر تشغيلها بالكامل. تشتد الأمور أيضًا عندما يعلم Coop أن جنسًا فضائيًا يُدعى Glorft يسعى أيضًا وراء الروبوت MEGAS الخاص به، لذلك يتعاون مع Kiva وصديقه المفضل Jamie لمحاربتهم، على الرغم من أنه في الغالب حتى يتمكن من الاحتفاظ ��لعبته الجديدة.",
+      "summaryEn": "Megas XLR is a series about an overweight couch potato named Coop who stumbles across a giant robot in a junkyard. He soon discovers that the robot was sent from the future when a woman named Kiva returns to the past to claim what is rightfully hers, though Coop made so many modification to the machine so he's the only one who can fully operate it. Things also heat up when Coop learns that an alien race called the Glorft are also after his MEGAS robot, so he teams up with Kiva and his best friend Jamie to fight them off, though mostly so he can keep his new toy.",
+      "links": [
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/7323/megas-xlr"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 7323,
+      "extra": {
+        "note": "انتهى • 25 دقيقة للحلقة",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "جودي شايفر وجورج كرتسيس",
+      "directors": [
+        "جودي شايفر وجورج كرتسيس"
+      ],
+      "cast": [
+        "إيري سارافولان",
+        "براون ميتشل"
+      ]
+    },
+    "cartoon-series/Monsters At Work    [ENGLISH].jpg": {
+      "title": "Monsters At Work    [ENGLISH]",
+      "canonicalTitle": "Monsters at Work",
+      "type": "series",
+      "releaseDate": "2021-07-07",
+      "genres": [
+        "كوميديا",
+        "فانتازيا"
+      ],
+      "networks": [
+        "Disney Channel"
+      ],
+      "studio": "Disney Channel",
+      "duration": "28 دقيقة للحلقة",
+      "summaryAr": "بتدور أحداث فيلم Monsters at Work بعد ستة أشهر من الفيلم الأصلي، وفيه تحصد محطة الطاقة الموجودة في مركزها دلوقتي ضحكات الأطفال لتغذية مدينة مونستروبوليس. تتبع السلسلة Tylor Tuskmon، وهو ميكانيكي متحمس وموهوب في فريق مرافق Monsters, Inc. اللي يحلم بالعمل في Laugh Floor جنبًا إلى جنب مع Mike وSulley.",
+      "summaryEn": "Monsters at Work picks up six months after the original movie with the power plant at its center now harvesting the laughter of children to fuel the city of Monstropolis. The series follows Tylor Tuskmon, an eager and talented mechanic on the Monsters, Inc. Facilities Team who dreams of working on the Laugh Floor alongside Mike and Sulley.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.disneyplus.com/en-gb/series/monsters-at-work/6ci9sdc0MA6a"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/41698/monsters-at-work"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 41698,
+      "extra": {
+        "note": "انتهى • 28 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "ستيف أندرسون وروب جيبس",
+      "directors": [
+        "ستيف أندرسون وروب جيبس"
+      ],
+      "cast": [
+        "إيلي ميتشل",
+        "ميتش روبنز"
+      ]
+    },
+    "cartoon-series/Mr.Bean - مستر بين.jpg": {
+      "title": "Mr.Bean - مستر بين",
+      "canonicalTitle": "مستر بين",
+      "type": "series",
+      "directors": [
+        "ديفيد فريد"
+      ],
+      "releaseDate": "2002",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "روان أتكينسون"
+      ],
+      "genres": null,
+      "summaryAr": "مستر بين (الإنجليزية: مستر بين) هو مسلسل كوميدي بريطاني من تأليف روان أتكينسون وريتشارد كورتيس، ومن بطولات أتكينسون الرئيسية في الدور. يتكون المسلسل من 15 حلقة.",
+      "summaryEn": "مستر بين (الإنجليزية: Mr. Bean) هو مسلسل كوميدي بريطاني من تأليف روان أتكينسون وريتشارد كورتيس، ومن بطولَة أتكينسون في الدور الرئيسي. يتكوّن المسلسل من 15 حَلقة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B3%D8%AA%D8%B1%20%D8%A8%D9%8A%D9%86"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "wikiTitle": "مستر بين",
+      "director": "ديفيد فريد",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/Primal.jpg": {
+      "title": "Primal",
+      "canonicalTitle": "Primal",
+      "type": "series",
+      "releaseDate": "2019-10-07",
+      "genres": [
+        "أكشن",
+        "مغامرة",
+        "إثارة"
+      ],
+      "networks": [
+        "Adult Swim"
+      ],
+      "studio": "Adult Swim",
+      "duration": "30 دقيقة للحلقة",
+      "summaryAr": "بتدور أحداث فيلم Primal حول الصداقة غير المتوقعة بين ديناصور على شفا انقراض جنسه، ورجل الكهف في فجر تطور جنسه، اللذين أصبحا الأمل الوحيد لبعضهما البعض للبقاء على قيد الحياة في بيئة بدائية.",
+      "summaryEn": "Primal is about the unlikely friendship between a dinosaur on the brink his species' extinction, and a caveman at the dawn of his species' evolution, who become each other's only hope for survival in a primitive landscape.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.adultswim.com/videos/primal"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/42184/primal"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 42184,
+      "extra": {
+        "note": "يعرض حالياً • 30 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "جيندي تارتاكوفسكي",
+      "directors": [
+        "جيندي تارتاكوفسكي"
+      ],
+      "cast": [
+        "آرون لابوري",
+        "وفانغ"
+      ]
+    },
+    "cartoon-series/shaun the sheep.jpg": {
+      "title": "shaun the sheep",
+      "canonicalTitle": "Shaun the Sheep",
+      "type": "series",
+      "releaseDate": "2007-03-05",
+      "genres": [
+        "كوميديا"
+      ],
+      "networks": [
+        "BBC iPlayer"
+      ],
+      "studio": null,
+      "duration": "8 دقيقة للحلقة",
+      "summaryAr": "أحد أفضل الشخصيات المحبوبة لدى Aardman Animations يلعب دور البطولة في سلسلته الخاصة. يقع قطيع شون في مزرعة ريفية نائية، ويعيش حياة سلمية تحت أعين كلب الراعي بيتزر",
+      "summaryEn": "One of Aardman Animations' best-loved characters stars in his own series. Set on a remote rural farm, Shaun's flock live a peaceful life under the watchful eye of their sheepdog Bitzer",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://www.bbc.co.uk/cbbc/shows/shaun-the-sheep"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/704/shaun-the-sheep"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 704,
+      "extra": {
+        "note": "8 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "Richard Starzak",
+      "creators": "نيك بارك",
+      "cast": [
+        "جاستن فليتشر",
+        "جون سباركس",
+        "ريتش ويبر"
+      ]
+    },
+    "cartoon-series/SHE-RA Tha Princesses OF Power.jpg": {
+      "title": "SHE-RA Tha Princesses OF Power",
+      "canonicalTitle": "She-Ra and the Princesses of Power",
+      "type": "series",
+      "releaseDate": "2018-11-13",
+      "genres": [
+        "مغامرة",
+        "فانتازيا"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "studio": null,
+      "duration": "26 دقيقة للحلقة",
+      "summaryAr": "She-Ra وأميرات القوة هي قصة يتيمة تدعى Adora، اللي تركت وراءها حياتها السابقة في الحشد الشرير عندما تكتشف سيفًا سحريًا يحولها إلى الأميرة المحاربة الأسطورية She-Ra. على طول الطريق، تجد عائلة جديدة في التمرد وفيه توحد مجموعة من الأميرات السحريات في المعركة النهائية ضد الشر.",
+      "summaryEn": "She-Ra and the Princesses of Power is the story of an orphan named Adora, who leaves behind her former life in the evil Horde when she discovers a magic sword that transforms her into the mythical warrior princess She-Ra. Along the way, she finds a new family in the Rebellion as she unites a group of magical princesses in the ultimate fight against evil.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/80179762"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/37089/she-ra-and-the-princesses-of-power"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 37089,
+      "extra": {
+        "note": "انتهى • 26 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "نويل ستيفنسون",
+      "directors": [
+        "نويل ستيفنسون"
+      ],
+      "cast": [
+        "إيمي كاريرو",
+        "مارين إيرل",
+        "إيه جي ميشالكا"
+      ]
+    },
+    "cartoon-series/SpongeBob. SquarePants.jpg": {
+      "title": "SpongeBob. SquarePants",
+      "canonicalTitle": "SpongeBob SquarePants",
+      "type": "series",
+      "releaseDate": "1999-05-01",
+      "genres": [
+        "كوميديا",
+        "مغامرة",
+        "فانتازيا"
+      ],
+      "networks": [
+        "Nickelodeon"
+      ],
+      "studio": "Nickelodeon",
+      "duration": "14 دقيقة للحلقة",
+      "summaryAr": "تعال وتابع مغامرات الإسفنج الأكثر شهرة في العالم وصديقه نجم البحر! على الرغم من أن لديهما حسن النية، إلا أن سبونج بوب وباتريك يتسببان دائمًا في المشاكل... والكثير من الضحك! عندما لا يكون في Krusty Krab يشوي بعض فطائر Krabby الأسطورية، يمكن العثور على SpongeBob وهو يصطاد قناديل البحر مع باتريك، أو ينفخ الفقاعات، أو يزعج جاره المفضل، Squidward!",
+      "summaryEn": "Come follow the adventures of the world's most lovable sponge and his starfish sidekick! Though they have the best intentions, SpongeBob and Patrick are always causing trouble… and plenty of laughs! When he's not at the Krusty Krab grilling up some epic Krabby Patties, SpongeBob can be found jellyfishing with Patrick, blowing bubbles, or annoying his favorite neighbor, Squidward!",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://www.nick.com/spongebob-squarepants/"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/713/spongebob-squarepants"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 713,
+      "extra": {
+        "note": "يعرض حالياً • 14 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "creators": "ستيفن هيلنبرغ",
+      "director": "ستيفن هيلنبرغ",
+      "directors": [
+        "ستيفن هيلنبرغ"
+      ],
+      "cast": [
+        "توم كيني",
+        "وودوك",
+        "مونكيا بيمبي"
+      ]
+    },
+    "cartoon-series/Sym Bionic Titan.jpg": {
+      "title": "Sym Bionic Titan",
+      "canonicalTitle": "Sym-Bionic Titan",
+      "type": "series",
+      "releaseDate": "2010-09-17",
+      "genres": [
+        "أكشن",
+        "خيال علمي"
+      ],
+      "networks": [
+        "Cartoon Network"
+      ],
+      "studio": "Cartoon Network",
+      "duration": "30 دقيقة للحلقة",
+      "summaryAr": "يتابع Sym-Bionic Titan حياة إيلانا ولانس وأوكتوس، وهم ثلاثة مراهقين فضائيين هبطوا على الأرض أثناء محاولتهم الهروب من جنرال شرير استولى على كوكبهم الأصلي، جالالونا. إيلانا، أميرة جالالونا، ولانس، الجندي المتمرد بس القادر، وأوكتوس، الروبوت الآلي الحيوي، يجب عليهم دلوقتي الاندماج في الحياة اليومية في شيرمان، إلينوي. يعمل لانس وأوكتوس، متنكرين كطلاب في المدرسة الثانوية، على إخفاء الأميرة إيلانا من الجنرال مودولا ومتحوليه الفضائيين البشعين اللي تم إرسالهم لإيذاء الوريث الملكي الوحيد لغالالونا.",
+      "summaryEn": "Sym-Bionic Titan follows the lives of Ilana, Lance and Octus, three alien teens that crash-land on Earth while attempting to escape an evil General who has taken over their home planet, Galaluna. Ilana, princess of Galaluna, Lance, a rebellious but capable soldier, and Octus, a bio-cybernetic robot, must now blend into everyday life in Sherman, Illinois. Posing as high school students, Lance and Octus work to conceal Princess Ilana from General Modula and his hideous space mutants sent to harm the sole royal heir of Galaluna.",
+      "links": [
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/1954/sym-bionic-titan"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 1954,
+      "extra": {
+        "note": "انتهى • 30 دقيقة للحلقة",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "جيندي تارتاكوفسكي",
+      "creators": "جيندي تارتاكوفسكي, Paul Rudish",
+      "cast": [
+        "كيفن ثومز",
+        "تارا سترونغ",
+        "برايان بوزين",
+        "جون ديماجيو"
+      ]
+    },
+    "cartoon-series/the boss baby.jpg": {
+      "title": "the boss baby",
+      "canonicalTitle": "The Boss Baby: Back in Business",
+      "type": "series",
+      "releaseDate": "2018-04-06",
+      "genres": [
+        "كوميديا",
+        "مغامرة",
+        "عائلي"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "studio": null,
+      "duration": "24 دقيقة للحلقة",
+      "summaryAr": "يقوم \"الطفل الزعيم\" بإحضار شقيقه الأكبر \"تيم\" إلى المكتب ليعلمه فن إدارة الأعمال في مسلسل الرسوم المتحركة هذا المقتبس من الفيلم الناجح.",
+      "summaryEn": "The Boss Baby brings his big brother Tim to the office to teach him the art of business in this animated series sprung from the hit film.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/80178943"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/35181/the-boss-baby-back-in-business"
+        }
+      ],
+      "confidence": "medium",
+      "source": "tvmaze",
+      "tvmazeId": 35181,
+      "extra": {
+        "note": "انتهى • 24 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي",
+        "reviewNote": "فيلم سينمائي لا مسلسل تلفزيوني"
+      },
+      "director": "توم ماكغراث",
+      "directors": [
+        "توم ماكغراث"
+      ],
+      "cast": [
+        "أليك بالدوين",
+        "توبي ماغواير",
+        "جيمي كيميل"
+      ],
+      "needsReview": true
+    },
+    "cartoon-series/Timon & Pumbaa - تيمون وبومبا.jpg": {
+      "title": "Timon & Pumbaa - تيمون وبومبا",
+      "canonicalTitle": "تيمون وبومبا",
+      "type": "series",
+      "directors": [
+        "روب مينكوف"
+      ],
+      "releaseDate": "1995",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جيمري لايون",
+        "إروين كازالي"
+      ],
+      "genres": null,
+      "summaryAr": "تيمون وبومبا (بالإنجليزية: Timon & Pumbaa) هو مسلسل كرتون من إنتاج ديزني مقتبس من فيلم الاسد، وقد دبلج العام إلى الله تعالى المصرية بإدراجه في اللغة العربية البديل.",
+      "summaryEn": "تيمون وبومبا (الإنجليزية: Timon & Pumbaa) هو مسلسل كرتون من إنتاج ديزني مقتبس من الفيلم الأسد الملك، وقد دبلج إلى اللهجة المصرية العامية بإلاضافة إلى اللغة العربية الفصحى.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%AA%D9%8A%D9%85%D9%88%D9%86%20%D9%88%D8%A8%D9%88%D9%85%D8%A8%D8%A7%20(%D9%85%D8%B3%D9%84%D8%B3%D9%84%20%D9%83%D8%B1%D8%AA%D9%88%D9%86%D9%8A)"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "wikiTitle": "تيمون وبومبا (مسلسل كرتوني)",
+      "director": "روب مينكوف",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/Tom &  Jerry [1080p]_1.jpg": {
+      "title": "Tom &  Jerry [1080p]_1",
+      "canonicalTitle": "Tom and Jerry",
+      "type": "series",
+      "releaseDate": "2023-08-07",
+      "genres": [
+        "كوميديا"
+      ],
+      "networks": [
+        "Cartoon Network"
+      ],
+      "studio": "Cartoon Network",
+      "duration": "4 دقيقة للحلقة",
+      "summaryAr": "سلسلة توم وجيري جديدة كليًا تم إنتاجها في آسيا: رحلة إلى قلب سنغافورة مع توم وجيري أثناء نسجهما عبر متاهة العقارات الشاهقة وناطحات السحاب والاستمتاع باللون الأخضر النابض بالحياة في الغابة الحضرية.",
+      "summaryEn": "An all-new Tom and Jerry series produced in Asia: Journey into the heart of Singapore with Tom and Jerry as they weave through the labyrinth of towering estates and skyscrapers and bask in the vibrant green of the urban jungle.",
+      "links": [
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/72278/tom-and-jerry"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 72278,
+      "extra": {
+        "note": "انتهى • 4 دقيقة للحلقة",
+        "factsSource": "Wikidata"
+      },
+      "director": "ويليام هانا",
+      "cast": [
+        "Mari Umeki"
+      ]
+    },
+    "cartoon-series/Transformers. Prime.jpg": {
+      "title": "Transformers. Prime",
+      "canonicalTitle": "Transformers: Prime",
+      "type": "series",
+      "releaseDate": "2010-11-26",
+      "genres": [
+        "أكشن",
+        "مغامرة"
+      ],
+      "networks": [
+        "Discovery Family"
+      ],
+      "studio": "Discovery Family",
+      "duration": "30 دقيقة للحلقة",
+      "summaryAr": "تم تعيينه في الإطار الزمني بعد الروايات وألعاب الفيديو اللي سبقت المسلسل التلفزيوني (المعروف أيضًا باسم الاستمرارية المحايدة)، بدأ Prime بسلسلة صغيرة من خمسة أجزاء بعنوان \"Darkness Rising\"، واللي عملت على تقديم الشخصيات الرئيسية وتقديم قصة خلفية عن المحولات وحربهم.",
+      "summaryEn": "Set in the timeframe after the novels and video games preceding the television series (also known as the Aligned Continuity), Prime began with a five-part mini-series titled \"Darkness Rising\", which served to introduce the main characters and provide a back story on the Transformers and their war.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "http://www.tv-aichi.co.jp/TF-prime/index.html"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/5823/transformers-prime"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze+wikidata",
+      "tvmazeId": 5823,
+      "extra": {
+        "note": "انتهى • 30 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "cast": [
+        "برايان تايلر"
+      ],
+      "creators": "روبرتو أورسي",
+      "director": "ديفيد هارتمان",
+      "directors": [
+        "ديفيد هارتمان"
+      ]
+    },
+    "cartoon-series/Wizards Tales of Arcadia.jpg": {
+      "title": "Wizards Tales of Arcadia",
+      "canonicalTitle": "Wizards: Tales of Arcadia",
+      "type": "series",
+      "releaseDate": "2020-08-07",
+      "genres": [
+        "أكشن",
+        "مغامرة",
+        "فانتازيا"
+      ],
+      "networks": [
+        "Netflix"
+      ],
+      "studio": null,
+      "duration": "24 دقيقة للحلقة",
+      "summaryAr": "ينضم تلميذ \"ميرلين\" إلى أبطال \"أركاديا\" في مغامرة تدور حول الزمن في \"كاميلوت\"، وفيه يختمر الصراع بين عوالم البشر والقزم والسحر.",
+      "summaryEn": "Merlin's apprentice joins Arcadia's heroes on a time-bending adventure in Camelot, where conflict is brewing between the human, troll and magical worlds.",
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.netflix.com/title/80218108"
+        },
+        {
+          "label": "TVMaze",
+          "url": "https://www.tvmaze.com/shows/34339/wizards-tales-of-arcadia"
+        }
+      ],
+      "confidence": "high",
+      "source": "tvmaze",
+      "tvmazeId": 34339,
+      "extra": {
+        "note": "انتهى • 24 دقيقة للحلقة • موقع رسمي متاح",
+        "factsSource": "بحث يدوي"
+      },
+      "director": "جييرمو ديل تورو / رودريغو بلاز",
+      "directors": [
+        "جييرمو ديل تورو / رودريغو بلاز"
+      ],
+      "cast": [
+        "ليكس لانس",
+        "كولين أودونوغيو"
+      ]
+    },
+    "cartoon-series/أتوميك بيتي.jpg": {
+      "title": "أتوميك بيتي",
+      "canonicalTitle": "أتوميك بيتي",
+      "type": "series",
+      "directors": [
+        "فريد جيمان وروب ديفيس"
+      ],
+      "releaseDate": "2004",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "Tajja Isen"
+      ],
+      "genres": [
+        "مسلسلات الأطفال التلفزية",
+        "science fiction television series",
+        "فانتازيا",
+        "مسلسل كوميدي",
+        "superhero television series"
+      ],
+      "summaryAr": "أتوميك بيتي (الإنجليزية: Atomic Betty) هو مسلسل رسوم متحركة كندي فرنسي من إنتاج شركة أتوميك للكرتون وكلمة المرور للترفيه فندق تون الأطفال. تم عرض المسلسل أول مره على قناة إم 6 الفرنسية في 29 أغسطس 2004، حتى 29 يناير 2008. أكمل دبلجة المسلسل للعربية وتم عرضه على قناة إم بي سي 3.",
+      "summaryEn": "أتوميك بيتي (الإنجليزية: Atomic Betty) هو مسلسل رسوم متحركة كندي فرنسي من إنتاج شركة أتوميك للكرتون واختراق للترفيه وتيل تون الأطفال. تم عرض المسلسل أول مره على قناة إم 6 الفرنسية في 29 أغسطس 2004 واستمر عرضة حتى 29 يناير 2008. تمت دبلجة المسلسل للعربية وتم عرضه على قناة إم بي سي 3.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A3%D8%AA%D9%88%D9%85%D9%8A%D9%83%20%D8%A8%D9%8A%D8%AA%D9%8A"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "أتوميك بيتي",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "فريد جيمان وروب ديفيس"
+    },
+    "cartoon-series/اد ادد وادي.jpg": {
+      "title": "اد ادد وادي",
+      "canonicalTitle": "إد، إدد وإدي",
+      "type": "series",
+      "directors": [
+        "داني أنتونوتشي"
+      ],
+      "releaseDate": "1999",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "مات ويلبر"
+      ],
+      "genres": null,
+      "summaryAr": "حميد الشاعري إد، إدد وإدي (الإنجليزية: Ed, رسومي Edd n Eddy) هو مسلسلٍ متحرّكةٍ كوميدي كندي-امريكي من تأليف داني أنتونوتشي تم عرضه على قناة كرتون نتورك عام 1999 لستة مواسم مدة الحلقة 22 دقيقة تقريبا. كما حصل على فيلم سنة 2009 (عرض المسلسل مدبلج للغة العربية غلا قناة كرتون نتورك بالعربية وإم بي سي ثري).",
+      "summaryEn": "حميد الشاعري إد، إدد وإدي (الإنجليزية: Ed, Edd n Eddy) هو مسلسل رسومٍ متحرّكةٍ كوميدي كندي-امريكي من تأليف داني أنتونوتشي تم عرضه على قناة كرتون نتورك عام 1999 واستمر لمدة ست مواسم مدة الحلقة 22 دقيقة تقريبا. كما حصل على فيلم سنة 2009 (عرض المسلسل مدبلج للغة العربية غلى قناة كرتون نتورك بالعربية وإم بي سي ثري).",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A5%D8%AF%D8%8C%20%D8%A5%D8%AF%D8%AF%20%D9%88%D8%A5%D8%AF%D9%8A"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "إد، إدد وإدي",
+      "director": "داني أنتونوتشي",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/الأمير التنين.jpg": {
+      "title": "الأمير التنين",
+      "canonicalTitle": "الأمير التنين",
+      "type": "series",
+      "directors": null,
+      "releaseDate": "2018",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جاك دي سينا",
+        "بولا بيروز",
+        "ساشا روجين",
+        "جيسون سيمبسون"
+      ],
+      "genres": [
+        "فنتازيا عليا",
+        "مسلسل مغامرات",
+        "مسلسل أكشن",
+        "مسلسل كوميدي",
+        "فانتازيا"
+      ],
+      "summaryAr": "الأطفال هو مسلسل رسوم متحركة خيالي على Netflix وصنعه آرون هساذ و جستن ريتشموند وأنتجته شركة وندرستور لأول مرة في 14 سبتمبر 2018.",
+      "summaryEn": "الأمير التنين هو مسلسل رسوم متحركة خيالي على نيتفليكس و صنعه ه آرون هساذ و جستن ريتشموند وأنتجته شركة وندرستور عرض لأول مرة في 14 سبتمبر عام 2018.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AA%D9%86%D9%8A%D9%86"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "الأمير التنين",
+      "director": "Giancarlo Volpe",
+      "creators": "Aaron Ehasz",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/الابوان السحريان.jpg": {
+      "title": "الابوان السحريان",
+      "canonicalTitle": "الوالدان السحريان",
+      "type": "series",
+      "directors": null,
+      "releaseDate": "2001",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "تارا سترونغ",
+        "داران نوريس",
+        "سوزان بلاكسلي",
+        "كارلوس ألازراكي"
+      ],
+      "genres": [
+        "مسلسلات الأطفال التلفزية"
+      ],
+      "summaryAr": "الوالدان سحريان (بالإنجليزية: The Fairly Odd Parents) مسلسل رسوم متحركة من تآليف بوتش هارتمان، ومن إنتاج نكلوديون. عرض المسلسل في العالم العربي على قناة ديزني الشرق الأوسط. دُبلج إلى العربية وتحديداً باللهجة المصرية العامة بواسطة شركة Pro Production، كما دبلجت بعض الحلقات للغة العربية مهرجانى من قبل الاستوديو اللبناني فيلملي يقرأ على قناة إم بي سي 3و نكلودين العربية.",
+      "summaryEn": "الوالدان السحريان (الإنجليزية: The Fairly Odd Parents) مسلسل رسوم متحركة من تآليف بوتش هارتمان، ومن إنتاج نكلوديون. عرض المسلسل في العالم العربي على قناة ديزني الشرق الأوسط. دُبلج إلى العربية وتحديداً باللهجة المصرية العامية بواسطة شركة Pro Production، كما دبلجت بعض الحلقات للغة العربية الفصحى من قبل الستوديو اللبناني فيلملي وعرض على قناة إم بي سي 3و نكلودين العربية.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%88%D8%A7%D9%84%D8%AF%D8%A7%D9%86%20%D8%A7%D9%84%D8%B3%D8%AD%D8%B1%D9%8A%D8%A7%D9%86"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "الوالدان السحريان",
+      "director": "بوتش هارتمان",
+      "creators": "بوتش هارتمان",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/التنين الازرق.jpg": {
+      "title": "التنين الازرق",
+      "canonicalTitle": "التنين الأزرق",
+      "type": "series",
+      "directors": null,
+      "releaseDate": "2007",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "كيكو نيموتو",
+        "يوريكو ياماغوتو",
+        "ماساكازو موريتا"
+      ],
+      "genres": [
+        "أنمي ومانغا مغامرات",
+        "أنمي ومانغا خيال",
+        "أنمي ومانغا كوميدية"
+      ],
+      "summaryAr": "مسلسل موسيقي ياباني أنمي عرض لأول مرة في 7 أبريل عام 2007، وعرضه حتى 27 مارس عام 2008. تمت دبلجة للقراءة القراءة على قناة ام بي سي 3.",
+      "summaryEn": "التنين الأزرق مسلسل أنمي ياباني عرض لأول مره في 7 أبريل عام 2007 واستمر عرضه حتى 27 مارس عام 2008. تمت دبلجة المسلسل للعربية وعرض على قناة ام بي سي 3.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AA%D9%86%D9%8A%D9%86%20%D8%A7%D9%84%D8%A3%D8%B2%D8%B1%D9%82"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "التنين الأزرق",
+      "director": "Yukihiro Matsushita",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/الجاسوسات.jpg": {
+      "title": "الجاسوسات",
+      "canonicalTitle": "الجاسوسات",
+      "type": "series",
+      "directors": [
+        "جيف سايكس"
+      ],
+      "releaseDate": "2001",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "دانيال شتودت",
+        "كولن بروكس"
+      ],
+      "genres": [
+        "مسلسل كوميدي",
+        "مسلسلات الأطفال التلفزية",
+        "مسلسل مغامرات"
+      ],
+      "summaryAr": "الجاسوسات (الإنجليزية: Totally Spies!) هو مسلسل رسوم متحركة تم إنتاجه بواسطة شركة الرسوم المتحركة الفرنسية زودياك كيدز في عام 2001 وبالتعاون مع شركة إيمج إنترتينمنت، اللي بدأت في إنتاج المواسم من 3 إلى 5، وأنتجت الجزء السادس، في عام 2013. والسابع في عام 2024، تم إنتاج فلم بث في فرنسا في 22 يوليو 2009.",
+      "summaryEn": "الجاسوسات (الإنجليزية: Totally Spies!) هو مسلسل رسوم متحركة أنتجته شركة الكرتون الفرنسية زودياك كيدز في عام 2001 وبالتعاون مع شركة إيمج إنترتينمنت، التي شاركت في انتاج المواسم من 3 إلى 5، وأُنتج الجزء السادس، في عام 2013. و السابع في 2024، تم إنتاج فلم في فرنسا بث في 22 يوليو 2009.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AC%D8%A7%D8%B3%D9%88%D8%B3%D8%A7%D8%AA"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "الجاسوسات",
+      "creators": "فينسنت شالفون ديميرساي, دايفيد ميشيل",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "جيف سايكس"
+    },
+    "cartoon-series/الطيور الغاضبه.jpg": {
+      "title": "الطيور الغاضبه",
+      "canonicalTitle": "الطيور الغاضبة",
+      "type": "series",
+      "directors": [
+        "نيك ايرفينغ"
+      ],
+      "releaseDate": "2013",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "أنتي هاكيما"
+      ],
+      "genres": null,
+      "summaryAr": "الطيور الغاضبة (أو الطيور الغاضبة تونز) (الإنجليزية: Angry Birds Toons) هو مسلسل رسوم متحركة فنلندي مشهور، تم إنتاجه استنادًا إلى سلسلة ألعاب الفيديو الناجحة \"الطيور الغاضبة\" (Angry Birds) اللي تعمل بها شركة روفيو إنترتينمنت. حظي المسلسل الكوميدي الشهير جارفة بالعديد من الكوميديا ​​​​الصغيرة والمسلي اللي تناسب جميع اللاعبين.",
+      "summaryEn": "الطيور الغاضبة (أو الطيور الغاضبة تونز) (الإنجليزية: Angry Birds Toons) هو مسلسل رسوم متحركة فنلندي شهير، تم إنتاجه استناداً إلى سلسلة ألعاب الفيديو الناجحة \"الطيور الغاضبة\" (Angry Birds) التي طورتها شركة روفيو إنترتينمنت. حظي المسلسل بشعبية جارفة عالمياً وعربياً بفضل أسلوبه الكوميدي البسيط والمسلي الذي يناسب جميع الأعمار.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B7%D9%8A%D9%88%D8%B1%20%D8%A7%D9%84%D8%BA%D8%A7%D8%B6%D8%A8%D8%A9%20(%D9%85%D8%B3%D9%84%D8%B3%D9%84)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "الطيور الغاضبة (مسلسل)",
+      "director": "نيك ايرفينغ",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/العم جدو.jpg": {
+      "title": "العم جدو",
+      "canonicalTitle": "العم جدو",
+      "type": "series",
+      "directors": null,
+      "releaseDate": "2013",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "بيتر براونجاردت",
+        "إريك باوزا",
+        "آدم ديفاين",
+        "كيفن مايكل ريتشاردسون"
+      ],
+      "genres": [
+        "surrealist humor television series",
+        "كوميديا تهريجية",
+        "مسلسل مغامرات",
+        "مسلسل كوميدي",
+        "فانتازيا"
+      ],
+      "summaryAr": "العم جدو (بالإنجليزية: Uncle Grandpa) مسلسل رسوم متحركة أمريكي من تأليف بيتر براون غاردت وإنتاج استوديوهات كرتون نتورك. بث على قناة كرتون نتورك لأول مرة في 3 سبتمبر 2013 يقرأ على قناة كرتون نتورك باللغة العربية في 6 يوليو 2014.",
+      "summaryEn": "العم جدو (الإنجليزية: Uncle Grandpa) مسلسل رسوم متحركة أمريكي من تأليف بيتر براونغاردت وإنتاج استوديوهات كرتون نتورك. بث على قناة كرتون نتورك لأول مرة في 3 سبتمبر 2013 وعرض على كرتون نتورك بالعربية في 6 يوليو 2014.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B9%D9%85%20%D8%AC%D8%AF%D9%88"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "العم جدو",
+      "director": "بيتر براونغارت",
+      "creators": "بيتر براونغارت",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/الفتى الآلي.jpg": {
+      "title": "الفتى الآلي",
+      "canonicalTitle": "الفتى الآلي",
+      "type": "series",
+      "directors": null,
+      "releaseDate": "2003",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "شارلوت فرانسيس",
+        "روبرت ديغاس",
+        "لورنس بوفارد"
+      ],
+      "genres": [
+        "science fiction television series",
+        "مسلسل كوميدي",
+        "كوميديا درامية"
+      ],
+      "summaryAr": "الفتى العاطفي (الإنجليزية: Robotboy) رسوم متحركة رسومية فرنسية وبريطانية من إنتاج شركة فرنسية وكرتون نتورك مسلسل عن الإنسان العربي اللي يحلم بأن يكون ولدًا حقيقيًا بقدر ويمتلك القدرة على التطور والتفاعل؛ ويمكن أن بطلا في صورة سلاح فتاك قادر على الأسلحة النووية.",
+      "summaryEn": "الفتى الآلي (الإنجليزية: Robotboy) مسلسل رسوم متحركة فرنسي وبريطاني من إنتاج شركة فرنسية وكرتون نتورك المسلسل عبارة عن الإنسان الآلي الذي يحلم بأن يكون ولدًا حقيقيًّا ويمتلك القدرة على التطور والتفاعل؛ ليصبح بطلا في صورة سلاح فتّاك قادر على تدمير جيش بأكمله.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%81%D8%AA%D9%89%20%D8%A7%D9%84%D8%A2%D9%84%D9%8A"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "الفتى الآلي",
+      "director": "بوب كامب",
+      "creators": "Jan Van Rijsselberge",
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "الفتى الآلي والمراهقة الآلية قد يكونان العمل نفسه في مجلدين"
+      },
+      "needsReview": true
+    },
+    "cartoon-series/الفتيات الخارقات.jpg": {
+      "title": "الفتيات الخارقات",
+      "canonicalTitle": "الفتيات الخارقات",
+      "type": "series",
+      "directors": [
+        "مروان خليل"
+      ],
+      "releaseDate": "2009",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ماريا ميلر",
+        "ماركيت هاديك"
+      ],
+      "genres": [
+        "فتاة ساحرة"
+      ],
+      "summaryAr": "اليابانية (W.I.T.C.H.) مسلسل رياضي تلفزيوني مقتبس عن القصص المصورة فتيات. سلسلة المسلسل التلفزيوني تروي قصة خمسة فتيات أويات: ويل فاندوم الكرة الأرضية مع قوة البرق وتحمل قلب كاندراكار (ويل)، وإيرما ليا بيانة الماء (إيرما)، وتاراني كوك وحارسة النار (تاراني)، وكورنليا هيل (كورنيليا) لاعبة الأورجو وهي مغرورة وشقراء جميلة ذات قلب حنون وتحب كاليب، وهاي لين (هاي لين) لاعبة الهواء، كاليب مؤقت في مريديان ويحب كورنيليا، الأمير فوبس أمير ظالم وشرير يحب التعذيب والمار للخارقات لكنه سجنه، بس يهرب في الجزء الثاني بمساعدة الشريرة ميريسا اللي هناك للانتقام من الكل؛ لأنهم اخذوا منها قلب كاندراكار وسجنوها فقد تمكنوا من الجارديان القديمة بس فضلت الحرب على أحد المحاربين القدامى…",
+      "summaryEn": "الفتيات الخارقات (W.I.T.C.H.‎) مسلسل رسوم متحركة تلفزيونية مقتبس عن القصص المصورة الإيطالية فتيات. السلسلة التلفزيونية تروي قصة خمسة فتيات عاديات: ويل فاندوم حارسة الأرض ولديها قوة البرق وتحمل قلب كاندراكار (Will)، وإيرما ليا حارسة الماء (Irma)، وتاراني كوك وحارسة النار (Taranee)، وكورنليا هيل (Cornelia) حارسة التراب وهي مغرورة وشقراء جميلة ذات قلب حنون وتحب كاليب، وهاي لين (Hay Lin) حارسة الهواء، كاليب قائد المتمردين في مريديان ويحب كورنيليا، الأمير فوبس أمير ظالم وشرير يحب التعذيب والدمار للخارقات لكن سيتم سجنه، ولكن يهرب في الجزء 2 بمساعدة الشريرة ميريسا التي تسعى للانتقام من الكل؛ لأنهم أخذوا منها قلب كاندراكار وسجنوها فقد كانت من الحارسات القديمات لكنها فضلت الشر وقتلت إحدى الحارسات الت…",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%81%D8%AA%D9%8A%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D9%82%D8%A7%D8%AA"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "الفتيات الخارقات",
+      "creators": "Elisabetta Gnone, Barbara Canepa, Alessandro Barbucci",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "مروان خليل"
+    },
+    "cartoon-series/المراهقة الالية.jpg": {
+      "title": "المراهقة الالية",
+      "canonicalTitle": "المراهقة الآلية",
+      "type": "series",
+      "directors": null,
+      "releaseDate": "2003",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جانيس كوايي",
+        "كاندي ميلو",
+        "أودري واسيليفسكي"
+      ],
+      "genres": [
+        "science fiction television series",
+        "فانتازيا",
+        "مسلسل كوميدي"
+      ],
+      "summaryAr": "مبادرة (My Life as a Teenage Robot ماي لايف أز أ تينيج روبوتية) مسلسل كرتون من أمريكي أصلي عرض على نكولديون ومدبلج للعربية، بتدور أحداث الفيلم حول مغامرات جيني، وهي فتاة مراهقة تمتلك مهارات خارقة وتمتلك قلباً دقيقاً، وتحاول حماية كوكبها من الكوارث.",
+      "summaryEn": "المراهقة الآلية (My Life as a Teenage Robot ماي لايف أز أ تينيج روبوت) مسلسل كرتون من أصل أمريكي عرض على نكولديون ومدبلج للعربية، يدور المسلسل حول مغامرات جيني، وهي فتاة مراهقة آلية تملك قدرات خارقة وتمتلك قلباً رقيقاً، وتحاول حماية كوكبها من الكوارث.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D9%87%D9%82%D8%A9%20%D8%A7%D9%84%D8%A2%D9%84%D9%8A%D8%A9"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "المراهقة الآلية",
+      "director": "Rob Renzetti",
+      "creators": "Rob Renzetti",
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "الفتى الآلي والمراهقة الآلية قد يكونان العمل نفسه في مجلدين"
+      },
+      "needsReview": true
+    },
+    "cartoon-series/المقاتل النبيل.jpg": {
+      "title": "المقاتل النبيل",
+      "canonicalTitle": "المقاتل النبيل",
+      "type": "series",
+      "directors": [
+        "هيدياكي أوبا"
+      ],
+      "releaseDate": "1995",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "شيني ميكي"
+      ],
+      "genres": [
+        "أنمي ومانغا مغامرات"
+      ],
+      "summaryAr": "فرتوا فايتر (اليابانية: バ ー チ ャ フ ァ イ タ ー، رومانة: Bācha Faitā) (الإنجليزية: Virtua fighter) وفي الدبل العربية اسمه المقاتل النبيل هو مسلسل أنمي مكون من 35 حلقة مُستوحى من لعبة قتالية تحمل نفس الاسم فيرتشاوا فايتر،.",
+      "summaryEn": "فرتوا فايتر (اليابانية: バーチャファイター، رومنة: Bācha Faitā) (الإنجليزية: Virtua fighter) وفي الدبلجة العربية اسمه المقاتل النبيل هو مسلسل أنيمي مكون من 35 حلقة مُستوحى من اللعبة القتالية التي تحمل نفس الاسم فيرتشوا فايتر،.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%AA%D9%84%20%D8%A7%D9%84%D9%86%D8%A8%D9%8A%D9%84"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "المقاتل النبيل",
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "العنوان في المجلد غير واضح — وصفُ العمل يشير إلى سلسلة Virtua Fighter"
+      },
+      "director": "هيدياكي أوبا",
+      "needsReview": true
+    },
+    "cartoon-series/بسبس بوبي.jpg": {
+      "title": "بسبس بوبي",
+      "canonicalTitle": "بسبسبوبي",
+      "type": "series",
+      "directors": [
+        "طارق الميرغني"
+      ],
+      "releaseDate": "1998",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جيم كومنجز",
+        "توم كيني",
+        "كارلوس ألازراكي",
+        "بيلي ويست"
+      ],
+      "genres": null,
+      "summaryAr": "بسسبوبي (بالإنجليزية: CatDog) هو مسلسل رسوم متحركة أمريكي من تأليف بيتر هانان لشبكة نيكلوديون. يتتبع المسلسل المغامرات إخوة الاتصالين بفراء مختلف، وفيه لازم تكون قطة محبوبًا. قام نيكلوديون بإنتاج مسلسل من بربانك، كاليفورنيا.",
+      "summaryEn": "بسبسبوبي (الإنجليزية: CatDog) هو مسلسل رسوم متحركة أمريكي من تأليف بيتر هانان لشبكة نيكلوديون. يتتبع المسلسل مغامرات إخوة ملتصقين بفراء برتقالي، حيث يكون أحدهما قطة والآخر كلبًا. قامت نيكلوديون بإنتاج المسلسل من بربانك، كاليفورنيا.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A8%D8%B3%D8%A8%D8%B3%D8%A8%D9%88%D8%A8%D9%8A"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "wikiTitle": "بسبسبوبي",
+      "director": "طارق الميرغني",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "مسلسل عربي — الأصوات لم تُحدد"
+      }
+    },
+    "cartoon-series/بسنت ودياسطي.jpg": {
+      "title": "بسنت ودياسطي",
+      "canonicalTitle": "بسنت ودياسطي",
+      "type": "series",
+      "directors": [
+        "سامح مصطفى"
+      ],
+      "releaseDate": "2009",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "بدور المعلم دياسطي"
+      ],
+      "genres": [
+        "كوميديا"
+      ],
+      "summaryAr": "بسنت ودياسطي هو مسلسل كرتون مصري تم إنتاجه على قناة «نايل لايف» بتقنية ثلاثية الأبعاد يتم تدويرها بإحدى العينين بالريف. مدة الحلقة من 7 إلى 12 دقيقة تقريباً وهو من بطولة (صلاح عبد الله) دور المعلم دياسطي و (حنان ترك) كوربور بسنت ودياسطي هو رجل قروي متواضع متواضعاً ويحاول أن أهله يصل إلى أبسط بكثير مما هو عليه دلوقتي عبر اهتمامه بالتكنولوجيا والتقدم التقني بجانبه يشاركه البطولة كأهل الممثلون مصريون مثل سامح حسين المجند واللي يمتلك زيارة قهوة دياسطي وكذلك الممثل سيد الرومي والممثلة انعام سالوسة تم إنتاج ثلاثة أجزاء منه حتى دلوقتي كان آخرها العام هذا 2009 باسم «بسنت ودياسطي في بورتو أبو عجوة»",
+      "summaryEn": "بسنت ودياسطي هو مسلسل كرتون مصري أنتجته قناة «نايل لايف» بنظام 3D يدور في أحد القرى بالريف. مدة الحلقة 7 إلى 12 دقيقة تقريباً وهو من بطولة (صلاح عبد الله) بدور المعلم دياسطي و (حنان ترك) بدور زوجته بسنت ودياسطي هو رجل قروي يملك محل متواضعاً ويحاول إقناع أهل القرية بأنه أهم بكثير مما هو عليه الآن عبر اهتمامه بالتكنولوجيا والتقدم التقني بجميع وجوهه يشاركه البطولة كأهل القرية ممثلون مصريون مثل سامح حسين المجند والذي اعتاد على زيارة قهوة دياسطي وكذلك الممثل سيد الرومي والممثلة انعام سالوسة تم إنتاج ثلاثة أجزاء منه حتى الآن كان آخرها هذا العام 2009 باسم «بسنت ودياسطي في بورتو أبو عجوة»",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A8%D8%B3%D9%86%D8%AA%20%D9%88%D8%AF%D9%8A%D8%A7%D8%B3%D8%B7%D9%8A"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "بسنت ودياسطي",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "سامح مصطفى"
+    },
+    "cartoon-series/بكار.jpg": {
+      "title": "بكار",
+      "canonicalTitle": "بكار",
+      "type": "series",
+      "directors": null,
+      "releaseDate": "2003",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "محمد مصطفى",
+        "سهير البدراوي"
+      ],
+      "genres": null,
+      "summaryAr": "بكار مسلسل كارتون مصري، وأول شخصية كارتونية مصرية حقيقية، أبدعتها الأبدية الراحلة منى أبو النصر وأخرجت عدة أجزاء من المسلسل ثم أكملها ابنها شريف جمال بعد وفاتها عام 2003. توقف عرض المسلسل عام 2007 وعاد في رمضان 2015 و2016 بجودة عالية بشكل ثلاثي الأبعاد فيلم ثلاثي. بكار هو طفل نوبي من جنوب مصر، يعيش مع والدته في إحدى قرى النوبة، ومع ذلك عنزته رشيدة، وفي كل حلقة من حلقات المسلسل يخوض مغامرة جديدة مع أكرانه في المدرسة، سواء داخل قريته، أو خارجها.",
+      "summaryEn": "بكار مسلسل كارتون مصري، وأول شخصية كارتونية مصرية حقيقية، أبدعتها المخرجة الراحلة منى أبو النصر وأخرجت عدة أجزاء من المسلسل ثم استكمالها ابنها شريف جمال بعد وفاتها عام 2003. توقف عرض المسلسل عام 2007 وعاد في رمضان 2015 و2016 بجودة عالية بشكل فيلم ثلاثي الأبعاد. بكار هو طفل نوبي من جنوب مصر، يعيش مع والدته في إحدى قرى النوبة، ومع عنزته رشيدة، وفي كل حلقة من حلقات المسلسل يخوض مغامرة جديدة مع أقرانه في المدرسة، سواء داخل قريته، أو خارجها.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A8%D9%83%D8%A7%D8%B1%20(%D9%85%D8%B3%D9%84%D8%B3%D9%84)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "بكار (مسلسل)",
+      "director": "منى أبو النصر",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/بن 10.jpg": {
+      "title": "بن 10",
+      "canonicalTitle": "بن 10",
+      "type": "series",
+      "directors": [
+        "مان أوف آكشن"
+      ],
+      "releaseDate": "2005",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "غريندا فيل"
+      ],
+      "genres": [
+        "مسلسلات الأطفال التلفزية",
+        "science fiction television series",
+        "مسلسل مغامرات",
+        "مسلسل أكشن",
+        "فانتازيا"
+      ],
+      "summaryAr": "بن 10 (الإنجليزية: Ben 10) مسلسل رسوم متحركة أمريكي من تأليف فريق مان أوف اكشن وإنتاج كرتون نتورك ستوديوز تم عرضه لأول مرة على قناة كرتون نتورك في 27 ديسمبر 2005 وانتهى في 18 فبراير 2008 بمجموع 04 مواسم و52 حلقة، تدور قصته عن اكتشاف جهازا بسيطا بالساعة ينقر بمعصمه يتيح له التحول إلى ثلاثة مخلوقات القنوات. إنتاج 2008 وفي مسلسل بن 10: إلين فورس وبعد ذلك بن 10: إلتميت إلين في 2010، كتب أغنية السلسلة الأولى من قبل فرق «اندي» ولها بتأديتها «موكسي». يبث حاليا جميع أجزائه.",
+      "summaryEn": "بن 10 (الإنجليزية: Ben 10) مسلسل رسوم متحركة أمريكي من تأليف فريق مان أوف اكشن وإنتاج كرتون نتورك ستوديوز تم عرضه لأول مرة على قناة كرتون نتورك في 27 ديسمبر 2005 وانتهى في 18 فبراير 2008 بمجموع 04 مواسم و52 حلقة، تدور قصته عن صبي يكتشف جهازا شبيها بالساعة يلتصق بمعصمه يتيح له التحول إلى عشرة مخلوقات فضائية. وفي 2008 انتج مسلسل بن 10: إلين فورس وبعد ذلك بن 10: إلتميت إلين في 2010، كتب أغنية السلسلة الأولى من قبل فرق «اندي» وقام بتأديتها «موكسي». يبث حاليا جميع أجزائه.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A8%D9%86%2010%20(%D9%85%D8%B3%D9%84%D8%B3%D9%84%202005)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "بن 10 (مسلسل 2005)",
+      "creators": "مان أوف اكشن إنترتاينمنت",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "مان أوف آكشن"
+    },
+    "cartoon-series/بوجي وطمطم.jpg": {
+      "title": "بوجي وطمطم",
+      "canonicalTitle": "بوجي وطمطم",
+      "type": "series",
+      "director": "الراحل رحمي",
+      "directors": [
+        "الراحل رحمي"
+      ],
+      "releaseDate": "1983",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "توفيق الدقن",
+        "يونس شلبي",
+        "هالة فاخر"
+      ],
+      "genres": null,
+      "summaryAr": "بوجي وطمطم وهو مسلسل عرائس مصري من تأليفه وإخراجه الراحل رحمهي، كان له تأثير كبير في ثقافة الطفل المصري والعربي وقد تأثر بشدة على تبعت الصغار والكبار، وفيه ارتبط بوجدان الطفل اكتشف لفترة طويلة في ليلى رمضان، وفيه كان له الفضل في ارتباط الطفل المصري بعروسة مصرية خالصة من البيئة المصرية الاصيلة مما كان له الاثر الأكبر في مواجهة الغرب.",
+      "summaryEn": "بوجي وطمطم وهو مسلسل عرائس مصري من تأليف وإخراج الراحل رحمي، كان له تأثير كبير في ثقافة الطفل المصري والعربي وقد حاز المسلسل علي متابعة الصغار والكبار، حيث ارتبط بوجدان الطفل لسنوات طويلة في ليالى شهر رمضان، حيث كان له الفضل في ارتباط الطفل المصري بعروسة مصرية خالصة من البيئة المصرية الاصيلة مما كان له أكبر الاثر في مواجهة الثقافات الغربية.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A8%D9%88%D8%AC%D9%8A%20%D9%88%D8%B7%D9%85%D8%B7%D9%85%20(%D9%85%D8%B3%D9%84%D8%B3%D9%84)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "بوجي وطمطم (مسلسل)",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/تشاودر.jpg": {
+      "title": "تشاودر",
+      "canonicalTitle": "تشاودر",
+      "type": "series",
+      "directors": [
+        "كارل غريينبلات"
+      ],
+      "releaseDate": "2007",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "نيكي جونز"
+      ],
+      "genres": null,
+      "summaryAr": "تشاودر (بالإنجليزية: chowder) هو مسلسل رسوم متحركة كوميدي أمريكي من تأليف كارل غرينبلات وإنتاج كرتون نتورك ستوديوز. عرض لأول مرة في 02 نوفمبر 2007 حتى 07 نوفمبر 2010 بمجموع 03 مواسم و 49 حلقة. قصة مسلسل قصيرة عن تشاودر اللي يتعلم فنون الطبخ على يد معلمه مانغ دال.",
+      "summaryEn": "تشاودر (بالإنجليزية: chowder) هو مسلسل رسوم متحركة امريكي كوميدي من تأليف كارل غرينبلات وإنتاج كرتون نتورك ستوديوز. عرض لأول مرة في 02 نوفمبر 2007 واستمر حتى 07 نوفمبر 2010 بمجموع 03 مواسم و 49 حلقة. تتحدث قصة المسلسل عن تشاودر الذي يتعلم فنون الطبخ على يد معلمه مانغ دال.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%AA%D8%B4%D8%A7%D9%88%D8%AF%D8%B1"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "تشاودر",
+      "director": "كارل غريينبلات",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/جاكي شان.jpg": {
+      "title": "جاكي شان",
+      "canonicalTitle": "جاكي شان",
+      "directors": [
+        "فرانكويسكو سوليس"
+      ],
+      "releaseDate": "2000",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "منذ الستينات الميلادية"
+      ],
+      "genres": null,
+      "summaryAr": "جاكي شان (اسم الولادة: شانكون سانغ) (بالصينية: 陳港生) (مواليد 7 أبريل 1954) هو الممثل ومخرج أفلام ومنتج فان فان قتالي الصيني من متابعي كوني. يشتهر في أفلامه الدانتيلا ملاكمة السكران في قتال النساء أسلحة مرتجلة والحركات البهلوانية المبتكرة واللي في عاداتها يقودها بنفسه. بدأ التضخم منذ الستينات الميلادية، وقد عاد في أكثر من 150 فيلماً.",
+      "summaryEn": "جاكي شان (اسم الولادة: شان كونغ سانغ) (بالصينية: 陳港生) (مواليد 7 أبريل 1954) هو ممثل ومخرج أفلام ومنتج وفنان قتالي صيني من هونغ كونغ. يشتهر في أفلامه بأسلوب ملاكمة السكران في القتال واستخدام أسلحة مرتجلة والحركات البهلوانية المبتكرة والتي في العادة يؤديها بنفسه. بدأ التمثيل منذ الستينات الميلادية، وقد ظهر في أكثرمن 150 فيلماً.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%AC%D8%A7%D9%83%D9%8A%20%D8%B4%D8%A7%D9%86"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "جاكي شان",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "فرانكويسكو سوليس"
+    },
+    "cartoon-series/جزيرة الكنز.jpg": {
+      "title": "جزيرة الكنز",
+      "canonicalTitle": "جزيرة الكنز",
+      "type": "series",
+      "director": "وئام الصعيدي",
+      "directors": [
+        "وئام الصعيدي"
+      ],
+      "releaseDate": "1978",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "مينورو يادا",
+        "هيروشي أووتاكي"
+      ],
+      "genres": [
+        "pirate fiction",
+        "coming-of-age anime and manga",
+        "أنمي إثارة"
+      ],
+      "summaryAr": "جزيرة الكنز (宝島 تاكاراجيما) هو مسلسل أنمي من إنتاج شركة طوكيو موفي شين صدرشا عام 1978، ضم 26 حلقة مدة كل حلقة 25 دقيقة. مسلسل مستوحى من رواية جزيرة الكنز للكاتب الأسكتلندي روبرت لويس ستيفنسون. دبلجت الحلقات للغة العربية تحت عنوان جزيرة الكنز من قبل «مؤسسة التلفزيون اللبناني» في أوائل الثمانينات من إخراج وئام الصعيدي، وشارك الممثل «وحيد جلال» في دور «سيلفر».",
+      "summaryEn": "جزيرة الكنز (宝島 تاكاراجيما) هو مسلسل أنمي من إنتاج شركة طوكيو موفي شينشا صدر عام 1978، ضم 26 حلقة مدة كل حلقة 25 دقيقة. المسلسل مأخوذ عن رواية جزيرة الكنز للكاتب الاسكتلندي روبرت لويس ستيفنسون. دبلجت الحلقات للغة العربية تحت عنوان جزيرة الكنز من قبل «مؤسسة التلفزيون اللبناني» في أوائل الثمانينات من إخراج وئام الصعيدي، وشارك الممثل «وحيد جلال» في دور «سيلفر».",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9%20%D8%A7%D9%84%D9%83%D9%86%D8%B2%20(%D8%A3%D9%86%D9%85%D9%8A)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "جزيرة الكنز (أنمي)",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/خربشات.jpg": {
+      "title": "خربشات",
+      "canonicalTitle": "خربشات",
+      "type": "series",
+      "directors": [
+        "ديف ستين"
+      ],
+      "releaseDate": "2004",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "نيكي ليدرمان"
+      ],
+      "genres": [
+        "مسلسلات الأطفال التلفزية"
+      ],
+      "summaryAr": "خربشات (بالإنجليزية: Catscratch) هو مسلسل رسوم متحركة تلفزيوني أمريكي من إنتاج دوغ تينابل (المعروف أيضًا بمسلسل دودة الأرض جيم). تم بثه على كل من نكلوديون ونيكتونز في 9 يوليو 2005. وهو رسل من رواية مصورة لتينابل بعنوان Gear، وهو أيضًا اسم شاحنة القطط.",
+      "summaryEn": "خربشات (الإنجليزية: Catscratch) هو مسلسل رسوم متحركة تلفزيوني أمريكي من إنتاج دوغ تينابل (المعروف أيضا بمسلسل دودة الأرض جيم). تم بثه على كل من نكلوديون ونيكتونز في 9 يوليو 2005. وهو اقتباس من رواية مصورة لتينابل بعنوان Gear، وهو أيضا اسم شاحنة القطط.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%AE%D8%B1%D8%A8%D8%B4%D8%A7%D8%AA"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "خربشات",
+      "creators": "دوغ تينابل",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "ديف ستين"
+    },
+    "cartoon-series/داني الشبح.jpg": {
+      "title": "داني الشبح",
+      "canonicalTitle": "داني الشبح",
+      "type": "series",
+      "directors": null,
+      "releaseDate": "2004",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ديفيد كاوفمان",
+        "ريكي دي شون كونيلز",
+        "غراي ديلايل",
+        "كولين أوشونيسي",
+        "روب بولسن",
+        "كاث سوسي"
+      ],
+      "genres": [
+        "فانتازيا",
+        "مسلسل مغامرات",
+        "مسلسل أكشن",
+        "كوميدي رعب",
+        "مسلسلات الأطفال التلفزية"
+      ],
+      "summaryAr": "داني الشبح (بالإنجليزية: Danny Phantom) هو مسلسل رسوم متحركة أمريكي من إنتاج بوتش هارتمان على نكلوديون. تم إنتاجه من قبل استوديوهات بيلي ونفورد ورسوم بيانية نيلفانا، وهي شركة الرسوم المتحركة الكندية، بما في ذلك بارامونت. يتبع المسلسل لقصة فتى يتحول إلى نصف إنسان نصف شبح، وذلك بعد تعرضه لحادث في بوابة بين عالم البشر ونطاق الأشباح\"، ويأخذ على عاتقه مهمة تقليص مدينته ومن هجوم الأشباح باستخدام العمالقة.",
+      "summaryEn": "داني الشبح (الإنجليزية: Danny Phantom) هو مسلسل رسوم متحركة أمريكي من إنتاج بوتش هارتمان على نكلوديون. تم إنتاجه من قبل استوديوهات بيليونفورد وتوزيعه من قبل نيلفانا، وهي شركة رسوم متحركة كندية، وتلفزيون باراماونت. يتبع المسلسل لقصة فتى يتحول إلى نصف إنسان-نصف شبح، وذلك بعد تعرضه لحادث في بوابة بين عالم البشر ونطاق الأشباح\"، ويأخذ على عاتقه مهمة إنقاذ مدينته والعالم من هجوم الأشباح باستخدام القوى الخارقة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%AF%D8%A7%D9%86%D9%8A%20%D8%A7%D9%84%D8%B4%D8%A8%D8%AD"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "داني الشبح",
+      "director": "بوتش هارتمان",
+      "creators": "بوتش هارتمان",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/رامي الصياد الصغير.jpg": {
+      "title": "رامي الصياد الصغير",
+      "canonicalTitle": "الصياد الصغير",
+      "type": "series",
+      "directors": [
+        "هيروشي ساساغاوا"
+      ],
+      "releaseDate": "1980",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "آمال سعد الدين",
+        "زياد الرفاعي"
+      ],
+      "genres": null,
+      "summaryAr": "رامي الصياد الصغير أو سانبي صياد السمك (اليابانية: 釣りキチ三平) هو مسلسل أنمي رسوم متحركة من إنتاج شركة نيبون أنمي ياباني عام 1980، مكون من 109 حلقات. دبلجت 52 حلقة إلى العربية من قبل أستوديو مركز الزهرة.",
+      "summaryEn": "رامي الصياد الصغير أو سانبي صياد السمك (اليابانية: 釣りキチ三平) هو مسلسل أنمي (رسوم متحركة) من إنتاج شركة نيبون أنيميشن اليابانية عام 1980، مكون من 109 حلقات. دبلجت 52 حلقة إلى العربية من قبل أستوديو مركز الزهرة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D8%AF%20%D8%A7%D9%84%D8%B5%D8%BA%D9%8A%D8%B1"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "wikiTitle": "الصياد الصغير",
+      "director": "هيروشي ساساغاوا",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "أنمي ياباني — الأصوات لم تُحدد"
+      }
+    },
+    "cartoon-series/رحلة العجائب.jpg": {
+      "title": "رحلة العجائب",
+      "canonicalTitle": "رحلة العجائب",
+      "type": "series",
+      "directors": [
+        "كوسي كوروتا"
+      ],
+      "releaseDate": "1976",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "طاقم دبلجة مركز الزهرة"
+      ],
+      "genres": [
+        "أنمي ومانغا خيال علمي"
+      ],
+      "summaryAr": "رحلة العجائب (بالياباني: タイムボカン) هو مسلسل أنمي ياباني. عُرض لأول مرة على قناة تلفزيون فوجي اليابانية في 4 أكتوبر 1975 وحتى 25 ديسمبر 1976. تم عرض كل يوم سبت من كل أسبوع في الساعة 6:30 مساءً، وهو مكون من 61 حلقة، مدة كل حلقة 30 دقيقة.",
+      "summaryEn": "رحلة العجائب (بالياباني: タイムボカン) هو مسلسل أنمي ياباني. عُرض لأول مرة على القناة اليابانية تلفزيون فوجي في 4 أكتوبر 1975 وحتى 25 ديسمبر 1976. كان يعرض كل يوم سبت من كل أسبوع في الساعة 6:30م، وهو مكون من 61 حلقة، مدة كل حلقة 30 دقيقة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D8%B9%D8%AC%D8%A7%D8%A6%D8%A8"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "رحلة العجائب",
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "برنامج أنمي ياباني قديم — الصوت غير متاح"
+      },
+      "director": "كوسي كوروتا",
+      "needsReview": true
+    },
+    "cartoon-series/سابق ولاحق.jpg": {
+      "title": "سابق ولاحق",
+      "canonicalTitle": "سابق ولاحق",
+      "type": "series",
+      "directors": [
+        "تيتسورو أمينو"
+      ],
+      "releaseDate": "2010",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "العالمية لسباق السيارات الصغيرة في الجزء الثاني"
+      ],
+      "genres": null,
+      "summaryAr": "سابق ولاحق (اليابانية: 爆走兄弟レッツ&ゴー!!، وبالإنكليزية: Bakusou Kyodai Let's & Go!!) هو مسلسل رسوم متحركة (أنمي) رياضي يتحدث عن رياضة سباق السيارات الصغيرة، وحلم الأخوين السابق واللاحق في النجاح وفيه يصلح لصديقهما الدكتور عاقل سيارتين متطورتين اخترهما بنفسه. أخذ هذا المسلسل طابعاً تجارياً بسبب ترويج قناة سبيس تون له. لهذا الأنمي جزئان حسب الدبلجة العربية.",
+      "summaryEn": "سابق ولاحق (اليابانية: 爆走兄弟レッツ&ゴー!!، وبالإنكليزية: Bakusou Kyodai Let's & Go!!) هو مسلسل رسوم متحركة (أنمي) رياضي يتحدث عن رياضة سباق السيارات الصغيرة، وحلم الأخوين سابق ولاحق في النجاح فيها بعدما أعطاهما صديقهما الدكتور عاقل سيارتين متطورتين اخترعهما بنفسه. أخذ هذا المسلسل طابعاً تجارياً بسبب ترويج قناة سبيس تون له. لهذا الأنمي جزئان حسب الدبلجة العربية.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%B3%D8%A7%D8%A8%D9%82%20%D9%88%D9%84%D8%A7%D8%AD%D9%82"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "سابق ولاحق",
+      "director": "تيتسورو أمينو",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/ساموراي جاك.jpg": {
+      "title": "ساموراي جاك",
+      "canonicalTitle": "ساموراي جاك",
+      "type": "series",
+      "director": "فيلم مسرحي",
+      "directors": [
+        "فيلم مسرحي"
+      ],
+      "releaseDate": "2001",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "فيل لامار"
+      ],
+      "genres": [
+        "فانتازيا",
+        "مسلسل أكشن",
+        "مسلسل إثارة",
+        "كوميديا درامية",
+        "خيال بائس"
+      ],
+      "summaryAr": "ساموراي جاك (الإنجليزية: Samurai Jack) مسلسل كرتوني من إنتاج كرتون نتورك افتتح على جائزة إيمي أمريكا لأربع مرات علي التوالي، وكذلك جاك الشخصية الرئيسية من الرسوم المتحركة، ملوكها جيندي تراتوفسكي اللي تم بثها على كرتون نتورك من عام 2001 حتى عام 2004. تم إنتاجه لأول مرة على سكان أمريكا عبر شبكة الإنترنت تونامي، وتم بث ستريم العرض والإنتاج في عام 2004، بس لم يلغ تعليقه.",
+      "summaryEn": "ساموراي جاك (الإنجليزية: Samurai Jack) مسلسل كرتوني من إنتاج كرتون نتورك الحائز على جائزة إيمي الأمريكية لأربع مرات علي التوالي، ويعد جاك الشخصية الرئيسية من الرسوم المتحركة، أنشأها جيندي تراتوفسكي التي بثت على كرتون نتورك من عام 2001 حتى عام 2004. تجدر الإشارة إلى ان الكارتون دقيق التفاصيل، خالي من الخطوط العريضة، إخفاء الشخصيات القائمة على الرسوم المتحركة، وكذلك لأسلوبه السينمائي وسرعته. تم إنتاجه ليتم عرضه على سكان أمريكا عبر شبكة الإنترنت تونامي جت ستريم العرض والإنتاج توقف في عام 2004، لكنه لم يلغ رسميا.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%B3%D8%A7%D9%85%D9%88%D8%B1%D8%A7%D9%8A%20%D8%AC%D8%A7%D9%83"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "ساموراي جاك",
+      "creators": "جيندي تارتاكوفسكي",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-series/سلاحف النينجا.jpg": {
+      "title": "سلاحف النينجا",
+      "canonicalTitle": "سلاحف النينجا",
+      "type": "series",
+      "directors": [
+        "شوارتز وألان أوان"
+      ],
+      "releaseDate": "1984",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ليوناردو",
+        "رافائيل",
+        "دوناتيلو",
+        "ميكائيلانجيلو"
+      ],
+      "genres": [
+        "مسلسلات الأطفال التلفزية",
+        "مسلسل أكشن",
+        "فانتازيا",
+        "science fiction television series",
+        "مسلسل مغامرات"
+      ],
+      "summaryAr": "مسلسل سلاحف النينجا (بالإنجليزية: Teenage Mutant Ninja Turtles) (المعروف أيضًا باسم Teenage Mutant Hero Turtles في بعض البلدان الأوروبية بسبب الجدل في ذلك الوقت) هو مسلسل رسوم متحركة كان السبب وراء قصص مصورة من إنتاج ميراج ستوديو في عام 1984، وتعرض لأحداثه في مدينة نيويورك بشكل رئيسي، أول بث مباشر لتطوير كان المسلسل الأول في تاريخ 28 ديسيمبر 1987، وبالتالي المسلسل 10 مواسم. وثاني مسلسل له في 8 فبراير 2003، وكان له 7 مواسم. تم عرض قناة إم بي سي 3 وقناة سبيس تون البرنامج، قراءة إم بي سي 3 7 مواسم، جميع الفصول البرنامج يمتلك 26 حلقة التمييز الموسم الخامس والسابع اللي يمتلك 13 حلقة.",
+      "summaryEn": "مسلسل سلاحف النينجا (الإنجليزية: Teenage Mutant Ninja Turtles) (المعروف أيضا باسم Teenage Mutant Hero Turtles في بعض البلدان الأوروبية بسبب الجدل في ذلك الوقت) هو مسلسل رسوم متحركة كان من الأساس قصص مصورة من إنتاج ميراج ستوديو في عام 1984, وتعرض أحداثه في مدينة نيويورك بشكل رئيسي، أول بث رئيسي للبرنامج كان المسلسل الأول في تاريخ 28 ديسيمبر 1987، ولهذا المسلسل 10 مواسم. وثاني مسلسل له في 8 فبراير 2003، وكان له 7 مواسم. تعرض قناة إم بي سي 3 وقناة سبيس تون البرنامج، وعرضت إم بي سي 3 7 مواسم، جميع مواسم البرنامج تمتلك 26 حلقة باستثناء الموسم الخامس والسابع الذي يمتلك 13 حلقة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%B3%D9%84%D8%A7%D8%AD%D9%81%20%D8%A7%D9%84%D9%86%D9%8A%D9%86%D8%AC%D8%A7%20(%D9%85%D8%B3%D9%84%D8%B3%D9%84%201987)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "سلاحف النينجا (مسلسل 1987)",
+      "creators": "كيفين إيستمان",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "شوارتز وألان أوان"
+    },
+    "cartoon-series/سنافر.jpg": {
+      "title": "سنافر",
+      "canonicalTitle": "السنافر",
+      "type": "series",
+      "directors": [
+        "هانا باربيرا"
+      ],
+      "releaseDate": "1981",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "دون ميسيك"
+      ],
+      "genres": null,
+      "summaryAr": "السنافر (الإنجليزية: The Smurfs) هو مسلسل رسوم متحركة أمريكي، أنتج سنة 1981 من قبل شركة هانا-باربيرا، وبني على القصص المصورة السنافر (الفرنسية: Les Schtroumpfs) أثبت للمؤلف بيو وبث في حوالي 256 حلقة، وحوى اجمالا 421 قصة، تمتد عرض كل حلقة 22 دقيقة. وقد تم إنتاج فيلم عام 2012 و2014 بصيغة عرض ثلاثي الأبعاد في دور السينما في معظم الدول.",
+      "summaryEn": "السنافر (الإنجليزية: The Smurfs) هو مسلسل رسوم متحركة أمريكي، أنتج سنة 1981 من قبل شركة هانا-باربيرا، وبني على القصص المصورة السنافر (الفرنسية: Les Schtroumpfs) البلجيكي للمؤلف بييو وبث في حوالي 256 حلقة، وحوى اجمالا 421 قصة، وكانت مدة عرض كل حلقة 22 دقيقة. وقد تم إنتاج فيلمين عامي 2012 و2014 بصيغة 3D عرضا في دور السينما في معظم الدول.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B3%D9%86%D8%A7%D9%81%D8%B1%20(%D9%85%D8%B3%D9%84%D8%B3%D9%84)"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "wikiTitle": "السنافر (مسلسل)",
+      "director": "هانا باربيرا",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "سلسلة كلاسيكية تمتد لعقود"
+      }
+    },
+    "cartoon-series/سوبر هنيدى.jpg": {
+      "title": "سوبر هنيدى",
+      "canonicalTitle": "سوبر هنيدي",
+      "type": "series",
+      "directors": null,
+      "releaseDate": "2008",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "كضيوف شرف بعضهم ظهر بآدائه الصوتي وبعضهم بغير آدائه الصوتي"
+      ],
+      "genres": null,
+      "summaryAr": "سوبر هنيدي هو مسلسل رسوم متحركة مصرية كوميدية حادة، انتجته نفس الشركة اللي أنتجت كارتون بكار، سويت مسلسل في إطار كوميدي بوليسي، وحلقاته مليئة بالمواقف الطريفة ذات المضمون الاجتماعي والسياسي وفيه تندرج تحت تقنية «كارتون الكبار»، ومنفذة تكنولوجيا الرسوم المتحركة ثنائية. ولكل حلقة يقوم بدور «سوبر هنيدي» المحقق الخاص اللي يقوم بدور محمد هنيدي بحله بدهاء وكوميديا، مع صديقه «صلعت» اللي يقوم بطلعت زكريا. يناقش مسلسل الرسوم المتحركة الكوميديا ​​​​رغيف العيش والهجرة غير الشرعية واحتراف اللاعبين مصر مع العديد من النجوم كضيوف شرف بآدائه الصوتيين خارجيين وبعضهم بغير آدائه الصوتي، وأبرز الشخصيات اللي تظهر عمرو دياب والإعلامي عمرو أديب وأحمد السقا وحسن شحاتة وأحمد شوبير.",
+      "summaryEn": "سوبر هنيدي هو مسلسل رسوم متحركة مصري كوميدي، انتجته نفس الشركة التي أنتجت كارتون بكار الشهير، يدور المسلسل في إطار كوميدي بوليسي، وحلقاته مليئة بالمواقف الطريفة ذات المضمون الاجتماعي والسياسي باعتبارها تندرج تحت نوعية «كارتون الكبار»، ومنفذة بتقنية الرسوم المتحركة ثنائية الأبعاد. و لكل حلقة لغز يقوم «سوبر هنيدي» المحقق الخاص الذي يقوم بدوره محمد هنيدي بحله بدهاء وكوميديا، مع صديقه «صلعت» الذي يقوم بدوره طلعت زكريا. يناقش مسلسل الرسوم الكوميدي رغيف العيش والهجرة غير الشرعية واحتراف اللاعبين خارج مصر ويظهر العديد من النجوم كضيوف شرف بعضهم ظهر بآدائه الصوتي وبعضهم بغير آدائه الصوتي، وأبرز الشخصيات التي ظهرت عمرو دياب والإعلامي عمرو أديب وأحمد السقا وحسن شحاتة وأحمد شوبير.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%B3%D9%88%D8%A8%D8%B1%20%D9%87%D9%86%D9%8A%D8%AF%D9%8A"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "سوبر هنيدي",
+      "director": "شريف جمال",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/شباب العدالة.jpg": {
+      "title": "شباب العدالة",
+      "canonicalTitle": "شباب العدالة",
+      "type": "series",
+      "directors": [
+        "جاي أوليڤا ومايكل تشانج"
+      ],
+      "releaseDate": "2010",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "روبن",
+        "سوبربوي",
+        "أكوالاد",
+        "ميس مارتيان"
+      ],
+      "genres": [
+        "science fiction television series",
+        "superhero television series",
+        "دراما تلفزيونية",
+        "دراما مراهقين"
+      ],
+      "summaryAr": "شباب العدالة (الإنجليزية: Young Justice) يونغ جاستيس هو مسلسل رسوم متحركة من تأليف براندون فيتي ريغ وايزمان وإنتاج كرتون نتورك.",
+      "summaryEn": "شباب العدالة (الإنجليزية: Young Justice) يونغ جاستيس هو مسلسل رسوم متحركة من تأليف براندون فيتي وغريغ وايزمان وإنتاج كرتون نتورك.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%B4%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B9%D8%AF%D8%A7%D9%84%D8%A9%20(%D8%B3%D9%84%D8%B3%D9%84%D8%A9%20%D8%AA%D9%84%D9%81%D8%B2%D9%8A%D8%A9)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "شباب العدالة (سلسلة تلفزية)",
+      "creators": "غريغ وايزمان, براندون فيتي",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "جاي أوليڤا ومايكل تشانج"
+    },
+    "cartoon-series/صديقي المفضل هو قرد.jpg": {
+      "title": "صديقي المفضل هو قرد",
+      "canonicalTitle": "صديقي المفضل هو قرد",
+      "type": "series",
+      "directors": [
+        "تيم بيوركلوند"
+      ],
+      "releaseDate": "2005",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "آدم ليون",
+        "جيك سبايدل"
+      ],
+      "genres": [
+        "مسلسلات الأطفال التلفزية",
+        "مسلسل كوميدي",
+        "مسلسل مغامرات"
+      ],
+      "summaryAr": "صديقي المفضل هو قرد (الإنجليزية: My Gym Partner's A Monkey) مسلسل من إنتاج كرتون نتورك عرض للمرة الأولى في 26 ديسمبر 2005 وانتهى في 15 يناير 2010 يحكي عن فتى اسمه آدم ليونيل كان في مدرسة أولاد فا ينتقل بالخطأ إلى مدرسة فيها شعبية مدرسة تشارلز داروين بسبب التباس باسمه (ليون) المتشابه مع اسم (أسد) أي أسد، لا أحد يحب آدم ليون في المدرسة عدالة القرد جاك فآدم غريب الأطوار لأنه ولد إلى مدرسة محبوبة.",
+      "summaryEn": "صديقي المفضل هو قرد (الإنجليزية: My Gym Partner's A Monkey) مسلسل من إنتاج كرتون نتورك عرض للمرة الأولى في 26 ديسمبر 2005 وانتهى في 15 يناير 2010 يحكي عن فتى اسمه آدم ليون كان يدرس في مدرسة أولاد فانتقل بالخطأ إلى مدرسة فيها حيوانات وتسمى مدرسة تشارلز داروين بسبب التباس باسمه (Lyon) المتشابه مع اسم (Lion) أي أسد، لا أحد يحب آدم ليون في المدرسة عدا القرد جيك فآدم غريب الأطوار لأنه ولد يدرس في مدرسة حيوانات.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%B5%D8%AF%D9%8A%D9%82%D9%8A%20%D8%A7%D9%84%D9%85%D9%81%D8%B6%D9%84%20%D9%87%D9%88%20%D9%82%D8%B1%D8%AF"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "صديقي المفضل هو قرد",
+      "creators": "Julie McNally-Cahill",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "تيم بيوركلوند"
+    },
+    "cartoon-series/عائلة إكس.jpg": {
+      "title": "عائلة إكس",
+      "canonicalTitle": "عائلة إكس",
+      "type": "series",
+      "director": "ديف مارشال",
+      "directors": [
+        "ديف مارشال"
+      ],
+      "releaseDate": "2005",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "باتريك واربورتون",
+        "وينداي ماليك",
+        "Lynsey Bartilson",
+        "يانسن بانتير",
+        "كريس هاردويك",
+        "طوم كين"
+      ],
+      "genres": [
+        "مسلسل رسوم متحركة",
+        "حركة"
+      ],
+      "summaryAr": "عائلة إكس (بالإنجليزية: The X's) هو مسلسل يتم إنتاجه في الولايات المتحدة. بدأ عرضه في سنة 2005 على نكلوديون. كما بلغت عدد حلقاته 20 حلقة، وبلغت مدة الحلقة 24 دقيقة.",
+      "summaryEn": "عائلة إكس (الإنجليزية: The X's) هو مسلسل تم إنتاجه في الولايات المتحدة. بدأ عرضه في سنة 2005 على نكلوديون. كما بلغ عدد حلقاته 20 حلقة، وتبلغ مدة الحلقة الواحدة 24 دقيقة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%B9%D8%A7%D8%A6%D9%84%D8%A9%20%D8%A5%D9%83%D8%B3"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "عائلة إكس",
+      "creators": "Carlos Ramos",
+      "extra": {
+        "factsSource": "Wikidata"
+      }
+    },
+    "cartoon-series/عائلة ساترديز.jpg": {
+      "title": "عائلة ساترديز",
+      "canonicalTitle": "عائلة ساترديز",
+      "type": "series",
+      "directors": [
+        "جاي ستيفنز"
+      ],
+      "releaseDate": "2008",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "زاك ساترديز",
+        "دوك",
+        "درو"
+      ],
+      "genres": [
+        "مسلسل مغامرات",
+        "مسلسل كوميدي"
+      ],
+      "summaryAr": "عائلة ساترديز (بالإنجليزية:The Secret Saturdays) هو مسلسل رسوم متحركة أمريكي من تأليف الكاريكاتور جاي ستيفنز لقناة كرتون نتورك تم له أول مره في 3 أكتوبر 2008 حتى 30 يناير 2010، 36 حلقة، كما تم بثه لمرة أخرى على قناة بوميرانغ في 05 ديسمبر 2011 وانتهى في 01 يونيو 2014، في العالم العربي أصبح دبلجة للغة العربية من طرف أستديو إيمدج. برودوكشن مضيئة على قناة إم بي سي 3.",
+      "summaryEn": "عائلة ساترديز (بالإنجليزية:The Secret Saturdays) هو مسلسل رسوم متحركة أمريكي من تأليف الكاريكاتور جاي ستيفنز لقناة كرتون نتورك تم عرضه لأول مره في 3 أكتوبر 2008 واستمر عرضه حتى 30 يناير 2010 بمعدل 36 حلقة، كما تم بثه لمرة أخرى على قناة بوميرانغ في 05 ديسمبر 2011 وانتهى في 01 يونيو 2014، في العالم العربي تمت دبلجة المسلسل للغة العربية من طرف أستديو إيمدج برودكشن هاوس وعرض على قناة إم بي سي 3.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%B9%D8%A7%D8%A6%D9%84%D8%A9%20%D8%B3%D8%A7%D8%AA%D8%B1%D8%AF%D9%8A%D8%B2"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "عائلة ساترديز",
+      "creators": "جاي ستيفنز",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "جاي ستيفنز"
+    },
+    "cartoon-series/عالم الطباشير_2.jpg": {
+      "title": "عالم الطباشير_2",
+      "canonicalTitle": "عالم الطباشير",
+      "type": "series",
+      "directors": [
+        "لاري هيوبر وكيث ألكورن"
+      ],
+      "releaseDate": "2002",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "رودي تيبوتز",
+        "بيني",
+        "سناب"
+      ],
+      "genres": [
+        "مسلسل كوميدي",
+        "مسلسلات الأطفال التلفزية"
+      ],
+      "summaryAr": "عالم الطباشير (بالإنجليزية: ChalkZone) هو مسلسل رسوم متحركة أمريكي من إنتاج بيل بورنيت ولاري هوبر على نكلوديون.",
+      "summaryEn": "عالم الطباشير (الإنجليزية: ChalkZone) هو مسلسل رسوم متحركة أمريكي من إنتاج بيل بورنيت ولاري هوبر على نكلوديون.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%B9%D8%A7%D9%84%D9%85%20%D8%A7%D9%84%D8%B7%D8%A8%D8%A7%D8%B4%D9%8A%D8%B1"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "عالم الطباشير",
+      "creators": "Bill Burnett, لاري هوبر",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "لاري هيوبر وكيث ألكورن"
+    },
+    "cartoon-series/عالم الفوضي.jpg": {
+      "title": "عالم الفوضي",
+      "canonicalTitle": "عالم الفوضى",
+      "type": "series",
+      "directors": [
+        "بيتر براونجاردت"
+      ],
+      "releaseDate": "2013",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "بيتر براونجاردت"
+      ],
+      "genres": [
+        "فانتازيا",
+        "science fiction television series",
+        "مسلسل مغامرات"
+      ],
+      "summaryAr": "عالم الفوضى مسلسل رسوم متحركة أمريكي كندي عرض لأول مرة في 7 أكتوبر 2006 ويعرضه حتى 13 مارس 2010 تمت دبلجة للمسلسل العربي القراءة على قناة ام بي سي 3.",
+      "summaryEn": "عالم الفوضى مسلسل رسوم متحركة أمريكي كندي عرض لأول مره في 7 أكتوبر 2006 واستمر عرضه حتى 13 مارس 2010 تمت دبلجة المسلسل للغة العربية وعرض على قناة ام بي سي 3.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D8%B9%D8%A7%D9%84%D9%85%20%D8%A7%D9%84%D9%81%D9%88%D8%B6%D9%89"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "عالم الفوضى",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "بيتر براونجاردت"
+    },
+    "cartoon-series/فارس وفادي.jpg": {
+      "title": "فارس وفادي",
+      "canonicalTitle": "فارس وفادي",
+      "type": "series",
+      "directors": [
+        "دان بوفينماير وجيف مارش"
+      ],
+      "releaseDate": "2025",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "فينياس فلين",
+        "فادي",
+        "كانديس",
+        "والدحيح بيري"
+      ],
+      "genres": [
+        "مسلسلات الأطفال التلفزية",
+        "مسلسل كوميدي",
+        "science fiction television series",
+        "فانتازيا",
+        "musical"
+      ],
+      "summaryAr": "فارس فادي أو فينياس وفيرب في النسخة الأصلية (الإنجليزية: Phineas and Ferb) هو مسلسل رسوم متحركة موسيقي - كوميدي تلفزيوني أمريكي مبتكر دان بوفينمير و‌جيف \"سوامبي\" مارش رسوميات ديزني وديزني إكس دي. بُث المسلسل في الشبكات الأصلية لأربعة مواسم بين عامي 2007 و 2015، ثم عاد بموسمين الشريكين في عام 2025. يتبع المسلسل الأخوين غير الشقيقين فارس فريد فادي فليتشر، اللي يقوم به مشروع كبير أو الشروع في مغامرة كل يوم التنفيذي من وقتيهما في صيف الحفلة، مما يستمتع بأخت فارس الكبرى سندس فريد.",
+      "summaryEn": "فارس وفادي أو فينياس وفيرب في النسخة الأصلية (الإنجليزية: Phineas and Ferb) هو مسلسل رسوم متحركة موسيقي - كوميدي تلفزيوني أمريكي ابتكره دان بوفينمير و‌جيف \"سوامبي\" مارش لصالح قناتي ديزني وديزني إكس دي. بُث المسلسل في الأصل على الشبكات لأربعة مواسم بين عامي 2007 و 2015، ثم عاد بموسمين إضافيين في عام 2025. يتبع المسلسل الأخوين غير الشقيقين فارس فريد وفادي فليتشر، اللذين يقومان ببناء مشروع ضخم أو الشروع في مغامرة كل يوم للاستفادة القصوى من وقتيهما في العطلة الصيفة، مما يثير استياء شقيقة فارس الكبرى سندس فريد.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%81%D8%A7%D8%B1%D8%B3%20%D9%88%D9%81%D8%A7%D8%AF%D9%8A"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "فارس وفادي",
+      "creators": "Dan Povenmire",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "دان بوفينماير وجيف مارش"
+    },
+    "cartoon-series/فان بوي وتشام تشام.jpg": {
+      "title": "فان بوي وتشام تشام",
+      "canonicalTitle": "فان بوي وتشام تشام",
+      "type": "series",
+      "directors": [
+        "إريك روبليس"
+      ],
+      "releaseDate": "2011",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "ديفيد هورنسباي"
+      ],
+      "genres": [
+        "مسلسل كوميدي"
+      ],
+      "summaryAr": "فان بوي وشام تشام (بالإنجليزية: Fanboy & Chum Chum) هو مسلسل كرتون تلفزيوني أمريكي مرسوم بالكمبيوتر من إنتاج إريك ربليس على نكلوديون. وهي مستمدة من فانبوي، وهو مسلسل كرتون قصير أنتجه ربلز على نيكتونز وفريدور ستوديوز، واللي عرض من 14 أغسطس 2009 إلى 12 يوليو 2014 على فقرة راندوم كارتونز. عرضت الحلقة الأولى يوم 12 أكتوبر 2009 على نكلوديون كفقرة معاينة، قبل أن يتم عرضه معلقًا في 6 نوفمبر 2009.",
+      "summaryEn": "فان بوي وتشام تشام (الإنجليزية: Fanboy & Chum Chum) هو مسلسل كرتون تلفزيوني أمريكي مرسوم بالكمبيوتر من إنتاج إريك روبليس على نكلوديون. وهي مستمدة من فانبوي، وهو مسلسل كرتون قصير أنتجه روبلز على نيكتونز وفريديراتور ستوديوز، والذي عرض من 14 أغسطس 2009 إلى 12 يوليو 2014 على فقرة راندوم كارتونز. عرضت الحلقة الأولى يوم 12 أكتوبر 2009 على نكلوديون كفقرة معاينة، قبل أن يتم عرضه رسميا في 6 نوفمبر 2009.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%81%D8%A7%D9%86%20%D8%A8%D9%88%D9%8A%20%D9%88%D8%AA%D8%B4%D8%A7%D9%85%20%D8%AA%D8%B4%D8%A7%D9%85"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "فان بوي وتشام تشام",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "إريك روبليس"
+    },
+    "cartoon-series/فريق البطل 108.jpg": {
+      "title": "فريق البطل 108",
+      "canonicalTitle": "فريق البطل: 108",
+      "type": "series",
+      "directors": [
+        "يانغ مينغ تشانغ"
+      ],
+      "releaseDate": "2010",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "أليك ويلوز",
+        "أندرو فرانسيس",
+        "إيان جيمس كارليت"
+      ],
+      "genres": [
+        "فلم كوميدي",
+        "مسلسلات الأطفال التلفزية",
+        "مسلسل كوميدي"
+      ],
+      "summaryAr": "فريق البطل: 108 (الإنجليزية: Hero: 108؛ أيضًا يعرف بالصينية كـ « 108:水火 ») هو مسلسل رسوم متحركة أمريكي وتايواني وبريطاني بُث على قناة كرتون نتورك وعلى قناة كابليوشن الأمريكية، أُنتج مسلسل من قبل شركة يانغ مينغ تارنغ الصينية بالتعاون مع شركات أخرى، عُرض لأول مرة في 01 مارس 2010 وفي الشرق الأوسط عرض كل من كرتون نتورك بالعربية وإم ‌بي ‌سي. 3",
+      "summaryEn": "فريق البطل: 108 (الإنجليزية: Hero: 108؛ أيضاً يعرف بالصينية كـ « 108:水火 ») هو مسلسل رسوم متحركة أمريكي وتايواني وبريطاني بُث على قناة كرتون نتورك وعلى قناة كابليوشن الأمريكية، أُنتج المسلسل من قبل شركة يانغ مينغ تارنغ الصينية بالتعاون مع شركات أخرى، عُرض لأول مرة في 01 مارس 2010 وفي الشرق الأوسط عرض على كل من كرتون نتورك بالعربية وإم ‌بي ‌سي 3",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%81%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%A8%D8%B7%D9%84%3A%20108"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "فريق البطل: 108",
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "أنمي — الأصوات لم تُحدد"
+      },
+      "director": "يانغ مينغ تشانغ",
+      "needsReview": true
+    },
+    "cartoon-series/فريق القرود الآلي الخارق.jpg": {
+      "title": "فريق القرود الآلي الخارق",
+      "canonicalTitle": "فريق القرود الآلي الخارق",
+      "type": "series",
+      "directors": [
+        "شياو تشي"
+      ],
+      "releaseDate": "2004",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جريج سايبس"
+      ],
+      "genres": [
+        "خيال تأملي",
+        "الرسوم المتحركة المتأثرة بالأنمي"
+      ],
+      "summaryAr": "فريق القرود الرياضي الكربوني مسلسل رسوم متحركة أمريكي من إنتاج شركة جيتكس أنمي كونسيبتز واستديو ذا آنسر. بداية عرضه لأول مرة في 18 سبتمبر 2004 حتى 16 ديسمبر 2006. أكمل دبلجة المسلسل للعربية بواسطة استديوهات تنوير جوزيف سمعان.",
+      "summaryEn": "فريق القرود الآلي الخارق مسلسل رسوم متحركة أمريكي من إنتاج شركتي جيتكس أنيميشن كونسيبتز واستديو ذا آنسر. بدا عرضه لأول مره في 18 سبتمبر 2004 واستمر حتى 16 ديسمبر 2006. تمت دبلجة المسلسل للعربية بواسطة استديوهات تنوير جوزيف سمعان.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%81%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D9%82%D8%B1%D9%88%D8%AF%20%D8%A7%D9%84%D8%A2%D9%84%D9%8A%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D9%82"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "فريق القرود الآلي الخارق",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "شياو تشي"
+    },
+    "cartoon-series/فلاب جاك.jpg": {
+      "title": "فلاب جاك",
+      "canonicalTitle": "مغامرات فلاب جاك",
+      "type": "series",
+      "directors": [
+        "جين تارتاكوفسكي"
+      ],
+      "releaseDate": "1996",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "كريستين كافاناغ"
+      ],
+      "genres": null,
+      "summaryAr": "مغامرات فلاب جاك (بالإنجليزية: The Marvelous Misadventures of Flapjack ذا مارفلوس مسأدفنتشرز أوف فلاب جاك) هو مسلسل رسوم متحركة أمريكي من تأليف ثروب فان أورمان لقناة كرتون نتورك عرض في 5 يونيو 2008 وانتهى في 31 أغسطس 2010.",
+      "summaryEn": "مغامرات فلاب جاك (بالإنجليزية: The Marvelous Misadventures of Flapjack ذا مارفلوس مسأدفنتشرز أوف فلاب جاك) هو مسلسل رسوم متحركة أمريكي من تأليف ثروب فان أورمان لقناة كرتون نتورك عرض من 5 يونيو 2008 وانتهى في 31 أغسطس 2010.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%BA%D8%A7%D9%85%D8%B1%D8%A7%D8%AA%20%D9%81%D9%84%D8%A7%D8%A8%20%D8%AC%D8%A7%D9%83"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikipedia",
+      "wikiTitle": "مغامرات فلاب جاك",
+      "director": "جين تارتاكوفسكي",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "العنوان في المجلد «فلاب جاك» بينما الوصف لبرنامج Dexter's Laboratory"
+      }
+    },
+    "cartoon-series/قوة الفريق.jpg": {
+      "title": "قوة الفريق",
+      "canonicalTitle": "قوة الفريق",
+      "type": "series",
+      "directors": [
+        "ستيفان بيلي"
+      ],
+      "releaseDate": "2005-01-01",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "دوروتي بوسّو",
+        "إيمانويل غاريو",
+        "أليكسيس توماسيان"
+      ],
+      "genres": [
+        "مسلسل أكشن"
+      ],
+      "summaryAr": "قوة فريق الرسوم المتحركة الفرنسي عرض لأول مرة في 27 أغسطس 2005 حتى 18 نوفمبر 2006. تمت دبلجة المسلسل للغة العربية القراءة على قناة إم بي سي 3.",
+      "summaryEn": "قوة الفريق مسلسل رسوم متحركة فرنسي عرض لأول مره في 27 أغسطس 2005 واستمر عرضه حتى 18 نوفمبر 2006. تمت دبلجة المسلسل للغة العربية وعرض على قناة إم بي سي 3.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%82%D9%88%D8%A9%20%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "قوة الفريق",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "ستيفان بيلي"
+    },
+    "cartoon-series/كابتن ماجد.jpg": {
+      "title": "كابتن ماجد",
+      "canonicalTitle": "كابتن ماجد",
+      "type": "series",
+      "directors": [
+        "هيرويشي ميتسوموبا وإيسامو إيماكافيكي"
+      ],
+      "releaseDate": "1983",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "كاس العالم"
+      ],
+      "genres": null,
+      "summaryAr": "الكابتن ماجد (اسمه الياباني الأصلي キャプテン翼 - ولفظ كابتن تسويقا) سلسلة مانغا، مسلسل أنمي وسلسلة ألعاب يابانية مشهورة، وتحكي قصة البطل ماجد كامل اللي حلم بان يكون فريق كرة القدم منذ طفولته ليصلوا إلى بطولة كاس العالم، وتركز على شخصية ماجد كامل. وقد صدرت ألعاب فلاش الأنمي باللغة العربية وأحدث ضجة لفترة طويلة، ومن أفضل صدرت الأنمي في مجال الرياضة، وهي من أوائل الألعاب (إن لم تكن الأولى) اللي صدرت بالعربية، وذلك عبر جهاز نينتندو NES.",
+      "summaryEn": "الكابتن ماجد (اسمه الياباني الأصلي キャプテン翼 - وتلفظ كابتن تسوباسا) سلسلة مانغا، مسلسل أنيمي وسلسلة ألعاب يابانية مشهورة، وتحكي قصة البطل ماجد كامل الذي حلم بان يكون فريق كرة قدم منذ طفولته ليصل بهم إلى بطولة كاس العالم، وتركز على شخصية ماجد كامل. وقد صدر ألعاب فلاش الأنمي باللغة العربية وأحدث ضجة لفترة طويلة، ويعد من أفضل الأنميات في مجال الرياضة، وهي من أوائل الألعاب (إن لم تكن الأولى) التي صدرت بالعربية، وذلك على جهاز نينتيندو NES.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%83%D8%A7%D8%A8%D8%AA%D9%86%20%D9%85%D8%A7%D8%AC%D8%AF"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "كابتن ماجد",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "هيرويشي ميتسوموبا وإيسامو إيماكافيكي"
+    },
+    "cartoon-series/كرة قدم المجرات.jpg": {
+      "title": "كرة قدم المجرات",
+      "canonicalTitle": "كرة قدم المجرات",
+      "type": "series",
+      "directors": [
+        "شارل كوريس"
+      ],
+      "releaseDate": "2005",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "فرانسوا فينتيللي",
+        "يان بيشون",
+        "فلورانس دومورتييه"
+      ],
+      "genres": [
+        "مسلسلات الأطفال التلفزية",
+        "science fiction television series"
+      ],
+      "summaryAr": "كرة قدم المجرات (الإنجليزية: Galactik Football) هو مسلسل رسوم متحركة فرنسي، يتكون من 78 حلقة مدة كل منها 26 دقيقة، من إنشاء تشارلز باريز فانسنت فانديلي، يدمج السحر بين التحريك التقليدي رسوم ثلاثية الأبعاد للحاسوب. وعُرض بين 27 مايو 2006 و1 مارس 2011. بتدور أحداث المسلسل في المستقبل البعيد، وفيه تتنافس العوالم الماهولة في مجرة ​​زيون في رياضة «كرة قدم المجرات»، وهي رياضة تشبه كرة القدم التقليدية، إلا أنها تُلعب بسبعة لاعبين في كل فريق.",
+      "summaryEn": "كرة قدم المجرات (الإنجليزية: Galactik Football) هو مسلسل رسوم متحركة فرنسي، يتكون من 78 حلقة مدة كل منها 26 دقيقة، من إنشاء تشارلز باريز وفنسنت فانديلي، يمزج المسلسل بين التحريك التقليدي ثنائي الأبعاد والرسومات الحاسوبية ثلاثية الأبعاد. وعُرض بين 27 مايو 2006 و1 مارس 2011. تدور أحداث المسلسل في مستقبل بعيد، حيث تتنافس العوالم المأهولة في مجرة زايون في رياضة «كرة قدم المجرات»، وهي رياضة تشبه كرة القدم التقليدية، لكنها تُلعب بسبعة لاعبين في كل فريق.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%83%D8%B1%D8%A9%20%D9%82%D8%AF%D9%85%20%D8%A7%D9%84%D9%85%D8%AC%D8%B1%D8%A7%D8%AA"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "كرة قدم المجرات",
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "أنمي — الأصوات لم تُحدد"
+      },
+      "director": "شارل كوريس",
+      "needsReview": true
+    },
+    "cartoon-series/كوردج الجبان.jpg": {
+      "title": "كوردج الجبان",
+      "canonicalTitle": "كوردج الجبان",
+      "type": "series",
+      "directors": null,
+      "releaseDate": "1999",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "مارتي غرابشتاين",
+        "تيلما سكاليز",
+        "ليونيل ويلسون",
+        "آرثر أندرسون"
+      ],
+      "genres": [
+        "كوميديا سوداء",
+        "مسلسل تلفزيوني يجمع بين الكوميديا ​​والرعب",
+        "فنتازيا علمية",
+        "slapstick film",
+        "absurdist comedy television series"
+      ],
+      "summaryAr": "كوردج الرسوم المتحركة اليابانية (الإنجليزية: Courage the Cowardly Dog) هو مسلسل رسوم متحركة أمريكي كوميدي رعب تم إنتاجه في قناة كرتون نتورك. تم تأليفه بواسطة جون آر. قام ديلورث بإنتاجه بواسطة استوديو ستوديو سترتش فيلمز التابع لديلوورث عُرض المسلسل لأول مرة في 12 نوفمبر 1999، وحقق شركة متعددة كبيرة طابعه الفريد اللي يجمع بين الكوميديا ​​والرعب وأجواءه ونتيجة لذلك والواقعية.",
+      "summaryEn": "كوردج الكلب الجبان (الإنجليزية: Courage the Cowardly Dog) هو مسلسل رسوم متحركة أمريكي كوميدي رعب تم إنتاجه لصالح قناة كرتون نتورك. تم تأليفه من قبل جون آر. ديلورث وإنتاجه بواسطة استوديو الرسوم المتحركة سترتش فيلمز التابع لديلوورث عُرض المسلسل لأول مرة في 12 نوفمبر 1999، وحقق شعبية كبيرة بفضل طابعه الفريد الذي يجمع بين الكوميديا والرعب وأجوائه المظلمة والسريالية.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%83%D9%88%D8%B1%D8%AF%D8%AC%20%D8%A7%D9%84%D8%AC%D8%A8%D8%A7%D9%86"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "كوردج الجبان",
+      "director": "جون روبرت ديلوورث",
+      "creators": "جون روبرت ديلوورث",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/كونج فو شاولين.jpg": {
+      "title": "كونج فو شاولين",
+      "canonicalTitle": "كونغ فو شاولين",
+      "type": "series",
+      "directors": [
+        "كريستي زو"
+      ],
+      "releaseDate": "2003",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "تارا سترونغ"
+      ],
+      "genres": null,
+      "summaryAr": "كون فو شاولين (بالإنجليزية: Xiaolin Showdown): هو مسلسل كرتوني أمريكي من إنتاج شركة وارنر براذرز أنميشن يحكي عن فتى اسمه اومي وصدقاءه الاربعة كيميكو ورايموندو وكلاينين ودجو اللي يتحسس الشين كون وو ومعلمهم السيد فونغ ا ويبد شؤونهم يرون الكون وو ويواجهون جريم اللدودين جاك تشايسر ووويا الشبح اللي كانت لها في مافتي جسد ويواجهون جاك جندي شايسر (الروبوتات) وكاتنابي ومحارب النينجا والالي الحرباء·تم عرضه مدبلج بالعربية في سبايستون من مركز الزهرة ومن يفهم عرض الموسم الثاني، بس مدبلج في شركة إيمدج برودككشن هاوس، إم بي سي 3.",
+      "summaryEn": "كونغ فو شاولين (الإنجليزية: Xiaolin Showdown): هو مسلسل كرتوني أمريكي من إنتاج شركة وارنر براذرز أنيميشن يحكي عن فتى اسمه اومي واصدقاءه الاربعة كيميكو ورايموندو وكلاي والتنين دوجو الذي يتحسس الشين كونغ وو ومعلمهم السيد فونغ ا ويبدؤون رحلتهم لجمع الشين كونغ وو ويواجهون عدويهم اللدودين جاك سبايسر ووويا الشبح التي كانت لها في ما مضى جسد ويواجهون جنود جاك سبايسر (الروبوتات) وكاتنابي ومحارب النينجا والالي الحرباء·تم عرضه مدبلج بالعربية في سبيستون من مركز الزهرة ومن بعدها عرض الموسم الثاني، والثالث فقط مدبلج في شركة إيمدج برودكشن هاوس، إم بي سي 3.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%83%D9%88%D9%86%D8%BA%20%D9%81%D9%88%20%D8%B4%D8%A7%D9%88%D9%84%D9%8A%D9%86%20(%D9%85%D8%B3%D9%84%D8%B3%D9%84)"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia",
+      "wikiTitle": "كونغ فو شاولين (مسلسل)",
+      "director": "كريستي زو",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/ماشا والدب.jpg": {
+      "title": "ماشا والدب",
+      "canonicalTitle": "ماشا والدب",
+      "type": "series",
+      "directors": null,
+      "releaseDate": "2015",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "الينا كوكوشكينا",
+        "فارفارا سارانتسيفي",
+        "بوريس كوتنيفتش"
+      ],
+      "genres": [
+        "مسلسلات الأطفال التلفزية"
+      ],
+      "summaryAr": "ماشا والدب (الروسية: Ма́sha и Медве́дь) هو مسلسل رسوم متحركة رومانسي بدأ في يناير 2009 في روسيا وسبيستون في مارس عام 2015 وأيضا على قناة سبيستون في يوتيوب بدأ من 20 أبريل عام 2015 كما تم في الموسم الرابع والخامس تم مشاهدة مدبلج من إيمدج برودككشن استمر هذا الموسم من أشهر مسلسلات الرسوم المتحركة وفيه بلغ 320 مليون مشاهد حول العالم عرضه على خدمة نت فليكس \"Netflix\".",
+      "summaryEn": "ماشا والدب (الروسية: Ма́ша и Медве́дь) هو مسلسل رسوم متحركة روسي بدأ عرضه في يناير 2009 في روسيا وعلى سبيستون في مارس عام 2015 وأيضا على قناة سبيستون في يوتيوب بدأ من 20 أبريل عام 2015 وأيضا في الموسم الرابع و الخامس تم التقديم مدبلج من إيمدج برودكشن هاوس ويعتبر هذا المسلسل من أشهر مسلسلات الرسوم المتحركة حيث حقق 320 مليون مشاهد حول العالم وبدأ عرضه على خدمة نيت فليكس \"Netflix\".",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%A7%D8%B4%D8%A7%20%D9%88%D8%A7%D9%84%D8%AF%D8%A8"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "ماشا والدب",
+      "director": "أوليغ كوزوفكوف",
+      "creators": "أوليغ كوزوفكوف",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/ماوكلي فتي الادغال.jpg": {
+      "title": "ماوكلي فتي الادغال",
+      "canonicalTitle": "ماوكلي فتى الأدغال",
+      "type": "series",
+      "director": "فوميو كوروكاوا وكتابة كيميو كابوكي",
+      "directors": [
+        "فوميو كوروكاوا وكتابة كيميو كابوكي"
+      ],
+      "releaseDate": "1989",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "أورارا تاكانو",
+        "هيروشي ماسوكا"
+      ],
+      "genres": [
+        "أنمي ومانغا دراما",
+        "أنمي ومانغا أكشن"
+      ],
+      "summaryAr": "ماوكلي فتى الأدغال (باليابانية: ジャングルブック 少年モーグリ) و(الإنجليزية: Jungle Book Shonen Mowgli) مسلسل أنمي ياباني من إخراج فوميو كوروا وكتابة كيميو كابوكي. المسلسل يستند إلى رواية الرواية الشهيرة كتاب الأدغال وأنتج عام 1989 ويتكون من 52 حلقة دبلجت جميعها باللغة العربية.",
+      "summaryEn": "ماوكلي فتى الأدغال (باليابانية:ジャングルブック 少年モーグリ) و(الإنجليزية: Jungle Book Shonen Mowgli) مسلسل أنمي ياباني من إخراج فوميو كوروكاوا وكتابة كيميو كابوكي. المسلسل يستند إلى الرواية الشهيرة كتاب الأدغال وأنتج عام 1989 ويتكون من 52 حلقة دبلجت جميعها إلى اللغة العربية.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%A7%D9%88%D9%83%D9%84%D9%8A%20%D9%81%D8%AA%D9%89%20%D8%A7%D9%84%D8%A3%D8%AF%D8%BA%D8%A7%D9%84"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "ماوكلي فتى الأدغال",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/مختبر دكستر.jpg": {
+      "title": "مختبر دكستر",
+      "canonicalTitle": "مختبر دكستر",
+      "type": "series",
+      "directors": null,
+      "releaseDate": "2006",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "كريستين كافانو",
+        "كاندي ميلو",
+        "كاث سوسي",
+        "جيف بينيت"
+      ],
+      "genres": [
+        "مسلسلات الأطفال التلفزية",
+        "science fiction television series",
+        "مسلسل كوميدي"
+      ],
+      "summaryAr": "دكستر (الإنجليزية: Dexter's Laboratory) مسلسل رسوم متحركة من تأليف شخصية تارتاكوفسكي لقناة كرتون نتورك ومن إنتاج شركة هانا-باربيرا الأمريكية وكرتون نتورك ستوديوز، وبثته قناة كرتون نتورك بين 1996 و1999 ثم من 2001 حتى 2002 ويتكون من 78 حلقة مختبر، في الدول تم عرضه لأول مرة على قناة سبيستون بين توقف 2005 بدبلجة سورية بس في عام في عام 2006 بدأ بث دبلجة جديدة (كانتية لبنان) على قناة mbc3 واللي تبثها مع قناة أجيال.. يحكي قصة دكستر، وهو طفل عبقري عمره 8 سنوات لديه مختبر سري متطو�� تحت غرفة نومه يخفيه عن والديه ويحاول فيه ابتكار اختراع متنوع.",
+      "summaryEn": "مختبر دكستر (الإنجليزية: Dexter's Laboratory) مسلسل رسوم متحركة من تأليف جندي تارتاكوفسكي لقناة كرتون نتورك ومن إنتاج شركة هانا-باربيرا الأمريكية وكرتون نتورك ستوديوز، وبثته قناة كرتون نتورك بين الأعوام 1996 و1999 ثم من 2001 حتى 2002 ويتكون من 78 حلقة، في الدول العربية تم عرضه لأول مرة على قناة سبيستون بين الأعوام 2005 بدبلجة سورية ولكن في عام 2006 بدأ بث دبلجة جديدة (كانت لبنانية) على قناة mbc3 والتي ظلت تبثها مع قناة أجيال.. يحكي المسلسل قصة دكستر، وهو طفل عبقري عمره 8 سنوات لديه مختبر سري متطور تحت غرفة نومه يخفيه عن والديه ويحاول فيه اختراع أمور متنوعة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%AE%D8%AA%D8%A8%D8%B1%20%D8%AF%D9%83%D8%B3%D8%AA%D8%B1"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "مختبر دكستر",
+      "director": "Rob Renzetti",
+      "creators": "جيندي تارتاكوفسكي",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/مزرعة المشاغبين.jpg": {
+      "title": "مزرعة المشاغبين",
+      "canonicalTitle": "مزرعة المشاغبين",
+      "type": "series",
+      "directors": null,
+      "releaseDate": "2006",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "كريس هارديك",
+        "جيف غارسيا",
+        "لي-آلين بيكر",
+        "كام كلارك"
+      ],
+      "genres": [
+        "مسلسل كوميدي",
+        "مسلسلات الأطفال التلفزية"
+      ],
+      "summaryAr": "مزرعة المشاغبين (بالإنجليزية: Back at the Barnyard) هو مسلسل تلفزيوني مرسوم بالكمبيوتر على نكلوديون وهو مشترك من فيلم الحظيرة عام 2006. عرضت الحلقة الأولى على نكلوديون في 29 سبتمبر 2007. وأنتج البرنامج من قبل استوديو أوميشن أنميشن، بالتعاون مع استوديوهات نكلوديون لرسوم المتحركة.",
+      "summaryEn": "مزرعة المشاغبين (الإنجليزية: Back at the Barnyard) هو مسلسل تلفزيوني مرسوم بالكمبيوتر على نكلوديون وهو مشتق من فيلم الحظيرة عام 2006. عرضت الحلقة الأولى على نكلوديون في 29 سبتمبر 2007. وأنتج البرنامج من قبل استوديو أوميشن أنيميشن، وذلك بالتعاون مع استوديوهات نكلوديون للرسوم المتحركة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B2%D8%B1%D8%B9%D8%A9%20%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%BA%D8%A8%D9%8A%D9%86"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "مزرعة المشاغبين",
+      "director": "ستيف أويديكيرك",
+      "creators": "ستيف أويديكيرك",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/ميكي ماوس.jpg": {
+      "title": "ميكي ماوس",
+      "canonicalTitle": "ميكي ماوس",
+      "directors": [
+        "طوني كريج"
+      ],
+      "releaseDate": "1928",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "واين ألوين"
+      ],
+      "genres": [
+        "مسلسل كوميدي"
+      ],
+      "summaryAr": "ميكي ماوس أو الفأر ميكي (بالإنجليزية: Mickey Mouse) شخصية كرتونية اخترعها والت ديزني وأب أيوركس في سنة 1928. ميكي هو فير أسود يمسك الإنسان مطلق ما يلبس ملابس بحملات حمراء اللون بيضاء وأحذية فارغة وقفازات. ميكي ماوس من الشخصيات الأكثر شهرة في العالم وهو رمز شركة والت ديزني.",
+      "summaryEn": "ميكي ماوس أو الفأر ميكي (الإنجليزية: Mickey Mouse) شخصية كرتونية اخترعها والت ديزني وأب أيوركس في سنة 1928. ميكي هو فأر أسود يسلك سلوك الإنسان وعادة ما يلبس سروال بحملات أحمر اللون وأحذية صفراء وقفازات بيضاء. ميكي ماوس من الشخصيات الأكثر شهرة في العالم وهو رمز شركة والت ديزني.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%85%D9%8A%D9%83%D9%8A%20%D9%85%D8%A7%D9%88%D8%B3"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "ميكي ماوس",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "طوني كريج"
+    },
+    "cartoon-series/ميكي والمتسابقون.jpg": {
+      "title": "ميكي والمتسابقون",
+      "canonicalTitle": "ميكي والمتسابقون",
+      "type": "series",
+      "directors": [
+        "فيل وينر"
+      ],
+      "releaseDate": "2017",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "بريت إيوان"
+      ],
+      "genres": [
+        "مسلسلات الأطفال التلفزية"
+      ],
+      "summaryAr": "ميكي ماوس وتتسابقون (بالإنجليزية: Mickey Mouse Mixed-Up Adventures) هو مسلسل رسوم متحركة أمريكي للأطفال عُرض على قناة ديزني جونيور. من إنتاج ديزني تيليشن أنيمايشن، نهائيّ المسلسل خليفةً لمسلسل \"نادي ميكي ماوس\". عُرضت في البداية باسم \"ميكي ومتسابقو رودستر\" في موسميه الأولين، ثم عُرضت لأول مرة حلقتين متتاليتين في 15 يناير 2017.",
+      "summaryEn": "ميكي والمتسابقون (الإنجليزية: Mickey Mouse Mixed-Up Adventures) هو مسلسل رسوم متحركة أمريكي للأطفال عُرض على قناة ديزني جونيور. من إنتاج ديزني تيليفشن أنيمايشن، يُعدّ المسلسل خليفةً لمسلسل \"نادي ميكي ماوس\". عُرض في البداية باسم \"ميكي ومتسابقو رودستر\" في موسميه الأولين، ثم عُرض لأول حلقتين متتاليتين في 15 يناير 2017.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%85%D9%8A%D9%83%D9%8A%20%D9%88%D8%A7%D9%84%D9%85%D8%AA%D8%B3%D8%A7%D8%A8%D9%82%D9%88%D9%86"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "ميكي والمتسابقون",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "فيل وينر"
+    },
+    "cartoon-series/واحة اوسكار.jpg": {
+      "title": "واحة اوسكار",
+      "canonicalTitle": "واحة أوسكار",
+      "type": "series",
+      "directors": [
+        "ماري موريس"
+      ],
+      "releaseDate": "2010",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "سليك كورسير",
+        "أوكي ساكورا"
+      ],
+      "genres": [
+        "مسلسل كوميدي"
+      ],
+      "summaryAr": "واحة أوسكار (الإنجليزية: Oscar's Oasis) مسلسل كوميدي من التأثيرات الفرنسية الكورية الجنوبية للكمبيوتر باستثناء 78 حلقة مدتها 7 صباحًا. تم إنتاجه من قبل TeamTO و Tuba Entertainment، بالاشتراك مع إنترتينمنت، و Synergy Media بالتعاون مع تي أف 1، في إنتاج موسيقي مع Canal + Family و تيل تون، للبث التربوي و BENEX و Carrimages 5، دعم المركز الوطني لتصوير الأفلام والصور المتحركة (CNC) تحت اسم رون ألب بنجاح بواتو شارانت ووكالة المحتوى الإبداعي الكوري (KOCCA).",
+      "summaryEn": "واحة أوسكار (الإنجليزية: Oscar's Oasis) مسلسل كوميدي من الرسوم المتحركة الفرنسية الكورية الجنوبية لأجهزة الكمبيوتر يتألف من 78 حلقة مدتها 7 دقائق. تم إنتاجه من قبل TeamTO و Tuba Entertainment، بالاشتراك مع كيك إنترتينمنت، و Synergy Media بمشاركة تي أف 1، في الإنتاج المشترك مع Canal + Family و تيل تون ونظام البث التربوي و BENEX و Carrimages 5، ودعم المركز الوطني للتصوير السينمائي و الصور المتحركة (CNC) ومنطقة رون ألب ومنطقة بواتو شارانت ووكالة المحتوى الإبداعي الكوري (KOCCA).",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%88%D8%A7%D8%AD%D8%A9%20%D8%A3%D9%88%D8%B3%D9%83%D8%A7%D8%B1"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "واحة أوسكار",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "director": "ماري موريس"
+    },
+    "cartoon-series/وقت المغامرة.jpg": {
+      "title": "وقت المغامرة",
+      "canonicalTitle": "وقت المغامرة",
+      "type": "series",
+      "directors": null,
+      "releaseDate": "2018",
+      "studio": null,
+      "networks": null,
+      "cast": [
+        "جيريمي شادا",
+        "جون ديماجيو",
+        "هيندن وولتش",
+        "توم كيني"
+      ],
+      "genres": [
+        "فانتازيا",
+        "مسلسل مغامرات",
+        "مسلسل كوميدي",
+        "مسلسل ما بعد نهاية العالم",
+        "مسلسل أكشن"
+      ],
+      "summaryAr": "وقت المغامرة (الإنجليزية: Adventure Time) (بالأصل بعنوان: وقت المغامرة مع فين يوجايك) هو مسلسل رسوم متحركة أمريكي وعشرة أجزاء من تأليف بيندليتون وارد لكرتون نتورك. المسلسل يتتبع مغامرات فين (صوت جيريمي شادا) وهو إنساني، في عالم ما بعد الحرب الذكية، وأفضل العشرات وأخوه بالتبني جايك (صوت جون ديماغيو)، وهو كلب يمتلك قوى سحرية مطلوبة كما يريد وعندما يريد، يعيش فين جايك في «أرض أوو». يستند المسلسل إلى فيلم قصير من إنتاج فريدتيريور ستوديوز لنكلوديون.",
+      "summaryEn": "وقت المغامرة (الإنجليزية: Adventure Time) (بالأصل بعنوان: وقت المغامرة مع فين وجايك) هو مسلسل رسوم متحركة أمريكي يتألف من عشرة أجزاء من تأليف بيندليتون وارد لكرتون نتورك. المسلسل يتتبع مغامرات فين (صوت جيريمي شادا) وهو صبي بشري، في عالم ما بعد الحرب النووية، وأفضل أصدقائه وأخوه بالتبني جايك (صوت جون ديماغيو)، وهو كلب يملك قوى سحرية لتغيير الشكل والحجم عندما يريد، يعيش فين وجايك في «أرض أوو». يستند المسلسل على فيلم قصير من إنتاج فريديراتور ستوديوز لنكلوديون.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://ar.wikipedia.org/wiki/%D9%88%D9%82%D8%AA%20%D8%A7%D9%84%D9%85%D8%BA%D8%A7%D9%85%D8%B1%D8%A9"
+        }
+      ],
+      "confidence": "high",
+      "source": "wikipedia+wikidata",
+      "wikiTitle": "وقت المغامرة",
+      "director": "Larry Leichliter",
+      "creators": "بندلتن ورد",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/باباي.jpg": {
+      "title": "باباي",
+      "canonicalTitle": "باباي",
+      "type": "film",
+      "genres": null,
+      "director": "إيلبر سيلفرمان",
+      "cast": [
+        "جاك ميرسير",
+        "مارلين شيفرلير",
+        "ألان ملفين",
+        "داوس بتلر"
+      ],
+      "releaseDate": "1960",
+      "platforms": null,
+      "creators": "إلزي سيغار",
+      "summaryAr": "مغامرات البحار المشاكس باباي اللي بياخد طاقة وقوة جبارة أول ما ياكل سبانخ، عشان ينقذ حبيبته زيتونة ويدّي علقة لغريمه بلوتو.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3282556"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikidata",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      },
+      "directors": [
+        "إيلبر سيلفرمان"
+      ]
+    },
+    "cartoon-series/علاء الدين.jpg": {
+      "title": "علاء الدين",
+      "canonicalTitle": "علاء الدين",
+      "type": "film",
+      "genres": [
+        "مسلسل كوميدي",
+        "مسلسل مغامرات",
+        "فانتازيا"
+      ],
+      "director": "Alan Zaslove",
+      "cast": [
+        "سكوت وينجر",
+        "دن كاستيلانيتا",
+        "ليندا لاركين",
+        "جيلبرت غوتفريد"
+      ],
+      "releaseDate": "1994",
+      "platforms": null,
+      "creators": "Walt Disney Television",
+      "summaryAr": "مغامرات الشاب الشجاع علاء الدين مع الأميرة ياسمين والجني الفرفوش وقرده أبو في مدينة عقربة، وهما بيتصدوا للأشرار والسحرة عشان يحموا المدينة.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q27120"
+        }
+      ],
+      "confidence": "medium",
+      "source": "wikidata",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "المسلسل التلفزيوني المقتبس من فيلم ديزني، وليس الفيلم نفسه"
+      }
+    },
+    "cartoon-series/guardian of the galaxy.jpg": {
+      "title": "guardian of the galaxy",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "مارفل أنيميشن",
+      "directors": [
+        "مارفل أنيميشن"
+      ],
+      "cast": [
+        "ويل فريدل",
+        "تريفور ديفال",
+        "كيفن مايكل ريتشاردسون"
+      ],
+      "releaseDate": "2015",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "مغامرات خيال علمي وأكشن مسلية لفريق حراس المجرة — ستار لورد وغامورا ودراكس وروكيت وغروت — في حماية الكون من المخاطر الفضائية.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "العنوان الإنجليزي في المجلد ناقص الحرف «s» — الاسم الصحيح Guardians of the Galaxy"
+      }
+    },
+    "cartoon-series/invisable.jpg": {
+      "title": "invisable",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "روبرت كيركمان",
+      "directors": [
+        "روبرت كيركمان"
+      ],
+      "cast": [
+        "ستيفن يون",
+        "جيه كيه سيمونز",
+        "ساندرا أوه"
+      ],
+      "releaseDate": "2021",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "أكشن ودراما قوية عن بطل خارق مراهق اسمه مارك بيورث قوى خارقة من أبوه اللي بيعتبروه أقوى بطل على الأرض، بس بيكتشف أسرار ومؤامرات بتصدمه.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "العنوان في المجلد «invisable» كتابته ناقصة حرفاً"
+      }
+    },
+    "cartoon-series/اصدار اكس.jpg": {
+      "title": "اصدار اكس",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "لاري هيوستون",
+      "directors": [
+        "لاري هيوستون"
+      ],
+      "cast": [
+        "سدريك سميث",
+        "كال دود"
+      ],
+      "releaseDate": "1992",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "فريق من المتحولين عندهم قدرات خارقة بقيادة البروفيسور إكس، بيدافعوا عن عالم خايف منهم في وش مخططات ماغنيتو والمنظمات المعادية.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "وصفُ سلسلة X-Men لا يطابق اسم المجلد «اصدار اكس» — يحتاج تأكيد"
+      }
+    },
+    "cartoon-series/افاتار.jpg": {
+      "title": "افاتار",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "مايكل دانتي دي مارتينو / برايان كونيتزكو",
+      "directors": [
+        "مايكل دانتي دي مارتينو / برايان كونيتزكو"
+      ],
+      "cast": [
+        "زاك تايلر إيزن",
+        "ميتا جولدنج"
+      ],
+      "releaseDate": "2005",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "في عالم متقسم لأربع قبائل حسب عناصر الطبيعة، بيصحى الطفل آنج، الآفاتار الوحيد اللي يقدر يتحكم في الأربع عناصر، عشان يوقف حرب عشيرة النار ويرجع السلام.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/بيج هيرو 6.jpg": {
+      "title": "بيج هيرو 6",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "ديزني",
+      "directors": [
+        "ديزني"
+      ],
+      "cast": [
+        "رايان بوتر",
+        "سكوت أدايت"
+      ],
+      "releaseDate": "2017",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "مغامرات عبقري الروبوتات الصغير هيرو وصديقه الروبوت اللطيف بيماكس مع شلة صحابهم، وهما بيحاربوا الجريمة في مدينة سان فرانتوكيو.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "فيلم سينمائي لا مسلسل تلفزيوني"
+      }
+    },
+    "cartoon-series/توم المتحدث واصدقائه.jpg": {
+      "title": "توم المتحدث واصدقائه",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "أوتفيت 7",
+      "directors": [
+        "أوتفيت 7"
+      ],
+      "cast": [
+        "كولين هانكس",
+        "توم كيني"
+      ],
+      "releaseDate": "2014",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "مواقف يومية كوميدية للقط توم وأصحابه بن وأنجيلا وهانك مع اختراعاتهم وأفكارهم الغريبة اللي بتعمل مقالب ومشاكل مضحكة.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "الطقم الصوتي المذكور يخص Tom and Jerry بينما العنوان Talking Tom"
+      }
+    },
+    "cartoon-series/توم سوير.jpg": {
+      "title": "توم سوير",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "هيروشي سايتو",
+      "directors": [
+        "هيروشي سايتو"
+      ],
+      "cast": [
+        "ماساكو نوزاوا",
+        "كيكو هان"
+      ],
+      "releaseDate": "1980",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "مغامرات الفتى الشقي توم سوير وصاحبه هاكلبيري فين على شط نهر الميسيسيبي، ومقالبهم المستمرة في بلدتهم الصغيرة.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "النسخة العربية معروفة بصوت طاقم الدبلجة الشهير — لا يوجد مذكورون بالاسم"
+      }
+    },
+    "cartoon-series/ثلاثةٌ بيننا أساطير أركاديا.jpg": {
+      "title": "ثلاثةٌ بيننا أساطير أركاديا",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "جييرمو ديل تورو",
+      "directors": [
+        "جييرمو ديل تورو"
+      ],
+      "cast": [
+        "تاتيانا ماسلاني",
+        "دييغو لونا"
+      ],
+      "releaseDate": "2018",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "أميرين فضائيين مراهقين بيهربوا مع حارسهم الآلي بعد انقلاب على كوكبهم، وبيهبطوا بمركبتهم في مدينة أركاديا ويتنكروا كبشر عشان يستخبوا.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/جامبول.jpg": {
+      "title": "جامبول",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "بن بوكليت",
+      "directors": [
+        "بن بوكليت"
+      ],
+      "cast": [
+        "لوقا مورال",
+        "نيكولاس"
+      ],
+      "releaseDate": "2011",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "كوميديا سريالية مفركشة عن القط الأزرق غامبول وصاحبه وأخوه بالتبني السمكة داروين، ومغامراتهم العبيطة في المدرسة ومع عائلتهم في مدينة إلمور.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "اسم الشخصية في الطقم الصوتي غير واضح"
+      }
+    },
+    "cartoon-series/جمي نيوترون.jpg": {
+      "title": "جمي نيوترون",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "جون أودا",
+      "directors": [
+        "جون أودا"
+      ],
+      "cast": [
+        "دبي ديبريه",
+        "جيف غارسيا"
+      ],
+      "releaseDate": "2002",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "طفل عبقري بيخترع أجهزة تكنولوجية متطورة وسابقة عصرها، بس اختراعاته دايماً بتعمل كوارث ومواقف كوميدية له ولصحابه في مدينة ريتروفيل.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/داموستاحيل.jpg": {
+      "title": "داموستاحيل",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "ديزني",
+      "directors": [
+        "ديزني"
+      ],
+      "cast": [
+        "كريستي كارلسون رومانو",
+        "ويل فريدل"
+      ],
+      "releaseDate": "2002",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "طالبة ثانوية شاطرة بتقضي وقت فراغها في محاربة الأشرار وإنقاذ العالم مع صاحبها المتهور رون ستوبابل وفأره الصغير روفوس.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/دراجون بوستر.jpg": {
+      "title": "دراجون بوستر",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "كومد تيلفيجن",
+      "directors": [
+        "كومد تيلفيجن"
+      ],
+      "cast": [
+        "مات هيل",
+        "أندرو فرانسيس"
+      ],
+      "releaseDate": "2004",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "ولد مراهق بيتم اختياره عشان يقود تنين أسطوري ويحمي عالم أركان سيتي من حرب طاحنة ممكن تولع بين البشر والتنانين.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/دونالد البطه.jpg": {
+      "title": "دونالد البطه",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "والت ديزني",
+      "directors": [
+        "والت ديزني"
+      ],
+      "cast": [
+        "كلارنس ناش",
+        "توني أنسلمو",
+        "دانيال روس"
+      ],
+      "releaseDate": "1934",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "المغامرات الكلاسيكية للبطة العصبية الشهيرة بطوط (دونالد داك) ومواقفه الكوميدية اللي متتنسيش مع ولاد إخوته والمقالب اليومية.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "سلسلة كلاسيكية تمتد لعقود — التاريخ المذكور هو بداية السلسلة، والأصوات لم تُحدد"
+      }
+    },
+    "cartoon-series/ديد اند اشباح الملاهي.jpg": {
+      "title": "ديد اند اشباح الملاهي",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "هاميش ستيل",
+      "directors": [
+        "هاميش ستيل"
+      ],
+      "cast": [
+        "زاك بارك",
+        "كينج سي"
+      ],
+      "releaseDate": "2022",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "اتنين مراهقين وكلبهم المتكلم بيشتغلوا في بيت الرعب جوة مدينة ملاهي مسكونة، وبيكتشفوا إنها بوابة لعالم سري مليان شياطين وأشباح.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/ديزني كلاسيك.jpg": {
+      "title": "ديزني كلاسيك",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "كبار مخرجي ديزني",
+      "directors": [
+        "كبار مخرجي ديزني"
+      ],
+      "cast": [
+        "واين ألبين",
+        "توني أنسلمو",
+        "بيل فارمر"
+      ],
+      "releaseDate": "1937",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "مجموعة من أجمل كلاسيكيات وأفلام ديزني القصيرة اللي كبرت عليها أجيال، مليانة سحر ومغامرات وشخصيات محفورة في الذاكرة.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "أرشيف أعمال ديزني الكلاسيكية — التاريخ 1937 هو بداية عصر ديزني الكلاسيكي (فيلم سنو وايت والأقزام السبعة)، والأرشيف نفسه يمتد لعقود تالية."
+      }
+    },
+    "cartoon-series/صائدوا الغيلان قصص أركاديا.jpg": {
+      "title": "صائدوا الغيلان قصص أركاديا",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "جييرمو ديل تورو",
+      "directors": [
+        "جييرمو ديل تورو"
+      ],
+      "cast": [
+        "أنتوان يلشين",
+        "كيلسي جرامر"
+      ],
+      "releaseDate": "2016",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "ولد مراهق عادي بيلاقي تميمة سحرية بتختاره يكون أول بشري يحمل لقب صائد الغيلان عشان يحمي عالم البشر وعوالم الوحوش الخفية تحت الأرض.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/كريبي و الحشرات.jpg": {
+      "title": "كريبي و الحشرات",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "إنتاج سويسري سويدي مشترك",
+      "directors": [
+        "إنتاج سويسري سويدي مشترك"
+      ],
+      "cast": [
+        "أثينا كاركانيس",
+        "كريس هيغنز",
+        "سكوت مكورد"
+      ],
+      "releaseDate": "2004",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "مغامرات بنت غريبة الأطوار بتعيش مع عيلة من الحشرات المتكلمة في قصر قديم، وبتواجه مواقف مريبة ومضحكة في مدرستها وحياتها اليومية.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "وصف العمل والسنة غير واضحين — يحتاج تأكيد"
+      }
+    },
+    "cartoon-series/كونغ فو باندا.jpg": {
+      "title": "كونغ فو باندا",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "دريم ووركس",
+      "directors": [
+        "دريم ووركس"
+      ],
+      "cast": [
+        "ميك وينغرت",
+        "لوسي ليو"
+      ],
+      "releaseDate": "2011",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "مغامرات الباندا بو بعد ما بقى محارب التنين، بيواصل تدريباته الشاقة وخناقاته ضد أشرار جدد بمساعدة الغاضبين الخمسة لحماية وادي السلام.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "سلسلة أفلام سينمائية لا مسلسل تلفزيوني"
+      }
+    },
+    "cartoon-series/لعبة الوحوش.jpg": {
+      "title": "لعبة الوحوش",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "جيل كينان",
+      "directors": [
+        "جيل كينان"
+      ],
+      "cast": [
+        "ميتشل موسو",
+        "سام ليرنر"
+      ],
+      "releaseDate": "2006",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "تلات أطفال بيكتشفوا إن البيت القديم المرعب اللي في شارعهم هو في الحقيقة وحش حي بيبتلع أي حاجة تقرب منه، فيقرروا يواجهوه بنفسهم.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "فيلم سينمائي لا مسلسل تلفزيوني"
+      }
+    },
+    "cartoon-series/مغامرات العم دهب.jpg": {
+      "title": "مغامرات العم دهب",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "ديزني",
+      "directors": [
+        "ديزني"
+      ],
+      "cast": [
+        "آلان يونغ",
+        "ديفيد تينانت"
+      ],
+      "releaseDate": "1987",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "مغامرات البطة الثري والبخيل عم دهب مع ولاد إخوته سوسو ولولو وتوتو، وهما بيلفوا العالم عشان يلاقوا كنوز ضايعة وآثار نادرة.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "السلسلة أعيد إنتاجها في 2017 — التاريخ سلسلتي"
+      }
+    },
+    "cartoon-series/منزل فوستر.jpg": {
+      "title": "منزل فوستر",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "كريغ مكراكين",
+      "directors": [
+        "كريغ مكراكين"
+      ],
+      "cast": [
+        "شون مارquette",
+        "كيث فيرغسون"
+      ],
+      "releaseDate": "2004",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "ولد صغير بيضطر يسيب صاحبه الخيالي بلو، فيوديه ملجأ فوستر المخصص للأصدقاء الخياليين، وتبدأ مغامراتهم المضحكة مع باقي الشخصيات الغريبة.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/ميراكوليس.jpg": {
+      "title": "ميراكوليس",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "توماس أستروك",
+      "directors": [
+        "توماس أستروك"
+      ],
+      "cast": [
+        "كريستينا فالينزويلا",
+        "برايس بابينبروك"
+      ],
+      "releaseDate": "2015",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "مراهقين في باريس — مارينت وإدريان — بيتحولوا في السر للأبطال الخارقين الدعسوقة والقط الأسود بقوى الميراكولوس عشان يحموا المدينة من شرور هوكموث.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "extra": {
+        "factsSource": "بحث يدوي"
+      }
+    },
+    "cartoon-series/وودى نقار الخشب.jpg": {
+      "title": "وودى نقار الخشب",
+      "canonicalTitle": null,
+      "type": "series",
+      "genres": null,
+      "director": "والتر لانتز",
+      "directors": [
+        "والتر لانتز"
+      ],
+      "cast": [
+        "والتر لانتز",
+        "جريس ستافورد",
+        "بيلي ويست",
+        "إريك باوزا"
+      ],
+      "releaseDate": "1940",
+      "platforms": null,
+      "creators": null,
+      "summaryAr": "مغامرات نقار الخشب المشاكس وودي بضحكته الشهيرة ومقالبه المجنونة اللي بيجنن بيها جيرانه والصيادين في الغابة.",
+      "summaryEn": null,
+      "requirements": null,
+      "links": [],
+      "confidence": "medium",
+      "needsReview": true,
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "سلسلة كلاسيكية تمتد لعقود — التاريخ المذكور هو بدايتها، والأصوات لم تُحدد"
+      }
+    }
+  }
+}
