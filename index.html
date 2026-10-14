@@ -17,12 +17,15 @@
 
   <!-- V1.1 typography: Tajawal for Arabic UI, Plus Jakarta Sans for numerals.
        Loaded non-blocking: the stylesheet applies itself once it arrives, so
-       first paint no longer waits on fonts.googleapis.com. -->
+       first paint no longer waits on fonts.googleapis.com.
+       Only the weights the CSS actually applies (700/800/900) are requested —
+       asking for 400/500 as well made the browser download four extra woff2
+       files that no rule ever used. -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Tajawal:wght@400;500;700;800;900&display=swap" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Tajawal:wght@700;800;900&display=swap" />
   <link
-    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Tajawal:wght@400;500;700;800;900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Tajawal:wght@700;800;900&display=swap"
     rel="stylesheet"
     media="print"
     onload="this.media='all'; this.onload=null;"

@@ -16,9 +16,14 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Only the weights item.css actually applies (700/800/900), loaded
+       non-blocking so first paint does not wait on fonts.googleapis.com. -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Tajawal:wght@700;800;900&display=swap" />
   <link
-    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Tajawal:wght@400;500;700;800;900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Tajawal:wght@700;800;900&display=swap"
     rel="stylesheet"
+    media="print"
+    onload="this.media='all'; this.onload=null;"
   />
 
   <!-- Shared Liquid Glass tokens + this page's own blocks -->
