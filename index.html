@@ -207,6 +207,23 @@
         </div>
       </div>
 
+      <!-- Release year filter -->
+      <div class="glass-filter-strip" id="year-filter">
+        <span class="filter-label">تصفية حسب سنة الإصدار</span>
+        <div class="filter-controls">
+          <input type="number" id="filter-year-min-input" min="1900" max="2099" step="1" inputmode="numeric" placeholder="من سنة" aria-label="من سنة الإصدار" />
+          <span class="filter-sep" aria-hidden="true">—</span>
+          <input type="number" id="filter-year-max-input" min="1900" max="2099" step="1" inputmode="numeric" placeholder="إلى سنة" aria-label="إلى سنة الإصدار" />
+          <button type="button" id="apply-year-filter-btn" class="btn-chip">تطبيق</button>
+          <button type="button" id="clear-year-filter-btn" class="btn-chip btn-chip--ghost">مسح</button>
+        </div>
+        <p id="year-filter-error" class="field-error" aria-live="polite"></p>
+        <div id="active-year-filter" class="active-year-filter active-filter" hidden>
+          <span id="active-year-filter-info" class="active-filter-info"></span>
+          <button type="button" id="clear-year-filter-active-btn" class="filter-chip-close" aria-label="إزالة فلتر السنة">✕</button>
+        </div>
+      </div>
+
       <p id="no-results" class="no-results" hidden>لا توجد نتائج مطابقة لبحثك.</p>
 
       <div id="gallery" class="cards-grid"></div>

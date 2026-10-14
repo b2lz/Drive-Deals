@@ -268,10 +268,39 @@ function convertWorkbook(workbook) {
       warnings.push(`Category "${cat.id}": no valid rows — category skipped.`);
       continue;
     }
+    const detailsPath = path.join(__dirname, "..", "details", `${cat.id}.json`);
+    let detailsItems = null;
+    if (fs.existsSync(detailsPath)) {
+      try {
+        detailsItems = JSON.parse(fs.readFileSync(detailsPath, "utf8")).items || null;
+      } catch (e) {}
+    }
+
     result.push({
       id: cat.id,
       name: cat.name,
-      items: parsed.items.map((it) => ({ id: `${cat.id}/${it.image}`, title: it.title, image: it.image, sizeGB: it.sizeGB })),
+      items: parsed.items.map((it) => {
+        const itemId = `${cat.id}/${it.image}`;
+        let year = null;
+        const det = detailsItems && detailsItems[itemId];
+        if (det) {
+          if (det.releaseDate) {
+            const m = String(det.releaseDate).match(/\b(19\d\d|20\d\d)\b/);
+            if (m) year = parseInt(m[1], 10);
+          }
+          if (!year && det.year) {
+            const m = String(det.year).match(/\b(19\d\d|20\d\d)\b/);
+            if (m) year = parseInt(m[1], 10);
+          }
+        }
+        if (!year) {
+          const m = String(it.title).match(/\b(19\d\d|20\d\d)\b/);
+          if (m) year = parseInt(m[1], 10);
+        }
+        const record = { id: itemId, title: it.title, image: it.image, sizeGB: it.sizeGB };
+        if (year) record.year = year;
+        return record;
+      }),
     });
   }
 

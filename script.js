@@ -67,8 +67,8 @@ const BATCH_SIZE = 50;
 //              normalizeLibrary, never stored in data.json)
 // ============================================================
 
-function mediaItem({ id, title, image, sizeGB, category = null }) {
-  return { id, title, image, sizeGB, category };
+function mediaItem({ id, title, image, sizeGB, year = null, category = null }) {
+  return { id, title, image, sizeGB, year, category };
 }
 
 function makeCategory({ id, name, items = [] }) {
@@ -162,7 +162,18 @@ function validateLibrary(loaded) {
       }
       const title =
         typeof rec.title === "string" && rec.title.trim() !== "" ? rec.title : image;
-      const item = mediaItem({ id, title, image, sizeGB });
+      let year = null;
+      if (typeof rec.year === "number" && Number.isFinite(rec.year)) {
+        year = rec.year;
+      } else if (typeof rec.year === "string") {
+        const parsed = parseInt(rec.year, 10);
+        if (Number.isFinite(parsed)) year = parsed;
+      }
+      if (!year) {
+        const match = title.match(/\b(19\d\d|20\d\d)\b/);
+        if (match) year = parseInt(match[1], 10);
+      }
+      const item = mediaItem({ id, title, image, sizeGB, year });
       // Search indexes (matching only — the title itself is never modified).
       item._norm = normalizeSearchText(title);
       item._chars = new Set(item._norm.replace(/\s+/g, ""));
@@ -229,6 +240,8 @@ const state = {
   activeCategoryId: null,
   searchTerm: "",
   sizeFilter: { min: null, max: null },
+  yearFilter: { min: null, max: null },
+  yearFilter: { min: null, max: null },
   driveCapacityGB: 0,
 };
 
@@ -345,6 +358,21 @@ function matchesSizeFilter(item) {
   return true;
 }
 
+/** Same bounds as the size filter, applied to the release year instead. */
+function matchesYearFilter(item) {
+  const { min, max } = state.yearFilter;
+  if (min === null && max === null) return true;
+  if (item.year === null || item.year === undefined) return false; // unknown year never matches a range
+  if (min !== null && item.year < min) return false;
+  if (max !== null && item.year > max) return false;
+  return true;
+}
+
+/** Both range filters have to pass. */
+function matchesRangeFilters(item) {
+  return matchesSizeFilter(item) && matchesYearFilter(item);
+}
+
 function visibleItems() {
   const category = activeCategory();
   if (!category) return [];
@@ -352,14 +380,14 @@ function visibleItems() {
   const base =
     term === ""
       ? category.items
-      : category.items.filter((item) => item._norm.includes(term) && matchesSizeFilter(item));
+      : category.items.filter((item) => item._norm.includes(term) && matchesRangeFilters(item));
   if (term !== "" && base.length > 0) return base; // exact hits win
   // Nothing matched exactly — tolerate 1–2 typos across the whole query.
-  if (term === "") return category.items.filter(matchesSizeFilter);
+  if (term === "") return category.items.filter(matchesRangeFilters);
   const ranked = [];
   for (let i = 0; i < category.items.length; i++) {
     const item = category.items[i];
-    if (!matchesSizeFilter(item)) continue;
+    if (!matchesRangeFilters(item)) continue;
     const score = fuzzyTitleScore(item, term);
     if (score >= 0) ranked.push({ item, score, order: i });
   }
@@ -368,7 +396,13 @@ function visibleItems() {
 }
 
 function hasActiveFilters() {
-  return state.searchTerm.trim() !== "" || state.sizeFilter.min !== null || state.sizeFilter.max !== null;
+  return (
+    state.searchTerm.trim() !== "" ||
+    state.sizeFilter.min !== null ||
+    state.sizeFilter.max !== null ||
+    state.yearFilter.min !== null ||
+    state.yearFilter.max !== null
+  );
 }
 
 // ============================================================
@@ -1389,8 +1423,10 @@ function revealCard(id) {
     applyFilters();
   }
 
-  if (visibleItems().indexOf(item) < 0 && (state.sizeFilter.min !== null || state.sizeFilter.max !== null)) {
-    clearSizeFilter();
+  // The card is gone from the grid, so one of the range filters is hiding it.
+  if (visibleItems().indexOf(item) < 0) {
+    if (state.sizeFilter.min !== null || state.sizeFilter.max !== null) clearSizeFilter();
+    if (state.yearFilter.min !== null || state.yearFilter.max !== null) clearYearFilter();
   }
 
   // Render extra batches until the card exists in the DOM.
@@ -1600,6 +1636,67 @@ function updateActiveFilterChip() {
   if (min !== null) parts.push(`من ${min} GB`);
   if (max !== null) parts.push(`إلى ${max} GB`);
   document.getElementById("active-filter-info").textContent = parts.join(" ");
+}
+
+function clearYearFilter() {
+  state.yearFilter = { min: null, max: null };
+  const minInput = document.getElementById("filter-year-min-input");
+  const maxInput = document.getElementById("filter-year-max-input");
+  minInput.value = "";
+  maxInput.value = "";
+  minInput.removeAttribute("aria-invalid");
+  maxInput.removeAttribute("aria-invalid");
+  document.getElementById("year-filter-error").textContent = "";
+  updateActiveYearFilterChip();
+  applyFilters();
+}
+
+function updateActiveYearFilterChip() {
+  const chip = document.getElementById("active-year-filter");
+  const { min, max } = state.yearFilter;
+  const active = min !== null || max !== null;
+  chip.hidden = !active;
+  if (!active) return;
+  const parts = [];
+  if (min !== null) parts.push(`من سنة ${min}`);
+  if (max !== null) parts.push(`إلى سنة ${max}`);
+  document.getElementById("active-year-filter-info").textContent = parts.join(" ");
+}
+
+function bindYearFilter() {
+  const minInput = document.getElementById("filter-year-min-input");
+  const maxInput = document.getElementById("filter-year-max-input");
+
+  const parseYear = (value) => {
+    if (value === "") return null;
+    const n = Number(value);
+    return Number.isInteger(n) && n >= 1900 && n <= 2099 ? n : null;
+  };
+
+  function applyYear() {
+    const min = parseYear(minInput.value);
+    const max = parseYear(maxInput.value);
+    minInput.setAttribute("aria-invalid", minInput.value !== "" && min === null ? "true" : "false");
+    maxInput.setAttribute("aria-invalid", maxInput.value !== "" && max === null ? "true" : "false");
+    const errorEl = document.getElementById("year-filter-error");
+    if (minInput.value !== "" && min === null) {
+      errorEl.textContent = "أدخل سنة صالحة (1900-2099).";
+    } else if (maxInput.value !== "" && max === null) {
+      errorEl.textContent = "أدخل سنة صالحة (1900-2099).";
+    } else if (min !== null && max !== null && min > max) {
+      errorEl.textContent = "سنة البداية أكبر من سنة النهاية.";
+    } else {
+      state.yearFilter = { min, max };
+      updateActiveYearFilterChip();
+      applyFilters();
+    }
+  }
+
+  document.getElementById("apply-year-filter-btn").addEventListener("click", applyYear);
+  document.getElementById("clear-year-filter-btn").addEventListener("click", clearYearFilter);
+  document.getElementById("clear-year-filter-active-btn").addEventListener("click", clearYearFilter);
+  minInput.addEventListener("keydown", (e) => { if (e.key === "Enter") applyYear(); });
+  maxInput.addEventListener("keydown", (e) => { if (e.key === "Enter") applyYear(); });
 }
 
 // ============================================================
@@ -1861,6 +1958,7 @@ function startNewOrder() {
   state.selectedItems.clear();
   state.searchTerm = "";
   state.sizeFilter = { min: null, max: null };
+  state.yearFilter = { min: null, max: null };
   state.activeCategoryId = state.categories[0] ? state.categories[0].id : null;
   document.getElementById("search-input").value = "";
   const minInput = document.getElementById("filter-min-input");
@@ -1869,6 +1967,12 @@ function startNewOrder() {
   if (maxInput) maxInput.value = "";
   document.getElementById("filter-error").textContent = "";
   updateActiveFilterChip();
+  const yearMinInput = document.getElementById("filter-year-min-input");
+  const yearMaxInput = document.getElementById("filter-year-max-input");
+  if (yearMinInput) yearMinInput.value = "";
+  if (yearMaxInput) yearMaxInput.value = "";
+  document.getElementById("year-filter-error").textContent = "";
+  updateActiveYearFilterChip();
   document.getElementById("continue-warning").hidden = true;
   const sendStatus = document.getElementById("send-status");
   sendStatus.textContent = "";
@@ -1916,6 +2020,7 @@ function init() {
   renderDriveOptions();
   bindSearch();
   bindSizeFilter();
+  bindYearFilter();
   bindForm();
   bindFlow();
   bindCategoryPills();
