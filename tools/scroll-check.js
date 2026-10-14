@@ -92,13 +92,18 @@ const BASE = process.argv[2] || "http://localhost:4321/";
     });
     await new Promise((r) => setTimeout(r, 600));
   }
+  // A targeted override, e.g. CARDS_CSS=".card{backdrop-filter:none}"
+  if (process.env.CARDS_CSS) {
+    await page.addStyleTag({ content: process.env.CARDS_CSS });
+    await new Promise((r) => setTimeout(r, 600));
+  }
   if (process.env.NOIMG) {
     await page.evaluate(() => {
       for (const img of document.querySelectorAll("img")) img.removeAttribute("src");
     });
   }
 
-  console.log(`\n  ${BASE}   (390x844, CPU 6x)${process.env.NOGLASS ? "  [glass OFF]" : ""}${process.env.NOIMG ? "  [images OFF]" : ""}`);
+  console.log(`\n  ${BASE}   (390x844, CPU 6x)${process.env.NOGLASS ? "  [glass OFF]" : ""}${process.env.CARDS_CSS ? "  [cards override]" : ""}${process.env.NOIMG ? "  [images OFF]" : ""}`);
   console.log(`  scrolled to      : ${r.scrolled} px`);
   console.log(`  frames measured  : ${r.frames}`);
   console.log(`  frame time       : median ${r.median} ms · p95 ${r.p95} ms · worst ${r.worst} ms`);
