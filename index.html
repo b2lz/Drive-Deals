@@ -15,12 +15,17 @@
   <link rel="icon" type="image/svg+xml" href="logo.svg" />
   <link rel="apple-touch-icon" href="logo.svg" />
 
-  <!-- V1.1 typography: Tajawal for Arabic UI, Plus Jakarta Sans for numerals -->
+  <!-- V1.1 typography: Tajawal for Arabic UI, Plus Jakarta Sans for numerals.
+       Loaded non-blocking: the stylesheet applies itself once it arrives, so
+       first paint no longer waits on fonts.googleapis.com. -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Tajawal:wght@400;500;700;800;900&display=swap" />
   <link
     href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Tajawal:wght@400;500;700;800;900&display=swap"
     rel="stylesheet"
+    media="print"
+    onload="this.media='all'; this.onload=null;"
   />
 
   <link rel="stylesheet" href="style.css" />
@@ -365,6 +370,9 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- defer: the parser keeps building the page while script.js downloads,
+       so first paint no longer waits on 75 KB of JavaScript. init() still runs
+       after the DOM is parsed, exactly as it did. -->
+  <script src="script.js" defer></script>
 </body>
 </html>

@@ -747,6 +747,10 @@ function createCard(item) {
   image.alt = item.title;
   image.loading = "lazy";
   image.decoding = "async";
+  // Intrinsic ratio up front so the card reserves its space and does not jump
+  // as images stream in on a slow connection. 2:3 matches the poster covers.
+  image.width = 400;
+  image.height = 600;
   image.addEventListener("error", () => markImageUnavailable(card, item));
 
   const scrim = document.createElement("span");
@@ -1254,7 +1258,10 @@ function renderBanner() {
     const img = document.createElement("img");
     img.src = `banner/assets/${item.image}`;
     img.alt = item.title;
+    img.width = 1200;
+    img.height = 675;
     img.loading = i === 0 ? "eager" : "lazy";
+    img.decoding = "async";
     img.addEventListener("error", () => img.remove());
 
     const scrim = document.createElement("span");
