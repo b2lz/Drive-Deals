@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 // Render a handful of pages whose record has an English summary but no Arabic
 // one, to confirm what a visitor actually sees on the Arabic site.
 //
@@ -6,7 +6,7 @@
 
 const path = require("path");
 
-const PUPPETEER = "C:/Users/bo2lz/Desktop/Drive Deals V1.0/Drive Deals V1.0/node_modules/puppeteer";
+const PUPPETEER = "puppeteer-core";
 const EDGE = "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe";
 const BASE = "http://localhost:4321";
 

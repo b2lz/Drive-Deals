@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 // Visual check: what does an anime page actually show, given that anime
 // records carry `studios`/`creators` rather than `director`/`cast`?
 //
@@ -6,7 +6,7 @@
 
 const path = require("path");
 
-const PUPPETEER = "C:/Users/bo2lz/Desktop/Drive Deals V1.0/Drive Deals V1.0/node_modules/puppeteer";
+const PUPPETEER = "puppeteer-core";
 const EDGE = "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe";
 const BASE = "http://localhost:4321";
 

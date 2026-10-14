@@ -8,3 +8,6 @@ ready to deploy/
 .DS_Store
 .freebuff/
 image-edit-tmp/
+
+# مانيفست إعادة ترميز الصور (أداة تطوير محلية — يمنع الضغط المزدوج)
+.reencode-manifest.json

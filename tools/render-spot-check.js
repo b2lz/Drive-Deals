@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 // Visual spot check across categories and shapes: a game with full
 // requirements, a game whose recommended block is empty, a record with an
 // English summary, and a record carrying a needsReview flag.
@@ -7,7 +7,7 @@
 
 const path = require("path");
 
-const PUPPETEER = "C:/Users/bo2lz/Desktop/Drive Deals V1.0/Drive Deals V1.0/node_modules/puppeteer";
+const PUPPETEER = "puppeteer-core";
 const EDGE = "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe";
 const BASE = "http://localhost:4321";
 

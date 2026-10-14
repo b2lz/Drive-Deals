@@ -1,13 +1,11 @@
-// Responsive smoke-test: loads the running site at phone / tablet /
+﻿// Responsive smoke-test: loads the running site at phone / tablet /
 // desktop widths, drives the first two steps, and writes screenshots.
 // Usage: node tools/responsive-check.js [baseUrl] [outDir]
 const path = require("path");
 const fs = require("fs");
 
 const puppeteer = require(
-  path.resolve(
-    "C:/Users/bo2lz/Desktop/Drive Deals V1.0/Drive Deals V1.0/node_modules/puppeteer"
-  )
+  "puppeteer-core"
 );
 
 const BASE = process.argv[2] || "http://localhost:4321";

@@ -241,7 +241,6 @@ const state = {
   searchTerm: "",
   sizeFilter: { min: null, max: null },
   yearFilter: { min: null, max: null },
-  yearFilter: { min: null, max: null },
   driveCapacityGB: 0,
 };
 
