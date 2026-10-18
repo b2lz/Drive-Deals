@@ -16307,7 +16307,8 @@
           "id": "games/Atomfall.jpg",
           "title": "Atomfall",
           "image": "Atomfall.jpg",
-          "sizeGB": 39
+          "sizeGB": 39,
+          "year": 2025
         },
         {
           "id": "games/Atomic Heart  {HV}.jpg",
@@ -17104,7 +17105,8 @@
           "id": "games/Clive Barker's Hellraiser - Revival.jpg",
           "title": "Clive Barker's Hellraiser - Revival",
           "image": "Clive Barker's Hellraiser - Revival.jpg",
-          "sizeGB": 55.5
+          "sizeGB": 55.5,
+          "year": 2026
         },
         {
           "id": "games/ClusterTruck.jpg",
@@ -17950,7 +17952,8 @@
           "id": "games/DYNASTY WARRIORS 3 - CER.jpg",
           "title": "DYNASTY WARRIORS 3 - CER",
           "image": "DYNASTY WARRIORS 3 - CER.jpg",
-          "sizeGB": 23
+          "sizeGB": 23,
+          "year": 2026
         },
         {
           "id": "games/Dynasty Warriors 6.jpg",
@@ -18712,7 +18715,8 @@
           "id": "games/God of War III Remastered.jpg",
           "title": "God of War III Remastered",
           "image": "God of War III Remastered.jpg",
-          "sizeGB": 27
+          "sizeGB": 27,
+          "year": 2015
         },
         {
           "id": "games/God of War Ragnarok.jpg",
@@ -19642,7 +19646,8 @@
           "id": "games/LEGO Party.jpg",
           "title": "LEGO Party",
           "image": "LEGO Party.jpg",
-          "sizeGB": 4.5
+          "sizeGB": 4.5,
+          "year": 2025
         },
         {
           "id": "games/Leo’s Fortune - HD Edition  800mb_1.jpg",
@@ -19879,7 +19884,8 @@
           "id": "games/Mario Party Superstars.jpg",
           "title": "Mario Party Superstars",
           "image": "Mario Party Superstars.jpg",
-          "sizeGB": 2.7
+          "sizeGB": 2.7,
+          "year": 2021
         },
         {
           "id": "games/Mario vs. Donkey Kong.jpg",
@@ -20207,7 +20213,8 @@
           "id": "games/Minecraft Dungeons II.jpg",
           "title": "Minecraft Dungeons II",
           "image": "Minecraft Dungeons II.jpg",
-          "sizeGB": 9
+          "sizeGB": 9,
+          "year": 2026
         },
         {
           "id": "games/Minecraft_Dungeons_2gb_1.jpg",
@@ -22369,7 +22376,8 @@
           "id": "games/Super Mario Party Jamboree.jpg",
           "title": "Super Mario Party Jamboree",
           "image": "Super Mario Party Jamboree.jpg",
-          "sizeGB": 4.5
+          "sizeGB": 4.5,
+          "year": 2024
         },
         {
           "id": "games/Super Meat Boy 3D.jpg",
@@ -23131,7 +23139,8 @@
           "id": "games/Trails In The Sky 2nd Chapter.jpg",
           "title": "Trails In The Sky 2nd Chapter",
           "image": "Trails In The Sky 2nd Chapter.jpg",
-          "sizeGB": 27
+          "sizeGB": 27,
+          "year": 2026
         },
         {
           "id": "games/Train Sim World .jpg",
@@ -23305,7 +23314,8 @@
           "id": "games/Valor Mortis.jpg",
           "title": "Valor Mortis",
           "image": "Valor Mortis.jpg",
-          "sizeGB": 33.5
+          "sizeGB": 33.5,
+          "year": 2026
         },
         {
           "id": "games/VALORANT.jpg",
@@ -23710,7 +23720,8 @@
           "id": "games/ZERO PARADES.jpg",
           "title": "ZERO PARADES",
           "image": "ZERO PARADES.jpg",
-          "sizeGB": 8.5
+          "sizeGB": 8.5,
+          "year": 2026
         },
         {
           "id": "games/Zombie Army 4 Dead War -30.1GB_1.jpg",
