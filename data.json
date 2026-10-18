@@ -16304,6 +16304,12 @@
           "year": 2023
         },
         {
+          "id": "games/Atomfall.jpg",
+          "title": "Atomfall",
+          "image": "Atomfall.jpg",
+          "sizeGB": 39
+        },
+        {
           "id": "games/Atomic Heart  {HV}.jpg",
           "title": "Atomic Heart  {HV}",
           "image": "Atomic Heart  {HV}.jpg",
@@ -16699,7 +16705,7 @@
           "id": "games/Bloodborne.jpg",
           "title": "Bloodborne",
           "image": "Bloodborne.jpg",
-          "sizeGB": 31.53,
+          "sizeGB": 15.5,
           "year": 2015
         },
         {
@@ -17093,6 +17099,12 @@
           "image": "Clash - Artifacts of Chaos.jpg",
           "sizeGB": 8.69,
           "year": 2023
+        },
+        {
+          "id": "games/Clive Barker's Hellraiser - Revival.jpg",
+          "title": "Clive Barker's Hellraiser - Revival",
+          "image": "Clive Barker's Hellraiser - Revival.jpg",
+          "sizeGB": 55.5
         },
         {
           "id": "games/ClusterTruck.jpg",
@@ -17935,6 +17947,12 @@
           "year": 2025
         },
         {
+          "id": "games/DYNASTY WARRIORS 3 - CER.jpg",
+          "title": "DYNASTY WARRIORS 3 - CER",
+          "image": "DYNASTY WARRIORS 3 - CER.jpg",
+          "sizeGB": 23
+        },
+        {
           "id": "games/Dynasty Warriors 6.jpg",
           "title": "Dynasty Warriors 6",
           "image": "Dynasty Warriors 6.jpg",
@@ -18691,6 +18709,12 @@
           "year": 2007
         },
         {
+          "id": "games/God of War III Remastered.jpg",
+          "title": "God of War III Remastered",
+          "image": "God of War III Remastered.jpg",
+          "sizeGB": 27
+        },
+        {
           "id": "games/God of War Ragnarok.jpg",
           "title": "God of War Ragnarok",
           "image": "God of War Ragnarok.jpg",
@@ -18703,13 +18727,6 @@
           "image": "God.Of.War1.jpg",
           "sizeGB": 0.2,
           "year": 2005
-        },
-        {
-          "id": "games/God.Of.War3.jpg",
-          "title": "God.Of.War3",
-          "image": "God.Of.War3.jpg",
-          "sizeGB": 38.17,
-          "year": 2015
         },
         {
           "id": "games/GodOfWar.jpg",
@@ -19622,6 +19639,12 @@
           "year": 2024
         },
         {
+          "id": "games/LEGO Party.jpg",
+          "title": "LEGO Party",
+          "image": "LEGO Party.jpg",
+          "sizeGB": 4.5
+        },
+        {
           "id": "games/Leo’s Fortune - HD Edition  800mb_1.jpg",
           "title": "Leo’s Fortune - HD Edition  800mb_1",
           "image": "Leo’s Fortune - HD Edition  800mb_1.jpg",
@@ -19851,6 +19874,12 @@
           "image": "Manhunt 2 .jpg",
           "sizeGB": 4.13,
           "year": 2007
+        },
+        {
+          "id": "games/Mario Party Superstars.jpg",
+          "title": "Mario Party Superstars",
+          "image": "Mario Party Superstars.jpg",
+          "sizeGB": 2.7
         },
         {
           "id": "games/Mario vs. Donkey Kong.jpg",
@@ -20173,6 +20202,12 @@
           "image": "MindsEye.jpg",
           "sizeGB": 32.01,
           "year": 2025
+        },
+        {
+          "id": "games/Minecraft Dungeons II.jpg",
+          "title": "Minecraft Dungeons II",
+          "image": "Minecraft Dungeons II.jpg",
+          "sizeGB": 9
         },
         {
           "id": "games/Minecraft_Dungeons_2gb_1.jpg",
@@ -22331,6 +22366,12 @@
           "year": 2021
         },
         {
+          "id": "games/Super Mario Party Jamboree.jpg",
+          "title": "Super Mario Party Jamboree",
+          "image": "Super Mario Party Jamboree.jpg",
+          "sizeGB": 4.5
+        },
+        {
           "id": "games/Super Meat Boy 3D.jpg",
           "title": "Super Meat Boy 3D",
           "image": "Super Meat Boy 3D.jpg",
@@ -23087,6 +23128,12 @@
           "year": 2010
         },
         {
+          "id": "games/Trails In The Sky 2nd Chapter.jpg",
+          "title": "Trails In The Sky 2nd Chapter",
+          "image": "Trails In The Sky 2nd Chapter.jpg",
+          "sizeGB": 27
+        },
+        {
           "id": "games/Train Sim World .jpg",
           "title": "Train Sim World",
           "image": "Train Sim World .jpg",
@@ -23253,6 +23300,12 @@
           "image": "V Rising.jpg",
           "sizeGB": 3.31,
           "year": 2024
+        },
+        {
+          "id": "games/Valor Mortis.jpg",
+          "title": "Valor Mortis",
+          "image": "Valor Mortis.jpg",
+          "sizeGB": 33.5
         },
         {
           "id": "games/VALORANT.jpg",
@@ -23652,6 +23705,12 @@
           "image": "zero hour.jpg",
           "sizeGB": 11.46,
           "year": 2024
+        },
+        {
+          "id": "games/ZERO PARADES.jpg",
+          "title": "ZERO PARADES",
+          "image": "ZERO PARADES.jpg",
+          "sizeGB": 8.5
         },
         {
           "id": "games/Zombie Army 4 Dead War -30.1GB_1.jpg",
