@@ -207,7 +207,11 @@ function validateLibrary(loaded) {
 async function loadData() {
   const statusEl = document.getElementById("status-message");
   try {
-    const res = await fetch("data.json");
+    // no-store: GitHub Pages serves JSON with Cache-Control: max-age=600,
+    // so a plain fetch can keep returning the previous deploy's file and
+    // new items would silently not appear. Bypass the browser cache;
+    // the CDN edge still applies its (short) own caching.
+    const res = await fetch("data.json", { cache: "no-store" });
     if (!res.ok) throw new Error(`data.json responded with HTTP ${res.status}`);
     const raw = await res.json();
     const normalized = normalizeLibrary(raw);
@@ -1198,7 +1202,7 @@ async function loadBanner() {
   const bannerEl = document.getElementById("banner");
   if (!bannerEl) return;
   try {
-    const res = await fetch("banner/data.json");
+    const res = await fetch("banner/data.json", { cache: "no-store" });
     if (!res.ok) throw new Error(`banner/data.json responded with HTTP ${res.status}`);
     const raw = await res.json();
     bannerState.items = validateBannerItems(raw);
