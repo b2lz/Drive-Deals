@@ -23275,7 +23275,7 @@
           "id": "games/VALORANT.jpg",
           "title": "VALORANT",
           "image": "VALORANT.jpg",
-          "sizeGB": 0,
+          "sizeGB": 36.5,
           "year": 2020
         },
         {
@@ -23689,13 +23689,6 @@
           "title": "Atomfall",
           "image": "Atomfall.jpg",
           "sizeGB": 39,
-          "year": 2025
-        },
-        {
-          "id": "games/Borderlands 4   {HV}.jpg",
-          "title": "Borderlands 4   {HV}",
-          "image": "Borderlands 4   {HV}.jpg",
-          "sizeGB": 37.94,
           "year": 2025
         },
         {
