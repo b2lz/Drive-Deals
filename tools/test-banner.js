@@ -30,6 +30,7 @@ async function boot(mainDataset, bannerDataset, bannerStatus = 200) {
   const { window } = dom;
 
   window.scrollTo = () => {};
+  window.Element.prototype.scrollIntoView = () => {}; // jsdom has no layout
   window.URL.createObjectURL = () => "blob:test-url";
   window.URL.revokeObjectURL = () => {};
 
@@ -75,8 +76,8 @@ function assert(cond, msg) {
     "first slide is active initially"
   );
   assert(
-    d.querySelector("#banner-track .banner-slide.active .banner-size").textContent === "10.6 GB",
-    "slide size badge shows the formatted size"
+    d.querySelector("#banner-track .banner-slide.active .b-size").textContent === "10.6 GB",
+    "slide size line shows the formatted size"
   );
 
   d.getElementById("banner-next").click();
@@ -124,6 +125,99 @@ function assert(cond, msg) {
 
   swipe(150, 100, 160, 100); // tiny move (< 40px) -> ignored
   assert(activeTitle() === "New Release 3", "tiny move does not switch slides");
+
+  // --- Whole-slide click: jump to the item's card in the gallery ---
+  const libraryPayload = {
+    categories: [
+      {
+        id: "games",
+        name: "ألعاب",
+        items: [
+          { title: "New Release 1", image: "g-001.jpg", sizeGB: 10.6 },
+          { title: "Another Game", image: "g-002.jpg", sizeGB: 7.3 },
+        ],
+      },
+      {
+        id: "anime",
+        name: "أنمي",
+        items: [{ title: "New Release 3", image: "a-001.jpg", sizeGB: 22.4 }],
+      },
+    ],
+  };
+  w = await boot(libraryPayload, bannerPayload);
+  d = w.document;
+  const slides = () => d.querySelectorAll("#banner-track .banner-slide");
+
+  assert(slides()[0].getAttribute("role") === "button", "slide is exposed as a button");
+  assert(Number(slides()[0].tabIndex) === 0, "slide is reachable by keyboard");
+
+  // Slide 1 advertises the games item: its own card is revealed + flashed.
+  slides()[0].click();
+  let flashed = d.querySelector(".card.flash");
+  assert(
+    flashed && flashed.dataset.id === "games/g-001.jpg",
+    "slide click reveals the item's own card (flash)"
+  );
+
+  // Slide 3 advertises an anime item: category switches, then its card flashes.
+  slides()[2].click();
+  flashed = d.querySelector(".card.flash");
+  assert(
+    flashed && flashed.dataset.id === "anime/a-001.jpg",
+    "slide click switches to the item's category and reveals its card"
+  );
+  assert(
+    w.__t.state.activeCategoryId === "anime",
+    "active category follows the clicked slide"
+  );
+
+  // Slide 2 matches no library item: warning toast, no navigation.
+  slides()[1].click();
+  const toast = d.getElementById("app-toast");
+  assert(
+    toast && toast.textContent.includes("New Release 2"),
+    "unmatched slide click warns instead of navigating"
+  );
+
+  // Selection must stay untouched by slide clicks (adding is the button's job).
+  assert(
+    d.querySelectorAll(".card.selected").length === 0,
+    "slide clicks do not change the selection"
+  );
+
+  // A real swipe ends as a tap on the slide underneath: that synthetic
+  // click must not navigate... (own helper: this boot has its own DOM)
+  const bannerEl2 = d.getElementById("banner");
+  const swipeHere = (x0, y0, x1, y1) => {
+    const start = new w.Event("touchstart", { bubbles: true });
+    start.changedTouches = [{ clientX: x0, clientY: y0 }];
+    bannerEl2.dispatchEvent(start);
+    const end = new w.Event("touchend", { bubbles: true });
+    end.changedTouches = [{ clientX: x1, clientY: y1 }];
+    bannerEl2.dispatchEvent(end);
+  };
+  swipeHere(200, 100, 100, 100); // left swipe -> next slide
+  slides()[0].click(); // ...immediate tap on the games slide
+  assert(
+    w.__t.state.activeCategoryId === "anime",
+    "post-swipe click does not navigate (swipe guard)"
+  );
+
+  // ...but a genuine click once the guard window has passed still works.
+  await new Promise((r) => setTimeout(r, 600));
+  slides()[0].click();
+  assert(
+    w.__t.state.activeCategoryId === "games",
+    "genuine slide click after the swipe guard navigates"
+  );
+
+  // Keyboard: Enter on a slide does the same as a click.
+  const enter = new w.KeyboardEvent("keydown", { key: "Enter", bubbles: true });
+  slides()[2].dispatchEvent(enter);
+  assert(
+    w.__t.state.activeCategoryId === "anime",
+    "Enter on a slide reveals its card too"
+  );
 
   // --- Bad payload: banner hides, page keeps working ---
   w = await boot(mainDataset, { nope: true });

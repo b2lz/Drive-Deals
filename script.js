@@ -1169,6 +1169,9 @@ const bannerState = {
   // normalized library title -> media item, so a banner card can be
   // toggled into the real selection (and thus into the order).
   index_byTitle: null,
+  // Timestamp guard: a horizontal swipe also ends as a tap on the slide
+  // underneath, so clicks inside this window are ignored.
+  suppressClickUntil: 0,
 };
 
 /**
@@ -1255,8 +1258,13 @@ function renderBanner() {
   bannerState.items.forEach((item, i) => {
     const slide = document.createElement("div");
     slide.className = "banner-slide" + (i === 0 ? " active" : "");
-    slide.setAttribute("role", "group");
-    slide.setAttribute("aria-label", `${i + 1} / ${bannerState.items.length}: ${item.title}`);
+    // The whole slide is a button: click / Enter takes the visitor to
+    // the item's own card in the gallery below (its category, filters
+    // that hide it dropped, card scrolled into view + flashed). The
+    // selection is left untouched — adding stays the button's job.
+    slide.setAttribute("role", "button");
+    slide.tabIndex = 0;
+    slide.setAttribute("aria-label", `الانتقال إلى ${item.title} في المكتبة`);
 
     const img = document.createElement("img");
     img.src = `banner/assets/${item.image}`;
@@ -1299,7 +1307,7 @@ function renderBanner() {
     const desc = document.createElement("p");
     desc.className = "banner-desc";
     desc.textContent =
-      "من أحدث الإضافات إلى المكتبة — اضغط لإضافته مباشرة إلى قرصك، وسيتم احتسابه في المساحة المستخدمة فورًا.";
+      "من أحدث الإضافات إلى المكتبة — اضغط على العرض للانتقال إلى مكانه في المكتبة، أو أضفه مباشرة للقرص بضغطة واحدة.";
 
     const addBtn = document.createElement("button");
     addBtn.type = "button";
@@ -1309,6 +1317,19 @@ function renderBanner() {
     addBtn.addEventListener("click", (event) => {
       event.stopPropagation();
       addBannerItem(item);
+    });
+
+    slide.addEventListener("click", () => {
+      // A horizontal swipe also ends as a tap on the slide underneath;
+      // ignore the synthetic click that follows a real slide change.
+      if (Date.now() < bannerState.suppressClickUntil) return;
+      focusBannerItem(item);
+    });
+    slide.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        focusBannerItem(item);
+      }
     });
 
     body.append(tag, title, meta, desc, addBtn);
@@ -1363,6 +1384,7 @@ function renderBanner() {
       touchStartY = null;
       const SWIPE_MIN_PX = 40;
       if (Math.abs(dx) < SWIPE_MIN_PX || Math.abs(dx) <= Math.abs(dy)) return;
+      bannerState.suppressClickUntil = Date.now() + 500;
       if (dx < 0) {
         showBannerSlide((bannerState.index + 1) % bannerState.items.length);
       } else {
@@ -1377,6 +1399,21 @@ function renderBanner() {
 
   updateBannerAddState();
   startBannerRotation();
+}
+
+/**
+ * Whole-slide click: take the visitor to the advertised item's own
+ * card in the gallery — switch to its category, drop filters that hide
+ * it, render the batches it lives in, then scroll + flash it. The
+ * selection is left untouched; "+ أضف مباشرة" stays the add path.
+ */
+function focusBannerItem(bannerItem) {
+  const item = findLibraryItemByTitle(bannerItem.title);
+  if (!item) {
+    showToast(`العنصر "${bannerItem.title}" غير موجود في المكتبة حالياً.`, "warning");
+    return;
+  }
+  revealCard(item.id);
 }
 
 /**

@@ -31,6 +31,10 @@
 //   - duplicate image names inside a category warn and are skipped
 //   - non-.jpg file names warn but are kept
 //   - missing photo files inside assets/<category>/ warn (first 10)
+//   - items are sorted by title within each category (DEFAULT):
+//     English titles A→Z (case-insensitive), Arabic titles أ→ي;
+//     in mixed categories Latin-script titles come before Arabic ones.
+//     Pass --no-sort to keep the Excel row order instead.
 //   - writes clean JSON: { categories: [ { id, name, items } ] }
 //
 // The website itself never touches Excel — this is the only place.
@@ -238,11 +242,32 @@ function convertCategorySheet(rows) {
 }
 
 /**
+ * Compare two titles for the default sort order:
+ * - case-insensitive (English "a"→"z")
+ * - code-pointwise, so Latin letters (A-Z) sort before Arabic letters,
+ *   and Arabic runs in Unicode order أ (U+0621) → ي (U+064A)
+ * @param {string} a
+ * @param {string} b
+ * @returns {number}
+ */
+function compareTitles(a, b) {
+  const sa = Array.from(String(a == null ? "" : a).trim().toLowerCase());
+  const sb = Array.from(String(b == null ? "" : b).trim().toLowerCase());
+  const len = Math.min(sa.length, sb.length);
+  for (let i = 0; i < len; i++) {
+    const d = sa[i].codePointAt(0) - sb[i].codePointAt(0);
+    if (d !== 0) return d;
+  }
+  return sa.length - sb.length;
+}
+
+/**
  * Convert a full multi-category workbook into the library shape.
  * @param {object} workbook  output of XLSX.readFile / XLSX.read
+ * @param {{sort?: boolean}} [options]  sort=true (default) sorts items by title per category
  * @returns {{categories: Array, warnings: string[]}}
  */
-function convertWorkbook(workbook) {
+function convertWorkbook(workbook, options = {}) {
   const warnings = [];
   const rowsOf = (name) => {
     const ws = workbook.Sheets[name];
@@ -267,6 +292,9 @@ function convertWorkbook(workbook) {
     if (parsed.items.length === 0) {
       warnings.push(`Category "${cat.id}": no valid rows — category skipped.`);
       continue;
+    }
+    if (options.sort !== false) {
+      parsed.items.sort((a, b) => compareTitles(a.title, b.title));
     }
     const detailsPath = path.join(__dirname, "..", "details", `${cat.id}.json`);
     let detailsItems = null;
@@ -344,10 +372,13 @@ function main() {
   const args = process.argv.slice(2);
   let input = path.join(__dirname, "..", "source.xlsx");
   let output = path.join(__dirname, "..", "data.json");
+  let sort = true;
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "-o" || args[i] === "--output") {
       output = path.resolve(args[++i]);
+    } else if (args[i] === "--no-sort") {
+      sort = false;
     } else if (!args[i].startsWith("-")) {
       input = path.resolve(args[i]);
     }
@@ -367,7 +398,7 @@ function main() {
   if (isMultiCategoryWorkbook(workbook)) {
     let result;
     try {
-      result = convertWorkbook(workbook);
+      result = convertWorkbook(workbook, { sort });
     } catch (err) {
       console.error("Conversion failed:", err.message);
       process.exit(1);
@@ -409,4 +440,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { convertRows, convertCategoriesSheet, convertCategorySheet, convertWorkbook, isMultiCategoryWorkbook };
+module.exports = { convertRows, convertCategoriesSheet, convertCategorySheet, convertWorkbook, compareTitles, isMultiCategoryWorkbook };

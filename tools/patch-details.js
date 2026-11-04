@@ -48,7 +48,12 @@ for (const [id, patch] of Object.entries(patches)) {
     if (field === "requirements") {
       rec.requirements = rec.requirements || {};
       for (const [tier, block] of Object.entries(value)) {
-        rec.requirements[tier] = { ...(rec.requirements[tier] || {}), ...block };
+        if (typeof block === "string") {
+          // Top-level notes card (rendered as "ملاحظات"), not a tier.
+          rec.requirements[tier] = block;
+        } else {
+          rec.requirements[tier] = { ...(rec.requirements[tier] || {}), ...block };
+        }
       }
       continue;
     }

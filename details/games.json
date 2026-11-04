@@ -4,11 +4,11 @@
     "collection": "games",
     "method": "steam-store-api+wikipedia-game+systemrequirementslab",
     "note": "Auto-filled from the Steam store API where the game is sold there (the only source that publishes requirements in Arabic), from the Wikipedia video-game infobox for titles Steam does not carry, and from SystemRequirementsLab for the system specifications those first two cannot supply. A record flagged needsRequirements means no source could state the specs, and the page says so rather than showing an empty tab. Hand-researched entries keep their original source tag and are not overwritten.",
-    "updatedAt": "2026-10-11",
+    "updatedAt": "2026-11-04",
     "counts": {
-      "total": 1130,
+      "total": 1144,
       "researched": 980,
-      "withRequirements": 1004,
+      "withRequirements": 1144,
       "fromSteam": 796,
       "fromWikipedia": 11,
       "fromSpecsSites": 191
@@ -5018,62 +5018,6 @@
       "steamAppId": 397540,
       "matchScore": 1
     },
-    "games/Borderlands 4   {HV}.jpg": {
-      "title": "Borderlands 4   {HV}",
-      "canonicalTitle": "Borderlands 4",
-      "type": "game",
-      "developer": "Gearbox Software",
-      "publisher": "2K",
-      "releaseDate": "2025-09-11",
-      "platforms": [
-        "PC"
-      ],
-      "genres": [
-        "أكشن",
-        "مغامرة",
-        "تقمص أدوار"
-      ],
-      "modes": [
-        "لاعب واحد",
-        "لاعب متعدد"
-      ],
-      "summaryAr": "Borderlands 4 هي لعبة إطلاق نار مليئة بالفوضى ومليئة بمليارات الأسلحة والأعداء القاتلين والعمل التعاوني المكثف. تحرر من كوكب مخفي خطير كواحد من أربعة صائدي Vault Hunters الجدد.",
-      "summaryEn": "Borderlands 4 is a mayhem-fueled looter shooter, jam-packed with billions of weapons, deadly enemies, and intense co-op action. Break free from a dangerous hidden planet as one of four new badass Vault Hunters.",
-      "requirements": {
-        "minimum": {
-          "os": "Windows 10 / Windows 11",
-          "cpu": "Intel Core i7-9700 / AMD Ryzen 7 2700X",
-          "ram": "ذاكرة الوصول العشوائي 16‏ GB",
-          "gpu": "NVIDIA GeForce RTX 2070 / AMD Radeon RX 5700 XT / Intel Arc A580، سعة",
-          "storage": "مساحة متوفرة قدرها 100‏ GB، ملحوظات إضافية: Requires a 64-bit processor and operating system. Requires 8 CPU Cores for processor. Requires 8 GB VRAM for graphics. SSD / required",
-          "note": "تتطلب معالجًا ونظام تشغيل بقدرة 64 بت"
-        },
-        "recommended": {
-          "os": "Windows 10 / Windows 11",
-          "cpu": "Intel Core i7-12700 / AMD Ryzen 7 5800X",
-          "ram": "ذاكرة الوصول العشوائي 32‏ GB",
-          "gpu": "NVIDIA GeForce RTX 3080 / AMD Radeon RX 6800 XT / Intel Arc B580، سعة",
-          "storage": "مساحة متوفرة قدرها 100‏ GB، ملحوظات إضافية: Requires a 64-bit processor and operating system. SSD / required",
-          "note": "تتطلب معالجًا ونظام تشغيل بقدرة 64 بت"
-        }
-      },
-      "extra": {
-        "metacritic": "Metacritic 81/100"
-      },
-      "links": [
-        {
-          "label": "Steam",
-          "url": "https://store.steampowered.com/app/1285190/"
-        },
-        {
-          "url": "https://borderlands.2k.com/"
-        }
-      ],
-      "confidence": "high",
-      "source": "steam",
-      "steamAppId": 1285190,
-      "matchScore": 1
-    },
     "games/Bound.By.Flame.jpg": {
       "title": "Bound.By.Flame",
       "canonicalTitle": "Bound By Flame",
@@ -5618,7 +5562,13 @@
           "gpu": "أي من ATI Radeon أو NVIDIA GeForce أو Matrox Parhelia",
           "storage": "1.8 GB على 98/ME أو 2 GB على 2000/XP"
         }
-      }
+      },
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Call_of_Duty"
+        }
+      ]
     },
     "games/Call Of Duty 2.jpg": {
       "title": "Call Of Duty 2",
@@ -5906,7 +5856,13 @@
           "storage": "7 GB"
         }
       },
-      "summaryAr": "Call of Duty 4: Modern Warfare تسقط اللاعب في وسط صراع حديث، متتبعًا فرقة عبر دولة شرق أوسطية خيالية مزقتها الحرب أثناء مطاردة زعيم المتمردين."
+      "summaryAr": "Call of Duty 4: Modern Warfare تسقط اللاعب في وسط صراع حديث، متتبعًا فرقة عبر دولة شرق أوسطية خيالية مزقتها الحرب أثناء مطاردة زعيم المتمردين.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Call_of_Duty_4:_Modern_Warfare"
+        }
+      ]
     },
     "games/Call of Duty Modern Warfare 3 42GB.jpg": {
       "title": "Call of Duty Modern Warfare 3 42GB",
@@ -11348,7 +11304,7 @@
       "modes": [
         "لاعب واحد"
       ],
-      "summaryAr": "انغمس في معارك مبهجة كبطل مجهول في الممالك الثلاث",
+      "summaryAr": "انغمس في معارك أسطورية ملحمية كبطل مجهول في حقبة الممالك الثلاث الصينية. خض مواجهات ضخمة ضد آلاف الأعداء بأسلوب الأكشن الهاك آند سلاش مع تحركات تكتيكية استراتيجية لقيادة الجيوش وصنع التاريخ.",
       "summaryEn": "Become immersed in exhilarating battles as a nameless hero in the Three Kingdoms",
       "requirements": {
         "minimum": {
@@ -18515,7 +18471,13 @@
         }
       },
       "needsSummary": false,
-      "summaryEn": null
+      "summaryEn": null,
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Invincible"
+        }
+      ]
     },
     "games/Invincible VS.jpg": {
       "title": "Invincible VS",
@@ -19321,7 +19283,7 @@
         "لاعب متعدد",
         "واقع افتراضي"
       ],
-      "summaryAr": "تحطم كل التوقعات! تجاوز حدودك مع KOF XV!",
+      "summaryAr": "الجزء الخامس عشر من سلسلة ألعاب القتال الشهيرة KOF. يجمع نخبة المقاتلين في معارك ثلاثية حماسية ومؤثرات بصرية مذهلة مع نظام لعب محسّن وشبكة قتال عبر الإنترنت بتقنية Rollback Netcode.",
       "summaryEn": "SHATTER ALL EXPECTATIONS! Transcend beyond your limits with KOF XV!",
       "requirements": {
         "minimum": {
@@ -39165,7 +39127,7 @@
       "modes": [
         "لاعب واحد"
       ],
-      "summaryAr": "خفي! لعبة RPG وفيه لا يتعين عليك تدمير أي شخص.",
+      "summaryAr": "لعبة تقمص أدوار مبتكرة وشهيرة للغاية؛ تسقط فيها كطفل بشري في عالم سفلي مليء بالوحوش السحرية. تتميز بنظام معارك فريد يتيح لك الفوز دون قتل أي مخلوق وحرية اختيار طريق السلام أو النزاع مع قصة إنسانية مؤثرة وموسيقى ساحرة.",
       "summaryEn": "UNDERTALE! The RPG game where you don't have to destroy anyone.",
       "requirements": {
         "minimum": {
@@ -51244,7 +51206,13 @@
           "ram": "512 ميجابايت",
           "gpu": "كارت شاشة بذاكرة 128 ميجابايت (GeForce FX 5700)"
         }
-      }
+      },
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hulk"
+        }
+      ]
     },
     "games/Ice Age 3.jpg": {
       "title": "Ice Age 3",
@@ -55341,7 +55309,13 @@
       "genres": [
         "محاكاة، سباق، فيزياء واقعية"
       ],
-      "summaryAr": "لعبة محاكاة فريدة تركز على الأضرار الفيزيائية الواقعية وحركة المركبات بناءً على الديناميكا الهوائية والتحطيم، في تجربة قيادة مفتوحة ومبتكرة لا حدود لحريتها."
+      "summaryAr": "لعبة محاكاة فريدة تركز على الأضرار الفيزيائية الواقعية وحركة المركبات بناءً على الديناميكا الهوائية والتحطيم، في تجربة قيادة مفتوحة ومبتكرة لا حدود لحريتها.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/BeamNG.drive"
+        }
+      ]
     },
     "games/Blades of Time - Limited Edition.jpg": {
       "title": "Blades of Time - Limited Edition",
@@ -55373,7 +55347,13 @@
       "genres": [
         "أكشن، مغامرات، تقمص أدوار"
       ],
-      "summaryAr": "تلعب دور صائدة الكنز «آيومي» اللي تستخدم مهاراتها بالسيف وقوة التحكم في الزمن لتراجع الوقت وصنع نسخ طبق الأصل منك، لكشف أسرار جزيرة غامضة وخطيرة."
+      "summaryAr": "تلعب دور صائدة الكنز «آيومي» اللي تستخدم مهاراتها بالسيف وقوة التحكم في الزمن لتراجع الوقت وصنع نسخ طبق الأصل منك، لكشف أسرار جزيرة غامضة وخطيرة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blades_of_Time"
+        }
+      ]
     },
     "games/Brothers - AToTS Remake.jpg": {
       "title": "Brothers - AToTS Remake",
@@ -55405,7 +55385,13 @@
       "genres": [
         "مغامرات، ألغاز، دراما"
       ],
-      "summaryAr": "رحلة عاطفية لشقيقين ينطلقان في مغامرة محفوفة بالمخاطر للعثور على علاج لوالدهما المريض، وفيه تتحكم في كل شقيق بشكل فريد لحل الألغاز وتخطي العقبات."
+      "summaryAr": "رحلة عاطفية لشقيقين ينطلقان في مغامرة محفوفة بالمخاطر للعثور على علاج لوالدهما المريض، وفيه تتحكم في كل شقيق بشكل فريد لحل الألغاز وتخطي العقبات.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brothers:_A_Tale_of_Two_Sons_Remake"
+        }
+      ]
     },
     "games/Call of Duty - MW2CR.jpg": {
       "title": "Call of Duty - MW2CR",
@@ -55437,7 +55423,13 @@
       "genres": [
         "تصويب منظور الشخص الأول (FPS)، أكشن عسكري"
       ],
-      "summaryAr": "النسخة المحسنة لواحدة من أكثر حملات القصة إثارة في تاريخ الألعاب، وفيه تعود لملاحقة التهديدات العالمية مع فرقة العمل 141 في أحداث ملحمية ومشوقة."
+      "summaryAr": "النسخة المحسنة لواحدة من أكثر حملات القصة إثارة في تاريخ الألعاب، وفيه تعود لملاحقة التهديدات العالمية مع فرقة العمل 141 في أحداث ملحمية ومشوقة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Modern_Warfare_2_Campaign_Remastered"
+        }
+      ]
     },
     "games/CallOfDutyModerWarfareRemastered.jpg": {
       "title": "CallOfDutyModerWarfareRemastered",
@@ -55469,7 +55461,13 @@
       "genres": [
         "تصويب منظور الشخص الأول (FPS)، أكشن عسكري"
       ],
-      "summaryAr": "النسخة المحسنة بالكامل لأيقونة ألعاب التصويب Call of Duty 4، تضعك مجدداً في مهام عالمية خطيرة بجودة بصريات مذهلة وتفاصيل لا تُنسى."
+      "summaryAr": "النسخة المحسنة بالكامل لأيقونة ألعاب التصويب Call of Duty 4، تضعك مجدداً في مهام عالمية خطيرة بجودة بصريات مذهلة وتفاصيل لا تُنسى.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Modern_Warfare_Remastered"
+        }
+      ]
     },
     "games/Call to Arms - GoH - Ostfront.jpg": {
       "title": "Call to Arms - GoH - Ostfront",
@@ -55501,7 +55499,13 @@
       "genres": [
         "استراتيجية واقعية (RTS)، تكتيكية، حرب عالمية ثانية"
       ],
-      "summaryAr": "لعبة استراتيجية عميقة ومفصلة تضعك في قلب معارك الجبهة الشرقية الضارية خلال الحرب العالمية الثانية، وفيه تتطلب دقة تكتيكية وإدارة دقيقة للموارد والمعدات العسكرية."
+      "summaryAr": "لعبة استراتيجية عميقة ومفصلة تضعك في قلب معارك الجبهة الشرقية الضارية خلال الحرب العالمية الثانية، وفيه تتطلب دقة تكتيكية وإدارة دقيقة للموارد والمعدات العسكرية.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Call_to_Arms_(2018_video_game)"
+        }
+      ]
     },
     "games/Castlevania - Lords of Shadow UE.jpg": {
       "title": "Castlevania - Lords of Shadow UE",
@@ -55533,7 +55537,13 @@
       "genres": [
         "تقمص أدوار، أكشن، مغامرات"
       ],
-      "summaryAr": "رحلة مظلمة وملحمية لبطل يحمل ندوب الماضي، يقاتل قوى الظلام ومخلوقات الليل الخارقة عبر عوالم قوطية ساحرة لإنقاذ العالم من لعنة مدمرة."
+      "summaryAr": "رحلة مظلمة وملحمية لبطل يحمل ندوب الماضي، يقاتل قوى الظلام ومخلوقات الليل الخارقة عبر عوالم قوطية ساحرة لإنقاذ العالم من لعنة مدمرة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Castlevania:_Lords_of_Shadow"
+        }
+      ]
     },
     "games/Castlevania - LoS - Mirror of Fate HD.jpg": {
       "title": "Castlevania - LoS - Mirror of Fate HD",
@@ -55565,7 +55575,13 @@
       "genres": [
         "أكشن، مغامرات، منصات"
       ],
-      "summaryAr": "تروي فصولاً جديدة من صراع عائلة بلمونت الأسطورية ضد مصاصي الدماء وقوى الشر عبر أجيال متعاقبة من الانتقام والمصير المظلم."
+      "summaryAr": "تروي فصولاً جديدة من صراع عائلة بلمونت الأسطورية ضد مصاصي الدماء وقوى الشر عبر أجيال متعاقبة من الانتقام والمصير المظلم.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Castlevania:_Lords_of_Shadow_–_Mirror_of_Fate"
+        }
+      ]
     },
     "games/DCG - Aladdin & The Lion King.jpg": {
       "title": "DCG - Aladdin & The Lion King",
@@ -55599,7 +55615,13 @@
       "genres": [
         "منصات كلاسيكية"
       ],
-      "summaryAr": "النسخ المحسنة لألعاب الكرتون الخالدة لعلاء الدين والأسد الملك لأجهزة الجيل الذهبي."
+      "summaryAr": "النسخ المحسنة لألعاب الكرتون الخالدة لعلاء الدين والأسد الملك لأجهزة الجيل الذهبي.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Disney_Classic_Games:_Aladdin_and_The_Lion_King"
+        }
+      ]
     },
     "games/Demon X Machine.jpg": {
       "title": "Demon X Machine",
@@ -55631,7 +55653,13 @@
       "genres": [
         "أكشن، خيال علمي، قتال آليات عملاقة (Mecha)"
       ],
-      "summaryAr": "تحكم ببدلة قتالية متطورة لخوض معارك حماسية ضد ذكاء اصطناعي متمرد ووحوش ميكانيكية عملاقة في عالم دمرته كارثة قاهرة."
+      "summaryAr": "تحكم ببدلة قتالية متطورة لخوض معارك حماسية ضد ذكاء اصطناعي متمرد ووحوش ميكانيكية عملاقة في عالم دمرته كارثة قاهرة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Daemon_X_Machina"
+        }
+      ]
     },
     "games/Dragonball Xenoverse.jpg": {
       "title": "Dragonball Xenoverse",
@@ -55663,7 +55691,13 @@
       "genres": [
         "قتال، أكشن، تقمص أدوار"
       ],
-      "summaryAr": "انضم إلى شرطة الزمن لحماية أحداث تاريخ دراغون بول الشهيرة من التلاعب والتخريب من قِبل أشرار مجهولين، مع إمكانية تصميم شخصيتك الفريدة."
+      "summaryAr": "انضم إلى شرطة الزمن لحماية أحداث تاريخ دراغون بول الشهيرة من التلاعب والتخريب من قِبل أشرار مجهولين، مع إمكانية تصميم شخصيتك الفريدة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dragon_Ball_Xenoverse"
+        }
+      ]
     },
     "games/Earthfall.Invasion .jpg": {
       "title": "Earthfall.Invasion",
@@ -55695,7 +55729,13 @@
       "genres": [
         "تصويب منظور الشخص الأول (FPS)، تعاوني، بقاء ضد الفضائيين"
       ],
-      "summaryAr": "تعاون مع أصدقائك لصد غزو فضائي كتاح لمواجهة الكائنات الفضائية الشرسة وبناء التحصينات للنجاة في مدن أرضية مدمرة."
+      "summaryAr": "تعاون مع أصدقائك لصد غزو فضائي كتاح لمواجهة الكائنات الفضائية الشرسة وبناء التحصينات للنجاة في مدن أرضية مدمرة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Earthfall_(video_game)"
+        }
+      ]
     },
     "games/F1 22 Champions Edition.jpg": {
       "title": "F1 22 Champions Edition",
@@ -55727,7 +55767,13 @@
       "genres": [
         "سباق سيارات، محاكاة رياضية"
       ],
-      "summaryAr": "عِش حياة أبطال سباقات الفورمولا 1 مع قوانين وعربات جديدة كلياً لموسم 2022، وتجربة قيادة مذهلة على أشهر حلبات العالم."
+      "summaryAr": "عِش حياة أبطال سباقات الفورمولا 1 مع قوانين وعربات جديدة كلياً لموسم 2022، وتجربة قيادة مذهلة على أشهر حلبات العالم.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/F1_22"
+        }
+      ]
     },
     "games/FNAF-Help-Wanted.jpg": {
       "title": "FNAF-Help-Wanted",
@@ -55759,7 +55805,13 @@
       "genres": [
         "رعب نفسي، واقع افتراضي (VR)، بقاء"
       ],
-      "summaryAr": "مجموعة من الألعاب المصغرة المخيفة المستوحاة من تاريخ مطعم فريدي فازبير، وفيه تواجه الكوابيس الآلية وتختبر أعصابك في بيئات مرعبة."
+      "summaryAr": "مجموعة من الألعاب المصغرة المخيفة المستوحاة من تاريخ مطعم فريدي فازبير، وفيه تواجه الكوابيس الآلية وتختبر أعصابك في بيئات مرعبة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Five_Nights_at_Freddy's:_Help_Wanted"
+        }
+      ]
     },
     "games/FNAF-Into-the-Pit.jpg": {
       "title": "FNAF-Into-the-Pit",
@@ -55789,7 +55841,13 @@
       "genres": [
         "رعب / مغامرات مستقلة"
       ],
-      "summaryAr": "قصة رعب كلاسيكية تعتمد على الهروب من الأرنب الشرير في مطعم بيتزا قديم."
+      "summaryAr": "قصة رعب كلاسيكية تعتمد على الهروب من الأرنب الشرير في مطعم بيتزا قديم.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Five_Nights_at_Freddy's:_Into_the_Pit"
+        }
+      ]
     },
     "games/FNAF-Security-Breach.jpg": {
       "title": "FNAF-Security-Breach",
@@ -55821,7 +55879,13 @@
       "genres": [
         "رعب بقاء، مغامرات في عالم واسع"
       ],
-      "summaryAr": "تلعب دور الصبي «غريغوري» المحاصر داخل مركز تسوق ترفيهي ضخم ومرعب ليلاً، وعليك الهروب من الآليات القاتلة بمساعدة شخصية غلامروك فريدي."
+      "summaryAr": "تلعب دور الصبي «غريغوري» المحاصر داخل مركز تسوق ترفيهي ضخم ومرعب ليلاً، وعليك الهروب من الآليات القاتلة بمساعدة شخصية غلامروك فريدي.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Five_Nights_at_Freddy's:_Security_Breach"
+        }
+      ]
     },
     "games/FNAF.Help.Wanted.2.jpg": {
       "title": "FNAF.Help.Wanted.2",
@@ -55853,7 +55917,13 @@
       "genres": [
         "رعب، ألغاز، بقاء"
       ],
-      "summaryAr": "تجربة مرعبة جديدة ومكملة لسلسلة «هيل وونتد»، تقدم تحديات جديدة مخيفة ومزيداً من الألغاز المرتبطة بعالم الكوابيس الميكانيكية."
+      "summaryAr": "تجربة مرعبة جديدة ومكملة لسلسلة «هيل وونتد»، تقدم تحديات جديدة مخيفة ومزيداً من الألغاز المرتبطة بعالم الكوابيس الميكانيكية.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Five_Nights_at_Freddy's:_Help_Wanted_2"
+        }
+      ]
     },
     "games/G-FOREC .jpg": {
       "title": "G-FOREC",
@@ -55885,7 +55955,13 @@
       "genres": [
         "أكشن، مغامرات، منصات"
       ],
-      "summaryAr": "استمتع بمغامرات فرقة خنازير غينيا السرية المدربة بأعلى تقنيات التجسس لإنقاذ العالم من مؤامرة شريرة يقودها جهاز منزلي ذكي متمرد."
+      "summaryAr": "استمتع بمغامرات فرقة خنازير غينيا السرية المدربة بأعلى تقنيات التجسس لإنقاذ العالم من مؤامرة شريرة يقودها جهاز منزلي ذكي متمرد.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/G-Force"
+        }
+      ]
     },
     "games/Generals-Zero Hour - Last Stand.jpg": {
       "title": "Generals-Zero Hour - Last Stand",
@@ -55916,7 +55992,13 @@
       "genres": [
         "استراتيجية في الوقت الفعلي"
       ],
-      "summaryAr": "معارك عسكرية استراتيجية كلاسيكية بقوات وأسلحة مطورة حديثة."
+      "summaryAr": "معارك عسكرية استراتيجية كلاسيكية بقوات وأسلحة مطورة حديثة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Command_&_Conquer:_Generals_-_Zero_Hour"
+        }
+      ]
     },
     "games/GTA - The Original Trilogy.jpg": {
       "title": "GTA - The Original Trilogy",
@@ -55949,7 +56031,13 @@
       "genres": [
         "عالم مفتوح / أكشن"
       ],
-      "summaryAr": "النسخ الأصلية الكلاسيكية (III, Vice City, San Andreas)."
+      "summaryAr": "النسخ الأصلية الكلاسيكية (III, Vice City, San Andreas).",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_The_Trilogy_–_The_Definitive_Edition"
+        }
+      ]
     },
     "games/GTA Trilogy - DE-BSE.jpg": {
       "title": "GTA Trilogy - DE-BSE",
@@ -55981,7 +56069,13 @@
       "genres": [
         "أكشن، عالم مفتوح، جريمة"
       ],
-      "summaryAr": "النسخ المحسنة بثلاثية الألعاب الأسطورية (GTA III, Vice City, San Andreas) برسومات محدثة وتحكم عصري مع الحفاظ على القصة والأجواء الأصلية الخالدة."
+      "summaryAr": "النسخ المحسنة بثلاثية الألعاب الأسطورية (GTA III, Vice City, San Andreas) برسومات محدثة وتحكم عصري مع الحفاظ على القصة والأجواء الأصلية الخالدة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_The_Trilogy_-_The_Definitive_Edition"
+        }
+      ]
     },
     "games/gta vice city .jpg": {
       "title": "gta vice city",
@@ -56014,7 +56108,13 @@
       "genres": [
         "عالم مفتوح / أكشن"
       ],
-      "summaryAr": "قصة تومي فيرسيتي في مدينة ميامي الثمانينيات وسيطرته على تجارة الجريمة."
+      "summaryAr": "قصة تومي فيرسيتي في مدينة ميامي الثمانينيات وسيطرته على تجارة الجريمة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City"
+        }
+      ]
     },
     "games/Horizon - Zero Dawn CE.jpg": {
       "title": "Horizon - Zero Dawn CE",
@@ -56046,7 +56146,13 @@
       "genres": [
         "أكشن، تقمص أدوار، عالم مفتوح"
       ],
-      "summaryAr": "تتبع قصة «ألوي»، صائدة نبذة عن ماضيها في عالم مستقبلية تسيطر عليه مخلوقات روبوتية عملاقة تشبه الديناصورات، بينما تهدد الكارثة بقايا البشرية."
+      "summaryAr": "تتبع قصة «ألوي»، صائدة نبذة عن ماضيها في عالم مستقبلية تسيطر عليه مخلوقات روبوتية عملاقة تشبه الديناصورات، بينما تهدد الكارثة بقايا البشرية.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horizon_Zero_Dawn"
+        }
+      ]
     },
     "games/IGI.jpg": {
       "title": "IGI",
@@ -56078,7 +56184,13 @@
       "genres": [
         "تسلل وتصويب عسكري"
       ],
-      "summaryAr": "العميل ديفيد جونز في مهمات خطيرة لإنقاذ العالم."
+      "summaryAr": "لعبة التسلل والتصويب التكتيكي الكلاسيكية من منظور الشخص الأول. يتقمص اللاعب شخصية العميل السري ديفيد جونز في مهام عسكرية معقدة خلف خطوط العدو لاختراق القواعد الحصينة واستعادة سلاح نووي مسروق.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Project_I.G.I."
+        }
+      ]
     },
     "games/IGI2.jpg": {
       "title": "IGI2",
@@ -56110,7 +56222,13 @@
       "genres": [
         "تسلل وتصويب عسكري"
       ],
-      "summaryAr": "استكمال مغامرات ديفيد جونز في مهام تجسس عالمية ومعقدة."
+      "summaryAr": "استكمال مغامرات ديفيد جونز في مهام تجسس عالمية ومعقدة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/I.G.I.-2:_Covert_Strike"
+        }
+      ]
     },
     "games/Injustice 2 Legendary Edition.jpg": {
       "title": "Injustice 2 Legendary Edition",
@@ -56142,7 +56260,13 @@
       "genres": [
         "قتال، أكشن، أبطال خارقين"
       ],
-      "summaryAr": "معارك طاحنة تجمع أبطال وأشرار عالم دي سي، وفيه تخوض نزالات ملحمية لتقرير مصير العدالة والصراع الداخلي بين باتمان وسوبرمان."
+      "summaryAr": "معارك طاحنة تجمع أبطال وأشرار عالم دي سي، وفيه تخوض نزالات ملحمية لتقرير مصير العدالة والصراع الداخلي بين باتمان وسوبرمان.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Injustice_2"
+        }
+      ]
     },
     "games/James Bond 007 Legends.jpg": {
       "title": "James Bond 007 Legends",
@@ -56174,7 +56298,13 @@
       "genres": [
         "تصويب من منظور الشخص الأول، تجسس وأكشن"
       ],
-      "summaryAr": "تحتفل اللعبة بتاريخ الجاسوس الأشهر جيمس بوند عبر دمج أبرز وأعظم مهامه السينمائية الكلاسيكية في قصة تشويقية واحدة."
+      "summaryAr": "تحتفل اللعبة بتاريخ الجاسوس الأشهر جيمس بوند عبر دمج أبرز وأعظم مهامه السينمائية الكلاسيكية في قصة تشويقية واحدة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Bond_007_(1998_video_game)"
+        }
+      ]
     },
     "games/Kingdom Hearts 3 and Re-Mind.jpg": {
       "title": "Kingdom Hearts 3 and Re-Mind",
@@ -56206,7 +56336,13 @@
       "genres": [
         "تقمص أدوار، مغامرات خيالية"
       ],
-      "summaryAr": "انضم إلى سورا وأصدقائه من ديزني وفاينل فانتسي في ملحمة خيالية لمواجهة قوى الظلام واستعادة النور لعوالم ديزني المتنوعة والمدهشة."
+      "summaryAr": "انضم إلى سورا وأصدقائه من ديزني وفاينل فانتسي في ملحمة خيالية لمواجهة قوى الظلام واستعادة النور لعوالم ديزني المتنوعة والمدهشة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_Hearts_III"
+        }
+      ]
     },
     "games/Kunitsu.jpg": {
       "title": "Kunitsu",
@@ -56238,7 +56374,13 @@
       "genres": [
         "أكشن، استراتيجية، فلكلور ياباني"
       ],
-      "summaryAr": "لعبة تجمع بين الأكشن الاستراتيجي والأجواء اليابانية العريقة، وفيه تحمي عذراء مقدسة من أرواح شريرة تنحدر من الجبال طوال الليل."
+      "summaryAr": "لعبة تجمع بين الأكشن الاستراتيجي والأجواء اليابانية العريقة، وفيه تحمي عذراء مقدسة من أرواح شريرة تنحدر من الجبال طوال الليل.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kunitsu-Gami:_Path_of_the_Goddess"
+        }
+      ]
     },
     "games/Life is Strange - BtS Remastered.jpg": {
       "title": "Life is Strange - BtS Remastered",
@@ -56270,7 +56412,13 @@
       "genres": [
         "مغامرات تفاعلية، دراما خيالية"
       ],
-      "summaryAr": "قصة عاطفية تركز على صداقة «كلوي برايس» و«رايتشل إمبر» قبل أحداث اللعبة الأصلية، وكيف واجهتا أسرار بلدتهما ومشاكلهما الشخصية المؤثرة."
+      "summaryAr": "قصة عاطفية تركز على صداقة «كلوي برايس» و«رايتشل إمبر» قبل أحداث اللعبة الأصلية، وكيف واجهتا أسرار بلدتهما ومشاكلهما الشخصية المؤثرة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Life_Is_Strange:_Before_the_Storm"
+        }
+      ]
     },
     "games/LotR - War in the North - LE.jpg": {
       "title": "LotR - War in the North - LE",
@@ -56302,7 +56450,13 @@
       "genres": [
         "تقمص أدوار، أكشن، تعاوني"
       ],
-      "summaryAr": "عِش قصة فرعية غير مروية من ثلاثية سيد الخواتم، وفيه يتكاتف أبطال ثلاثة لصد تهديد جيوش الظلام في شمال أرض الوسط."
+      "summaryAr": "عِش قصة فرعية غير مروية من ثلاثية سيد الخواتم، وفيه يتكاتف أبطال ثلاثة لصد تهديد جيوش الظلام في شمال أرض الوسط.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_War_in_the_North"
+        }
+      ]
     },
     "games/Marvel - Ultimate Alliance Bundle 2016  7.39GB_1.jpg": {
       "title": "Marvel - Ultimate Alliance Bundle 2016  7.39GB_1",
@@ -56335,7 +56489,13 @@
       "genres": [
         "أكشن / تقمص أدوار"
       ],
-      "summaryAr": "تجميعة أبطال مارفيل الخارقين لإنقاذ الكون من تهديد الأشرار بتشكيل فرق من 4 أبطال."
+      "summaryAr": "تجميعة أبطال مارفيل الخارقين لإنقاذ الكون من تهديد الأشرار بتشكيل فرق من 4 أبطال.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marvel:_Ultimate_Alliance"
+        }
+      ]
     },
     "games/Marvels Avengers Full unlocked  87GB_3.jpg": {
       "title": "Marvels Avengers Full unlocked  87GB_3",
@@ -56367,7 +56527,13 @@
       "genres": [
         "أكشن ومغامرات"
       ],
-      "summaryAr": "قصة إعادة تجمع فريق الأفينجرز ومواجهة منظمة A.I.M الشريرة."
+      "summaryAr": "قصة إعادة تجمع فريق الأفينجرز ومواجهة منظمة A.I.M الشريرة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marvel's_Avengers"
+        }
+      ]
     },
     "games/MAXPYNE 2.jpg": {
       "title": "MAXPYNE 2",
@@ -56399,7 +56565,13 @@
       "genres": [
         "نوار، تصويب، دراما وجريمة"
       ],
-      "summaryAr": "قصة حب ومأساة مظلمة تحيط بشرطي مكافحة الجريمة ماكس باين وسط عالم نيويورك القاسي، ممزوجة بميكانيكا الحركة البطيئة المميزة (Bullet Time)."
+      "summaryAr": "قصة حب ومأساة مظلمة تحيط بشرطي مكافحة الجريمة ماكس باين وسط عالم نيويورك القاسي، ممزوجة بميكانيكا الحركة البطيئة المميزة (Bullet Time).",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Max_Payne_2:_The_Fall_of_Max_Payne"
+        }
+      ]
     },
     "games/mechwarior 5.jpg": {
       "title": "mechwarior 5",
@@ -56431,7 +56603,13 @@
       "genres": [
         "محاكاة، قتال آليات ضخمة، أكشن"
       ],
-      "summaryAr": "قُد مجموعة من المرتزقة وتقمص دور قائد آليات حربية عملاقة في حروب مستقبلية طاحنة بحثاً عن الثروة والانتقام."
+      "summaryAr": "قُد مجموعة من المرتزقة وتقمص دور قائد آليات حربية عملاقة في حروب مستقبلية طاحنة بحثاً عن الثروة والانتقام.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/MechWarrior_5:_Mercenaries"
+        }
+      ]
     },
     "games/MGS MASTER COLLECTION Vol.1 BONUS CONTENT.jpg": {
       "title": "MGS MASTER COLLECTION Vol.1 BONUS CONTENT",
@@ -56464,7 +56642,13 @@
       "genres": [
         "محتوى إضافي، أرشيف وثائقي، تسلل"
       ],
-      "summaryAr": "مجموعة إضافية تضم ملفات وسيناريوهات كلاسيكية ومحتويات نادرة توثق تاريخ سلسلة التسلل والأسطورة هيدو كوجيما."
+      "summaryAr": "مجموعة إضافية تضم ملفات وسيناريوهات كلاسيكية ومحتويات نادرة توثق تاريخ سلسلة التسلل والأسطورة هيدو كوجيما.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid:_Master_Collection_Vol._1"
+        }
+      ]
     },
     "games/MGS2 Sons of Liberty Master Collection Version.jpg": {
       "title": "MGS2 Sons of Liberty Master Collection Version",
@@ -56496,7 +56680,13 @@
       "genres": [
         "تسلل، تجسس، أكشن سياسي"
       ],
-      "summaryAr": "العب دور الجاسوس «سنيك» ثم «رايدر» داخل منشأة بحرية غامضة تسيطر عليها جماعة إرهابية تُهدد الاستقرار العالمي في قصة معقدة ومليئة بالمفاجآت."
+      "summaryAr": "العب دور الجاسوس «سنيك» ثم «رايدر» داخل منشأة بحرية غامضة تسيطر عليها جماعة إرهابية تُهدد الاستقرار العالمي في قصة معقدة ومليئة بالمفاجآت.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_2:_Sons_of_Liberty"
+        }
+      ]
     },
     "games/MGS3 Snake Eater Master Collection Version.jpg": {
       "title": "MGS3 Snake Eater Master Collection Version",
@@ -56528,7 +56718,13 @@
       "genres": [
         "تسلل، بقاء في الغابات، تجسس"
       ],
-      "summaryAr": "العب القصة الأيقونية لجندي الأجيال «نايتد سنيك» أثناء مهمته الخطيرة وسط الأدغال السوفيتية إبان الحرب الباردة لإنقاذ معلمه السابق وكشف خيانة مدوية."
+      "summaryAr": "العب القصة الأيقونية لجندي الأجيال «نايتد سنيك» أثناء مهمته الخطيرة وسط الأدغال السوفيتية إبان الحرب الباردة لإنقاذ معلمه السابق وكشف خيانة مدوية.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_3:_Snake_Eater"
+        }
+      ]
     },
     "games/Middle-earth - Shadow of War DE.jpg": {
       "title": "Middle-earth - Shadow of War DE",
@@ -56560,7 +56756,13 @@
       "genres": [
         "أكشن، تقمص أدوار، عالم مفتوح"
       ],
-      "summaryAr": "واجه جيوش سورون في أرض الوسط باستخدام نظام «العدو» الفريد اللي يتذكر تفاعلاتك السابقة، وابنِ جيشك الخاص من العفاريت للسيطرة على القلاع الحصينة."
+      "summaryAr": "واجه جيوش سورون في أرض الوسط باستخدام نظام «العدو» الفريد اللي يتذكر تفاعلاتك السابقة، وابنِ جيشك الخاص من العفاريت للسيطرة على القلاع الحصينة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Middle-earth:_Shadow_of_War"
+        }
+      ]
     },
     "games/NARUTO SHIPPUDEN - UNS 4.jpg": {
       "title": "NARUTO SHIPPUDEN - UNS 4",
@@ -56592,7 +56794,13 @@
       "genres": [
         "قتال / أنمي"
       ],
-      "summaryAr": "الحرب العالمية النينجا الكبرى والمعارك الخارقة الأخيرة لناروتو وساسكي."
+      "summaryAr": "الحرب العالمية النينجا الكبرى والمعارك الخارقة الأخيرة لناروتو وساسكي.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Naruto_Shippuden:_Ultimate_Ninja_Storm_4"
+        }
+      ]
     },
     "games/NARUTO X BORUTO - UNSC.jpg": {
       "title": "NARUTO X BORUTO - UNSC",
@@ -56624,7 +56832,13 @@
       "genres": [
         "قتال أركيدي، أنمي، أكشن"
       ],
-      "summaryAr": "خض أقوى وأعنف معارك نينجا قرية الورق مع قائمة ضخمة تضم أجيال ناروتو وبوروتو وقصص جديدة حصرية للسلسلة."
+      "summaryAr": "خض أقوى وأعنف معارك نينجا قرية الورق مع قائمة ضخمة تضم أجيال ناروتو وبوروتو وقصص جديدة حصرية للسلسلة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Naruto_x_Boruto:_Ultimate_Ninja_Storm_Connections"
+        }
+      ]
     },
     "games/Need for Spee  3.3gbd  ProStreet.jpg": {
       "title": "Need for Spee  3.3gbd  ProStreet",
@@ -56657,7 +56871,13 @@
       "genres": [
         "سباق سيارات، محاكاة احترافية"
       ],
-      "summaryAr": "تحول فريد في السلسلة يترك سباقات الشوارع غير القانونية ليدخل حلبات السباق الرسمية والاحترافية المنظمة مع نظام أضرار واقعي ومثير."
+      "summaryAr": "تحول فريد في السلسلة يترك سباقات الشوارع غير القانونية ليدخل حلبات السباق الرسمية والاحترافية المنظمة مع نظام أضرار واقعي ومثير.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Need_for_Speed:_ProStreet"
+        }
+      ]
     },
     "games/NFS Hot Pursuit Remastered.jpg": {
       "title": "NFS Hot Pursuit Remastered",
@@ -56689,7 +56909,13 @@
       "genres": [
         "سباق سيارات، مطاردات شرطة، أركيد"
       ],
-      "summaryAr": "استمتع بإثارة الهروب بالسيارات الخارقة كمتسابق متهور، أو قم بملاحقة الخارجين عن القانون كشرطي باستخدام ترسانة من التكتيكات والمطاردات السريعة."
+      "summaryAr": "استمتع بإثارة الهروب بالسيارات الخارقة كمتسابق متهور، أو قم بملاحقة الخارجين عن القانون كشرطي باستخدام ترسانة من التكتيكات والمطاردات السريعة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Need_for_Speed:_Hot_Pursuit_Remastered"
+        }
+      ]
     },
     "games/Olympic Games Tokyo 2020.jpg": {
       "title": "Olympic Games Tokyo 2020",
@@ -56721,7 +56947,13 @@
       "genres": [
         "رياضة، ألعاب مصغرة، تنافسي"
       ],
-      "summaryAr": "شارك في منافسات الألعاب الأولمبية الشهيرة عبر عشرات الألعاب الرياضية الحماسية مع إمكانية تصميم رياضيك والمنافسة عالمياً."
+      "summaryAr": "شارك في منافسات الألعاب الأولمبية الشهيرة عبر عشرات الألعاب الرياضية الحماسية مع إمكانية تصميم رياضيك والمنافسة عالمياً.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Olympic_Games_Tokyo_2020_-_The_Official_Video_Game"
+        }
+      ]
     },
     "games/Planet_Coaster_Alpha.jpg": {
       "title": "Planet_Coaster_Alpha",
@@ -56753,7 +56985,13 @@
       "genres": [
         "محاكاة، بناء، إدارة مدن ملاهي"
       ],
-      "summaryAr": "أطلق العنان لإبداعك لتصميم وبناء أضخم وأعقد ملاهي ترفيهية وأفعوانيات مرعبة تجذب الزوار وتحقق النجاح المالي."
+      "summaryAr": "أطلق العنان لإبداعك لتصميم وبناء أضخم وأعقد ملاهي ترفيهية وأفعوانيات مرعبة تجذب الزوار وتحقق النجاح المالي.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Planet_Coaster"
+        }
+      ]
     },
     "games/ptototype2.jpg": {
       "title": "ptototype2",
@@ -56785,7 +57023,13 @@
       "genres": [
         "أكشن، عالم مفتوح، قوى خارقة"
       ],
-      "summaryAr": "تلعب دور الجندي «جيمس هيلر» الساعي للانتقام من أليكس ميرسر بعد تسببه في تفشي فيروس مدمر، مستخدماً قدرات تحول جسدي مرعبة وخارقة."
+      "summaryAr": "تلعب دور الجندي «جيمس هيلر» الساعي للانتقام من أليكس ميرسر بعد تسببه في تفشي فيروس مدمر، مستخدماً قدرات تحول جسدي مرعبة وخارقة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Prototype_2"
+        }
+      ]
     },
     "games/Rabbids - Party of Legends [HV].jpg": {
       "title": "Rabbids - Party of Legends [HV]",
@@ -56818,7 +57062,13 @@
       "genres": [
         "حفلات، ألعاب مصغرة، كوميدي عائلي"
       ],
-      "summaryAr": "مغامرة مجنونة ومليئة بالضحك والمقالب مع كائنات الرابيدز المشاغبة عبر مجموعة ضخمة من الألعاب المصغرة التنافسية."
+      "summaryAr": "مغامرة مجنونة ومليئة بالضحك والمقالب مع كائنات الرابيدز المشاغبة عبر مجموعة ضخمة من الألعاب المصغرة التنافسية.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rabbids:_Party_of_Legends"
+        }
+      ]
     },
     "games/Rage Anarchy Edition.Jpg": {
       "title": "Rage Anarchy Edition",
@@ -56882,7 +57132,13 @@
       "genres": [
         "رعب بقاء، أكشن، منظور ثالث"
       ],
-      "summaryAr": "العب دور العميل ليون إس كينيدي في مهمة لإنقاذ ابنة الرئيس الأمريكي المحتجزة في قرية أوروبية نائية تسيطر عليها طائفة غامضة ومخيفة."
+      "summaryAr": "العب دور العميل ليون إس كينيدي في مهمة لإنقاذ ابنة الرئيس الأمريكي المحتجزة في قرية أوروبية نائية تسيطر عليها طائفة غامضة ومخيفة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Resident_Evil_4:_Ultimate_HD_Edition"
+        }
+      ]
     },
     "games/Sim Digital Combat World.jpg": {
       "title": "Sim Digital Combat World",
@@ -56914,7 +57170,13 @@
       "genres": [
         "محاكاة طيران عسكري واقعية للغاية"
       ],
-      "summaryAr": "تجربة الطيران الحربي الأكثر دقة وواقعية لطائرات ومقاتلات حقيقية في بيئات قتالية معقدة تتطلب تدريباً واحترافية عالية."
+      "summaryAr": "تجربة الطيران الحربي الأكثر دقة وواقعية لطائرات ومقاتلات حقيقية في بيئات قتالية معقدة تتطلب تدريباً واحترافية عالية.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Digital_Combat_Simulator"
+        }
+      ]
     },
     "games/Sim Supermarket Security 2023.jpg": {
       "title": "Sim Supermarket Security 2023",
@@ -56979,7 +57241,13 @@
       "genres": [
         "محاكاة قيادة، وعورة وتضاريس صعبة"
       ],
-      "summaryAr": "خض تحديات قيادة الشاحنات الضخمة عبر تضاريس وعرة وطينية وثلوج كثيفة لنقل البضائع والمعدات في بيئات طبيعية قاسية."
+      "summaryAr": "خض تحديات قيادة الشاحنات الضخمة عبر تضاريس وعرة وطينية وثلوج كثيفة لنقل البضائع والمعدات في بيئات طبيعية قاسية.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/SnowRunner"
+        }
+      ]
     },
     "games/Stranger of Paradise - FFO.jpg": {
       "title": "Stranger of Paradise - FFO",
@@ -57011,7 +57279,13 @@
       "genres": [
         "تقمص أدوار، قتال صعب (Souls-like)"
       ],
-      "summaryAr": "رحلة مظلمة وعنيفة لمجموعة من الأبطال بقيادة جاك وهم يسعون للقضاء على ظلام «كاوس» عبر معارك سريعة وقوية ومليئة بالحماس."
+      "summaryAr": "رحلة مظلمة وعنيفة لمجموعة من الأبطال بقيادة جاك وهم يسعون للقضاء على ظلام «كاوس» عبر معارك سريعة وقوية ومليئة بالحماس.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stranger_of_Paradise:_Final_Fantasy_Origin"
+        }
+      ]
     },
     "games/Styx - Master of Darkness.jpg": {
       "title": "Styx - Master of Darkness",
@@ -57043,7 +57317,13 @@
       "genres": [
         "تسلل خفي، مغامرات، فانتازيا مظلمة"
       ],
-      "summaryAr": "تلعب دور العفريت «ستيكس» الماكر اللي يعتمد على الظلال والتسلل السري لسرقة الكنوز وتنفيذ اغتيالات مستحيلة داخل حصون بشرية وجنية محصنة."
+      "summaryAr": "تلعب دور العفريت «ستيكس» الماكر اللي يعتمد على الظلال والتسلل السري لسرقة الكنوز وتنفيذ اغتيالات مستحيلة داخل حصون بشرية وجنية محصنة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Styx:_Shards_of_Darkness"
+        }
+      ]
     },
     "games/TABS.jpg": {
       "title": "TABS",
@@ -57075,7 +57355,13 @@
       "genres": [
         "محاكاة معارك كوميدية، استراتيجية فيزيائية"
       ],
-      "summaryAr": "لعبة استراتيجية قائمة على فيزياء غريبة ومضحكة، وفيه تضع جنوداً من مختلف العصور من الرجال الحجريين وحتى الفضائيين لمشاهدة معارك طريفة لا تخلو من الفوضى."
+      "summaryAr": "لعبة استراتيجية قائمة على فيزياء غريبة ومضحكة، وفيه تضع جنوداً من مختلف العصور من الرجال الحجريين وحتى الفضائيين لمشاهدة معارك طريفة لا تخلو من الفوضى.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Totally_Accurate_Battle_Simulator"
+        }
+      ]
     },
     "games/TDPA - The Devil in Me.jpg": {
       "title": "TDPA - The Devil in Me",
@@ -57107,7 +57393,13 @@
       "genres": [
         "رعب نفسي، خيارات تفاعلية، سينمائي"
       ],
-      "summaryAr": "مجموعة من صناع الأفلام يتلقون دعوة غاممة لزيارة فندق يحاكي جرائم سفاح مرعب، ليكتشفوا سريعاً أنهم وقعوا في فخ مصيدة قاتلة ومميتة."
+      "summaryAr": "مجموعة من صناع الأفلام يتلقون دعوة غاممة لزيارة فندق يحاكي جرائم سفاح مرعب، ليكتشفوا سريعاً أنهم وقعوا في فخ مصيدة قاتلة ومميتة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Dark_Pictures_Anthology:_The_Devil_in_Me"
+        }
+      ]
     },
     "games/The Amazing Spid  er Man 1.jpg": {
       "title": "The Amazing Spid  er Man 1",
@@ -57139,7 +57431,13 @@
       "genres": [
         "أكشن ومغامرات / عالم مفتوح"
       ],
-      "summaryAr": "التأرجح في مانهاتن ومطاردة المسوخ والعلماء الأشرار بعد أحداث الفيلم."
+      "summaryAr": "التأرجح في مانهاتن ومطاردة المسوخ والعلماء الأشرار بعد أحداث الفيلم.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Amazing_Spider-Man"
+        }
+      ]
     },
     "games/The Crew unlimited.jpg": {
       "title": "The Crew unlimited",
@@ -57173,7 +57471,13 @@
         "سباقات عالم مفتوح"
       ],
       "summaryAr": "نسخة مفتوحة ومعدلة للعبة السابقة لاستمرار اللعب الجماعي والسباقات الطويلة.",
-      "needsReview": true
+      "needsReview": true,
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Crew_Unlimited"
+        }
+      ]
     },
     "games/The Elder Scrolls V - Skyrim - Legendary Edition.jpg": {
       "title": "The Elder Scrolls V - Skyrim - Legendary Edition",
@@ -57205,7 +57509,13 @@
       "genres": [
         "تقمص أدوار، عالم مفتوح، فانتازيا"
       ],
-      "summaryAr": "تقمص دور قاتل التنانين في عالم شمالي شاسع ومفتوح مليء بالتنانين والسحر والمغامرات الأسطورية اللي تصنع فيها مصيرك بنفسك."
+      "summaryAr": "تقمص دور قاتل التنانين في عالم شمالي شاسع ومفتوح مليء بالتنانين والسحر والمغامرات الأسطورية اللي تصنع فيها مصيرك بنفسك.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_V:_Skyrim"
+        }
+      ]
     },
     "games/The Outer Worlds - SCE.jpg": {
       "title": "The Outer Worlds - SCE",
@@ -57237,7 +57547,13 @@
       "genres": [
         "تقمص أدوار، خيال علمي، تصويب"
       ],
-      "summaryAr": "استيقظ من سبات طويل على سفينة فضاء ضائعة لتجد نفسك في مستعمرة فضائية تسيطر عليها شركات طشع تتدخل في كل تفاصيل حياة البشر."
+      "summaryAr": "استيقظ من سبات طويل على سفينة فضاء ضائعة لتجد نفسك في مستعمرة فضائية تسيطر عليها شركات طشع تتدخل في كل تفاصيل حياة البشر.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Outer_Worlds:_Spacer's_Choice_Edition"
+        }
+      ]
     },
     "games/The Walking Dead - Definitive Series  2019  16.4GB_1.jpg": {
       "title": "The Walking Dead - Definitive Series  2019  16.4GB_1",
@@ -57269,7 +57585,13 @@
       "genres": [
         "مغامرات تفاعلية، دراما ونيل الزومبي"
       ],
-      "summaryAr": "قصة عاطفية وقاسية تلخص رحلة الطفلة «كليمنتاين» وهي تحاول البقاء على قيد الحياة وحماية من تحب في عالم اجتاحته جحافل الموتى والأحياء المتوحشين."
+      "summaryAr": "قصة عاطفية وقاسية تلخص رحلة الطفلة «كليمنتاين» وهي تحاول البقاء على قيد الحياة وحماية من تحب في عالم اجتاحته جحافل الموتى والأحياء المتوحشين.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(video_game_series)"
+        }
+      ]
     },
     "games/TLotR War in the North.jpg": {
       "title": "TLotR War in the North",
@@ -57301,7 +57623,13 @@
       "genres": [
         "تقمص أدوار، أكشن تعاوني"
       ],
-      "summaryAr": "انضم إلى ثلاثة أبطال في رحلة عبر الأراضي الشمالية لأرض الوسط للتصدي لقائد جيش مظلم تابع لسورون وابعاد الخطر عن ممالك البشر."
+      "summaryAr": "انضم إلى ثلاثة أبطال في رحلة عبر الأراضي الشمالية لأرض الوسط للتصدي لقائد جيش مظلم تابع لسورون وابعاد الخطر عن ممالك البشر.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_War_in_the_North"
+        }
+      ]
     },
     "games/TMNT - Shredder's Revenge.jpg": {
       "title": "TMNT - Shredder's Revenge",
@@ -57333,7 +57661,13 @@
       "genres": [
         "أركيد كلاسيكي، أكشن جماعي"
       ],
-      "summaryAr": "استمتع بالقتال الكلاسيكي السريع مع سلاحف النينجا الثلاثة للقصاص من شريددر وجيشه الشرير برسومات بكسل فنية مذهلة وأجواء تسعينيات أصيلة."
+      "summaryAr": "استمتع بالقتال الكلاسيكي السريع مع سلاحف النينجا الثلاثة للقصاص من شريددر وجيشه الشرير برسومات بكسل فنية مذهلة وأجواء تسعينيات أصيلة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles:_Shredder's_Revenge"
+        }
+      ]
     },
     "games/Tony Hawk's Pro Skater 1 plus 2.jpg": {
       "title": "Tony Hawk's Pro Skater 1 plus 2",
@@ -57365,7 +57699,13 @@
       "genres": [
         "رياضة، تزلج، أركيد"
       ],
-      "summaryAr": "النسخة المعاد إتقانها لأفضل ألعاب التزلج التاريخية، مع حركات بهلوانية خيالية وموسيقى تصويرية كلاسيكية حماسية."
+      "summaryAr": "النسخة المعاد إتقانها لأفضل ألعاب التزلج التاريخية، مع حركات بهلوانية خيالية وموسيقى تصويرية كلاسيكية حماسية.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tony_Hawk's_Pro_Skater_1_+_2"
+        }
+      ]
     },
     "games/Ultimate Spiderman  1.71GB_1.jpg": {
       "title": "Ultimate Spiderman  1.71GB_1",
@@ -57397,7 +57737,13 @@
       "genres": [
         "أكشن، عالم مفتوح، أبطال خارقين"
       ],
-      "summaryAr": "عش القصة الكلاسيكية لشخصية سبايدرمان مع القدرة على اللعب بشخصية العدو «فينوم» في مدينة نيويورك المفعمة بالحيوية والرسومات الكرتونية الفريدة."
+      "summaryAr": "عش القصة الكلاسيكية لشخصية سبايدرمان مع القدرة على اللعب بشخصية العدو «فينوم» في مدينة نيويورك المفعمة بالحيوية والرسومات الكرتونية الفريدة.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ultimate_Spider-Man"
+        }
+      ]
     },
     "games/Yakuza Like a Dragon - Infinite Wealth 30GB   {HV{.jpg": {
       "title": "Yakuza Like a Dragon - Infinite Wealth 30GB   {HV{",
@@ -57429,7 +57775,13 @@
       "genres": [
         "تقمص أدوار"
       ],
-      "summaryAr": "مغامرة إيتشيبان كاسوجا في شوارع يوكوهاما وهاواي الأمريكية بأسلوب ممتع."
+      "summaryAr": "مغامرة إيتشيبان كاسوجا في شوارع يوكوهاما وهاواي الأمريكية بأسلوب ممتع.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Like_a_Dragon:_Infinite_Wealth"
+        }
+      ]
     },
     "games/Yakuza Like a Dragon - Ishin [HV].jpg": {
       "title": "Yakuza Like a Dragon - Ishin [HV]",
@@ -57461,7 +57813,13 @@
       "genres": [
         "أكشن وتاريخي"
       ],
-      "summaryAr": "بتدور أحداثها بحقبة باكوماتسو التاريخية باليابان وأبطال ياكوزا بدور ساموراي."
+      "summaryAr": "بتدور أحداثها بحقبة باكوماتسو التاريخية باليابان وأبطال ياكوزا بدور ساموراي.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Like_a_Dragon:_Ishin!"
+        }
+      ]
     },
     "games/Yakuza Like a Dragon Gaiden  {HV].jpg": {
       "title": "Yakuza Like a Dragon Gaiden  {HV]",
@@ -57493,7 +57851,13 @@
       "genres": [
         "أكشن ومغامرات / قتال شوارع"
       ],
-      "summaryAr": "قصة كازوما كيريو وعمله تحت اسم مستعار مع وكالة سرية بعد أحداث الجزء السادس."
+      "summaryAr": "قصة كازوما كيريو وعمله تحت اسم مستعار مع وكالة سرية بعد أحداث الجزء السادس.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Like_a_Dragon_Gaiden:_The_Man_Who_Erased_His_Name"
+        }
+      ]
     },
     "games/Yakuza Lost Judgment {HV}.jpg": {
       "title": "Yakuza Lost Judgment {HV}",
@@ -57525,7 +57889,13 @@
       "genres": [
         "تحقيق / أكشن ومغامرات"
       ],
-      "summaryAr": "رحلة المحقق تاكايوكي ياجامي في كشف جرائم تنمر وغموض قانوني في شوارع كاموروتشو."
+      "summaryAr": "رحلة المحقق تاكايوكي ياجامي في كشف جرائم تنمر وغموض قانوني في شوارع كاموروتشو.",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lost_Judgment"
+        }
+      ]
     },
     "games/Alice American McGees.jpg": {
       "title": "Alice American McGees",
@@ -57559,7 +57929,13 @@
           "ram": "4 GB",
           "gpu": "GTX 560"
         }
-      }
+      },
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alice:_Madness_Returns"
+        }
+      ]
     },
     "games/Crash Team Racing Nitro.jpg": {
       "title": "Crash Team Racing Nitro",
@@ -57592,7 +57968,13 @@
           "cpu": "معالج متوسط",
           "ram": "8 GB"
         }
-      }
+      },
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Crash_Team_Racing_Nitro-Fueled"
+        }
+      ]
     },
     "games/Ghost Of Recon.jpg": {
       "title": "Ghost Of Recon",
@@ -57660,7 +58042,13 @@
           "gpu": "كارت شاشة بذاكرة 1 جيجابايت"
         }
       },
-      "publisher": "Sega"
+      "publisher": "Sega",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Dead_4"
+        }
+      ]
     },
     "games/tomp rider 4-5-6 Remastered.jpg": {
       "title": "tomp rider 4-5-6 Remastered",
@@ -57694,7 +58082,13 @@
           "ram": "8 GB",
           "gpu": "GTX 970"
         }
-      }
+      },
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tomb_Raider_IV-VI_Remastered"
+        }
+      ]
     },
     "games/The Elder Scrolls oblivian REMAKE  108GB_1.jpg": {
       "title": "The Elder Scrolls oblivian REMAKE  108GB_1",
@@ -57730,7 +58124,13 @@
           "gpu": "NVIDIA GeForce GTX 760 أو AMD Radeon R9 280",
           "ram": "8 جيجابايت"
         }
-      }
+      },
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion"
+        }
+      ]
     },
     "games/NFS Most Wanted Unofficial Remake.jpg": {
       "title": "NFS Most Wanted Unofficial Remake",
@@ -57765,7 +58165,13 @@
           "ram": "4 جيجابايت"
         }
       },
-      "publisher": "تعديلات مجتمعية (Community Project)"
+      "publisher": "تعديلات مجتمعية (Community Project)",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Need_for_Speed:_Most_Wanted"
+        }
+      ]
     },
     "games/Stalker Anomaly.jpg": {
       "title": "Stalker Anomaly",
@@ -57799,7 +58205,13 @@
           "ram": "16 GB",
           "gpu": "GTX 1060"
         }
-      }
+      },
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/S.T.A.L.K.E.R."
+        }
+      ]
     },
     "games/Silent.Hill.4.New.Edition.jpg": {
       "title": "Silent.Hill.4.New.Edition",
@@ -57833,7 +58245,13 @@
           "gpu": "كارت بذاكرة 64 ميجابايت",
           "ram": "512 ميجابايت"
         }
-      }
+      },
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Silent_Hill_4:_The_Room"
+        }
+      ]
     },
     "games/Desperados Wanted Dead or Alive Re-modernized  490MB_1.jpg": {
       "title": "Desperados Wanted Dead or Alive Re-modernized  490MB_1",
@@ -57869,7 +58287,13 @@
       "extra": {
         "factsSource": "بحث يدوي",
         "note": "المواصفات موصوفة بأنها تعمل على كل الأجهزة"
-      }
+      },
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Desperados:_Wanted_Dead_or_Alive"
+        }
+      ]
     },
     "games/disbatch.jpg": {
       "title": "disbatch",
@@ -57945,7 +58369,13 @@
       "extra": {
         "factsSource": "بحث يدوي",
         "note": "المواصفات موصوفة بأنها تعمل على كل الأجهزة"
-      }
+      },
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/F.E.A.R."
+        }
+      ]
     },
     "games/Fifa 26  {HV}.jpg": {
       "title": "Fifa 26  {HV}",
@@ -57978,7 +58408,13 @@
       "confidence": "medium",
       "extra": {
         "factsSource": "بحث يدوي"
-      }
+      },
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/EA_Sports_FC_26"
+        }
+      ]
     },
     "games/GTA VICE CITY NEXT GEN.jpg": {
       "title": "GTA VICE CITY NEXT GEN",
@@ -58013,7 +58449,13 @@
         "factsSource": "بحث يدوي",
         "reviewNote": "السنة تقديرية — مشروع تعديل مجتمعي"
       },
-      "needsReview": true
+      "needsReview": true,
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City"
+        }
+      ]
     },
     "games/Half-Life - Source Quadrilogy.jpg": {
       "title": "Half-Life - Source Quadrilogy",
@@ -58079,7 +58521,13 @@
         "factsSource": "بحث يدوي",
         "reviewNote": "لا توجد نسخة حاسب رسمية؛ المواصفات تخص محاكي المنصة الأصلية"
       },
-      "needsReview": true
+      "needsReview": true,
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Silent_Hill:_Downpour"
+        }
+      ]
     },
     "games/MGS Peace Walker.jpg": {
       "title": "MGS Peace Walker",
@@ -58114,7 +58562,13 @@
         "factsSource": "بحث يدوي",
         "reviewNote": "محاكي"
       },
-      "needsReview": true
+      "needsReview": true,
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid:_Peace_Walker"
+        }
+      ]
     },
     "games/Neighbours from Hell - Revenge Is a Sweet Game .jpg": {
       "title": "Neighbours from Hell - Revenge Is a Sweet Game",
@@ -58326,20 +58780,40 @@
       "modes": [
         "لاعب واحد"
       ],
-      "summaryAr": "النسخة المحسّنة من اللعبة على جهاز بلايستيشن بدقة 1080p وستين إطارًا في الثانية. تلعب دور كراتوس، المحارب السبارتي، وهو يصعد من أعماق العالم السفلي إلى قمة جبل أوليمبوس لينتقم ممن خانوه. بسحاقين منفرجين وأسلحة وسحر جديد، وتواجه أكثر مخلوقات الأسطورة قسوة على طريقك.",
+      "summaryAr": "النسخة المحسّنة من اللعبة على بلايستيشن بدقة 1080p وستين إطارًا في الثانية. تلعب دور كراتوس، المحارب السبارتي، وهو يصعد من أعماق العالم السفلي إلى قمة جبل أوليمبوس لينتقم ممن خانوه، ويتصدى على طريقه لأشدّ مخلوقات الأساطير قسوةً بأسلحة وسحر جديد.",
       "summaryEn": "Originally developed for PlayStation 3, God of War III was remastered for PlayStation 4 with 1080p support at 60fps.",
-      "needsRequirements": true,
+      "needsRequirements": false,
       "links": [
         {
           "label": "الموقع الرسمي",
           "url": "https://www.playstation.com/en-us/games/god-of-war-iii-remastered"
+        },
+        {
+          "label": "ويكيبيديا — God of War III",
+          "url": "https://en.wikipedia.org/wiki/God_of_War_III"
         }
       ],
       "confidence": "high",
       "extra": {
-        "reviewNote": "اللعبة متاحة على أجهزة بلايستيشن فقط ولا يوجد لها إصدار رسمي على الحاسوب، لذلك لا توجد مواصفات تشغيل موثوقة. النسخ المتاحة على الحاسوب تحويلات غير رسمية وكفاءتها تعتمد على الجهاز وليست متطلبات ثابتة.",
+        "reviewNote": "أُضيفت مواصفات التشغيل الخاصة بالجهاز الأصلي (بلايستيشن) حتى لا يبقى القسم فارغًا، وحجم التخزين تقريبي. اللعبة بلا إصدار PC رسمي.",
         "factsSource": "بحث يدوي"
-      }
+      },
+      "series": "God of War",
+      "ageRating": "18+ (PEGI)",
+      "requirements": {
+        "minimum": {
+          "os": "PlayStation 4",
+          "storage": "حوالي 10 جيجابايت"
+        },
+        "recommended": {
+          "os": "PlayStation 4 Pro أو PlayStation 5 (عبر التوافق)",
+          "storage": "حوالي 10 جيجابايت"
+        },
+        "notes": "إصدار كونسول حصري على بلايستيشن ولا يوجد له إصدار PC رسمي؛ المتطلبات أدناه لجهاز البلايستيشن نفسه وحجم التخزين تقريبي حسب متجر سوني. النسخ المتاحة على الحاسوب تحويلات غير رسمية وكفاءتها تعتمد على الجهاز."
+      },
+      "needsReview": [
+        "requirements"
+      ]
     },
     "games/LEGO Party.jpg": {
       "title": "LEGO Party",
@@ -58412,18 +58886,38 @@
       ],
       "summaryAr": "احتفال يعيد جزءًا من أجمل لحظات السلسلة. تلعب على خمس لوحات كلاسيكية من حقبة أجهزة نينتندو إضافة إلى مئة لعبة قصيرة مأخوذة من ألعاب السلسلة على مدى سنوات، وتنافس الأصدقاء في سباقات وجمع النجوم قبل نهاية الأدوار.",
       "summaryEn": "Revives classic boards and 100 minigames from across the Mario Party series.",
-      "needsRequirements": true,
+      "needsRequirements": false,
       "links": [
         {
           "label": "الموقع الرسمي",
           "url": "https://www.nintendo.com/"
+        },
+        {
+          "label": "ويكيبيديا — Mario Party Superstars",
+          "url": "https://en.wikipedia.org/wiki/Mario_Party_Superstars"
         }
       ],
       "confidence": "high",
       "extra": {
-        "reviewNote": "اللعبة متاحة على جهاز النينتندو سويتش فقط ولا يوجد لها إصدار على الحاسوب، لذلك لا توجد مواصفات تشغيل موثوقة.",
+        "reviewNote": "أُضيفت مواصفات التشغيل الخاصة بالجهاز الأصلي (نينتندو سويتش) حتى لا يبقى القسم فارغًا، وحجم التخزين تقريبي. اللعبة بلا إصدار PC.",
         "factsSource": "بحث يدوي"
-      }
+      },
+      "series": "Mario Party",
+      "ageRating": "كل الأعمار (ESRB: E)",
+      "requirements": {
+        "minimum": {
+          "os": "Nintendo Switch",
+          "storage": "حوالي 3 جيجابايت"
+        },
+        "recommended": {
+          "os": "Nintendo Switch مع اشتراك Nintendo Switch Online للعب عبر الإنترنت",
+          "storage": "حوالي 3 جيجابايت"
+        },
+        "notes": "إصدار كونسول حصري على أجهزة نينتندو سويتش ولا يوجد له إصدار PC؛ المتطلبات أدناه لجهاز السويتش نفسه وحجم التخزين تقريبي حسب متجر نينتندو."
+      },
+      "needsReview": [
+        "requirements"
+      ]
     },
     "games/Minecraft Dungeons II.jpg": {
       "title": "Minecraft Dungeons II",
@@ -58494,19 +58988,39 @@
       ],
       "summaryAr": "أضخم لعبة من سلسلة الحفل حتى اليوم، ومعها مئة واثنا عشر لعبة قصيرة وسبع لوحات جديدة، منها قلعة ماريو ذات الأقواس الملونة. تنافس العائلة على اللوحات، وتزاحم على مضمار السباق، وتواصل الحفلة عبر الإنترنت مع أصدقائك في مختلف أنحاء العالم.",
       "summaryEn": "The biggest Mario Party to date, with 112 minigames, seven boards and a Jamboree TV mode.",
-      "needsRequirements": true,
+      "needsRequirements": false,
       "links": [
         {
           "label": "الموقع الرسمي",
           "url": "https://www.nintendo.com/"
+        },
+        {
+          "label": "ويكيبيديا — Super Mario Party Jamboree",
+          "url": "https://en.wikipedia.org/wiki/Super_Mario_Party_Jamboree"
         }
       ],
       "confidence": "high",
       "extra": {
-        "reviewNote": "اللعبة متاحة على جهاز النينتندو سويتش فقط ولا يوجد لها إصدار على الحاسوب، لذلك لا توجد مواصفات تشغيل موثوقة.",
+        "reviewNote": "أُضيفت مواصفات التشغيل الخاصة بالجهاز الأصلي (نينتندو سويتش / سويتش 2) حتى لا يبقى القسم فارغًا، وحجم التخزين تقريبي. اللعبة بلا إصدار PC.",
         "developerNote": "المطور مذكور باسم نينتندو كيو بعد إعادة التسمية، وكان معروفًا سابقًا باسم آخر عند إعلان اللعبة.",
         "factsSource": "بحث يدوي"
-      }
+      },
+      "series": "Mario Party",
+      "ageRating": "كل الأعمار (ESRB: E)",
+      "requirements": {
+        "minimum": {
+          "os": "Nintendo Switch",
+          "storage": "حوالي 5 جيجابايت"
+        },
+        "recommended": {
+          "os": "Nintendo Switch 2",
+          "storage": "حوالي 5 جيجابايت"
+        },
+        "notes": "إصدار كونسول حصري على أجهزة نينتندو سويتش ولا يوجد له إصدار PC؛ المتطلبات أدناه لجهاز السويتش نفسه وحجم التخزين تقريبي حسب متجر نينتندو. اللعب عبر الإنترنت يتطلب اشتراك Nintendo Switch Online."
+      },
+      "needsReview": [
+        "requirements"
+      ]
     },
     "games/Trails In The Sky 2nd Chapter.jpg": {
       "title": "Trails In The Sky 2nd Chapter",
@@ -58662,6 +59176,233 @@
       "extra": {
         "titleNote": "العنوان في الإكسل مختصر بدون اللاحقة، والنسخة المباعة على المتجر هي النسخة الموسعة للمخرج."
       }
+    },
+    "games/Borderlands 4 .jpg": {
+      "title": "Borderlands 4",
+      "canonicalTitle": "Borderlands 4",
+      "type": "game",
+      "developer": "Gearbox Software",
+      "publisher": "2K",
+      "releaseDate": "2025-09-11",
+      "platforms": [
+        "PC"
+      ],
+      "genres": [
+        "أكشن",
+        "مغامرة",
+        "تقمص أدوار"
+      ],
+      "modes": [
+        "لاعب واحد",
+        "لاعب متعدد"
+      ],
+      "summaryAr": "Borderlands 4 هي لعبة إطلاق نار مليئة بالفوضى ومليئة بمليارات الأسلحة والأعداء القاتلين والعمل التعاوني المكثف. تحرر من كوكب مخفي خطير كواحد من أربعة صائدي Vault Hunters الجدد.",
+      "summaryEn": "Borderlands 4 is a mayhem-fueled looter shooter, jam-packed with billions of weapons, deadly enemies, and intense co-op action. Break free from a dangerous hidden planet as one of four new badass Vault Hunters.",
+      "requirements": {
+        "minimum": {
+          "os": "Windows 10 / Windows 11",
+          "cpu": "Intel Core i7-9700 / AMD Ryzen 7 2700X",
+          "ram": "ذاكرة الوصول العشوائي 16‏ GB",
+          "gpu": "NVIDIA GeForce RTX 2070 / AMD Radeon RX 5700 XT / Intel Arc A580، سعة",
+          "storage": "مساحة متوفرة قدرها 100‏ GB، ملحوظات إضافية: Requires a 64-bit processor and operating system. Requires 8 CPU Cores for processor. Requires 8 GB VRAM for graphics. SSD / required",
+          "note": "تتطلب معالجًا ونظام تشغيل بقدرة 64 بت"
+        },
+        "recommended": {
+          "os": "Windows 10 / Windows 11",
+          "cpu": "Intel Core i7-12700 / AMD Ryzen 7 5800X",
+          "ram": "ذاكرة الوصول العشوائي 32‏ GB",
+          "gpu": "NVIDIA GeForce RTX 3080 / AMD Radeon RX 6800 XT / Intel Arc B580، سعة",
+          "storage": "مساحة متوفرة قدرها 100‏ GB، ملحوظات إضافية: Requires a 64-bit processor and operating system. SSD / required",
+          "note": "تتطلب معالجًا ونظام تشغيل بقدرة 64 بت"
+        }
+      },
+      "extra": {
+        "metacritic": "Metacritic 81/100"
+      },
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1285190/"
+        },
+        {
+          "url": "https://borderlands.2k.com/"
+        }
+      ],
+      "confidence": "high",
+      "source": "steam",
+      "steamAppId": 1285190,
+      "matchScore": 1
+    },
+    "games/Phantom Blade Zero {HV}.jpg": {
+      "title": "Phantom Blade Zero {HV}",
+      "canonicalTitle": "Phantom Blade Zero",
+      "type": "game",
+      "developer": "S-Game",
+      "publisher": "S-Game / Cruel Man Studio",
+      "releaseDate": "2026",
+      "platforms": [
+        "PC",
+        "PlayStation 5"
+      ],
+      "genres": [
+        "أكشن وتقمص أدوار",
+        "سولزلایک",
+        "فنون قتالية (Kung-Fu Punk)"
+      ],
+      "modes": [
+        "لاعب واحد"
+      ],
+      "engine": "Unreal Engine 5",
+      "summaryAr": "Phantom Blade Zero هي لعبة أكشن وتقمص أدوار ملحمية سريعة الوتيرة بتصميم مستوحى من فنون الدفاع عن النفس الصينية وجماليات الستيمبانك الخيالية المظلمة (Kung-Fu Punk). يتحكم اللاعب في المحارب \"سول\" (Soul)، وهو قاتل نخبوي خبير تم تلفيق تهمة اغتيال قائد منظمته إليه، وأصيب بجروح قاتلة استدعت علاجه بسحر غامض يبقيه على قيد الحياة لمدة 66 يوماً فقط، ليخوض سباقاً دموياً مع الزمن ومواجهة قوى مظلمة وكشف المؤامرة قبل فوات الأوان.",
+      "summaryEn": "Phantom Blade Zero is a fast-paced action role-playing game developed by S-Game. Set in a dark fantasy universe blending Chinese martial arts with steampunk aesthetics (Kung-Fu Punk), players step into the shoes of Soul, an elite assassin framed for the murder of his leader. Critically wounded, a mystic cure grants him just 66 days to live, launching him into a relentless race against time to uncover the truth and battle formidable foes before his time expires.",
+      "requirements": {
+        "minimum": {
+          "os": "Windows 10 64-bit",
+          "cpu": "Intel Core i5-8400 أو AMD Ryzen 5 2600",
+          "ram": "16 GB",
+          "gpu": "NVIDIA GeForce GTX 1070 (8 GB) أو AMD Radeon RX 5600 XT",
+          "directx": "الإصدار 12",
+          "storage": "120 GB SSD مساحة متوفرة"
+        },
+        "recommended": {
+          "os": "Windows 10 / 11 64-bit",
+          "cpu": "Intel Core i7-10700K أو AMD Ryzen 7 3700X",
+          "ram": "16 GB / 32 GB",
+          "gpu": "NVIDIA GeForce RTX 3070 (8 GB) أو AMD Radeon RX 6800 XT",
+          "directx": "الإصدار 12",
+          "storage": "120 GB SSD مساحة متوفرة"
+        }
+      },
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://pbzero.s-game.com"
+        },
+        {
+          "label": "PlayStation Store",
+          "url": "https://store.playstation.com/concept/10008436"
+        }
+      ],
+      "confidence": "high",
+      "source": "official+manual",
+      "needsRequirements": false
+    },
+    "games/Call of Duty - MW4.jpg": {
+      "title": "Call of Duty - MW4",
+      "canonicalTitle": "Call of Duty: Modern Warfare (MW4)",
+      "type": "game",
+      "developer": "Infinity Ward",
+      "publisher": "Activision",
+      "releaseDate": "2019-10-25",
+      "platforms": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One",
+        "PlayStation 5",
+        "Xbox Series X|S"
+      ],
+      "genres": [
+        "تصويب منظور الشخص الأول (FPS)",
+        "أكشن وتكتيك عسكري",
+        "حرب حديثة"
+      ],
+      "modes": [
+        "لاعب واحد",
+        "لاعب متعدد",
+        "عمليات خاصة (Co-op)"
+      ],
+      "engine": "IW 8.0",
+      "series": "Call of Duty",
+      "summaryAr": "Call of Duty: Modern Warfare (المعروفة بين اللاعبين كالجزء الرابع من السلسلة MW4 / ريبوت Modern Warfare) هي لعبة تصويب تكتيكية وأكشن حربي من منظور الشخص الأول. تأخذ اللعبة اللاعبين في مهام عسكرية بالغة السرية والواقعية بجانب الكابتن جون برايس وقوات الـ SAS والعملاء الدوليين وقوات التحرير في الشرق الأوسط لمنع نشوب حرب عالمية واسعة النطاق واستعادة شحنات غاز كيميائي خطيرة، وتتميز بمحرك رسومي وصوتي سينمائي فائق الدقة.",
+      "summaryEn": "Call of Duty: Modern Warfare (widely recognized among gamers and repackers as MW4, the reboot of the Modern Warfare series) is a visceral, high-stakes tactical first-person shooter. Players engage in breathtaking covert operations alongside the iconic Captain John Price, SAS operatives, and international forces across Europe and the Middle East to halt a brewing global conflict and recover stolen chemical weapons.",
+      "requirements": {
+        "minimum": {
+          "os": "Windows 10 64-bit (أحدث تحديث)",
+          "cpu": "Intel Core i3-4340 أو AMD FX-6300",
+          "ram": "8 GB",
+          "gpu": "NVIDIA GeForce GTX 670 / GTX 1650 أو AMD Radeon HD 7950",
+          "vram": "2 GB",
+          "directx": "الإصدار 12",
+          "storage": "61 GB مساحة متوفرة (Campaign Repack)"
+        },
+        "recommended": {
+          "os": "Windows 10 / 11 64-bit",
+          "cpu": "Intel Core i5-2500K أو AMD Ryzen R5 1600X",
+          "ram": "12 GB",
+          "gpu": "NVIDIA GeForce GTX 970 / GTX 1660 أو AMD Radeon R9 390 / RX 580",
+          "vram": "4 GB",
+          "directx": "الإصدار 12",
+          "storage": "61 GB مساحة متوفرة"
+        }
+      },
+      "links": [
+        {
+          "label": "الموقع الرسمي",
+          "url": "https://www.callofduty.com/modernwarfare"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Modern_Warfare_(2019_video_game)"
+        }
+      ],
+      "confidence": "high",
+      "source": "official+manual",
+      "needsRequirements": false
+    },
+    "games/DRIVECLUB.jpg": {
+      "title": "DRIVECLUB",
+      "canonicalTitle": "Driveclub",
+      "type": "game",
+      "developer": "Evolution Studios",
+      "publisher": "Sony Computer Entertainment",
+      "releaseDate": "2014-10-07",
+      "platforms": [
+        "PlayStation 4",
+        "محاكي PC"
+      ],
+      "genres": [
+        "سباقات",
+        "محاكاة قيادة",
+        "سيارات"
+      ],
+      "modes": [
+        "لاعب واحد",
+        "لاعب متعدد"
+      ],
+      "engine": "Evolution Engine",
+      "summaryAr": "Driveclub هي لعبة سباقات سيارات شهيرة وسريعة تم تطويرها حصرياً بواسطة Evolution Studios ونشرتها Sony لجهاز PlayStation 4. تركز اللعبة على التنافس الجماعي وتأسيس أندية القيادة والتحديات بين اللاعبين، وتشتهر برسومياتها المبهرة ونظام الطقس الديناميكي فائق الواقعية مثل الأمطار الغزيرة والعواصف الثلجية، مع قيادة أسرع وأرقى السيارات الرياضية الخارقة في مسارات خلابة حول العالم.",
+      "summaryEn": "Driveclub is a premier racing game developed by Evolution Studios and published by Sony Computer Entertainment for the PlayStation 4. Emphasizing team racing and club competition, the game features breathtaking visual fidelity, class-leading dynamic weather effects like realistic rainfall and snowstorms, and a prestige roster of exotic sports cars and supercars racing across scenic international circuits.",
+      "requirements": {
+        "minimum": {
+          "os": "Windows 10 64-bit (محاكي PS4 مثل shadPS4)",
+          "cpu": "Intel Core i5-8400 أو AMD Ryzen 5 2600",
+          "ram": "16 GB",
+          "gpu": "NVIDIA GeForce GTX 1060 (6 GB) أو AMD Radeon RX 580",
+          "directx": "الإصدار 12 / Vulkan",
+          "storage": "15 GB مساحة متوفرة"
+        },
+        "recommended": {
+          "os": "Windows 10 / 11 64-bit",
+          "cpu": "Intel Core i7-10700K أو AMD Ryzen 7 3700X",
+          "ram": "16 GB أو أكثر",
+          "gpu": "NVIDIA GeForce RTX 2060 Super / RTX 3060 أو AMD Radeon RX 6600 XT",
+          "directx": "الإصدار 12 / Vulkan",
+          "storage": "15 GB SSD مساحة متوفرة"
+        }
+      },
+      "extra": {
+        "factsSource": "بحث يدوي",
+        "reviewNote": "لعبة كونسول حصرية على بلايستيشن 4؛ متطلبات التشغيل المذكورة لتشغيلها على الحاسب عبر محاكيات PS4 (مثل shadPS4 / fpPS4)"
+      },
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Driveclub"
+        }
+      ],
+      "confidence": "high",
+      "source": "manual",
+      "needsRequirements": false
     }
   }
 }
