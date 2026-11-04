@@ -1,4 +1,4 @@
-﻿// Verifies the "التفاصيل" link on gallery cards: present on every
+// Verifies the "التفاصيل" link on gallery cards: present on every
 // card, points at the matching item page, navigates on click, and
 // never toggles the selection.
 // Usage: node tools/details-link-check.js [baseUrl]
@@ -34,7 +34,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
   await page.goto(BASE, { waitUntil: "networkidle2" });
   await wait(500);
-  await page.click('.pill[data-size="1024"]');
+  await page.click('.pill[data-size="1000"]');
   await page.click("#start-selection-btn");
   await wait(600);
 
@@ -77,7 +77,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   // --- the link really navigates ---
   await page.goto(`${BASE}/`, { waitUntil: "networkidle2" });
   await wait(400);
-  await page.click('.pill[data-size="1024"]');
+  await page.click('.pill[data-size="1000"]');
   await page.click("#start-selection-btn");
   await wait(500);
   await Promise.all([

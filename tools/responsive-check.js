@@ -1,4 +1,4 @@
-﻿// Responsive smoke-test: loads the running site at phone / tablet /
+// Responsive smoke-test: loads the running site at phone / tablet /
 // desktop widths, drives the first two steps, and writes screenshots.
 // Usage: node tools/responsive-check.js [baseUrl] [outDir]
 const path = require("path");
@@ -63,7 +63,7 @@ const VIEWPORTS = [
     await page.screenshot({ path: path.join(OUT, `${vp.name}-1-drive.png`) });
 
     // pick 1 TB and continue
-    await page.click('.pill[data-size="1024"]');
+    await page.click('.pill[data-size="1000"]');
     await page.click("#start-selection-btn");
     await wait(500);
     await page.screenshot({ path: path.join(OUT, `${vp.name}-2-gallery.png`) });

@@ -41,15 +41,15 @@ const TELEGRAM_PROXY_URL = ""; // e.g. "/api/telegram-order"
 const DRIVE_SIZES_GB = [
   { label: "320 GB", value: 320 },
   { label: "500 GB", value: 500 },
-  { label: "1 TB", value: 1024 },
-  { label: "2 TB", value: 2048 },
-  { label: "3 TB", value: 3072 },
-  { label: "4 TB", value: 4096 },
-  { label: "6 TB", value: 6144 },
-  { label: "8 TB", value: 8192 },
-  { label: "10 TB", value: 10240 },
-  { label: "12 TB", value: 12288 },
-  { label: "16 TB", value: 16384 },
+  { label: "1 TB", value: 1000 },
+  { label: "2 TB", value: 2000 },
+  { label: "3 TB", value: 3000 },
+  { label: "4 TB", value: 4000 },
+  { label: "6 TB", value: 6000 },
+  { label: "8 TB", value: 8000 },
+  { label: "10 TB", value: 10000 },
+  { label: "12 TB", value: 12000 },
+  { label: "16 TB", value: 16000 },
 ];
 
 // Lazy loading: cards are appended in batches this many items
@@ -1082,8 +1082,8 @@ function calculateTotal() {
 
 function formatSize(sizeGB) {
   const rounded = Math.round(sizeGB * 10) / 10;
-  if (rounded >= 1024) {
-    const tb = rounded / 1024;
+  if (rounded >= 1000) {
+    const tb = rounded / 1000;
     return `${Number.isInteger(tb) ? tb : tb.toFixed(1)} TB`;
   }
   return `${Number.isInteger(rounded) ? rounded : rounded.toFixed(1)} GB`;

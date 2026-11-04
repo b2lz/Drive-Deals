@@ -281,7 +281,7 @@ function assert(cond, msg) {
   );
 
   /* ---------- Scenario F: drive size question + storage meter + drive full ---------- */
-  const fData = [1, 2, 3, 4, 5].map((i) => ({ image: `${i}.jpg`, value: 256 }));
+  const fData = [1, 2, 3, 4, 5].map((i) => ({ image: `${i}.jpg`, value: 250 }));
   w = await boot(fData);
   d = w.document;
 
@@ -292,10 +292,10 @@ function assert(cond, msg) {
     "F: start is already enabled at boot (320 GB default)"
   );
 
-  fSelect.value = "1024"; // 1 TB
+  fSelect.value = "1000"; // 1 TB
   fSelect.dispatchEvent(new w.Event("change"));
   assert(
-    !d.getElementById("start-selection-btn").disabled && fSelect.value === "1024",
+    !d.getElementById("start-selection-btn").disabled && fSelect.value === "1000",
     "F: picking a size enables the start button"
   );
 
@@ -343,7 +343,7 @@ function assert(cond, msg) {
   fCards[0].click();
   assert(
     d.getElementById("drive-full-warning").hidden &&
-      d.getElementById("drive-remaining").textContent === "متبقٍ: 256 GB" &&
+      d.getElementById("drive-remaining").textContent === "متبقٍ: 250 GB" &&
       d.getElementById("drive-bar-fill").style.width === "75%",
     "F: removing a game frees space and hides the warning"
   );
@@ -395,11 +395,11 @@ function assert(cond, msg) {
   );
 
   // Switching back to a fixed size hides the custom row and resets the capacity.
-  gSelect2.value = "2048";
+  gSelect2.value = "2000";
   gSelect2.dispatchEvent(new w.Event("change"));
   assert(
     d.getElementById("custom-size-row").hidden &&
-      w.__t.state.driveCapacityGB === 2048,
+      w.__t.state.driveCapacityGB === 2000,
     "G: picking a fixed size again hides the custom row"
   );
 
